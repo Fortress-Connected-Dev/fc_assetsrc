@@ -261,6 +261,41 @@ $weightlist "weights_head_pitch" {
 	 "Antlion.WingR_Bone" 0
 }
 
+$weightlist "weights_head_neutral" {
+	 "Antlion.Body_Bone" 0
+	 "Antlion.Chest_Bone" 1
+	 "Antlion.ArmR1_Bone" 0
+	 "Antlion.ArmR2_Bone" 0
+	 "Antlion.ArmR3_Bone" 0
+	 "Antlion.ArmL1_Bone" 0
+	 "Antlion.ArmL2_Bone" 0
+	 "Antlion.ArmL3_Bone" 0
+	 "Antlion.Head_Bone" 0
+	 "Antlion.FangBottomL1_Bone" 0
+	 "Antlion.FangBottomL2_Bone" 0
+	 "Antlion.FangBottomR1_Bone" 0
+	 "Antlion.FangBottomR2_Bone" 0
+	 "Antlion.FangTopL1_Bone" 0
+	 "Antlion.FangTopL2_Bone" 0
+	 "Antlion.FangTopR1_Bone" 0
+	 "Antlion.FangTopR2_Bone" 0
+	 "Antlion.LegMidL1_Bone" 0
+	 "Antlion.LegMidL2_Bone" 0
+	 "Antlion.LegMidL3_Bone" 0
+	 "Antlion.LegMidR1_Bone" 0
+	 "Antlion.LegMidR2_Bone" 0
+	 "Antlion.LegMidR3_Bone" 0
+	 "Antlion.Back_Bone" 0
+	 "Antlion.LegL1_Bone" 0
+	 "Antlion.LegL2_Bone" 0
+	 "Antlion.LegL3_Bone" 0
+	 "Antlion.LegR1_Bone" 0
+	 "Antlion.LegR2_Bone" 0
+	 "Antlion.LegR3_Bone" 0
+	 "Antlion.WingL_Bone" 0
+	 "Antlion.WingR_Bone" 0
+}
+
 $animation "head_up_corrective_animation" "antlion_anims\head_up_corrective_animation.smd" {
 }
 
@@ -363,6 +398,11 @@ $animation "a_JumpGlide" "antlion_anims\jump_glide.smd" {
 	walkframe 20 LX
 }
 
+$animation "a_JumpGlide_start" "antlion_anims\jump_start.smd" {
+	fps 16
+	walkframe 18 LX
+}
+
 $animation "a_HeadTurn" "antlion_anims\headturn.smd" {
 	fps 16
 	loop
@@ -371,6 +411,8 @@ $animation "a_HeadTurn" "antlion_anims\headturn.smd" {
 
 $animation "head_neutral" "antlion_anims\head_neutral.smd" {
 	fps 30
+	subtract "head_up_corrective_animation" 0
+	weightlist "weights_head_neutral"
 }
 
 $animation "head_up" "antlion_anims\head_up.smd" {
@@ -415,6 +457,7 @@ $sequence "ref" {
 $sequence "Idle" {
 	"a_Idle"
 	activity "ACT_MP_STAND_MELEE" 1
+	addlayer "head_aimmatrix"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
@@ -424,6 +467,27 @@ $sequence "Idle" {
 $sequence "Idle_crouch" {
 	"a_Idle"
 	activity "ACT_MP_CROUCH_MELEE" 1
+	addlayer "head_aimmatrix"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+	loop
+}
+
+$sequence "Idle_alt" {
+	"a_Idle"
+	activity "ACT_MP_STAND_SECONDARY" 1
+	addlayer "head_aimmatrix"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+	loop
+}
+
+$sequence "Idle_crouch_alt" {
+	"a_Idle"
+	activity "ACT_MP_CROUCH_SECONDARY" 1
+	addlayer "head_aimmatrix"
 	fadein 0.2
 	fadeout 0.2
 	fps 30
@@ -441,6 +505,29 @@ $sequence "walk_all" {
 	"a_WalkN"
 	"a_WalkNE"
 	activity "ACT_MP_CROUCHWALK_MELEE" 1
+	addlayer "head_aimmatrix"
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	{ event AE_CL_PLAYSOUND 1 "NPC_Antlion.Footstep" }
+	{ event AE_CL_PLAYSOUND 10 "NPC_Antlion.Footstep" }
+	{ event AE_CL_PLAYSOUND 19 "NPC_Antlion.Footstep" }
+	fadein 0.2
+	fadeout 0.2
+	node "walking"
+}
+
+$sequence "crouch_walk_all" {
+	"a_WalkSW"
+	"a_WalkS"
+	"a_WalkSE"
+	"a_WalkW"
+	"a_Idle"
+	"a_WalkE"
+	"a_WalkNW"
+	"a_WalkN"
+	"a_WalkNE"
+	activity "ACT_MP_CROUCHWALK_SECONDARY" 1
+	addlayer "head_aimmatrix"
 	blend "move_y" -1 1
 	blend "move_x" -1 1
 	{ event AE_CL_PLAYSOUND 1 "NPC_Antlion.Footstep" }
@@ -462,6 +549,29 @@ $sequence "run_all" {
 	"a_RunN"
 	"a_WalkNEfast"
 	activity "ACT_MP_RUN_MELEE" 1
+	addlayer "head_aimmatrix"
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	{ event AE_CL_PLAYSOUND 1 "NPC_Antlion.Footstep" }
+	{ event AE_CL_PLAYSOUND 10 "NPC_Antlion.Footstep" }
+	{ event AE_CL_PLAYSOUND 19 "NPC_Antlion.Footstep" }
+	fadein 0.2
+	fadeout 0.2
+	node "running"
+}
+
+$sequence "gravitygun_run_all" {
+	"a_WalkSW"
+	"a_WalkS"
+	"a_WalkSE"
+	"a_ScuttleLeft"
+	"a_Idle"
+	"a_ScuttleRt"
+	"a_WalkNWfast"
+	"a_RunN"
+	"a_WalkNEfast"
+	activity "ACT_MP_RUN_SECONDARY" 1
+	addlayer "head_aimmatrix"
 	blend "move_y" -1 1
 	blend "move_x" -1 1
 	{ event AE_CL_PLAYSOUND 1 "NPC_Antlion.Footstep" }
@@ -475,6 +585,7 @@ $sequence "run_all" {
 $sequence "JumpGlide_start" {
 	"a_JumpGlide"
 	activity "ACT_MP_JUMP_START_MELEE" 1
+	addlayer "head_aimmatrix"
 	blendwidth 1
 	fadein 0.2
 	fadeout 0.2
@@ -484,6 +595,7 @@ $sequence "JumpGlide_start" {
 $sequence "JumpGlide_float" {
 	"a_JumpGlide"
 	activity "ACT_MP_JUMP_FLOAT_MELEE" 1
+	addlayer "head_aimmatrix"
 	blendwidth 1
 	fadein 0.2
 	fadeout 0.2
@@ -493,6 +605,17 @@ $sequence "JumpGlide_float" {
 $sequence "JumpGlide_jump" {
 	"a_JumpGlide"
 	activity "ACT_MP_JUMP_MELEE" 1
+	addlayer "head_aimmatrix"
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	node "jumping"
+}
+
+$sequence "Jump_Glide_airwalk" {
+	"a_JumpGlide_start"
+	activity "ACT_MP_AIRWALK_MELEE" 1
+	addlayer "head_aimmatrix"
 	blendwidth 1
 	fadein 0.2
 	fadeout 0.2
@@ -502,6 +625,57 @@ $sequence "JumpGlide_jump" {
 $sequence "JumpGlide_swim" {
 	"a_JumpGlide"
 	activity "ACT_MP_SWIM_MELEE" 1
+	addlayer "head_aimmatrix"
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	node "jumping"
+}
+
+$sequence "JumpGlide_start_alt" {
+	"a_JumpGlide"
+	activity "ACT_MP_JUMP_START_SECONDARY" 1
+	addlayer "head_aimmatrix"
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	node "jumping"
+}
+
+$sequence "JumpGlide_float_alt" {
+	"a_JumpGlide"
+	activity "ACT_MP_JUMP_FLOAT_SECONDARY" 1
+	addlayer "head_aimmatrix"
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	node "jumping"
+}
+
+$sequence "JumpGlide_jump_alt" {
+	"a_JumpGlide"
+	activity "ACT_MP_JUMP_SECONDARY" 1
+	addlayer "head_aimmatrix"
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	node "jumping"
+}
+
+$sequence "Jump_Glide_airwalk_alt" {
+	"a_JumpGlide_start"
+	activity "ACT_MP_AIRWALK_SECONDARY" 1
+	addlayer "head_aimmatrix"
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	node "jumping"
+}
+
+$sequence "JumpGlide_swim_alt" {
+	"a_JumpGlide"
+	activity "ACT_MP_SWIM_SECONDARY" 1
+	addlayer "head_aimmatrix"
 	blendwidth 1
 	fadein 0.2
 	fadeout 0.2
@@ -536,288 +710,80 @@ $sequence "ZapFlip" {
 
 $sequence "attack1_stand" {
 	"antlion_anims\attack1.smd"
-	activity "ACT_MP_ATTACK_STAND_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
+	activity "ACT_MELEE_ATTACK1" 1
+	blendwidth 1
+	fadein 0.1
+	fadeout 0.1
 	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack1_crouch" {
-	"antlion_anims\attack1.smd"
-	activity "ACT_MP_ATTACK_CROUCH_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack1_swim" {
-	"antlion_anims\attack1.smd"
-	activity "ACT_MP_ATTACK_SWIM_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack1_airwalk" {
-	"antlion_anims\attack1.smd"
-	activity "ACT_MP_ATTACK_AIRWALK_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
 }
 
 $sequence "attack2_stand" {
 	"antlion_anims\attack2.smd"
-	activity "ACT_MP_ATTACK_STAND_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
+	activity "ACT_MELEE_ATTACK1" 1
+	blendwidth 1
+	fadein 0.1
+	fadeout 0.1
 	fps 30
 	walkframe 38 LX LY
 }
 
-$sequence "attack2_crouch" {
-	"antlion_anims\attack2.smd"
-	activity "ACT_MP_ATTACK_CROUCH_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack2_swim" {
-	"antlion_anims\attack2.smd"
-	activity "ACT_MP_ATTACK_SWIM_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack2_airwalk" {
-	"antlion_anims\attack2.smd"
-	activity "ACT_MP_ATTACK_AIRWALK_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
 
 $sequence "attack3_stand" {
 	"antlion_anims\attack3.smd"
-	activity "ACT_MP_ATTACK_STAND_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack3_crouch" {
-	"antlion_anims\attack3.smd"
-	activity "ACT_MP_ATTACK_CROUCH_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack3_swim" {
-	"antlion_anims\attack3.smd"
-	activity "ACT_MP_ATTACK_SWIM_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack3_airwalk" {
-	"antlion_anims\attack3.smd"
-	activity "ACT_MP_ATTACK_AIRWALK_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
+	activity "ACT_MELEE_ATTACK1" 1
+	blendwidth 1
+	fadein 0.1
+	fadeout 0.1
 	fps 30
 	walkframe 38 LX LY
 }
 
 $sequence "attack4_stand" {
 	"antlion_anims\attack4.smd"
-	activity "ACT_MP_ATTACK_STAND_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack4_crouch" {
-	"antlion_anims\attack4.smd"
-	activity "ACT_MP_ATTACK_CROUCH_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack4_swim" {
-	"antlion_anims\attack4.smd"
-	activity "ACT_MP_ATTACK_SWIM_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack4_airwalk" {
-	"antlion_anims\attack4.smd"
-	activity "ACT_MP_ATTACK_AIRWALK_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
+	activity "ACT_MELEE_ATTACK1" 1
+	blendwidth 1
+	fadein 0.1
+	fadeout 0.1
 	fps 30
 	walkframe 38 LX LY
 }
 
 $sequence "attack5_stand" {
 	"antlion_anims\attack5.smd"
-	activity "ACT_MP_ATTACK_STAND_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack5_crouch" {
-	"antlion_anims\attack5.smd"
-	activity "ACT_MP_ATTACK_CROUCH_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack5_swim" {
-	"antlion_anims\attack5.smd"
-	activity "ACT_MP_ATTACK_SWIM_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack5_airwalk" {
-	"antlion_anims\attack5.smd"
-	activity "ACT_MP_ATTACK_AIRWALK_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
+	activity "ACT_MELEE_ATTACK1" 1
+	blendwidth 1
+	fadein 0.1
+	fadeout 0.1
 	fps 30
 	walkframe 38 LX LY
 }
 
 $sequence "attack6_stand" {
 	"antlion_anims\attack6.smd"
-	activity "ACT_MP_ATTACK_STAND_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack6_crouch" {
-	"antlion_anims\attack6.smd"
-	activity "ACT_MP_ATTACK_CROUCH_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack6_swim" {
-	"antlion_anims\attack6.smd"
-	activity "ACT_MP_ATTACK_SWIM_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack6_airwalk" {
-	"antlion_anims\attack6.smd"
-	activity "ACT_MP_ATTACK_AIRWALK_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
+	activity "ACT_MELEE_ATTACK1" 1
+	blendwidth 1
+	fadein 0.1
+	fadeout 0.1
 	fps 30
 	walkframe 38 LX LY
 }
 
 $sequence "attack_pounce1_stand" {
 	"antlion_anims\pounce.smd"
-	activity "ACT_MP_ATTACK_STAND_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack_pounce1_crouch" {
-	"antlion_anims\pounce.smd"
-	activity "ACT_MP_ATTACK_CROUCH_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack_pounce1_swim" {
-	"antlion_anims\pounce.smd"
-	activity "ACT_MP_ATTACK_SWIM_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack_pounce1_airwalk" {
-	"antlion_anims\pounce.smd"
-	activity "ACT_MP_ATTACK_AIRWALK_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
+	activity "ACT_MELEE_ATTACK1" 1
+	blendwidth 1
+	fadein 0.1
+	fadeout 0.1
 	fps 30
 	walkframe 38 LX LY
 }
 
 $sequence "attack_pounce2_stand" {
 	"antlion_anims\pounce2.smd"
-	activity "ACT_MP_ATTACK_STAND_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack_pounce2_crouch" {
-	"antlion_anims\pounce2.smd"
-	activity "ACT_MP_ATTACK_CROUCH_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack_pounce2_swim" {
-	"antlion_anims\pounce2.smd"
-	activity "ACT_MP_ATTACK_SWIM_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
-	fps 30
-	walkframe 38 LX LY
-}
-
-$sequence "attack_pounce2_airwalk" {
-	"antlion_anims\pounce2.smd"
-	activity "ACT_MP_ATTACK_AIRWALK_MELEE" 1
-	fadein 0.2
-	fadeout 0.2
+	activity "ACT_MELEE_ATTACK1" 1
+	blendwidth 1
+	fadein 0.1
+	fadeout 0.1
 	fps 30
 	walkframe 38 LX LY
 }
@@ -1045,12 +1011,23 @@ $sequence "head_pitch" {
 	fadeout 0.2
 }
 
-$sequence "head_yaw" {
+$sequence "head_aimmatrix" {
+	"head_up"
+	"head_up"
+	"head_up"
 	"head_right"
+	"head_neutral"
 	"head_left"
+	"head_right"
+	"head_neutral"
+	"head_left"
+	"head_down"
+	"head_down"
+	"head_down"
 	autoplay
-	blend "head_yaw" -40 40
-	blendwidth 2
+	blend "body_yaw" 45 -45
+	blend "body_pitch" 90 -45
+	blendwidth 3
 	delta
 	fadein 0.2
 	fadeout 0.2
@@ -1117,6 +1094,7 @@ $sequence "antlion_alyx_inspect" {
 $sequence "ragdoll" {
 	"antlion_anims\ragdoll.smd"
 	activity "ACT_DIERAGDOLL" 1
+	{ event AE_CL_STOPSOUND 0 "Jerry.Fly" }
 	fadein 0.2
 	fadeout 0.2
 	fps 30
