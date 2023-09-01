@@ -23,14 +23,11 @@ nodes
   20 "ValveBiped.Bip01_L_Hand" 19
   22 "ValveBiped.HC_UpperArmR_Bone" 8
   23 "ValveBiped.HC_ForeArmR_Bone" 22
-  24 "ValveBiped.Bip01_L_Finger1" 20
   25 "ValveBiped.HC_UpperArmL_Bone" 8
   26 "ValveBiped.HC_ThighR_Bone" 8
   27 "ValveBiped.HC_CalfR_Bone" 26
   28 "ValveBiped.HC_ThighL_Bone" 8
   29 "ValveBiped.HC_CalfL_Bone" 28
-  30 "ValveBiped.Bip01_L_Finger3" 20
-  31 "ValveBiped.Bip01_R_Finger3" 15
   32 "ValveBiped.Bip01_L_Toe0" 3
   33 "ValveBiped.Bip01_R_Toe0" 11
   37 "ValveBiped.HC_ForeArmL_Bone" 25

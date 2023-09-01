@@ -1000,6 +1000,54 @@ $weightlist "weights_range_melee2_b" {
 	 "ValveBiped.Bip01_R_Finger02" 1
 }
 
+$weightlist "weights_layer_Aim_all_MG" {
+	 "ValveBiped.Bip01_Pelvis" 0
+	 "ValveBiped.Bip01_Spine" 1
+	 "ValveBiped.Bip01_Spine1" 1
+	 "ValveBiped.Bip01_Spine2" 1
+	 "ValveBiped.Bip01_Spine4" 1
+	 "ValveBiped.Bip01_R_Clavicle" 1
+	 "ValveBiped.Bip01_R_UpperArm" 1
+	 "ValveBiped.Bip01_R_Forearm" 1
+	 "ValveBiped.Bip01_R_Hand" 1
+	 "ValveBiped.Bip01_L_Clavicle" 1
+	 "ValveBiped.Bip01_L_UpperArm" 1
+	 "ValveBiped.Bip01_L_Forearm" 1
+	 "ValveBiped.Bip01_L_Hand" 1
+	 "ValveBiped.Bip01_R_Thigh" 0
+	 "ValveBiped.Bip01_R_Calf" 0
+	 "ValveBiped.Bip01_R_Foot" 0
+	 "ValveBiped.Bip01_R_Toe0" 0
+	 "ValveBiped.Bip01_L_Thigh" 0
+	 "ValveBiped.Bip01_L_Calf" 0
+	 "ValveBiped.Bip01_L_Foot" 0
+	 "ValveBiped.Bip01_L_Toe0" 0
+	 "ValveBiped.Bip01_L_Finger3" 1
+	 "ValveBiped.Bip01_L_Finger31" 1
+	 "ValveBiped.Bip01_L_Finger32" 1
+	 "ValveBiped.Bip01_L_Finger2" 1
+	 "ValveBiped.Bip01_L_Finger21" 1
+	 "ValveBiped.Bip01_L_Finger22" 1
+	 "ValveBiped.Bip01_L_Finger1" 1
+	 "ValveBiped.Bip01_L_Finger11" 1
+	 "ValveBiped.Bip01_L_Finger12" 1
+	 "ValveBiped.Bip01_L_Finger0" 1
+	 "ValveBiped.Bip01_L_Finger01" 1
+	 "ValveBiped.Bip01_L_Finger02" 1
+	 "ValveBiped.Bip01_R_Finger3" 1
+	 "ValveBiped.Bip01_R_Finger31" 1
+	 "ValveBiped.Bip01_R_Finger32" 1
+	 "ValveBiped.Bip01_R_Finger2" 1
+	 "ValveBiped.Bip01_R_Finger21" 1
+	 "ValveBiped.Bip01_R_Finger22" 1
+	 "ValveBiped.Bip01_R_Finger1" 1
+	 "ValveBiped.Bip01_R_Finger11" 1
+	 "ValveBiped.Bip01_R_Finger12" 1
+	 "ValveBiped.Bip01_R_Finger0" 1
+	 "ValveBiped.Bip01_R_Finger01" 1
+	 "ValveBiped.Bip01_R_Finger02" 1
+}
+
 $animation "a_WalkN" "zombie_soldier_anims\a_WalkN.smd" {
 	fps 30
 	loop
@@ -1788,6 +1836,112 @@ $animation "a_taunt_zombie_pelvis_layer" "zombie_soldier_anims\a_taunt_zombie_pe
 	weightlist "weights_range_melee2_b"
 }
 
+$animation "a_run_aim_straight_up_corrective_animation" "zombie_soldier_anims\a_run_aim_straight_up_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_up_right_corrective_animation" "zombie_soldier_anims\a_run_aim_up_right_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_up_center_corrective_animation" "zombie_soldier_anims\a_run_aim_up_center_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_up_left_corrective_animation" "zombie_soldier_anims\a_run_aim_up_left_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_mid_right_corrective_animation" "zombie_soldier_anims\a_run_aim_mid_right_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_mid_center_corrective_animation" "zombie_soldier_anims\a_run_aim_mid_center_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_mid_left_corrective_animation" "zombie_soldier_anims\a_run_aim_mid_left_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_down_right_corrective_animation" "zombie_soldier_anims\a_run_aim_down_right_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_down_center_corrective_animation" "zombie_soldier_anims\a_run_aim_down_center_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_down_left_corrective_animation" "zombie_soldier_anims\a_run_aim_down_left_corrective_animation.smd" {
+}
+
+$animation "a_aim_neutral" "zombie_soldier_anims\a_aim_neutral.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+}
+
+$animation "a_run_aim_down_left" "zombie_soldier_anims\a_run_aim_down_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_down_left_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_down_center" "zombie_soldier_anims\a_run_aim_down_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_down_center_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_down_right" "zombie_soldier_anims\a_run_aim_down_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_down_right_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_mid_left" "zombie_soldier_anims\a_run_aim_mid_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_mid_left_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_mid_center" "zombie_soldier_anims\a_run_aim_mid_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_mid_center_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_mid_right" "zombie_soldier_anims\a_run_aim_mid_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_mid_right_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_up_left" "zombie_soldier_anims\a_run_aim_up_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_up_left_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_up_center" "zombie_soldier_anims\a_run_aim_up_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_up_center_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_up_right" "zombie_soldier_anims\a_run_aim_up_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_up_right_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_straight_up" "zombie_soldier_anims\a_run_aim_straight_up.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_straight_up_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
 $sequence "Ref" {
 	"zombie_soldier_anims\refpose.smd"
 	activity "" 1
@@ -1818,6 +1972,30 @@ $sequence "gmod_breath_layer" {
 	realtime
 }
 
+$sequence "layer_Aim_all" {
+	"a_run_aim_straight_up"
+	"a_run_aim_straight_up"
+	"a_run_aim_straight_up"
+	"a_run_aim_up_right"
+	"a_run_aim_up_center"
+	"a_run_aim_up_left"
+	"a_run_aim_mid_right"
+	"a_run_aim_mid_center"
+	"a_run_aim_mid_left"
+	"a_run_aim_down_right"
+	"a_run_aim_down_center"
+	"a_run_aim_down_left"
+	blend "body_yaw" 45 -45
+	blend "body_pitch" 90 -45
+	blendwidth 3
+	delta
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	iklock "rfoot" 1 0
+	iklock "lfoot" 1 0
+}
+
 $sequence "OLD_Idle" {
 	"a_Idle"
 	activity "" 1
@@ -1835,6 +2013,7 @@ $sequence "Enforcer_Idle01" {
 	loop
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 2
@@ -1894,6 +2073,7 @@ $sequence "Jump_Glide" {
 	blendwidth 1
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
 	fadein 0.2
 	fadeout 0.2
 }
@@ -1904,6 +2084,7 @@ $sequence "Jump_Glide_start" {
 	blendwidth 1
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
 	fadein 0.2
 	fadeout 0.2
 }
@@ -1914,6 +2095,7 @@ $sequence "Jump_Glide_float" {
 	blendwidth 1
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
 	fadein 0.2
 	fadeout 0.2
 }
@@ -1924,6 +2106,7 @@ $sequence "Jump_Glide_airwalk" {
 	blendwidth 1
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
 	fadein 0.2
 	fadeout 0.2
 }
@@ -1938,7 +2121,7 @@ $sequence "Crouch" {
 	fps 30
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
-	addlayer "body_rot_z"
+	addlayer "layer_Aim_all"
 	loop
 	fadein 0.2
 	fadeout 0.2
@@ -1957,7 +2140,7 @@ $sequence "Crouch_Walk" {
 	activity "ACT_MP_CROUCHWALK_MELEE" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-	addlayer "body_rot_z"
+	addlayer "layer_Aim_all"
 	{ event 6004 5 "NPC_CombineS" }
 	{ event 6005 22 "NPC_CombineS" }
 	fadein 0.2
@@ -1977,6 +2160,7 @@ $sequence "Swimming" {
 	activity "ACT_MP_SWIM_MELEE" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
+	addlayer "layer_Aim_all"
 	fadein 0.2
 	fadeout 0.2
 }
@@ -2067,8 +2251,8 @@ $sequence "enforce_run_melee" {
 	fadein 0.2
 	fadeout 0.2
 	addlayer "zombie_run_upperbody_layer"
-	addlayer "body_rot_z"
 	addlayer "idle_layer_alt"
+	addlayer "layer_Aim_all"
 }
 
 $sequence "zombie_anim_fix_pelvis_layer" {
@@ -2223,6 +2407,7 @@ $sequence "idle_gravgun" {
 	fadeout 0.2
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
 	fps 30
     loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 0
@@ -2238,6 +2423,7 @@ $sequence "crouch_idle_gravgun" {
 	fadeout 0.2
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
 	fps 30
 	loop
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 0
@@ -2265,6 +2451,7 @@ $sequence "run_gravgun" {
 	fadeout 0.3
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
 	node "running"
 }
 
@@ -2287,6 +2474,7 @@ $sequence "crouch_walk_gravgun" {
 	fadeout 0.3
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
 	node "running"
 }
 
@@ -2299,6 +2487,7 @@ $sequence "jump_gravgun_jump" {
     fps 30
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
 	node "jumping"
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
@@ -2315,6 +2504,7 @@ $sequence "jump_gravgun_jump_start" {
     fps 30
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
 	node "jumping"
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
@@ -2331,6 +2521,7 @@ $sequence "jump_gravgun_jump_float" {
     fps 30
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
 	node "jumping"
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
@@ -2347,6 +2538,7 @@ $sequence "jump_gravgun_airwalk" {
     fps 30
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
 	node "jumping"
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
@@ -2371,6 +2563,7 @@ $sequence "swim_gravgun" {
 	fadeout 0.3
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
 	node "running"
 }
 
