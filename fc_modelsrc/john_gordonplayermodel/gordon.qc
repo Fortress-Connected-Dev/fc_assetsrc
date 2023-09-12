@@ -223,11 +223,11 @@ $cdmaterials "models\humans\male\"
 $texturegroup "skinfamilies"
 {
 	{ "hev"    "hev_mesh"    "face"    "eye_l"    "eye_r" }
-	{ "hev_blue"    "hev_mesh"    "face"    "eye_l"    "eye_r" }
+	{ "hev_blue"    "hev_mesh_blue"    "face"    "eye_l"    "eye_r" }
 	{ "hev_red_uber"    "hev_mesh_red_uber"    "face_red_uber"    "eye_l_uber"    "eye_r_uber" }
 	{ "hev_blue_uber"    "hev_mesh_blue_uber"    "face_blue_uber"    "eye_l_uber"    "eye_r_uber" }
-	{ "hev_green"    "hev_mesh"    "face"    "eye_l"    "eye_r" }
-	{ "hev_yellow"    "hev_mesh"    "face"    "eye_l"    "eye_r" }
+	{ "hev_green"    "hev_mesh_green"    "face"    "eye_l"    "eye_r" }
+	{ "hev_yellow"    "hev_mesh_yellow"    "face"    "eye_l"    "eye_r" }
 	{ "hev_green_uber"    "hev_mesh_green_uber"    "face_green_uber"    "eye_l_uber"    "eye_r_uber" }
 	{ "hev_yellow_uber"    "hev_mesh_yellow_uber"    "face_yellow_uber"    "eye_l_uber"    "eye_r_uber" }
 }
