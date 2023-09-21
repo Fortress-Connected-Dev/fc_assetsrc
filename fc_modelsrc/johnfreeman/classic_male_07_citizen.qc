@@ -7879,9 +7879,6 @@ $sequence "reload_revolver_base_layer" {
 $sequence "reload_revolver" {
 	"classic_male_07_citizen_anims\reload_revolver.smd"
 	activity "ACT_HL2MP_RELOAD_357" 1
-	{ event AE_CL_PLAYSOUND 8 "Weapon_357.OpenLoader" }
-	{ event AE_CL_PLAYSOUND 14 "Weapon_357.RemoveLoader" }
-	{ event AE_CL_PLAYSOUND 62 "Weapon_357.ReplaceLoader" }
 	fadein 0.2
 	fadeout 0.1
 	iklock "rfoot" 1 0

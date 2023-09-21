@@ -1,0 +1,9 @@
+// Created by Crowbar 0.74
+version 1
+nodes
+  0 "bip_head" -1
+end
+skeleton
+  time 0
+    0 0.000000 0.000000 0.000000 -1.566071 -0.000003 -0.000003
+end
