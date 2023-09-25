@@ -1061,6 +1061,7 @@ $DeclareSequence "primary_death_headshot"
 $DeclareSequence "primary_death_backStab"
 
 $IncludeModel "player/saxton_anims.mdl"
+$IncludeModel "player/saxton_hale_secondary_anims.mdl"
 
 $CollisionJoints "saxton_hale_physics.smd"
 {
