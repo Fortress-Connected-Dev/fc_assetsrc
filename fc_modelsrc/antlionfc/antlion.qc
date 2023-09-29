@@ -1091,6 +1091,17 @@ $sequence "antlion_alyx_inspect" {
 	walkframe 170 LX LY
 }
 
+$sequence "antlion_soldier_DI_02" {
+	"antlion_anims\antlion_soldier_DI_02.smd"
+	{ event AE_CL_PLAYSOUND 1 "NPC_Antlion.MeleeAttackSingle" }
+	{ event AE_CL_PLAYSOUND 19 "NPC_Antlion.RunOverByVehicle" }
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+	walkframe 20 LX LY
+	walkframe 60 LX LY
+}
+
 $sequence "ragdoll" {
 	"antlion_anims\ragdoll.smd"
 	activity "ACT_DIERAGDOLL" 1
