@@ -168,30 +168,30 @@ $jigglebone "bip_antenna_2" {
 	}
 }
 
-$jigglebone "bip_ear_L" {
-	is_flexible {
-		pitch_damping 10
-		pitch_stiffness 1000
-		yaw_constraint 0 0
-		pitch_constraint -5 5
-		pitch_friction 20
-		length 2
-				tip_mass 1
+//$jigglebone "bip_ear_L" {
+//	is_flexible {
+//		pitch_damping 7
+//		pitch_stiffness 10
+//		yaw_constraint 0 0
+//		pitch_constraint -5 5
+//		pitch_friction 20
+//		length 2
+//		tip_mass 1
 
-	}
-}
-$jigglebone "bip_ear_R" {
-	is_flexible {
-		pitch_damping 10
-		pitch_stiffness 1000
-		yaw_constraint 0 0
-		pitch_constraint -5 5
-		pitch_friction 20
-		length 2.1
-				tip_mass 1.3
-
-	}
-}
+//	}
+//}
+//$jigglebone "bip_ear_R" {
+//	is_flexible {
+//		pitch_damping 7
+//		pitch_stiffness 10
+//		yaw_constraint 0 0
+	//	pitch_constraint -5 5
+//		pitch_friction 20
+//		length 2.1
+//				tip_mass 1.3
+//
+//	}
+//}
 
 
 $bonemerge "bip_pelvis"
