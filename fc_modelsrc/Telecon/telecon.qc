@@ -129,31 +129,70 @@ $SkipBoneInBBox
       $definebone "bip_antenna_2" "bip_antenna_1" -0.000001 4.041634 0.000000 -0.000000 -0.000000 0.000000 0.000000 -0.000008 0.000000 -0.000000 -0.000000 0.000000
       $definebone "bip_toe_L" "bip_foot_L" -0.000004 -4.113694 -0.000026 0.000061 0.000116 -43.644380 0.000000 0.000000 -0.000000 0.000002 0.000003 0.000000
 	  
-//$jigglebone "bip_antenna" {
-//	is_rigid {
-//		tip_mass 100
-//		length 20
-//		angle_constraint 60 
-//	}
-//}
+$jigglebone "bip_antenna" {
+	is_flexible {
+		yaw_damping 3
+		pitch_damping 3
+		along_damping 3
+		allow_length_flex
+		length 2
+		angle_constraint 15
+		tip_mass 10
+	}
+}
+$jigglebone "bip_antenna_1" {
+	is_flexible {
+		yaw_damping 3
+		pitch_damping 3
+		along_damping 3
+				allow_length_flex 
 
-//$jigglebone "bip_antenna_1" {
-//	is_flexible {
-//		yaw_stiffness 100
-//		yaw_damping 3
-//		length 20
-//		yaw_constraint 0 0
-//	}
-//}
-//
-//$jigglebone "bip_antenna_2" {
-//	is_flexible {
-//		yaw_stiffness 100
-//		yaw_damping 3
-//		length 20
-//		yaw_constraint 0 0
-//	}
-//}
+		length 2
+		angle_constraint 15
+				tip_mass 10
+
+	}
+}
+
+$jigglebone "bip_antenna_2" {
+	is_flexible {
+		yaw_damping 3
+		pitch_damping 3
+		along_damping 3
+				allow_length_flex 
+
+		length 2
+		angle_constraint 15
+				tip_mass 10
+
+	}
+}
+
+$jigglebone "bip_ear_L" {
+	is_flexible {
+		pitch_damping 10
+		pitch_stiffness 1000
+		yaw_constraint 0 0
+		pitch_constraint -5 5
+		pitch_friction 20
+		length 2
+				tip_mass 1
+
+	}
+}
+$jigglebone "bip_ear_R" {
+	is_flexible {
+		pitch_damping 10
+		pitch_stiffness 1000
+		yaw_constraint 0 0
+		pitch_constraint -5 5
+		pitch_friction 20
+		length 2.1
+				tip_mass 1.3
+
+	}
+}
+
 
 $bonemerge "bip_pelvis"
 $bonemerge "bip_spine_0"
