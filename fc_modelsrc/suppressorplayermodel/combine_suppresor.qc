@@ -41,6 +41,12 @@ $texturegroup "skinfamilies"
 {
 	{ "body"  "head"  "torch"  }
 	{ "body_blue" "head_blue"  "torch_blue" }
+	{ "supressor_red_invun"  "supressor_red_head_invun"  "supressor_red_torch_invun"  }
+	{ "supressor_blue_invun" "supressor_blue_head_invun"  "supressor_blue_torch_invun" }
+	{ "body_green"  "head_green"  "torch_green"  }
+	{ "body_yellow" "head_yellow"  "torch_yellow" }
+	{ "supressor_grn_invun"  "supressor_grn_head_invun"  "supressor_grn_torch_invun"  }
+	{ "supressor_ylw_invun" "supressor_ylw_head_invun"  "supressor_ylw_torch_invun" }
 }
 
 $attachment "eyes" "ValveBiped.Bip01_Head1" 1.65 -4.56 0 rotate 0 -80.1 -90
