@@ -1,0 +1,1166 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "metal/forest_metal_04c" not found.
+Material not found!: METAL/FOREST_METAL_04C
+Patching WVT material: maps/redlaststand_lfce/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 82 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt...Building visibility clusters...
+done (0)
+material "skybox/grayrt" not found.
+Can't load skybox file skybox/gray to build the default cubemap!
+Can't load skybox file skybox/gray to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (222124 bytes)
+Error loading studio model "models/props_borealis/light_fluorescent05_on.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1228 texinfos to 697
+Reduced 54 texdatas to 48 (1605 bytes to 1401)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 4613, actual size 3461
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 2
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt
+ 364 portalclusters
+1072 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 4777 visible clusters (4.35%)
+Total clusters visible: 109739
+Average clusters visible: 301
+Building PAS...
+Average clusters audible: 357
+visdatasize:36175  compressed from 34944
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+2709 faces
+2 degenerate faces
+387970 square feet [55867712.00 square inches]
+34 Displacements
+94253 Square Feet [13572561.00 Square Inches]
+2707 patches before subdivision
+2707 patches after subdivision
+20 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 142923, max 468
+transfer lists:   1.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(11785, 10501, 8397)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2214, 1602, 1097)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(459, 272, 159)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(98, 48, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(22, 9, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0060 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  37/1024         1776/49152    ( 3.6%) 
+brushes                577/8192         6924/98304    ( 7.0%) 
+brushsides            3951/65536       31608/524288   ( 6.0%) 
+planes                2418/65536       48360/1310720  ( 3.7%) 
+vertexes              4401/65536       52812/786432   ( 6.7%) 
+nodes                 1336/65536       42752/2097152  ( 2.0%) 
+texinfos               697/12288       50184/884736   ( 5.7%) 
+texdata                 48/2048         1536/65536    ( 2.3%) 
+dispinfos               34/0            5984/0        ( 0.0%) 
+disp_verts             850/0           17000/0        ( 0.0%) 
+disp_tris             1088/0            2176/0        ( 0.0%) 
+disp_lmsamples      252592/0          252592/0        ( 0.0%) 
+faces                 2709/65536      151704/3670016  ( 4.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2118/65536      118608/3670016  ( 3.2%) 
+leaves                1374/65536       43968/2097152  ( 2.1%) 
+leaffaces             3021/65536        6042/131072   ( 4.6%) 
+leafbrushes            991/65536        1982/131072   ( 1.5%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            21526/512000      86104/2048000  ( 4.2%) 
+edges                12525/256000      50100/1024000  ( 4.9%) 
+LDR worldlights         20/8192         1760/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            184/32768        1840/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3183/65536        6366/131072   ( 4.9%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                25/512          8800/180224   ( 4.9%) 
+LDR lightdata         [variable]     2153800/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       36175/16777216 ( 0.2%) 
+entdata               [variable]       57415/393216   (14.6%) 
+LDR ambient table     1374/65536        5496/262144   ( 2.1%) 
+HDR ambient table     1374/65536        5496/262144   ( 2.1%) 
+LDR leaf ambient      5367/65536      150276/1835008  ( 8.2%) 
+HDR leaf ambient      1374/65536       38472/1835008  ( 2.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11424    ( 0.0%) 
+pakfile               [variable]        3461/0        ( 0.0%) 
+physics               [variable]      222124/4194304  ( 5.3%) 
+physics terrain       [variable]        6872/1048576  ( 0.7%) 
+
+Level flags = 0
+
+Total triangle count: 7627
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "metal/forest_metal_04c" not found.
+Material not found!: METAL/FOREST_METAL_04C
+Patching WVT material: maps/redlaststand_lfce/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 82 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt...Building visibility clusters...
+done (0)
+material "skybox/grayrt" not found.
+Can't load skybox file skybox/gray to build the default cubemap!
+Can't load skybox file skybox/gray to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (219135 bytes)
+Error loading studio model "models/props_borealis/light_fluorescent05_on.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1225 texinfos to 676
+Reduced 54 texdatas to 48 (1605 bytes to 1401)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 4613, actual size 3461
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 2
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt
+ 355 portalclusters
+1041 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 533 visible clusters (0.86%)
+Total clusters visible: 61738
+Average clusters visible: 173
+Building PAS...
+Average clusters audible: 348
+visdatasize:34266  compressed from 34080
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+2653 faces
+2 degenerate faces
+386923 square feet [55716932.00 square inches]
+34 Displacements
+94253 Square Feet [13572561.00 Square Inches]
+2651 patches before subdivision
+29205 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1989309, max 485
+transfer lists:  15.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(98457, 79911, 60160)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(20717, 13228, 8494)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4765, 2411, 1326)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1138, 463, 219)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(275, 91, 37)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(67, 18, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(17, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0081 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  35/1024         1680/49152    ( 3.4%) 
+brushes                571/8192         6852/98304    ( 7.0%) 
+brushsides            3915/65536       31320/524288   ( 6.0%) 
+planes                2446/65536       48920/1310720  ( 3.7%) 
+vertexes              4342/65536       52104/786432   ( 6.6%) 
+nodes                 1310/65536       41920/2097152  ( 2.0%) 
+texinfos               676/12288       48672/884736   ( 5.5%) 
+texdata                 48/2048         1536/65536    ( 2.3%) 
+dispinfos               34/0            5984/0        ( 0.0%) 
+disp_verts             850/0           17000/0        ( 0.0%) 
+disp_tris             1088/0            2176/0        ( 0.0%) 
+disp_lmsamples      252592/0          252592/0        ( 0.0%) 
+faces                 2653/65536      148568/3670016  ( 4.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2074/65536      116144/3670016  ( 3.2%) 
+leaves                1346/65536       43072/2097152  ( 2.1%) 
+leaffaces             2966/65536        5932/131072   ( 4.5%) 
+leafbrushes            985/65536        1970/131072   ( 1.5%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            21100/512000      84400/2048000  ( 4.1%) 
+edges                12302/256000      49208/1024000  ( 4.8%) 
+LDR worldlights         22/8192         1936/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            185/32768        1850/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3204/65536        6408/131072   ( 4.9%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                25/512          8800/180224   ( 4.9%) 
+LDR lightdata         [variable]     2147072/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34266/16777216 ( 0.2%) 
+entdata               [variable]       58630/393216   (14.9%) 
+LDR ambient table     1346/65536        5384/262144   ( 2.1%) 
+HDR ambient table     1346/65536        5384/262144   ( 2.1%) 
+LDR leaf ambient      5105/65536      142940/1835008  ( 7.8%) 
+HDR leaf ambient      1346/65536       37688/1835008  ( 2.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11436    ( 0.0%) 
+pakfile               [variable]        3461/0        ( 0.0%) 
+physics               [variable]      219135/4194304  ( 5.2%) 
+physics terrain       [variable]        6872/1048576  ( 0.7%) 
+
+Level flags = 0
+
+Total triangle count: 7489
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "metal/forest_metal_04c" not found.
+Material not found!: METAL/FOREST_METAL_04C
+Patching WVT material: maps/redlaststand_lfce/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 82 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (215809 bytes)
+Error loading studio model "models/props_borealis/light_fluorescent05_on.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1210 texinfos to 667
+Reduced 56 texdatas to 50 (1646 bytes to 1442)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 428265, actual size 426041
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 1
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt
+ 355 portalclusters
+1040 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 505 visible clusters (0.82%)
+Total clusters visible: 61674
+Average clusters visible: 173
+Building PAS...
+Average clusters audible: 348
+visdatasize:34273  compressed from 34080
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+2606 faces
+2 degenerate faces
+386357 square feet [55635540.00 square inches]
+35 Displacements
+94270 Square Feet [13574919.00 Square Inches]
+2604 patches before subdivision
+29120 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1981233, max 485
+transfer lists:  15.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(98275, 79791, 60097)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(20597, 13141, 8426)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4726, 2387, 1310)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1126, 457, 216)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(272, 90, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(67, 18, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0066 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  33/1024         1584/49152    ( 3.2%) 
+brushes                564/8192         6768/98304    ( 6.9%) 
+brushsides            3875/65536       31000/524288   ( 5.9%) 
+planes                2454/65536       49080/1310720  ( 3.7%) 
+vertexes              4258/65536       51096/786432   ( 6.5%) 
+nodes                 1275/65536       40800/2097152  ( 1.9%) 
+texinfos               667/12288       48024/884736   ( 5.4%) 
+texdata                 50/2048         1600/65536    ( 2.4%) 
+dispinfos               35/0            6160/0        ( 0.0%) 
+disp_verts             875/0           17500/0        ( 0.0%) 
+disp_tris             1120/0            2240/0        ( 0.0%) 
+disp_lmsamples      252676/0          252676/0        ( 0.0%) 
+faces                 2606/65536      145936/3670016  ( 4.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2034/65536      113904/3670016  ( 3.1%) 
+leaves                1309/65536       41888/2097152  ( 2.0%) 
+leaffaces             2908/65536        5816/131072   ( 4.4%) 
+leafbrushes            975/65536        1950/131072   ( 1.5%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            20706/512000      82824/2048000  ( 4.0%) 
+edges                12099/256000      48396/1024000  ( 4.7%) 
+LDR worldlights         22/8192         1936/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            183/32768        1830/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3177/65536        6354/131072   ( 4.8%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                25/512          8800/180224   ( 4.9%) 
+LDR lightdata         [variable]     2146316/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34273/16777216 ( 0.2%) 
+entdata               [variable]       74780/393216   (19.0%) 
+LDR ambient table     1309/65536        5236/262144   ( 2.0%) 
+HDR ambient table     1309/65536        5236/262144   ( 2.0%) 
+LDR leaf ambient      4981/65536      139468/1835008  ( 7.6%) 
+HDR leaf ambient      1309/65536       36652/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11420    ( 0.0%) 
+pakfile               [variable]      426041/0        ( 0.0%) 
+physics               [variable]      215809/4194304  ( 5.1%) 
+physics terrain       [variable]        7065/1048576  ( 0.7%) 
+
+Level flags = 0
+
+Total triangle count: 7349
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "metal/forest_metal_04c" not found.
+Material not found!: METAL/FOREST_METAL_04C
+Patching WVT material: maps/redlaststand_lfce/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 82 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (216137 bytes)
+Error loading studio model "models/props_borealis/light_fluorescent05_on.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1217 texinfos to 667
+Reduced 56 texdatas to 50 (1646 bytes to 1442)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 428265, actual size 426041
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 1
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt
+ 365 portalclusters
+1070 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 586 visible clusters (0.90%)
+Total clusters visible: 64975
+Average clusters visible: 178
+Building PAS...
+Average clusters audible: 358
+visdatasize:36004  compressed from 35040
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+2619 faces
+2 degenerate faces
+386345 square feet [55633740.00 square inches]
+35 Displacements
+94270 Square Feet [13574919.00 Square Inches]
+2617 patches before subdivision
+29147 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1973991, max 485
+transfer lists:  15.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97409, 79008, 59491)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(20439, 13015, 8352)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4683, 2358, 1295)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1114, 450, 212)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(268, 88, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(65, 17, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0089 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  33/1024         1584/49152    ( 3.2%) 
+brushes                565/8192         6780/98304    ( 6.9%) 
+brushsides            3881/65536       31048/524288   ( 5.9%) 
+planes                2464/65536       49280/1310720  ( 3.8%) 
+vertexes              4279/65536       51348/786432   ( 6.5%) 
+nodes                 1284/65536       41088/2097152  ( 2.0%) 
+texinfos               667/12288       48024/884736   ( 5.4%) 
+texdata                 50/2048         1600/65536    ( 2.4%) 
+dispinfos               35/0            6160/0        ( 0.0%) 
+disp_verts             875/0           17500/0        ( 0.0%) 
+disp_tris             1120/0            2240/0        ( 0.0%) 
+disp_lmsamples      252676/0          252676/0        ( 0.0%) 
+faces                 2619/65536      146664/3670016  ( 4.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2040/65536      114240/3670016  ( 3.1%) 
+leaves                1318/65536       42176/2097152  ( 2.0%) 
+leaffaces             3005/65536        6010/131072   ( 4.6%) 
+leafbrushes            979/65536        1958/131072   ( 1.5%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            20792/512000      83168/2048000  ( 4.1%) 
+edges                12142/256000      48568/1024000  ( 4.7%) 
+LDR worldlights         22/8192         1936/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            185/32768        1850/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3210/65536        6420/131072   ( 4.9%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                25/512          8800/180224   ( 4.9%) 
+LDR lightdata         [variable]     2150168/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       36004/16777216 ( 0.2%) 
+entdata               [variable]       74508/393216   (18.9%) 
+LDR ambient table     1318/65536        5272/262144   ( 2.0%) 
+HDR ambient table     1318/65536        5272/262144   ( 2.0%) 
+LDR leaf ambient      5075/65536      142100/1835008  ( 7.7%) 
+HDR leaf ambient      1318/65536       36904/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11424    ( 0.0%) 
+pakfile               [variable]      426041/0        ( 0.0%) 
+physics               [variable]      216137/4194304  ( 5.2%) 
+physics terrain       [variable]        7065/1048576  ( 0.7%) 
+
+Level flags = 0
+
+Total triangle count: 7385
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "metal/forest_metal_04c" not found.
+Material not found!: METAL/FOREST_METAL_04C
+Patching WVT material: maps/redlaststand_lfce/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 82 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (216387 bytes)
+Error loading studio model "models/props_borealis/light_fluorescent05_on.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1229 texinfos to 668
+Reduced 56 texdatas to 50 (1646 bytes to 1442)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 428265, actual size 426041
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 1
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt
+ 353 portalclusters
+1036 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 502 visible clusters (0.82%)
+Total clusters visible: 61141
+Average clusters visible: 173
+Building PAS...
+Average clusters audible: 346
+visdatasize:34181  compressed from 33888
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+2603 faces
+2 degenerate faces
+386350 square feet [55634524.00 square inches]
+35 Displacements
+94270 Square Feet [13574919.00 Square Inches]
+2601 patches before subdivision
+29125 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1985269, max 485
+transfer lists:  15.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97785, 79374, 59752)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(20586, 13133, 8427)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4732, 2391, 1313)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1130, 459, 217)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(273, 90, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(67, 18, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0075 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  34/1024         1632/49152    ( 3.3%) 
+brushes                565/8192         6780/98304    ( 6.9%) 
+brushsides            3889/65536       31112/524288   ( 5.9%) 
+planes                2516/65536       50320/1310720  ( 3.8%) 
+vertexes              4269/65536       51228/786432   ( 6.5%) 
+nodes                 1277/65536       40864/2097152  ( 1.9%) 
+texinfos               668/12288       48096/884736   ( 5.4%) 
+texdata                 50/2048         1600/65536    ( 2.4%) 
+dispinfos               35/0            6160/0        ( 0.0%) 
+disp_verts             875/0           17500/0        ( 0.0%) 
+disp_tris             1120/0            2240/0        ( 0.0%) 
+disp_lmsamples      252676/0          252676/0        ( 0.0%) 
+faces                 2603/65536      145768/3670016  ( 4.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2031/65536      113736/3670016  ( 3.1%) 
+leaves                1312/65536       41984/2097152  ( 2.0%) 
+leaffaces             2896/65536        5792/131072   ( 4.4%) 
+leafbrushes            974/65536        1948/131072   ( 1.5%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            20686/512000      82744/2048000  ( 4.0%) 
+edges                12089/256000      48356/1024000  ( 4.7%) 
+LDR worldlights         22/8192         1936/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            182/32768        1820/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3165/65536        6330/131072   ( 4.8%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                25/512          8800/180224   ( 4.9%) 
+LDR lightdata         [variable]     2145644/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34181/16777216 ( 0.2%) 
+entdata               [variable]       73955/393216   (18.8%) 
+LDR ambient table     1312/65536        5248/262144   ( 2.0%) 
+HDR ambient table     1312/65536        5248/262144   ( 2.0%) 
+LDR leaf ambient      5003/65536      140084/1835008  ( 7.6%) 
+HDR leaf ambient      1312/65536       36736/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11420    ( 0.0%) 
+pakfile               [variable]      426041/0        ( 0.0%) 
+physics               [variable]      216387/4194304  ( 5.2%) 
+physics terrain       [variable]        7065/1048576  ( 0.7%) 
+
+Level flags = 0
+
+Total triangle count: 7347
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "metal/forest_metal_04c" not found.
+Material not found!: METAL/FOREST_METAL_04C
+Patching WVT material: maps/redlaststand_lfce/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 92 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (216397 bytes)
+Error loading studio model "models/props_borealis/light_fluorescent05_on.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1239 texinfos to 665
+Reduced 56 texdatas to 50 (1646 bytes to 1442)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 428265, actual size 426041
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 1
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt
+ 353 portalclusters
+1036 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 502 visible clusters (0.82%)
+Total clusters visible: 61141
+Average clusters visible: 173
+Building PAS...
+Average clusters audible: 346
+visdatasize:34181  compressed from 33888
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+2597 faces
+2 degenerate faces
+386118 square feet [55601084.00 square inches]
+35 Displacements
+94270 Square Feet [13574919.00 Square Inches]
+2595 patches before subdivision
+29125 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1985034, max 485
+transfer lists:  15.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97748, 79342, 59730)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(20576, 13126, 8423)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4731, 2390, 1313)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1129, 459, 217)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(273, 90, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(67, 18, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0062 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  34/1024         1632/49152    ( 3.3%) 
+brushes                565/8192         6780/98304    ( 6.9%) 
+brushsides            3890/65536       31120/524288   ( 5.9%) 
+planes                2538/65536       50760/1310720  ( 3.9%) 
+vertexes              4269/65536       51228/786432   ( 6.5%) 
+nodes                 1277/65536       40864/2097152  ( 1.9%) 
+texinfos               665/12288       47880/884736   ( 5.4%) 
+texdata                 50/2048         1600/65536    ( 2.4%) 
+dispinfos               35/0            6160/0        ( 0.0%) 
+disp_verts             875/0           17500/0        ( 0.0%) 
+disp_tris             1120/0            2240/0        ( 0.0%) 
+disp_lmsamples      252676/0          252676/0        ( 0.0%) 
+faces                 2597/65536      145432/3670016  ( 4.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2025/65536      113400/3670016  ( 3.1%) 
+leaves                1312/65536       41984/2097152  ( 2.0%) 
+leaffaces             2890/65536        5780/131072   ( 4.4%) 
+leafbrushes            974/65536        1948/131072   ( 1.5%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            20635/512000      82540/2048000  ( 4.0%) 
+edges                12065/256000      48260/1024000  ( 4.7%) 
+LDR worldlights         22/8192         1936/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            182/32768        1820/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3165/65536        6330/131072   ( 4.8%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                25/512          8800/180224   ( 4.9%) 
+LDR lightdata         [variable]     2145620/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34181/16777216 ( 0.2%) 
+entdata               [variable]       74503/393216   (18.9%) 
+LDR ambient table     1312/65536        5248/262144   ( 2.0%) 
+HDR ambient table     1312/65536        5248/262144   ( 2.0%) 
+LDR leaf ambient      4982/65536      139496/1835008  ( 7.6%) 
+HDR leaf ambient      1312/65536       36736/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11420    ( 0.0%) 
+pakfile               [variable]      426041/0        ( 0.0%) 
+physics               [variable]      216397/4194304  ( 5.2%) 
+physics terrain       [variable]        7065/1048576  ( 0.7%) 
+
+Level flags = 0
+
+Total triangle count: 7334
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+8 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "metal/forest_metal_04c" not found.
+Material not found!: METAL/FOREST_METAL_04C
+Patching WVT material: maps/redlaststand_lfce/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 92 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (216397 bytes)
+Error loading studio model "models/props_borealis/light_fluorescent05_on.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1239 texinfos to 665
+Reduced 56 texdatas to 50 (1646 bytes to 1442)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 428265, actual size 426041
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 1
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt
+ 353 portalclusters
+1036 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 502 visible clusters (0.82%)
+Total clusters visible: 61141
+Average clusters visible: 173
+Building PAS...
+Average clusters audible: 346
+visdatasize:34181  compressed from 33888
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+2597 faces
+2 degenerate faces
+386118 square feet [55601084.00 square inches]
+35 Displacements
+94270 Square Feet [13574919.00 Square Inches]
+2595 patches before subdivision
+29125 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1985034, max 485
+transfer lists:  15.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97748, 79341, 59730)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(20576, 13126, 8423)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4731, 2390, 1313)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1129, 459, 217)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(273, 90, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(67, 18, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0067 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  34/1024         1632/49152    ( 3.3%) 
+brushes                565/8192         6780/98304    ( 6.9%) 
+brushsides            3890/65536       31120/524288   ( 5.9%) 
+planes                2538/65536       50760/1310720  ( 3.9%) 
+vertexes              4269/65536       51228/786432   ( 6.5%) 
+nodes                 1277/65536       40864/2097152  ( 1.9%) 
+texinfos               665/12288       47880/884736   ( 5.4%) 
+texdata                 50/2048         1600/65536    ( 2.4%) 
+dispinfos               35/0            6160/0        ( 0.0%) 
+disp_verts             875/0           17500/0        ( 0.0%) 
+disp_tris             1120/0            2240/0        ( 0.0%) 
+disp_lmsamples      252676/0          252676/0        ( 0.0%) 
+faces                 2597/65536      145432/3670016  ( 4.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2025/65536      113400/3670016  ( 3.1%) 
+leaves                1312/65536       41984/2097152  ( 2.0%) 
+leaffaces             2890/65536        5780/131072   ( 4.4%) 
+leafbrushes            974/65536        1948/131072   ( 1.5%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            20635/512000      82540/2048000  ( 4.0%) 
+edges                12065/256000      48260/1024000  ( 4.7%) 
+LDR worldlights         22/8192         1936/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            182/32768        1820/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3165/65536        6330/131072   ( 4.8%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                25/512          8800/180224   ( 4.9%) 
+LDR lightdata         [variable]     2145620/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34181/16777216 ( 0.2%) 
+entdata               [variable]       73980/393216   (18.8%) 
+LDR ambient table     1312/65536        5248/262144   ( 2.0%) 
+HDR ambient table     1312/65536        5248/262144   ( 2.0%) 
+LDR leaf ambient      4982/65536      139496/1835008  ( 7.6%) 
+HDR leaf ambient      1312/65536       36736/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11420    ( 0.0%) 
+pakfile               [variable]      426041/0        ( 0.0%) 
+physics               [variable]      216397/4194304  ( 5.2%) 
+physics terrain       [variable]        7065/1048576  ( 0.7%) 
+
+Level flags = 0
+
+Total triangle count: 7334
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+8 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "metal/forest_metal_04c" not found.
+Material not found!: METAL/FOREST_METAL_04C
+Patching WVT material: maps/redlaststand_lfce/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 84 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (217474 bytes)
+Error loading studio model "models/props_borealis/light_fluorescent05_on.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 1250 texinfos to 661
+Reduced 57 texdatas to 50 (1668 bytes to 1442)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 428265, actual size 426041
+2 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 1
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.prt
+ 353 portalclusters
+1036 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 505 visible clusters (0.83%)
+Total clusters visible: 61144
+Average clusters visible: 173
+Building PAS...
+Average clusters audible: 346
+visdatasize:34181  compressed from 33888
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+2587 faces
+2 degenerate faces
+385825 square feet [55558892.00 square inches]
+35 Displacements
+94270 Square Feet [13574919.00 Square Inches]
+2585 patches before subdivision
+29077 patches after subdivision
+22 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1980132, max 486
+transfer lists:  15.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(97550, 79171, 59606)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(20549, 13106, 8410)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4725, 2387, 1311)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1128, 458, 216)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(273, 90, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(67, 18, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(16, 4, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(4, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0073 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  34/1024         1632/49152    ( 3.3%) 
+brushes                567/8192         6804/98304    ( 6.9%) 
+brushsides            3902/65536       31216/524288   ( 6.0%) 
+planes                2562/65536       51240/1310720  ( 3.9%) 
+vertexes              4266/65536       51192/786432   ( 6.5%) 
+nodes                 1277/65536       40864/2097152  ( 1.9%) 
+texinfos               661/12288       47592/884736   ( 5.4%) 
+texdata                 50/2048         1600/65536    ( 2.4%) 
+dispinfos               35/0            6160/0        ( 0.0%) 
+disp_verts             875/0           17500/0        ( 0.0%) 
+disp_tris             1120/0            2240/0        ( 0.0%) 
+disp_lmsamples      252676/0          252676/0        ( 0.0%) 
+faces                 2587/65536      144872/3670016  ( 3.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2017/65536      112952/3670016  ( 3.1%) 
+leaves                1312/65536       41984/2097152  ( 2.0%) 
+leaffaces             2878/65536        5756/131072   ( 4.4%) 
+leafbrushes            976/65536        1952/131072   ( 1.5%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            20562/512000      82248/2048000  ( 4.0%) 
+edges                12028/256000      48112/1024000  ( 4.7%) 
+LDR worldlights         22/8192         1936/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            181/32768        1810/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3153/65536        6306/131072   ( 4.8%) 
+cubemapsamples           3/1024           48/16384    ( 0.3%) 
+overlays                25/512          8800/180224   ( 4.9%) 
+LDR lightdata         [variable]     2145548/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       34181/16777216 ( 0.2%) 
+entdata               [variable]       73615/393216   (18.7%) 
+LDR ambient table     1312/65536        5248/262144   ( 2.0%) 
+HDR ambient table     1312/65536        5248/262144   ( 2.0%) 
+LDR leaf ambient      4964/65536      138992/1835008  ( 7.6%) 
+HDR leaf ambient      1312/65536       36736/1835008  ( 2.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/11420    ( 0.0%) 
+pakfile               [variable]      426041/0        ( 0.0%) 
+physics               [variable]      217474/4194304  ( 5.2%) 
+physics terrain       [variable]        7065/1048576  ( 0.7%) 
+
+Level flags = 0
+
+Total triangle count: 7312
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\redlaststand_lfce.bsp
+9 seconds elapsed
