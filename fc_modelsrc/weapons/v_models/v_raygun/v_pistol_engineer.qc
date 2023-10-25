@@ -125,26 +125,22 @@ $bonemerge "weapon_bone"
 
 
 $sequence "pstl_draw" {
-	"v_pistol_engineer_anims\pstl_draw.smd"
+	"anims/raygun_animations.smd"
 	activity "ACT_VM_DRAW" 1
 	{ event 5004 1 "Weapon_Pistol.Draw" }
 	{ event 5004 1 "Weapon_Pistol.Draw2" }
+	frames 0 23
 	fadein 0.2
 	fadeout 0.2
 	node "raised"
 	snap
 	fps 30
-	localhierarchy "vm_weapon_bone_1" "weapon_bone" range 0 0 23 23
-	localhierarchy "vm_weapon_bone_2" "weapon_bone" range 0 0 23 23
-	localhierarchy "vm_weapon_bone_3" "weapon_bone" range 0 0 23 23
-	localhierarchy "vm_weapon_bone_4" "weapon_bone" range 0 0 23 23
-	localhierarchy "vm_weapon_bone_5" "weapon_bone" range 0 0 23 23
-	localhierarchy "vm_weapon_bone_6" "weapon_bone" range 0 0 23 23
-	localhierarchy "vm_weapon_bone_7" "weapon_bone" range 0 0 23 23
+	
 }
 
 $sequence "pstl_idle" {
-	"v_pistol_engineer_anims\pstl_idle.smd"
+	"anims/raygun_animations.smd"
+	frames 24 83
 	activity "ACT_VM_IDLE" 1
 	fadein 0.2
 	fadeout 0.2
@@ -154,7 +150,8 @@ $sequence "pstl_idle" {
 }
 
 $sequence "pstl_fire" {
-	"v_pistol_engineer_anims\pstl_fire.smd"
+	"anims/raygun_animations.smd"
+	frames 84 107
 	activity "ACT_VM_PRIMARYATTACK" 1
 	{ event 6002 0 "3" }
 	fadein 0.2
@@ -165,7 +162,8 @@ $sequence "pstl_fire" {
 }
 
 $sequence "pstl_reload" {
-	"v_pistol_engineer_anims\pstl_reload.smd"
+	"anims/raygun_animations.smd"
+	frames 108 210
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 14 "Weapon_Pistol.ClipIn" }
 	fadein 0.2
