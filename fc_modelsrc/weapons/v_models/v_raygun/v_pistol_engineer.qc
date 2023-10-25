@@ -12,8 +12,12 @@ $contents "solid"
 
 $illumposition 0.121 -2.441 1.786
 
+$origin -5 10 2
+
 $cdmaterials "models\weapons\c_models\c_pistol\"
 $cdmaterials "models\weapons\v_pistol\"
+$cdmaterials "models\weapons\raygun\"
+$cdmaterials "models\weapons\bo1_raygun\"
 $cdmaterials ""
 
 // This list shows the VMT file names used in the SMD files.
@@ -219,7 +223,14 @@ $sequence "pstl_reload" {
 	"anims/raygun_animations.smd"
 	frames 108 210
 	activity "ACT_VM_RELOAD" 1
-	{ event 5004 14 "Weapon_Pistol.ClipIn" }
+	{ event 5004 0 "MeleeInspect.Movement4" }
+	{ event 5004 4 "Weapon_FlareGun.BoltBack" }
+	{ event 5004 10 "Weapon_FlareGun.TubeOpen" }
+	{ event 5004 62 "Weapon_FlareGun.Reload" }
+	{ event 5004 50 "MeleeInspect.Movement2" }
+	{ event 5004 77 "Weapon_Pistol.ClipIn" }
+	{ event 5004 80 "Building_Sentrygun.Build13" }
+	{ event 5004 26 "Weapon_SyringeGun.Reload1" }
 	fadein 0.2
 	fadeout 0.2
 	snap
