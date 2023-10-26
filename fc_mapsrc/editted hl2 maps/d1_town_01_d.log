@@ -1,0 +1,2993 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 674 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1126144 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4749 texinfos to 3079
+Reduced 428 texdatas to 365 (19287 bytes to 16923)
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 674 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1126144 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4749 texinfos to 3079
+Reduced 428 texdatas to 365 (19287 bytes to 16923)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17304276, actual size 17219910
+2 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+1652 portalclusters
+5170 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 674 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1126144 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4749 texinfos to 3079
+Reduced 428 texdatas to 365 (19287 bytes to 16923)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17304276, actual size 17219910
+2 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+1647 portalclusters
+5165 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 674 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1126144 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4749 texinfos to 3079
+Reduced 428 texdatas to 365 (19287 bytes to 16923)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17304276, actual size 17219910
+2 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 553 portalclusters
+1731 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 367 visible clusters (0.43%)
+Total clusters visible: 84757
+Average clusters visible: 153
+Building PAS...
+Average clusters audible: 259
+visdatasize:53758  compressed from 79632
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+2 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 674 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1126144 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4749 texinfos to 3079
+Reduced 428 texdatas to 365 (19287 bytes to 16923)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17304276, actual size 17219910
+2 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 771 portalclusters
+2388 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1136 visible clusters (0.75%)
+Total clusters visible: 152100
+Average clusters visible: 197
+Building PAS...
+Average clusters audible: 383
+visdatasize:95593  compressed from 160368
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8337 faces
+7 degenerate faces
+960109 square feet [138255696.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8330 patches before subdivision
+78270 patches after subdivision
+52 direct lights
+0...1...2...
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 674 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1126144 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4749 texinfos to 3079
+Reduced 428 texdatas to 365 (19287 bytes to 16923)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17304276, actual size 17219910
+2 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 771 portalclusters
+2388 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1136 visible clusters (0.75%)
+Total clusters visible: 152100
+Average clusters visible: 197
+Building PAS...
+Average clusters audible: 383
+visdatasize:95593  compressed from 160368
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8337 faces
+7 degenerate faces
+960109 square feet [138255696.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8330 patches before subdivision
+78270 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9144147, max 1062
+transfer lists:  69.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(158208, 190763, 105287)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(40962, 43628, 20155)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(9990, 9829, 3930)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3062, 2842, 978)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(960, 863, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 287, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0115 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 164/1024         7872/49152    (16.0%) 
+brushes               2515/8192        30180/98304    (30.7%) 
+brushsides           18012/65536      144096/524288   (27.5%) 
+planes               10540/65536      210800/1310720  (16.1%) 
+vertexes             14675/65536      176100/786432   (22.4%) 
+nodes                 4370/65536      139840/2097152  ( 6.7%) 
+texinfos              3079/12288      221688/884736   (25.1%) 
+texdata                365/2048        11680/65536    (17.8%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8337/65536      466872/3670016  (12.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6216/65536      348096/3670016  ( 9.5%) 
+leaves                4535/65536      145120/2097152  ( 6.9%) 
+leaffaces            11346/65536       22692/131072   (17.3%) 
+leafbrushes           7845/65536       15690/131072   (12.0%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            64812/512000     259248/2048000  (12.7%) 
+edges                40463/256000     161852/1024000  (15.8%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            837/32768        8370/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15780/65536       31560/131072   (24.1%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     5981448/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       95593/16777216 ( 0.6%) 
+entdata               [variable]      446889/393216   (113.6%) VERY FULL!
+LDR ambient table     4535/65536       18140/262144   ( 6.9%) 
+HDR ambient table     4535/65536       18140/262144   ( 6.9%) 
+LDR leaf ambient     16928/65536      473984/1835008  (25.8%) 
+HDR leaf ambient      4535/65536      126980/1835008  ( 6.9%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        4/0              48/0        ( 0.0%) 
+occluder vert ind       16/0              64/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20374    ( 0.0%) 
+pakfile               [variable]    17219910/0        ( 0.0%) 
+physics               [variable]     1126144/4194304  (26.8%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23403
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+43 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 664 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1126176 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4771 texinfos to 3094
+Reduced 431 texdatas to 368 (19458 bytes to 17094)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+3 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 778 portalclusters
+2448 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1991 visible clusters (0.88%)
+Total clusters visible: 226004
+Average clusters visible: 290
+Building PAS...
+Average clusters audible: 713
+visdatasize:139641  compressed from 161824
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 12 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8396 faces
+7 degenerate faces
+930902 square feet [134049944.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8389 patches before subdivision
+78649 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9437743, max 1285
+transfer lists:  72.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(158548, 191235, 105652)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(40996, 43670, 20181)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(9996, 9834, 3932)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3063, 2843, 978)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(960, 863, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 287, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0127 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 164/1024         7872/49152    (16.0%) 
+brushes               2514/8192        30168/98304    (30.7%) 
+brushsides           18006/65536      144048/524288   (27.5%) 
+planes               10540/65536      210800/1310720  (16.1%) 
+vertexes             14695/65536      176340/786432   (22.4%) 
+nodes                 4376/65536      140032/2097152  ( 6.7%) 
+texinfos              3094/12288      222768/884736   (25.2%) 
+texdata                368/2048        11776/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8396/65536      470176/3670016  (12.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6255/65536      350280/3670016  ( 9.5%) 
+leaves                4541/65536      145312/2097152  ( 6.9%) 
+leaffaces            11442/65536       22884/131072   (17.5%) 
+leafbrushes           7874/65536       15748/131072   (12.0%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            65238/512000     260952/2048000  (12.7%) 
+edges                40699/256000     162796/1024000  (15.9%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            847/32768        8470/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15900/65536       31800/131072   (24.3%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     5999096/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      139641/16777216 ( 0.8%) 
+entdata               [variable]      448573/393216   (114.1%) VERY FULL!
+LDR ambient table     4541/65536       18164/262144   ( 6.9%) 
+HDR ambient table     4541/65536       18164/262144   ( 6.9%) 
+LDR leaf ambient     16963/65536      474964/1835008  (25.9%) 
+HDR leaf ambient      4541/65536      127148/1835008  ( 6.9%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20380    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1126176/4194304  (26.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23557
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+47 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 664 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1126176 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4771 texinfos to 3094
+Reduced 431 texdatas to 368 (19458 bytes to 17094)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+3 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 778 portalclusters
+2448 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2005 visible clusters (0.89%)
+Total clusters visible: 226034
+Average clusters visible: 290
+Building PAS...
+Average clusters audible: 713
+visdatasize:139644  compressed from 161824
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 12 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8396 faces
+7 degenerate faces
+930902 square feet [134049944.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8389 patches before subdivision
+78649 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9437743, max 1285
+transfer lists:  72.0 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(158548, 191235, 105652)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(40996, 43670, 20181)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(9996, 9834, 3932)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3063, 2843, 978)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(960, 863, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 287, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0123 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 164/1024         7872/49152    (16.0%) 
+brushes               2514/8192        30168/98304    (30.7%) 
+brushsides           18006/65536      144048/524288   (27.5%) 
+planes               10540/65536      210800/1310720  (16.1%) 
+vertexes             14695/65536      176340/786432   (22.4%) 
+nodes                 4376/65536      140032/2097152  ( 6.7%) 
+texinfos              3094/12288      222768/884736   (25.2%) 
+texdata                368/2048        11776/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8396/65536      470176/3670016  (12.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6255/65536      350280/3670016  ( 9.5%) 
+leaves                4541/65536      145312/2097152  ( 6.9%) 
+leaffaces            11442/65536       22884/131072   (17.5%) 
+leafbrushes           7874/65536       15748/131072   (12.0%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            65238/512000     260952/2048000  (12.7%) 
+edges                40699/256000     162796/1024000  (15.9%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            847/32768        8470/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15900/65536       31800/131072   (24.3%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     5999096/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      139644/16777216 ( 0.8%) 
+entdata               [variable]      448574/393216   (114.1%) VERY FULL!
+LDR ambient table     4541/65536       18164/262144   ( 6.9%) 
+HDR ambient table     4541/65536       18164/262144   ( 6.9%) 
+LDR leaf ambient     16963/65536      474964/1835008  (25.9%) 
+HDR leaf ambient      4541/65536      127148/1835008  ( 6.9%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20380    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1126176/4194304  (26.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23557
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+49 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 664 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1126176 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4772 texinfos to 3095
+Reduced 431 texdatas to 368 (19458 bytes to 17094)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+2 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 778 portalclusters
+2448 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2005 visible clusters (0.89%)
+Total clusters visible: 226034
+Average clusters visible: 290
+Building PAS...
+Average clusters audible: 713
+visdatasize:139644  compressed from 161824
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 6 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8405 faces
+7 degenerate faces
+931993 square feet [134207128.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8398 patches before subdivision
+78810 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9450992, max 1285
+transfer lists:  72.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(158664, 191397, 105776)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41005, 43680, 20188)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(9997, 9836, 3933)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3063, 2843, 979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(960, 863, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 287, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0120 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 164/1024         7872/49152    (16.0%) 
+brushes               2514/8192        30168/98304    (30.7%) 
+brushsides           18006/65536      144048/524288   (27.5%) 
+planes               10540/65536      210800/1310720  (16.1%) 
+vertexes             14700/65536      176400/786432   (22.4%) 
+nodes                 4376/65536      140032/2097152  ( 6.7%) 
+texinfos              3095/12288      222840/884736   (25.2%) 
+texdata                368/2048        11776/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8405/65536      470680/3670016  (12.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6258/65536      350448/3670016  ( 9.5%) 
+leaves                4541/65536      145312/2097152  ( 6.9%) 
+leaffaces            11451/65536       22902/131072   (17.5%) 
+leafbrushes           7874/65536       15748/131072   (12.0%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            65291/512000     261164/2048000  (12.8%) 
+edges                40726/256000     162904/1024000  (15.9%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            847/32768        8470/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15900/65536       31800/131072   (24.3%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     6009448/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      139644/16777216 ( 0.8%) 
+entdata               [variable]      448574/393216   (114.1%) VERY FULL!
+LDR ambient table     4541/65536       18164/262144   ( 6.9%) 
+HDR ambient table     4541/65536       18164/262144   ( 6.9%) 
+LDR leaf ambient     16963/65536      474964/1835008  (25.9%) 
+HDR leaf ambient      4541/65536      127148/1835008  ( 6.9%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20380    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1126176/4194304  (26.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23580
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+46 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 664 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1126570 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4775 texinfos to 3098
+Reduced 431 texdatas to 369 (19458 bytes to 17147)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+2 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 778 portalclusters
+2448 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2002 visible clusters (0.89%)
+Total clusters visible: 226017
+Average clusters visible: 290
+Building PAS...
+Average clusters audible: 713
+visdatasize:139644  compressed from 161824
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 13 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8455 faces
+7 degenerate faces
+944545 square feet [136014608.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8448 patches before subdivision
+80882 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9633092, max 1292
+transfer lists:  73.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(159511, 192663, 106880)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41083, 43779, 20262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10010, 9849, 3942)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3065, 2845, 979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(961, 863, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 288, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0142 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 164/1024         7872/49152    (16.0%) 
+brushes               2515/8192        30180/98304    (30.7%) 
+brushsides           18012/65536      144096/524288   (27.5%) 
+planes               10552/65536      211040/1310720  (16.1%) 
+vertexes             14731/65536      176772/786432   (22.5%) 
+nodes                 4376/65536      140032/2097152  ( 6.7%) 
+texinfos              3098/12288      223056/884736   (25.2%) 
+texdata                369/2048        11808/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8455/65536      473480/3670016  (12.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6281/65536      351736/3670016  ( 9.6%) 
+leaves                4541/65536      145312/2097152  ( 6.9%) 
+leaffaces            11512/65536       23024/131072   (17.6%) 
+leafbrushes           7889/65536       15778/131072   (12.0%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            65643/512000     262572/2048000  (12.8%) 
+edges                40903/256000     163612/1024000  (16.0%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            848/32768        8480/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15948/65536       31896/131072   (24.3%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     6120444/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      139644/16777216 ( 0.8%) 
+entdata               [variable]      449280/393216   (114.3%) VERY FULL!
+LDR ambient table     4541/65536       18164/262144   ( 6.9%) 
+HDR ambient table     4541/65536       18164/262144   ( 6.9%) 
+LDR leaf ambient     16955/65536      474740/1835008  (25.9%) 
+HDR leaf ambient      4541/65536      127148/1835008  ( 6.9%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20380    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1126570/4194304  (26.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23740
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+49 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 656 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1135410 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4783 texinfos to 3104
+Reduced 431 texdatas to 369 (19458 bytes to 17147)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+2 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 798 portalclusters
+2534 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2130 visible clusters (0.89%)
+Total clusters visible: 238033
+Average clusters visible: 298
+Building PAS...
+Average clusters audible: 733
+visdatasize:146404  compressed from 165984
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 6 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8487 faces
+6 degenerate faces
+946275 square feet [136263728.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8481 patches before subdivision
+81047 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9651628, max 1291
+transfer lists:  73.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(159510, 192667, 106884)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41085, 43782, 20264)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10011, 9850, 3942)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3065, 2845, 980)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(961, 864, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 288, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0120 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 165/1024         7920/49152    (16.1%) 
+brushes               2542/8192        30504/98304    (31.0%) 
+brushsides           18175/65536      145400/524288   (27.7%) 
+planes               10574/65536      211480/1310720  (16.1%) 
+vertexes             14801/65536      177612/786432   (22.6%) 
+nodes                 4414/65536      141248/2097152  ( 6.7%) 
+texinfos              3104/12288      223488/884736   (25.3%) 
+texdata                369/2048        11808/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8487/65536      475272/3670016  (13.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6311/65536      353416/3670016  ( 9.6%) 
+leaves                4580/65536      146560/2097152  ( 7.0%) 
+leaffaces            11558/65536       23116/131072   (17.6%) 
+leafbrushes           7991/65536       15982/131072   (12.2%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            65909/512000     263636/2048000  (12.9%) 
+edges                41061/256000     164244/1024000  (16.0%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            845/32768        8450/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15978/65536       31956/131072   (24.4%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     6137360/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      146404/16777216 ( 0.9%) 
+entdata               [variable]      457152/393216   (116.3%) VERY FULL!
+LDR ambient table     4580/65536       18320/262144   ( 7.0%) 
+HDR ambient table     4580/65536       18320/262144   ( 7.0%) 
+LDR leaf ambient     17165/65536      480620/1835008  (26.2%) 
+HDR leaf ambient      4580/65536      128240/1835008  ( 7.0%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20418    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1135410/4194304  (27.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23822
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+45 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 656 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1135410 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4790 texinfos to 3105
+Reduced 431 texdatas to 369 (19458 bytes to 17147)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+3 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 798 portalclusters
+2534 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2133 visible clusters (0.90%)
+Total clusters visible: 238042
+Average clusters visible: 298
+Building PAS...
+Average clusters audible: 733
+visdatasize:146419  compressed from 165984
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 14 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8487 faces
+6 degenerate faces
+946275 square feet [136263728.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8481 patches before subdivision
+81047 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 656 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1135410 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4790 texinfos to 3105
+Reduced 431 texdatas to 369 (19458 bytes to 17147)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+2 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 798 portalclusters
+2534 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2130 visible clusters (0.89%)
+Total clusters visible: 238033
+Average clusters visible: 298
+Building PAS...
+Average clusters audible: 733
+visdatasize:146404  compressed from 165984
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 13 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8487 faces
+6 degenerate faces
+946275 square feet [136263728.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8481 patches before subdivision
+81047 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9651628, max 1291
+transfer lists:  73.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(159510, 192666, 106883)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41085, 43782, 20265)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10011, 9850, 3942)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3065, 2845, 980)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(961, 864, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 288, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0131 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 165/1024         7920/49152    (16.1%) 
+brushes               2542/8192        30504/98304    (31.0%) 
+brushsides           18176/65536      145408/524288   (27.7%) 
+planes               10580/65536      211600/1310720  (16.1%) 
+vertexes             14801/65536      177612/786432   (22.6%) 
+nodes                 4414/65536      141248/2097152  ( 6.7%) 
+texinfos              3105/12288      223560/884736   (25.3%) 
+texdata                369/2048        11808/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8487/65536      475272/3670016  (13.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6311/65536      353416/3670016  ( 9.6%) 
+leaves                4580/65536      146560/2097152  ( 7.0%) 
+leaffaces            11558/65536       23116/131072   (17.6%) 
+leafbrushes           7991/65536       15982/131072   (12.2%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            65909/512000     263636/2048000  (12.9%) 
+edges                41061/256000     164244/1024000  (16.0%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            845/32768        8450/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15978/65536       31956/131072   (24.4%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     6137360/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      146404/16777216 ( 0.9%) 
+entdata               [variable]      460393/393216   (117.1%) VERY FULL!
+LDR ambient table     4580/65536       18320/262144   ( 7.0%) 
+HDR ambient table     4580/65536       18320/262144   ( 7.0%) 
+LDR leaf ambient     17165/65536      480620/1835008  (26.2%) 
+HDR leaf ambient      4580/65536      128240/1835008  ( 7.0%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20418    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1135410/4194304  (27.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23822
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+48 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 656 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1135426 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4790 texinfos to 3105
+Reduced 431 texdatas to 369 (19458 bytes to 17147)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+3 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 798 portalclusters
+2534 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2130 visible clusters (0.89%)
+Total clusters visible: 238033
+Average clusters visible: 298
+Building PAS...
+Average clusters audible: 733
+visdatasize:146404  compressed from 165984
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 11 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8487 faces
+6 degenerate faces
+946275 square feet [136263728.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8481 patches before subdivision
+81047 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9651628, max 1291
+transfer lists:  73.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(159509, 192665, 106883)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41084, 43781, 20264)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10011, 9850, 3942)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3065, 2845, 980)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(961, 864, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 288, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0126 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 165/1024         7920/49152    (16.1%) 
+brushes               2542/8192        30504/98304    (31.0%) 
+brushsides           18176/65536      145408/524288   (27.7%) 
+planes               10580/65536      211600/1310720  (16.1%) 
+vertexes             14801/65536      177612/786432   (22.6%) 
+nodes                 4414/65536      141248/2097152  ( 6.7%) 
+texinfos              3105/12288      223560/884736   (25.3%) 
+texdata                369/2048        11808/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8487/65536      475272/3670016  (13.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6311/65536      353416/3670016  ( 9.6%) 
+leaves                4580/65536      146560/2097152  ( 7.0%) 
+leaffaces            11558/65536       23116/131072   (17.6%) 
+leafbrushes           7994/65536       15988/131072   (12.2%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            65909/512000     263636/2048000  (12.9%) 
+edges                41061/256000     164244/1024000  (16.0%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            845/32768        8450/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15978/65536       31956/131072   (24.4%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     6137360/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      146404/16777216 ( 0.9%) 
+entdata               [variable]      458245/393216   (116.5%) VERY FULL!
+LDR ambient table     4580/65536       18320/262144   ( 7.0%) 
+HDR ambient table     4580/65536       18320/262144   ( 7.0%) 
+LDR leaf ambient     17165/65536      480620/1835008  (26.2%) 
+HDR leaf ambient      4580/65536      128240/1835008  ( 7.0%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20418    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1135426/4194304  (27.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23822
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+48 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 656 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1135858 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4780 texinfos to 3099
+Reduced 431 texdatas to 369 (19458 bytes to 17147)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+3 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 805 portalclusters
+2576 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2220 visible clusters (0.91%)
+Total clusters visible: 244138
+Average clusters visible: 303
+Building PAS...
+Average clusters audible: 740
+visdatasize:149641  compressed from 167440
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8490 faces
+6 degenerate faces
+946473 square feet [136292144.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8484 patches before subdivision
+81106 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9651299, max 1293
+transfer lists:  73.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(159490, 192661, 106908)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41076, 43770, 20257)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10006, 9845, 3939)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3064, 2844, 979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(960, 863, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 287, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0125 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 164/1024         7872/49152    (16.0%) 
+brushes               2544/8192        30528/98304    (31.1%) 
+brushsides           18188/65536      145504/524288   (27.8%) 
+planes               10576/65536      211520/1310720  (16.1%) 
+vertexes             14803/65536      177636/786432   (22.6%) 
+nodes                 4416/65536      141312/2097152  ( 6.7%) 
+texinfos              3099/12288      223128/884736   (25.2%) 
+texdata                369/2048        11808/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8490/65536      475440/3670016  (13.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6314/65536      353584/3670016  ( 9.6%) 
+leaves                4581/65536      146592/2097152  ( 7.0%) 
+leaffaces            11588/65536       23176/131072   (17.7%) 
+leafbrushes           8029/65536       16058/131072   (12.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            65945/512000     263780/2048000  (12.9%) 
+edges                41083/256000     164332/1024000  (16.0%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            848/32768        8480/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16023/65536       32046/131072   (24.4%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     6138164/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      149641/16777216 ( 0.9%) 
+entdata               [variable]      457907/393216   (116.5%) VERY FULL!
+LDR ambient table     4581/65536       18324/262144   ( 7.0%) 
+HDR ambient table     4581/65536       18324/262144   ( 7.0%) 
+LDR leaf ambient     17187/65536      481236/1835008  (26.2%) 
+HDR leaf ambient      4581/65536      128268/1835008  ( 7.0%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20436    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1135858/4194304  (27.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23840
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+50 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 656 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1135858 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4780 texinfos to 3099
+Reduced 431 texdatas to 369 (19458 bytes to 17147)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+3 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 805 portalclusters
+2576 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2222 visible clusters (0.91%)
+Total clusters visible: 244140
+Average clusters visible: 303
+Building PAS...
+Average clusters audible: 740
+visdatasize:149641  compressed from 167440
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8490 faces
+6 degenerate faces
+946473 square feet [136292144.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8484 patches before subdivision
+81106 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9651299, max 1293
+transfer lists:  73.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(159489, 192659, 106906)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41076, 43769, 20256)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10006, 9845, 3939)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3064, 2844, 979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(960, 863, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 287, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0137 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 164/1024         7872/49152    (16.0%) 
+brushes               2544/8192        30528/98304    (31.1%) 
+brushsides           18188/65536      145504/524288   (27.8%) 
+planes               10576/65536      211520/1310720  (16.1%) 
+vertexes             14803/65536      177636/786432   (22.6%) 
+nodes                 4416/65536      141312/2097152  ( 6.7%) 
+texinfos              3099/12288      223128/884736   (25.2%) 
+texdata                369/2048        11808/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8490/65536      475440/3670016  (13.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6314/65536      353584/3670016  ( 9.6%) 
+leaves                4581/65536      146592/2097152  ( 7.0%) 
+leaffaces            11588/65536       23176/131072   (17.7%) 
+leafbrushes           8029/65536       16058/131072   (12.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            65945/512000     263780/2048000  (12.9%) 
+edges                41083/256000     164332/1024000  (16.0%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            848/32768        8480/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16023/65536       32046/131072   (24.4%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     6138164/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      149641/16777216 ( 0.9%) 
+entdata               [variable]      458601/393216   (116.6%) VERY FULL!
+LDR ambient table     4581/65536       18324/262144   ( 7.0%) 
+HDR ambient table     4581/65536       18324/262144   ( 7.0%) 
+LDR leaf ambient     17189/65536      481292/1835008  (26.2%) 
+HDR leaf ambient      4581/65536      128268/1835008  ( 7.0%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20436    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1135858/4194304  (27.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23840
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+49 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 656 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1135858 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4777 texinfos to 3099
+Reduced 431 texdatas to 369 (19458 bytes to 17147)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+3 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 805 portalclusters
+2576 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2220 visible clusters (0.91%)
+Total clusters visible: 244138
+Average clusters visible: 303
+Building PAS...
+Average clusters audible: 740
+visdatasize:149641  compressed from 167440
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 18 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8490 faces
+6 degenerate faces
+946803 square feet [136339632.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8484 patches before subdivision
+81106 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9651273, max 1293
+transfer lists:  73.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(159475, 192629, 106888)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41077, 43770, 20256)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10006, 9845, 3939)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3064, 2844, 979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(960, 863, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 287, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0131 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 164/1024         7872/49152    (16.0%) 
+brushes               2544/8192        30528/98304    (31.1%) 
+brushsides           18187/65536      145496/524288   (27.8%) 
+planes               10580/65536      211600/1310720  (16.1%) 
+vertexes             14803/65536      177636/786432   (22.6%) 
+nodes                 4416/65536      141312/2097152  ( 6.7%) 
+texinfos              3099/12288      223128/884736   (25.2%) 
+texdata                369/2048        11808/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8490/65536      475440/3670016  (13.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6314/65536      353584/3670016  ( 9.6%) 
+leaves                4581/65536      146592/2097152  ( 7.0%) 
+leaffaces            11588/65536       23176/131072   (17.7%) 
+leafbrushes           8029/65536       16058/131072   (12.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            65945/512000     263780/2048000  (12.9%) 
+edges                41083/256000     164332/1024000  (16.0%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            848/32768        8480/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16023/65536       32046/131072   (24.4%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     6138164/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      149641/16777216 ( 0.9%) 
+entdata               [variable]      458556/393216   (116.6%) VERY FULL!
+LDR ambient table     4581/65536       18324/262144   ( 7.0%) 
+HDR ambient table     4581/65536       18324/262144   ( 7.0%) 
+LDR leaf ambient     17189/65536      481292/1835008  (26.2%) 
+HDR leaf ambient      4581/65536      128268/1835008  ( 7.0%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20436    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1135858/4194304  (27.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23840
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+47 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 656 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1137108 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4781 texinfos to 3102
+Reduced 431 texdatas to 369 (19458 bytes to 17147)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+3 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 805 portalclusters
+2576 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2220 visible clusters (0.91%)
+Total clusters visible: 244138
+Average clusters visible: 303
+Building PAS...
+Average clusters audible: 740
+visdatasize:149641  compressed from 167440
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8500 faces
+6 degenerate faces
+947984 square feet [136509760.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8494 patches before subdivision
+81116 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9653183, max 1293
+transfer lists:  73.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(159510, 192694, 106940)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41086, 43788, 20268)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10007, 9846, 3940)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3064, 2844, 979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(960, 863, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 287, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0124 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 165/1024         7920/49152    (16.1%) 
+brushes               2546/8192        30552/98304    (31.1%) 
+brushsides           18219/65536      145752/524288   (27.8%) 
+planes               10672/65536      213440/1310720  (16.3%) 
+vertexes             14815/65536      177780/786432   (22.6%) 
+nodes                 4427/65536      141664/2097152  ( 6.8%) 
+texinfos              3102/12288      223344/884736   (25.2%) 
+texdata                369/2048        11808/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8500/65536      476000/3670016  (13.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6324/65536      354144/3670016  ( 9.6%) 
+leaves                4593/65536      146976/2097152  ( 7.0%) 
+leaffaces            11598/65536       23196/131072   (17.7%) 
+leafbrushes           8031/65536       16062/131072   (12.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            66025/512000     264100/2048000  (12.9%) 
+edges                41123/256000     164492/1024000  (16.1%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            848/32768        8480/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16023/65536       32046/131072   (24.4%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     6138164/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      149641/16777216 ( 0.9%) 
+entdata               [variable]      459354/393216   (116.8%) VERY FULL!
+LDR ambient table     4593/65536       18372/262144   ( 7.0%) 
+HDR ambient table     4593/65536       18372/262144   ( 7.0%) 
+LDR leaf ambient     17199/65536      481572/1835008  (26.2%) 
+HDR leaf ambient      4593/65536      128604/1835008  ( 7.0%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20436    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1137108/4194304  (27.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23860
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+47 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 656 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1137108 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4781 texinfos to 3102
+Reduced 431 texdatas to 369 (19458 bytes to 17147)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+3 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 805 portalclusters
+2576 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2222 visible clusters (0.91%)
+Total clusters visible: 244140
+Average clusters visible: 303
+Building PAS...
+Average clusters audible: 740
+visdatasize:149641  compressed from 167440
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 24 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8500 faces
+6 degenerate faces
+947984 square feet [136509760.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8494 patches before subdivision
+81116 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9653183, max 1293
+transfer lists:  73.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(159513, 192698, 106944)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41087, 43788, 20269)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10007, 9846, 3940)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3064, 2844, 979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(960, 863, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 287, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0124 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 165/1024         7920/49152    (16.1%) 
+brushes               2546/8192        30552/98304    (31.1%) 
+brushsides           18219/65536      145752/524288   (27.8%) 
+planes               10678/65536      213560/1310720  (16.3%) 
+vertexes             14815/65536      177780/786432   (22.6%) 
+nodes                 4427/65536      141664/2097152  ( 6.8%) 
+texinfos              3102/12288      223344/884736   (25.2%) 
+texdata                369/2048        11808/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8500/65536      476000/3670016  (13.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6324/65536      354144/3670016  ( 9.6%) 
+leaves                4593/65536      146976/2097152  ( 7.0%) 
+leaffaces            11598/65536       23196/131072   (17.7%) 
+leafbrushes           8054/65536       16108/131072   (12.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            66025/512000     264100/2048000  (12.9%) 
+edges                41123/256000     164492/1024000  (16.1%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            848/32768        8480/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16023/65536       32046/131072   (24.4%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     6138164/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      149641/16777216 ( 0.9%) 
+entdata               [variable]      459354/393216   (116.8%) VERY FULL!
+LDR ambient table     4593/65536       18372/262144   ( 7.0%) 
+HDR ambient table     4593/65536       18372/262144   ( 7.0%) 
+LDR leaf ambient     17198/65536      481544/1835008  (26.2%) 
+HDR leaf ambient      4593/65536      128604/1835008  ( 7.0%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20436    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1137108/4194304  (27.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23860
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+48 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 656 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1137108 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4781 texinfos to 3102
+Reduced 431 texdatas to 369 (19458 bytes to 17147)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+3 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 805 portalclusters
+2576 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2220 visible clusters (0.91%)
+Total clusters visible: 244138
+Average clusters visible: 303
+Building PAS...
+Average clusters audible: 740
+visdatasize:149641  compressed from 167440
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8500 faces
+6 degenerate faces
+947984 square feet [136509760.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8494 patches before subdivision
+81116 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 656 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1137108 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4781 texinfos to 3102
+Reduced 431 texdatas to 369 (19458 bytes to 17147)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+2 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 805 portalclusters
+2576 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2220 visible clusters (0.91%)
+Total clusters visible: 244138
+Average clusters visible: 303
+Building PAS...
+Average clusters audible: 740
+visdatasize:149641  compressed from 167440
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 16 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8500 faces
+6 degenerate faces
+947984 square feet [136509760.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8494 patches before subdivision
+81116 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9653183, max 1293
+transfer lists:  73.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(159512, 192696, 106942)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41086, 43788, 20268)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10007, 9846, 3940)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3064, 2844, 979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(960, 863, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 287, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0123 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 165/1024         7920/49152    (16.1%) 
+brushes               2546/8192        30552/98304    (31.1%) 
+brushsides           18219/65536      145752/524288   (27.8%) 
+planes               10678/65536      213560/1310720  (16.3%) 
+vertexes             14815/65536      177780/786432   (22.6%) 
+nodes                 4427/65536      141664/2097152  ( 6.8%) 
+texinfos              3102/12288      223344/884736   (25.2%) 
+texdata                369/2048        11808/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8500/65536      476000/3670016  (13.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6324/65536      354144/3670016  ( 9.6%) 
+leaves                4593/65536      146976/2097152  ( 7.0%) 
+leaffaces            11598/65536       23196/131072   (17.7%) 
+leafbrushes           8054/65536       16108/131072   (12.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            66025/512000     264100/2048000  (12.9%) 
+edges                41123/256000     164492/1024000  (16.1%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            848/32768        8480/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16023/65536       32046/131072   (24.4%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     6138164/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      149641/16777216 ( 0.9%) 
+entdata               [variable]      459851/393216   (116.9%) VERY FULL!
+LDR ambient table     4593/65536       18372/262144   ( 7.0%) 
+HDR ambient table     4593/65536       18372/262144   ( 7.0%) 
+LDR leaf ambient     17198/65536      481544/1835008  (26.2%) 
+HDR leaf ambient      4593/65536      128604/1835008  ( 7.0%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20436    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1137108/4194304  (27.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23860
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+47 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 656 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (1137108 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4781 texinfos to 3102
+Reduced 431 texdatas to 369 (19458 bytes to 17147)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+3 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 805 portalclusters
+2576 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2214 visible clusters (0.91%)
+Total clusters visible: 244132
+Average clusters visible: 303
+Building PAS...
+Average clusters audible: 740
+visdatasize:149641  compressed from 167440
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 17 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8500 faces
+6 degenerate faces
+947984 square feet [136509760.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8494 patches before subdivision
+81116 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9653183, max 1293
+transfer lists:  73.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(159512, 192696, 106942)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41086, 43788, 20268)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10007, 9846, 3940)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3064, 2844, 979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(960, 863, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 287, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0121 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 165/1024         7920/49152    (16.1%) 
+brushes               2546/8192        30552/98304    (31.1%) 
+brushsides           18219/65536      145752/524288   (27.8%) 
+planes               10678/65536      213560/1310720  (16.3%) 
+vertexes             14815/65536      177780/786432   (22.6%) 
+nodes                 4427/65536      141664/2097152  ( 6.8%) 
+texinfos              3102/12288      223344/884736   (25.2%) 
+texdata                369/2048        11808/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8500/65536      476000/3670016  (13.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6324/65536      354144/3670016  ( 9.6%) 
+leaves                4593/65536      146976/2097152  ( 7.0%) 
+leaffaces            11598/65536       23196/131072   (17.7%) 
+leafbrushes           8054/65536       16108/131072   (12.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            66025/512000     264100/2048000  (12.9%) 
+edges                41123/256000     164492/1024000  (16.1%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            848/32768        8480/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16023/65536       32046/131072   (24.4%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     6138164/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      149641/16777216 ( 0.9%) 
+entdata               [variable]      459754/393216   (116.9%) VERY FULL!
+LDR ambient table     4593/65536       18372/262144   ( 7.0%) 
+HDR ambient table     4593/65536       18372/262144   ( 7.0%) 
+LDR leaf ambient     17198/65536      481544/1835008  (26.2%) 
+HDR leaf ambient      4593/65536      128604/1835008  ( 7.0%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20436    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1137108/4194304  (27.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23860
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+48 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 656 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1137108 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4781 texinfos to 3102
+Reduced 431 texdatas to 369 (19458 bytes to 17147)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+3 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 805 portalclusters
+2576 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2220 visible clusters (0.91%)
+Total clusters visible: 244138
+Average clusters visible: 303
+Building PAS...
+Average clusters audible: 740
+visdatasize:149641  compressed from 167440
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8500 faces
+6 degenerate faces
+947984 square feet [136509744.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8494 patches before subdivision
+81116 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9653311, max 1293
+transfer lists:  73.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(159513, 192696, 106942)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41086, 43787, 20268)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10007, 9846, 3940)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3064, 2844, 979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(960, 863, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 287, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0127 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 165/1024         7920/49152    (16.1%) 
+brushes               2546/8192        30552/98304    (31.1%) 
+brushsides           18219/65536      145752/524288   (27.8%) 
+planes               10678/65536      213560/1310720  (16.3%) 
+vertexes             14815/65536      177780/786432   (22.6%) 
+nodes                 4427/65536      141664/2097152  ( 6.8%) 
+texinfos              3102/12288      223344/884736   (25.2%) 
+texdata                369/2048        11808/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8500/65536      476000/3670016  (13.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6324/65536      354144/3670016  ( 9.6%) 
+leaves                4593/65536      146976/2097152  ( 7.0%) 
+leaffaces            11598/65536       23196/131072   (17.7%) 
+leafbrushes           8054/65536       16108/131072   (12.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            66025/512000     264100/2048000  (12.9%) 
+edges                41123/256000     164492/1024000  (16.1%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            848/32768        8480/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16023/65536       32046/131072   (24.4%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     6138164/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      149641/16777216 ( 0.9%) 
+entdata               [variable]      458344/393216   (116.6%) VERY FULL!
+LDR ambient table     4593/65536       18372/262144   ( 7.0%) 
+HDR ambient table     4593/65536       18372/262144   ( 7.0%) 
+LDR leaf ambient     17198/65536      481544/1835008  (26.2%) 
+HDR leaf ambient      4593/65536      128604/1835008  ( 7.0%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20436    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1137108/4194304  (27.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23860
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+47 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/d1_town_01_d/nature/red_grass_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blenddirtgrass008a_wvt_patch
+Patching WVT material: maps/d1_town_01_d/nature/blendgrassgravel001a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 656 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (1136555 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 4772 texinfos to 3097
+Reduced 431 texdatas to 369 (19458 bytes to 17147)
+Writing E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'E:\TF2 Mods and Maps\maps\LFCE Fixed Maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 17305740, actual size 17220972
+3 seconds elapsed
+
+
+
+8 threads
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+reading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.prt
+ 805 portalclusters
+2576 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 2220 visible clusters (0.91%)
+Total clusters visible: 244138
+Average clusters visible: 303
+Building PAS...
+Average clusters audible: 740
+visdatasize:149641  compressed from 167440
+writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp', but we don't own that location. Allowing.
+1 minute, 40 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+8494 faces
+6 degenerate faces
+947827 square feet [136487216.00 square inches]
+8 Displacements
+12746 Square Feet [1835518.25 Square Inches]
+8488 patches before subdivision
+81110 patches after subdivision
+52 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 9652259, max 1293
+transfer lists:  73.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(159505, 192684, 106931)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(41086, 43786, 20267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(10007, 9846, 3940)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3064, 2844, 979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(960, 863, 262)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(326, 287, 78)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(114, 100, 25)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(42, 37, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(16, 14, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0135 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 2 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 164/1024         7872/49152    (16.0%) 
+brushes               2545/8192        30540/98304    (31.1%) 
+brushsides           18213/65536      145704/524288   (27.8%) 
+planes               10672/65536      213440/1310720  (16.3%) 
+vertexes             14807/65536      177684/786432   (22.6%) 
+nodes                 4421/65536      141472/2097152  ( 6.7%) 
+texinfos              3097/12288      222984/884736   (25.2%) 
+texdata                369/2048        11808/65536    (18.0%) 
+dispinfos                8/0            1408/0        ( 0.0%) 
+disp_verts            1008/0           20160/0        ( 0.0%) 
+disp_tris             1696/0            3392/0        ( 0.0%) 
+disp_lmsamples       35067/0           35067/0        ( 0.0%) 
+faces                 8494/65536      475664/3670016  (13.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6318/65536      353808/3670016  ( 9.6%) 
+leaves                4586/65536      146752/2097152  ( 7.0%) 
+leaffaces            11592/65536       23184/131072   (17.7%) 
+leafbrushes           8053/65536       16106/131072   (12.3%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            65977/512000     263908/2048000  (12.9%) 
+edges                41099/256000     164396/1024000  (16.1%) 
+LDR worldlights         46/8192         4048/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            848/32768        8480/327680   ( 2.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         16023/65536       32046/131072   (24.4%) 
+cubemapsamples         161/1024         2576/16384    (15.7%) 
+overlays                10/512          3520/180224   ( 2.0%) 
+LDR lightdata         [variable]     6138164/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      149641/16777216 ( 0.9%) 
+entdata               [variable]      456081/393216   (116.0%) VERY FULL!
+LDR ambient table     4586/65536       18344/262144   ( 7.0%) 
+HDR ambient table     4586/65536       18344/262144   ( 7.0%) 
+LDR leaf ambient     17228/65536      482384/1835008  (26.3%) 
+HDR leaf ambient      4586/65536      128408/1835008  ( 7.0%) 
+occluders                3/0             120/0        ( 0.0%) 
+occluder polygons        5/0              60/0        ( 0.0%) 
+occluder vert ind       20/0              80/0        ( 0.0%) 
+detail props          [variable]           1/32840    ( 0.0%) 
+dtl prp lght          [variable]           1/169      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/20436    ( 0.0%) 
+pakfile               [variable]    17220972/0        ( 0.0%) 
+physics               [variable]     1136555/4194304  (27.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23848
+Writing e:\tf2 mods and maps\maps\lfce fixed maps\d1_town_01_d.bsp
+53 seconds elapsed
