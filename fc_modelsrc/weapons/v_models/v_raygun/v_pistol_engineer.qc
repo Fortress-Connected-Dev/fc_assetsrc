@@ -3,7 +3,7 @@ $modelname "weapons/v_models/v_raygun.mdl"
 
 $bodygroup "body"
 {
-	studio "raygun_ref.smd"
+	studio "raygun_ref_new_uv.smd"
 }
 
 $surfaceprop "metal"
