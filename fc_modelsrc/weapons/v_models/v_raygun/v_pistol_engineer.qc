@@ -225,12 +225,11 @@ $sequence "pstl_reload" {
 	activity "ACT_VM_RELOAD" 1
 	{ event 5004 0 "MeleeInspect.Movement4" }
 	{ event 5004 4 "Weapon_FlareGun.BoltBack" }
-	{ event 5004 10 "Weapon_FlareGun.TubeOpen" }
-	{ event 5004 62 "Weapon_FlareGun.Reload" }
+	{ event 5004 10 "Weapon_CodRaygun.Reload3" }
+	{ event 5004 62 "Weapon_CodRaygun.Reload1" }
 	{ event 5004 50 "MeleeInspect.Movement2" }
 	{ event 5004 77 "Weapon_Pistol.ClipIn" }
-	{ event 5004 80 "Building_Sentrygun.Build13" }
-	{ event 5004 26 "Weapon_SyringeGun.Reload1" }
+	{ event 5004 80 "Weapon_CodRaygun.Reload2" }
 	fadein 0.2
 	fadeout 0.2
 	snap
