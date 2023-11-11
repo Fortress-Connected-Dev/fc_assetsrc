@@ -2,179 +2,286 @@
 
 $modelname "zombie/merczombie.mdl"
 
-$model "mercenary" "mercenary_morphs_low.smd" {
+$Model "head" "head_rel.smd" {
 
-	flexfile "mercenary_zombie_01.vta" 
+	eyeball "eye_right" "bip_head" -1.310000 78.460021 3.419936 "eyeball_invun" 1.4 4 "iris_unused" 0.75
+	eyeball "eye_left" "bip_head" 1.310000 78.460021 3.419936 "eyeball_invun" 1.4 -4 "iris_unused" 0.75
+
+
+	flexfile "head_rel.vta" 
 	{
 		defaultflex frame 0
 		flexpair "CloseLidLo" 1 frame 1
 		flexpair "CloseLidUp" 1 frame 2
-		flex "WQ" frame 3
-		flex "OO" frame 4
-		flex "MB" frame 5
-		flex "SH" frame 6
-		flex "Y" frame 7
-		flex "FV" frame 8
-		flex "AH" frame 9
-		flex "AE" frame 10
-		flex "UH" frame 11
-		flex "AW" frame 12
-		flex "EE" frame 13
-		flex "PP" frame 14
-		flex "OH" frame 15
-		flex "TH" frame 16
-		flex "T" frame 17
-		flex "ER" frame 18
-		flex "DS" frame 19
-		flex "GK" frame 20
-		flex "N" frame 21
-		flex "happySmall" frame 22
-		flex "madUpper" frame 23
-		flex "specialAction01Upper" frame 24
-		flex "defaultFaceUpper" frame 25
-		flex "scaredUpper" frame 26
-		flex "painBigUpper" frame 27
-		flex "painSmallUpper" frame 28
-		flex "happyBigUpper" frame 29
-		flex "happySmallUpper" frame 30
-		flex "specialAction01" frame 31
-		flex "defaultFace" frame 32
-		flex "scared" frame 33
-		flex "mad" frame 34
-		flex "painBig" frame 35
-		flex "painSmall" frame 36
-		flex "happyBig" frame 37
+		flexpair "InnerSquint" 1 frame 3
+		flexpair "OuterSquint" 1 frame 4
+		flexpair "WrinkleNose" 1 frame 5
+		flexpair "RaiseBrowIn" 1 frame 6
+		flexpair "BrowOutV" 1 frame 7
+		flexpair "Frown" 1 frame 8
+		flexpair "PressNose" 1 frame 9
+		flexpair "SneerNose" 1 frame 10
+		flexpair "SuckNostril" 1 frame 11
+		flexpair "BlowNostril" 1 frame 12
+		flexpair "CheekV" 1 frame 13
+		flexpair "DeflateCheek" 1 frame 14
+		flexpair "InflateCheek" 1 frame 15
+		flex "SuckJaw" frame 16
+		flex "JutJaw" frame 17
+		flex "SlideJawR" frame 18
+		flex "SlideJawL" frame 19
+		flex "ClenchJaw" frame 20
+		flex "OpenJaw" frame 21
+		flexpair "CompressLips" 1 frame 22
+		flexpair "OpenLips" 1 frame 23
+		flexpair "JutUpperLip" 1 frame 24
+		flexpair "OpenUpperLip" 1 frame 25
+		flexpair "RaiseChin" 1 frame 26
+		flexpair "OpenLowerLip" 1 frame 27
+		flexpair "SmileFlat" 1 frame 28
+		flexpair "SmileFull" 1 frame 29
+		flexpair "SmileSharp" 1 frame 30
+		flexpair "Platysmus" 1 frame 31
+		flexpair "FunnelLipUp" 1 frame 32
+		flexpair "FunnelLipLo" 1 frame 33
+		flexpair "PuckerLipUp" 1 frame 34
+		flexpair "PuckerLipLo" 1 frame 35
+		flexpair "LipCnrTwst" 1 frame 36
+		flexpair "Dimple" 1 frame 37
+		flexpair "PuffLipUp" 1 frame 38
+		flexpair "PuffLipLo" 1 frame 39
+		flexpair "BrowOutV_RaiseBrowIn" 1 frame 40
+		flexpair "CloseLidLo_InnerSquint" 1 frame 41
+		flexpair "CloseLidLo_OuterSquint" 1 frame 42
+		flexpair "CloseLidUp_InnerSquint" 1 frame 43
+		flexpair "CloseLidUp_OuterSquint" 1 frame 44
+		flexpair "Frown_RaiseBrowIn" 1 frame 45
+		flexpair "BrowOutV_RaiseBrowIn_Frown" 1 frame 46
+		flexpair "OpenJaw_OpenUpperLip" 1 frame 47
+		flexpair "FunnelLipLo_FunnelLipUp" 1 frame 48
+		flexpair "SmileFull_OpenUpperLip" 1 frame 49
+		flexpair "OpenJaw_OpenUpperLip_SmileFull" 1 frame 50
+		flexpair "OpenJaw_OpenLips" 1 frame 51
+		flex "HeadHideGib" frame 52
 	}
 
 	flexcontroller right_CloseLid range -1 1 "right_CloseLid"
 	flexcontroller left_CloseLid range -1 1 "left_CloseLid"
 	flexcontroller multi_CloseLid range -1 1 "multi_CloseLid"
 	flexcontroller blink range 0 1 "blink"
-	flexcontroller madUpper range 0 1 "madUpper"
-	flexcontroller defaultFace range 0 1 "defaultFace"
-	flexcontroller painBigUpper range 0 1 "painBigUpper"
-	flexcontroller DS range 0 1 "DS"
-	flexcontroller happyBig range 0 1 "happyBig"
-	flexcontroller mad range 0 1 "mad"
-	flexcontroller silence range 0 1 "silence"
-	flexcontroller GK range 0 1 "GK"
-	flexcontroller painSmall range 0 1 "painSmall"
-	flexcontroller scared range 0 1 "scared"
-	flexcontroller N range 0 1 "N"
-	flexcontroller AW range 0 1 "AW"
-	flexcontroller happySmallUpper range 0 1 "happySmallUpper"
-	flexcontroller happyBigUpper range 0 1 "happyBigUpper"
-	flexcontroller painSmallUpper range 0 1 "painSmallUpper"
-	flexcontroller specialAction01Upper range 0 1 "specialAction01Upper"
-	flexcontroller happySmall range 0 1 "happySmall"
-	flexcontroller scaredUpper range 0 1 "scaredUpper"
-	flexcontroller TH range 0 1 "TH"
-	flexcontroller OH range 0 1 "OH"
-	flexcontroller ER range 0 1 "ER"
-	flexcontroller T range 0 1 "T"
-	flexcontroller specialAction01 range 0 1 "specialAction01"
-	flexcontroller painBig range 0 1 "painBig"
-	flexcontroller PP range 0 1 "PP"
-	flexcontroller EE range 0 1 "EE"
-	flexcontroller defaultFaceUpper range 0 1 "defaultFaceUpper"
-	flexcontroller WQ range 0 1 "WQ"
-	flexcontroller OO range 0 1 "OO"
-	flexcontroller MB range 0 1 "MB"
-	flexcontroller SH range 0 1 "SH"
-	flexcontroller Y range 0 1 "Y"
-	flexcontroller FV range 0 1 "FV"
-	flexcontroller AH range 0 1 "AH"
-	flexcontroller AE range 0 1 "AE"
-	flexcontroller UH range 0 1 "UH"
+	flexcontroller right_InnerSquint range 0 1 "right_InnerSquint"
+	flexcontroller left_InnerSquint range 0 1 "left_InnerSquint"
+	flexcontroller right_OuterSquint range 0 1 "right_OuterSquint"
+	flexcontroller left_OuterSquint range 0 1 "left_OuterSquint"
+	flexcontroller right_BrowInV range -1 1 "right_BrowInV"
+	flexcontroller left_BrowInV range -1 1 "left_BrowInV"
+	flexcontroller right_BrowOutV range 0 1 "right_BrowOutV"
+	flexcontroller left_BrowOutV range 0 1 "left_BrowOutV"
+	flexcontroller right_Frown range 0 1 "right_Frown"
+	flexcontroller left_Frown range 0 1 "left_Frown"
+	flexcontroller right_NoseV range -1 1 "right_NoseV"
+	flexcontroller left_NoseV range -1 1 "left_NoseV"
+	flexcontroller right_NostrilFlare range -1 1 "right_NostrilFlare"
+	flexcontroller left_NostrilFlare range -1 1 "left_NostrilFlare"
+	flexcontroller right_CheekV range 0 1 "right_CheekV"
+	flexcontroller left_CheekV range 0 1 "left_CheekV"
+	flexcontroller HeadHide range 0 1 "HeadHide"
+	flexcontroller right_CheekH range -1 1 "right_CheekH"
+	flexcontroller left_CheekH range -1 1 "left_CheekH"
+	flexcontroller JawD range -1 1 "JawD"
+	flexcontroller JawH range -1 1 "JawH"
+	flexcontroller JawV range -1 1 "JawV"
+	flexcontroller right_LipsV range -1 1 "right_LipsV"
+	flexcontroller left_LipsV range -1 1 "left_LipsV"
+	flexcontroller right_LipUpV range -1 1 "right_LipUpV"
+	flexcontroller left_LipUpV range -1 1 "left_LipUpV"
+	flexcontroller right_LipLoV range -1 1 "right_LipLoV"
+	flexcontroller left_LipLoV range -1 1 "left_LipLoV"
+	flexcontroller right_Smile range 0 1 "right_Smile"
+	flexcontroller left_Smile range 0 1 "left_Smile"
+	flexcontroller multi_Smile range -1 1 "multi_Smile"
+	flexcontroller right_Platysmus range 0 1 "right_Platysmus"
+	flexcontroller left_Platysmus range 0 1 "left_Platysmus"
+	flexcontroller right_FoldLipUp range -1 1 "right_FoldLipUp"
+	flexcontroller left_FoldLipUp range -1 1 "left_FoldLipUp"
+	flexcontroller right_FoldLipLo range -1 1 "right_FoldLipLo"
+	flexcontroller left_FoldLipLo range -1 1 "left_FoldLipLo"
+	flexcontroller right_PuckerLipUp range 0 1 "right_PuckerLipUp"
+	flexcontroller left_PuckerLipUp range 0 1 "left_PuckerLipUp"
+	flexcontroller right_PuckerLipLo range 0 1 "right_PuckerLipLo"
+	flexcontroller left_PuckerLipLo range 0 1 "left_PuckerLipLo"
+	flexcontroller right_LipCnrTwst range 0 1 "right_LipCnrTwst"
+	flexcontroller left_LipCnrTwst range 0 1 "left_LipCnrTwst"
+	flexcontroller right_Dimple range 0 1 "right_Dimple"
+	flexcontroller left_Dimple range 0 1 "left_Dimple"
+	flexcontroller right_PuffLipUp range 0 1 "right_PuffLipUp"
+	flexcontroller left_PuffLipUp range 0 1 "left_PuffLipUp"
+	flexcontroller right_PuffLipLo range 0 1 "right_PuffLipLo"
+	flexcontroller left_PuffLipLo range 0 1 "left_PuffLipLo"
+	flexcontroller TongueV range 0 1 "TongueV"
+	flexcontroller TongueH range -1 1 "TongueH"
+	flexcontroller TongueCurl range -1 1 "TongueCurl"
+	flexcontroller TongueD range -1 1 "TongueD"
+	flexcontroller TongueFunnel range 0 1 "TongueFunnel"
+	flexcontroller TongueWidth range -1 1 "TongueWidth"
+	flexcontroller right_EyesWideOpen range 0 1 "right_EyesWideOpen"
+	flexcontroller left_EyesWideOpen range 0 1 "left_EyesWideOpen"
+	flexcontroller right_PuckerSizeAdj range 0 1 "right_PuckerSizeAdj"
+	flexcontroller left_PuckerSizeAdj range 0 1 "left_PuckerSizeAdj"
+	flexcontroller eyes range -45 45 "eyes_updown"
+	flexcontroller eyes range -45 45 "eyes_rightleft"
 
-	localvar silence
-	%WQ = WQ
-	%OO = OO
-	%MB = MB
-	%SH = SH
-	%Y = Y
-	%FV = FV
-	%AH = AH
-	%AE = AE
-	%UH = UH
-	%AW = AW
-	%EE = EE
-	%PP = PP
-	%OH = OH
-	%TH = TH
-	%T = T
-	%ER = ER
-	%DS = DS
-	%GK = GK
-	%N = N
-	%silence = silence
-	%happySmall = happySmall
-	%madUpper = madUpper
-	%specialAction01Upper = specialAction01Upper
-	%defaultFaceUpper = defaultFaceUpper
-	%scaredUpper = scaredUpper
-	%painBigUpper = painBigUpper
-	%painSmallUpper = painSmallUpper
-	%happyBigUpper = happyBigUpper
-	%happySmallUpper = happySmallUpper
-	%specialAction01 = specialAction01
-	%defaultFace = defaultFace
-	%scared = scared
-	%mad = mad
-	%painBig = painBig
-	%painSmall = painSmall
-	%happyBig = happyBig
+	localvar SuckLipUpL
+	localvar SuckLipUpR
+	localvar SuckLipLoL
+	localvar SuckLipLoR
+	%CloseLidLoL = min(1, (1 - -1 + 2 * min(max(((eyes_updown - -45) / (45 - -45)), 0), 1))) * (1 - min(max(((multi_CloseLid - -1) / (1 - -1)), 0), 1)) * min(max(((left_CloseLid - -1) / (1 - -1)), 0), 1)
+	%CloseLidLoR = min(1, (1 - -1 + 2 * min(max(((eyes_updown - -45) / (45 - -45)), 0), 1))) * (1 - min(max(((multi_CloseLid - -1) / (1 - -1)), 0), 1)) * min(max(((right_CloseLid - -1) / (1 - -1)), 0), 1)
+	%CloseLidUpL = min(1, (1 + -1 + 2 * min(max(((eyes_updown - -45) / (45 - -45)), 0), 1))) * min(max(((multi_CloseLid - -1) / (1 - -1)), 0), 1) * min(max(((left_CloseLid - -1) / (1 - -1)), 0), 1)
+	%CloseLidUpR = min(1, (1 + -1 + 2 * min(max(((eyes_updown - -45) / (45 - -45)), 0), 1))) * min(max(((multi_CloseLid - -1) / (1 - -1)), 0), 1) * min(max(((right_CloseLid - -1) / (1 - -1)), 0), 1)
+	%InnerSquintL = left_InnerSquint
+	%InnerSquintR = right_InnerSquint
+	%OuterSquintL = left_OuterSquint
+	%OuterSquintR = right_OuterSquint
+	%WrinkleNoseL = (1 - min(max((left_BrowInV + 1), 0), 1)) * (1 - min(max(left_BrowInV, 0), 1))
+	%WrinkleNoseR = (1 - min(max((right_BrowInV + 1), 0), 1)) * (1 - min(max(right_BrowInV, 0), 1))
+	%RaiseBrowInL = min(max(left_BrowInV, 0), 1)
+	%RaiseBrowInR = min(max(right_BrowInV, 0), 1)
+	%BrowOutVL = left_BrowOutV
+	%BrowOutVR = right_BrowOutV
+	%FrownL = left_Frown
+	%FrownR = right_Frown
+	%PressNoseL = 1 - min(max((left_NoseV + 1), 0), 1)
+	%PressNoseR = 1 - min(max((right_NoseV + 1), 0), 1)
+	%SneerNoseL = min(max(left_NoseV, 0), 1)
+	%SneerNoseR = min(max(right_NoseV, 0), 1)
+	%SuckNostrilL = 1 - min(max((left_NostrilFlare + 1), 0), 1)
+	%SuckNostrilR = 1 - min(max((right_NostrilFlare + 1), 0), 1)
+	%BlowNostrilL = min(max(left_NostrilFlare, 0), 1)
+	%BlowNostrilR = min(max(right_NostrilFlare, 0), 1)
+	%CheekVL = left_CheekV
+	%CheekVR = right_CheekV
+	%DeflateCheekL = 1 - min(max((left_CheekH + 1), 0), 1)
+	%DeflateCheekR = 1 - min(max((right_CheekH + 1), 0), 1)
+	%InflateCheekL = min(max(left_CheekH, 0), 1) * (1 - min(max(JawV, 0), 1)) * (1 - (min(1, -min(0, (-1 - multi_Smile))) * min(1, -min(0, (multi_Smile - 0))) * min(max(((multi_Smile - -1) / (0 - -1)), 0), 1) + -min(1, -min(0, (multi_Smile - 0))) - 1 * -min(1, -min(0, (0 - multi_Smile))) - 1 + min(1, -min(0, (0 - multi_Smile))) * min(1, -min(0, (multi_Smile - 1))) * (1 - min(max(((multi_Smile - 0) / (1 - 0)), 0), 1))) * left_Smile) * (1 - min(max(left_LipsV, 0), 1)) * (1 - min(max(left_LipLoV, 0), 1)) * (1 - min(max(left_LipUpV, 0), 1))
+	%InflateCheekR = min(max(right_CheekH, 0), 1) * (1 - min(max(JawV, 0), 1)) * (1 - (min(1, -min(0, (-1 - multi_Smile))) * min(1, -min(0, (multi_Smile - 0))) * min(max(((multi_Smile - -1) / (0 - -1)), 0), 1) + -min(1, -min(0, (multi_Smile - 0))) - 1 * -min(1, -min(0, (0 - multi_Smile))) - 1 + min(1, -min(0, (0 - multi_Smile))) * min(1, -min(0, (multi_Smile - 1))) * (1 - min(max(((multi_Smile - 0) / (1 - 0)), 0), 1))) * right_Smile) * (1 - min(max(right_LipsV, 0), 1)) * (1 - min(max(right_LipLoV, 0), 1)) * (1 - min(max(right_LipUpV, 0), 1))
+	%SuckJaw = 1 - min(max((JawD + 1), 0), 1)
+	%JutJaw = min(max(JawD, 0), 1)
+	%SlideJawR = 1 - min(max((JawH + 1), 0), 1)
+	%SlideJawL = min(max(JawH, 0), 1)
+	%ClenchJaw = 1 - min(max((JawV + 1), 0), 1)
+	%OpenJaw = min(max(JawV, 0), 1)
+	%CompressLipsL = (1 - min(max((left_LipsV + 1), 0), 1)) * (1 - min(max(left_LipsV, 0), 1)) * (1 - (1 - min(max((left_LipLoV + 1), 0), 1)) * left_PuckerLipUp) * (1 - 1 - min(max((left_LipUpV + 1), 0), 1))
+	%CompressLipsR = (1 - min(max((right_LipsV + 1), 0), 1)) * (1 - min(max(right_LipsV, 0), 1)) * (1 - (1 - min(max((right_LipLoV + 1), 0), 1)) * right_PuckerLipUp) * (1 - 1 - min(max((right_LipUpV + 1), 0), 1))
+	%OpenLipsL = min(max(left_LipsV, 0), 1) * (1 - min(max(left_LipUpV, 0), 1) * min(max(left_LipLoV, 0), 1))
+	%OpenLipsR = min(max(right_LipsV, 0), 1) * (1 - min(max(right_LipUpV, 0), 1) * min(max(right_LipLoV, 0), 1))
+	%JutUpperLipL = (1 - min(max((left_LipUpV + 1), 0), 1)) * (1 - (1 - min(max((left_LipLoV + 1), 0), 1)) * left_PuckerLipUp)
+	%JutUpperLipR = (1 - min(max((right_LipUpV + 1), 0), 1)) * (1 - (1 - min(max((right_LipLoV + 1), 0), 1)) * right_PuckerLipUp)
+	%OpenUpperLipL = min(max(left_LipUpV, 0), 1) * (1 - left_PuckerLipUp)
+	%OpenUpperLipR = min(max(right_LipUpV, 0), 1) * (1 - right_PuckerLipUp)
+	%RaiseChinL = (1 - min(max((left_LipLoV + 1), 0), 1)) * (1 - left_PuckerLipLo)
+	%RaiseChinR = (1 - min(max((right_LipLoV + 1), 0), 1)) * (1 - right_PuckerLipLo)
+	%OpenLowerLipL = min(max(left_LipLoV, 0), 1) * (1 - left_PuckerLipLo)
+	%OpenLowerLipR = min(max(right_LipLoV, 0), 1) * (1 - right_PuckerLipLo)
+	%SmileFlatL = (min(1, -min(0, (-11 - multi_Smile))) * min(1, -min(0, (multi_Smile - -10))) * min(max(((multi_Smile - -11) / (-10 - -11)), 0), 1) + -min(1, -min(0, (multi_Smile - -10))) - 1 * -min(1, -min(0, (-1 - multi_Smile))) - 1 + min(1, -min(0, (-1 - multi_Smile))) * min(1, -min(0, (multi_Smile - 0))) * (1 - min(max(((multi_Smile - -1) / (0 - -1)), 0), 1))) * left_Smile * (1 - left_PuckerLipLo) * (1 - left_PuckerLipUp)
+	%SmileFlatR = (min(1, -min(0, (-11 - multi_Smile))) * min(1, -min(0, (multi_Smile - -10))) * min(max(((multi_Smile - -11) / (-10 - -11)), 0), 1) + -min(1, -min(0, (multi_Smile - -10))) - 1 * -min(1, -min(0, (-1 - multi_Smile))) - 1 + min(1, -min(0, (-1 - multi_Smile))) * min(1, -min(0, (multi_Smile - 0))) * (1 - min(max(((multi_Smile - -1) / (0 - -1)), 0), 1))) * right_Smile * (1 - right_PuckerLipLo) * (1 - right_PuckerLipUp)
+	%SmileFullL = (min(1, -min(0, (-1 - multi_Smile))) * min(1, -min(0, (multi_Smile - 0))) * min(max(((multi_Smile - -1) / (0 - -1)), 0), 1) + -min(1, -min(0, (multi_Smile - 0))) - 1 * -min(1, -min(0, (0 - multi_Smile))) - 1 + min(1, -min(0, (0 - multi_Smile))) * min(1, -min(0, (multi_Smile - 1))) * (1 - min(max(((multi_Smile - 0) / (1 - 0)), 0), 1))) * left_Smile * (1 - left_PuckerLipLo) * (1 - left_PuckerLipUp)
+	%SmileFullR = (min(1, -min(0, (-1 - multi_Smile))) * min(1, -min(0, (multi_Smile - 0))) * min(max(((multi_Smile - -1) / (0 - -1)), 0), 1) + -min(1, -min(0, (multi_Smile - 0))) - 1 * -min(1, -min(0, (0 - multi_Smile))) - 1 + min(1, -min(0, (0 - multi_Smile))) * min(1, -min(0, (multi_Smile - 1))) * (1 - min(max(((multi_Smile - 0) / (1 - 0)), 0), 1))) * right_Smile * (1 - right_PuckerLipLo) * (1 - right_PuckerLipUp)
+	%SmileSharpL = (min(1, -min(0, (0 - multi_Smile))) * min(1, -min(0, (multi_Smile - 1))) * min(max(((multi_Smile - 0) / (1 - 0)), 0), 1) + -min(1, -min(0, (multi_Smile - 1))) - 1 * -min(1, -min(0, (10 - multi_Smile))) - 1 + min(1, -min(0, (10 - multi_Smile))) * min(1, -min(0, (multi_Smile - 11))) * (1 - min(max(((multi_Smile - 10) / (11 - 10)), 0), 1))) * left_Smile * (1 - left_PuckerLipLo) * (1 - left_PuckerLipUp)
+	%SmileSharpR = (min(1, -min(0, (0 - multi_Smile))) * min(1, -min(0, (multi_Smile - 1))) * min(max(((multi_Smile - 0) / (1 - 0)), 0), 1) + -min(1, -min(0, (multi_Smile - 1))) - 1 * -min(1, -min(0, (10 - multi_Smile))) - 1 + min(1, -min(0, (10 - multi_Smile))) * min(1, -min(0, (multi_Smile - 11))) * (1 - min(max(((multi_Smile - 10) / (11 - 10)), 0), 1))) * right_Smile * (1 - right_PuckerLipLo) * (1 - right_PuckerLipUp)
+	%PlatysmusL = left_Platysmus
+	%PlatysmusR = right_Platysmus
+	%SuckLipUpL = (1 - min(max((left_FoldLipUp + 1), 0), 1)) * (1 - left_PuckerLipUp) * (1 - (min(1, -min(0, (-1 - multi_Smile))) * min(1, -min(0, (multi_Smile - 0))) * min(max(((multi_Smile - -1) / (0 - -1)), 0), 1) + -min(1, -min(0, (multi_Smile - 0))) - 1 * -min(1, -min(0, (0 - multi_Smile))) - 1 + min(1, -min(0, (0 - multi_Smile))) * min(1, -min(0, (multi_Smile - 1))) * (1 - min(max(((multi_Smile - 0) / (1 - 0)), 0), 1))) * left_Smile)
+	%SuckLipUpR = (1 - min(max((right_FoldLipUp + 1), 0), 1)) * (1 - right_PuckerLipUp) * (1 - (min(1, -min(0, (-1 - multi_Smile))) * min(1, -min(0, (multi_Smile - 0))) * min(max(((multi_Smile - -1) / (0 - -1)), 0), 1) + -min(1, -min(0, (multi_Smile - 0))) - 1 * -min(1, -min(0, (0 - multi_Smile))) - 1 + min(1, -min(0, (0 - multi_Smile))) * min(1, -min(0, (multi_Smile - 1))) * (1 - min(max(((multi_Smile - 0) / (1 - 0)), 0), 1))) * right_Smile)
+	%FunnelLipUpL = min(max(left_FoldLipUp, 0), 1) * (1 - min(max(left_LipUpV, 0), 1)) * (1 - min(max(JawV, 0), 1) * left_PuckerLipUp)
+	%FunnelLipUpR = min(max(right_FoldLipUp, 0), 1) * (1 - min(max(right_LipUpV, 0), 1)) * (1 - min(max(JawV, 0), 1) * right_PuckerLipUp)
+	%SuckLipLoL = (1 - min(max((left_FoldLipLo + 1), 0), 1)) * (1 - left_PuckerLipLo)
+	%SuckLipLoR = (1 - min(max((right_FoldLipLo + 1), 0), 1)) * (1 - right_PuckerLipLo)
+	%FunnelLipLoL = min(max(left_FoldLipLo, 0), 1) * (1 - left_Platysmus) * (1 - min(max(left_LipLoV, 0), 1)) * (1 - min(max(JawV, 0), 1) * left_PuckerLipLo)
+	%FunnelLipLoR = min(max(right_FoldLipLo, 0), 1) * (1 - right_Platysmus) * (1 - min(max(right_LipLoV, 0), 1)) * (1 - min(max(JawV, 0), 1) * right_PuckerLipLo)
+	%PuckerLipUpL = left_PuckerLipUp
+	%PuckerLipUpR = right_PuckerLipUp
+	%PuckerLipLoL = left_PuckerLipLo * (1 - left_Platysmus)
+	%PuckerLipLoR = right_PuckerLipLo * (1 - right_Platysmus)
+	%LipCnrTwstL = left_LipCnrTwst
+	%LipCnrTwstR = right_LipCnrTwst
+	%DimpleL = left_Dimple * (1 - left_LipCnrTwst) * (1 - min(max(JawV, 0), 1))
+	%DimpleR = right_Dimple * (1 - right_LipCnrTwst) * (1 - min(max(JawV, 0), 1))
+	%BrowOutV_RaiseBrowInL = min(max(left_BrowInV, 0), 1) * left_BrowOutV
+	%BrowOutV_RaiseBrowInR = min(max(right_BrowInV, 0), 1) * right_BrowOutV
+	%CloseLidLo_InnerSquintL = left_InnerSquint * min(1, (1 - -1 + 2 * min(max(((eyes_updown - -45) / (45 - -45)), 0), 1))) * (1 - min(max(((multi_CloseLid - -1) / (1 - -1)), 0), 1)) * min(max(((left_CloseLid - -1) / (1 - -1)), 0), 1)
+	%CloseLidLo_InnerSquintR = right_InnerSquint * min(1, (1 - -1 + 2 * min(max(((eyes_updown - -45) / (45 - -45)), 0), 1))) * (1 - min(max(((multi_CloseLid - -1) / (1 - -1)), 0), 1)) * min(max(((right_CloseLid - -1) / (1 - -1)), 0), 1)
+	%CloseLidLo_OuterSquintL = left_OuterSquint * min(1, (1 - -1 + 2 * min(max(((eyes_updown - -45) / (45 - -45)), 0), 1))) * (1 - min(max(((multi_CloseLid - -1) / (1 - -1)), 0), 1)) * min(max(((left_CloseLid - -1) / (1 - -1)), 0), 1)
+	%CloseLidLo_OuterSquintR = right_OuterSquint * min(1, (1 - -1 + 2 * min(max(((eyes_updown - -45) / (45 - -45)), 0), 1))) * (1 - min(max(((multi_CloseLid - -1) / (1 - -1)), 0), 1)) * min(max(((right_CloseLid - -1) / (1 - -1)), 0), 1)
+	%CloseLidUp_InnerSquintL = left_InnerSquint * min(1, (1 + -1 + 2 * min(max(((eyes_updown - -45) / (45 - -45)), 0), 1))) * min(max(((multi_CloseLid - -1) / (1 - -1)), 0), 1) * min(max(((left_CloseLid - -1) / (1 - -1)), 0), 1)
+	%CloseLidUp_InnerSquintR = right_InnerSquint * min(1, (1 + -1 + 2 * min(max(((eyes_updown - -45) / (45 - -45)), 0), 1))) * min(max(((multi_CloseLid - -1) / (1 - -1)), 0), 1) * min(max(((right_CloseLid - -1) / (1 - -1)), 0), 1)
+	%CloseLidUp_OuterSquintL = left_OuterSquint * min(1, (1 + -1 + 2 * min(max(((eyes_updown - -45) / (45 - -45)), 0), 1))) * min(max(((multi_CloseLid - -1) / (1 - -1)), 0), 1) * min(max(((left_CloseLid - -1) / (1 - -1)), 0), 1)
+	%CloseLidUp_OuterSquintR = right_OuterSquint * min(1, (1 + -1 + 2 * min(max(((eyes_updown - -45) / (45 - -45)), 0), 1))) * min(max(((multi_CloseLid - -1) / (1 - -1)), 0), 1) * min(max(((right_CloseLid - -1) / (1 - -1)), 0), 1)
+	%Frown_RaiseBrowInL = min(max(left_BrowInV, 0), 1) * left_Frown
+	%Frown_RaiseBrowInR = min(max(right_BrowInV, 0), 1) * right_Frown
+	%BrowOutV_RaiseBrowIn_FrownL = left_Frown * min(max(left_BrowInV, 0), 1) * left_BrowOutV
+	%BrowOutV_RaiseBrowIn_FrownR = right_Frown * min(max(right_BrowInV, 0), 1) * right_BrowOutV
+	%OpenJaw_OpenUpperLipL = min(max(left_LipUpV, 0), 1) * min(max(JawV, 0), 1) * (1 - left_PuckerLipUp)
+	%OpenJaw_OpenUpperLipR = min(max(right_LipUpV, 0), 1) * min(max(JawV, 0), 1) * (1 - right_PuckerLipUp)
+	%FunnelLipLo_FunnelLipUpL = min(max(left_FoldLipUp, 0), 1) * min(max(left_FoldLipLo, 0), 1) * (1 - left_Platysmus) * (1 - min(max(left_LipUpV, 0), 1)) * (1 - min(max(left_LipLoV, 0), 1)) * (1 - min(max(JawV, 0), 1) * left_PuckerLipLo) * (1 - min(max(JawV, 0), 1) * left_PuckerLipUp)
+	%FunnelLipLo_FunnelLipUpR = min(max(right_FoldLipUp, 0), 1) * min(max(right_FoldLipLo, 0), 1) * (1 - right_Platysmus) * (1 - min(max(right_LipUpV, 0), 1)) * (1 - min(max(right_LipLoV, 0), 1)) * (1 - min(max(JawV, 0), 1) * right_PuckerLipLo) * (1 - min(max(JawV, 0), 1) * right_PuckerLipUp)
+	%SmileFull_OpenUpperLipL = min(max(left_LipUpV, 0), 1) * (min(1, -min(0, (-1 - multi_Smile))) * min(1, -min(0, (multi_Smile - 0))) * min(max(((multi_Smile - -1) / (0 - -1)), 0), 1) + -min(1, -min(0, (multi_Smile - 0))) - 1 * -min(1, -min(0, (0 - multi_Smile))) - 1 + min(1, -min(0, (0 - multi_Smile))) * min(1, -min(0, (multi_Smile - 1))) * (1 - min(max(((multi_Smile - 0) / (1 - 0)), 0), 1))) * left_Smile * (1 - left_PuckerLipLo) * (1 - left_PuckerLipUp) * (1 - left_PuckerLipUp)
+	%SmileFull_OpenUpperLipR = min(max(right_LipUpV, 0), 1) * (min(1, -min(0, (-1 - multi_Smile))) * min(1, -min(0, (multi_Smile - 0))) * min(max(((multi_Smile - -1) / (0 - -1)), 0), 1) + -min(1, -min(0, (multi_Smile - 0))) - 1 * -min(1, -min(0, (0 - multi_Smile))) - 1 + min(1, -min(0, (0 - multi_Smile))) * min(1, -min(0, (multi_Smile - 1))) * (1 - min(max(((multi_Smile - 0) / (1 - 0)), 0), 1))) * right_Smile * (1 - right_PuckerLipLo) * (1 - right_PuckerLipUp) * (1 - right_PuckerLipUp)
+	%OpenJaw_OpenUpperLip_SmileFullL = (min(1, -min(0, (-1 - multi_Smile))) * min(1, -min(0, (multi_Smile - 0))) * min(max(((multi_Smile - -1) / (0 - -1)), 0), 1) + -min(1, -min(0, (multi_Smile - 0))) - 1 * -min(1, -min(0, (0 - multi_Smile))) - 1 + min(1, -min(0, (0 - multi_Smile))) * min(1, -min(0, (multi_Smile - 1))) * (1 - min(max(((multi_Smile - 0) / (1 - 0)), 0), 1))) * left_Smile * min(max(left_LipUpV, 0), 1) * min(max(JawV, 0), 1) * (1 - left_PuckerLipLo) * (1 - left_PuckerLipUp) * (1 - left_PuckerLipUp)
+	%OpenJaw_OpenUpperLip_SmileFullR = (min(1, -min(0, (-1 - multi_Smile))) * min(1, -min(0, (multi_Smile - 0))) * min(max(((multi_Smile - -1) / (0 - -1)), 0), 1) + -min(1, -min(0, (multi_Smile - 0))) - 1 * -min(1, -min(0, (0 - multi_Smile))) - 1 + min(1, -min(0, (0 - multi_Smile))) * min(1, -min(0, (multi_Smile - 1))) * (1 - min(max(((multi_Smile - 0) / (1 - 0)), 0), 1))) * right_Smile * min(max(right_LipUpV, 0), 1) * min(max(JawV, 0), 1) * (1 - right_PuckerLipLo) * (1 - right_PuckerLipUp) * (1 - right_PuckerLipUp)
+	%OpenJaw_OpenLipsL = min(max(left_LipsV, 0), 1) * min(max(JawV, 0), 1) * (1 - min(max(left_LipUpV, 0), 1) * min(max(left_LipLoV, 0), 1))
+	%OpenJaw_OpenLipsR = min(max(right_LipsV, 0), 1) * min(max(JawV, 0), 1) * (1 - min(max(right_LipUpV, 0), 1) * min(max(right_LipLoV, 0), 1))
+	%HeadHideGib = HeadHide
 }
-$bodygroup "torso"
-{
-	studio "body_torso.smd"
-}
-$bodygroup "head"
+$BodyGroup "Head_gib"
 {
 	blank
-	blank
-	studio "body_head_low.smd"
-	studio "body_head_low_2.smd"
+	studio "head_gib.smd"
 }
-$bodygroup "leftarm"
+$BodyGroup "Torso"
 {
-	studio "body_arm_left_gloves.smd"
-	studio "body_arm_left_gloves_fingerless.smd"
-	studio "body_arm_left_low.smd"
-	studio "body_arm_left_high.smd"
-	studio "body_arm_left_bare.smd"
-}
-$bodygroup "rightarm"
-{
-	studio "body_arm_right_gloves.smd"
-	studio "body_arm_right_gloves_fingerless.smd"
-	studio "body_arm_right_low.smd"
-	studio "body_arm_right_high.smd"
-	studio "body_arm_right_bare.smd"
-}
-$bodygroup "leftleg"
-{
-	studio "body_leg_left.smd"
-	blank
-	studio "body_leg_left_low.smd"
-	studio "body_leg_left_high.smd"
-}
-$bodygroup "rightleg"
-{
-	studio "body_leg_right.smd"
-	blank
-	studio "body_leg_right_low.smd"
-	studio "body_leg_right_high.smd"
-}
-$bodygroup "vest"
-{
-	studio "body_vest_pockets.smd"
-	studio "body_vest_bare.smd"
+	studio "torso_vest.smd"
+	studio "torso_shirt.smd"
+	studio "torso_vest_nopockets.smd"
+	studio "torso_vest_only.smd"
+	studio "torso_vest_only_nopockets.smd"
 	blank
 }
-$bodygroup "pockets"
+$BodyGroup "Left Leg"
 {
-	studio "body_pockets.smd"
+	studio "legL_full.smd"
+	studio "legL_gib_long.smd"
+	studio "legL_gib_short.smd"
+	blank
+}
+$BodyGroup "Right Leg"
+{
+	studio "legR_full.smd"
+	studio "legR_gib_long.smd"
+	studio "legR_gib_short.smd"
+	blank
+}
+$BodyGroup "Left Arm"
+{
+	studio "armL_glove.smd"
+	studio "armL_glove_fingerless.smd"
+	studio "armL_bare.smd"
+	studio "armL_gib_long.smd"
+	studio "armL_gib_short.smd"
+	blank
+}
+$BodyGroup "Right Arm"
+{
+	studio "armR_glove.smd"
+	studio "armR_glove_fingerless.smd"
+	studio "armR_bare.smd"
+	studio "armR_gib_long.smd"
+	studio "armR_gib_short.smd"
+	blank
+}
+$BodyGroup "Pants Pockets"
+{
+	studio "pants_pockets.smd"
 	blank
 }
 
@@ -198,8 +305,8 @@ $texturegroup "skinfamilies"
 	{ "mercenary_head_zombie"              "eyeball_invun" "eyeball_invun" "mercenary_blue_zombie"         "mercenary_gibs_head_zombie"         "mercenary_gibs_blue_zombie"    }
 	{ "mercenary_head_zombie_red_invun"    "eyeball_invun" "eyeball_invun" "mercenary_red_zombie_invun"    "mercenary_head_zombie_red_invun"    "mercenary_red_zombie_invun"    }
 	{ "mercenary_head_zombie_blue_invun"   "eyeball_invun" "eyeball_invun" "mercenary_blue_zombie_invun"   "mercenary_head_zombie_blue_invun"   "mercenary_blue_zombie_invun"   }
-	{ "mercenary_head_zombie"              "eyeball_invun" "eyeball_invun" "mercenary_blue_zombie"         "mercenary_gibs_head_zombie"         "mercenary_gibs_blue_zombie"    }
-	{ "mercenary_head_zombie"              "eyeball_invun" "eyeball_invun" "mercenary_blue_zombie"         "mercenary_gibs_head_zombie"         "mercenary_gibs_blue_zombie"    }
+	{ "mercenary_head_zombie"              "eyeball_invun" "eyeball_invun" "mercenary_green_zombie"         "mercenary_gibs_head_zombie"         "mercenary_gibs_blue_zombie"    }
+	{ "mercenary_head_zombie"              "eyeball_invun" "eyeball_invun" "mercenary_yellow_zombie"         "mercenary_gibs_head_zombie"         "mercenary_gibs_blue_zombie"    }
 	{ "mercenary_head_green_invun"    "eyeball_invun" "eyeball_invun" "mercenary_green_invun"    "mercenary_head_green_invun"    "mercenary_green_invun"    }
 	{ "mercenary_head_yellow_invun"   "eyeball_invun" "eyeball_invun" "mercenary_yellow_invun"   "mercenary_head_yellow_invun"   "mercenary_yellow_invun"   }
 }
