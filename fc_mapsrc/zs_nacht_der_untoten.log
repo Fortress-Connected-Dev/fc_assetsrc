@@ -20084,3 +20084,277 @@ Level flags = 0
 Total triangle count: 23670
 Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\zs_nacht_der_untoten.bsp
 43 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\zs_nacht_der_untoten.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "metal/razorwire002" not found.
+Material not found!: METAL/RAZORWIRE002
+material "kino/kino_wallpaper03" not found.
+Material not found!: KINO/KINO_WALLPAPER03
+material "kino/kino_banner" not found.
+Material not found!: KINO/KINO_BANNER
+material "japan/wood/japanese_redwood02" not found.
+Material not found!: JAPAN/WOOD/JAPANESE_REDWOOD02
+material "metal/bunkermetal001b" not found.
+Material not found!: METAL/BUNKERMETAL001B
+material "kino/kino_wallpaper04" not found.
+Material not found!: KINO/KINO_WALLPAPER04
+material "concrete/bunkerwall003" not found.
+Material not found!: CONCRETE/BUNKERWALL003
+material "effects/fake_fog03" not found.
+Material not found!: EFFECTS/FAKE_FOG03
+material "kino/kino_fakelight" not found.
+Material not found!: KINO/KINO_FAKELIGHT
+Patching WVT material: maps/zs_nacht_der_untoten/cp_mountainlab/nature/groundtograss001_wvt_patch
+Patching WVT material: maps/zs_nacht_der_untoten/nature/blendrockgroundwallforest003_wvt_patch
+Patching WVT material: maps/zs_nacht_der_untoten/nature/blendcobblestone_underworld001_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1962 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\zs_nacht_der_untoten.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_halloween_night_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_halloween_night_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_halloween_night_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_halloween_night_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+material "overlays/debrisdirt004" not found.
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (2186303 bytes)
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet001a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/controlroom_filecabinet001a.mdl"!
+Error loading studio model "models/props_vehicles/land/truck_bed.mdl"!
+Error! prop_static using model "models/props_wasteland/controlroom_filecabinet002a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/controlroom_filecabinet002a.mdl"!
+Error loading studio model "models/props_riese/telepad_base.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+Material CP_MOUNTAINLAB/NATURE/GROUNDTOGRASS001 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 5123 texinfos to 3176
+Reduced 103 texdatas to 92 (2774 bytes to 2348)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\zs_nacht_der_untoten.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\zs_nacht_der_untoten.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 6395, actual size 4841
+4 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 10
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\zs_nacht_der_untoten.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\zs_nacht_der_untoten.prt
+  33 portalclusters
+  60 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 0 visible clusters (0.00%)
+Total clusters visible: 710
+Average clusters visible: 21
+Building PAS...
+Average clusters audible: 22
+visdatasize:575  compressed from 528
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\zs_nacht_der_untoten.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\zs_nacht_der_untoten.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\zs_nacht_der_untoten.bsp
+8541 faces
+8 degenerate faces
+1198498 square feet [172583824.00 square inches]
+173 Displacements
+232986 Square Feet [33550020.00 Square Inches]
+8533 patches before subdivision
+50259 patches after subdivision
+85 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 7676175, max 1261
+transfer lists:  58.6 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(13808, 10590, 7552)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2711, 1879, 1283)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(459, 277, 165)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(108, 66, 42)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(22, 13, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(6, 4, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0155 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 101/1024         4848/49152    ( 9.9%) 
+brushes               2592/8192        31104/98304    (31.6%) 
+brushsides           23622/65536      188976/524288   (36.0%) 
+planes               20592/65536      411840/1310720  (31.4%) 
+vertexes             15689/65536      188268/786432   (23.9%) 
+nodes                 2883/65536       92256/2097152  ( 4.4%) 
+texinfos              3176/12288      228672/884736   (25.8%) 
+texdata                 92/2048         2944/65536    ( 4.5%) 
+dispinfos              173/0           30448/0        ( 0.0%) 
+disp_verts            7669/0          153380/0        ( 0.0%) 
+disp_tris            11296/0           22592/0        ( 0.0%) 
+disp_lmsamples      602134/0          602134/0        ( 0.0%) 
+faces                 8541/65536      478296/3670016  (13.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             6517/65536      364952/3670016  ( 9.9%) 
+leaves                2985/65536       95520/2097152  ( 4.6%) 
+leaffaces             9878/65536       19756/131072   (15.1%) 
+leafbrushes           4559/65536        9118/131072   ( 7.0%) 
+areas                    7/256            56/2048     ( 2.7%) 
+surfedges            66253/512000     265012/2048000  (12.9%) 
+edges                41003/256000     164012/1024000  (16.0%) 
+LDR worldlights         85/8192         7480/720896   ( 1.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips           1189/32768       11890/327680   ( 3.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         22962/65536       45924/131072   (35.0%) 
+cubemapsamples          19/1024          304/16384    ( 1.9%) 
+overlays                55/512         19360/180224   (10.7%) 
+LDR lightdata         [variable]     3378264/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         575/16777216 ( 0.0%) 
+entdata               [variable]      196442/393216   (50.0%) 
+LDR ambient table     2985/65536       11940/262144   ( 4.6%) 
+HDR ambient table     2985/65536       11940/262144   ( 4.6%) 
+LDR leaf ambient      9902/65536      277256/1835008  (15.1%) 
+HDR leaf ambient      2985/65536       83580/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/39406    ( 0.0%) 
+pakfile               [variable]        4841/0        ( 0.0%) 
+physics               [variable]     2186303/4194304  (52.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 23670
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\zs_nacht_der_untoten.bsp
+52 seconds elapsed
