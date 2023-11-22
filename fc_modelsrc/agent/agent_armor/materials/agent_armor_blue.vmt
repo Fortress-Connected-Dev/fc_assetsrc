@@ -1,0 +1,11 @@
+"character"
+{
+	"$color"              "0.9"
+	"$basetexture"        "models/player/items/agent/armor_diffuse"
+	"$bumpmap"            "models/player/items/agent/armor_normal"
+	"$masks1"             "models/player/items/agent/armor_masks1"
+	"$basealphaphongmask" "1"
+	"$phongalbedoboost"   "1"
+	"$phongexponent"      "32"
+	"$phongboost"         "3"
+}
