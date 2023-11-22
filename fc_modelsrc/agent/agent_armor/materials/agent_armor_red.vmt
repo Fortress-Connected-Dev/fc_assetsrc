@@ -1,7 +1,7 @@
 "character"
 {
 	"$color"              "0.9"
-	"$basetexture"        "models/player/items/agent/agent_armor_blue"
+	"$basetexture"        "models/player/items/agent/agent_armor_red"
 	"$bumpmap"            "models/player/items/agent/armor_normal"
 	"$masks1"             "models/player/items/agent/armor_masks1"
 	"$basealphaphongmask" "1"
