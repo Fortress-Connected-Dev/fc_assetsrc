@@ -1,6 +1,6 @@
 // Created by Crowbar 0.67
 
-$modelname "player\items\agent_armor.mdl"
+$modelname "player\items\agent\agent_armor.mdl"
 
 $bodygroup "studio"
 {
@@ -15,20 +15,22 @@ $contents "solid"
 $illumposition 0.123 -0.083 0.075
 
 $cdmaterials "models\player\items\agent\agent_armor"
+$cdmaterials "\models\player\items\agent\agent_armor\"
+$cdmaterials ""
 
 $texturegroup "skinfamilies"
 {
-	{ "agent_armor_blue"}
 	{ "agent_armor_red"}
+	{ "agent_armor_blue"}
 	{ "agent_armor_green"}
 	{ "agent_armor_yellow"}
 }
 
-$cbox 0 0 0 0 0 0
+///$cbox 0 0 0 0 0 0
 
-$bbox -6.255 -8.118 -9.802 6.421 8.365 9.952
+///$bbox -6.255 -8.118 -9.802 6.421 8.365 9.952
 
-$definebone "weapon_hand_R" "" 0 0 0 0 0 0 0 0 0 0 0 0
+///$definebone "weapon_hand_R" "" 0 0 0 0 0 0 0 0 0 0 0 0
 
 
 $sequence "ref" {
@@ -38,7 +40,7 @@ $sequence "ref" {
 	fps 30
 }
 
-//these were copypasted i dont know what they do
+//these were copypasted from the flakcatcher, i dont know what they do
 
 $cbox 0 0 0 0 0 0
 
