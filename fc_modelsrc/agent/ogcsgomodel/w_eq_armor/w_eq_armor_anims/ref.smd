@@ -1,0 +1,9 @@
+// Created by Crowbar 0.67
+version 1
+nodes
+  0 "weapon_hand_R" -1
+end
+skeleton
+  time 0
+    0 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000001
+end
