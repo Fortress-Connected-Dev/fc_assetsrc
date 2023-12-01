@@ -1048,6 +1048,198 @@ $weightlist "weights_layer_Aim_all_MG" {
 	 "ValveBiped.Bip01_R_Finger02" 1
 }
 
+$weightlist "weights_aimmatrix_idle" {
+	 "ValveBiped.Bip01_Pelvis" 1
+	 "ValveBiped.Bip01_Spine" 1
+	 "ValveBiped.Bip01_Spine1" 1
+	 "ValveBiped.Bip01_Spine2" 1
+	 "ValveBiped.Bip01_Spine4" 1
+	 "ValveBiped.Bip01_R_Clavicle" 1
+	 "ValveBiped.Bip01_R_UpperArm" 1
+	 "ValveBiped.Bip01_R_Forearm" 1
+	 "ValveBiped.Bip01_R_Hand" 1
+	 "ValveBiped.Bip01_L_Clavicle" 1
+	 "ValveBiped.Bip01_L_UpperArm" 1
+	 "ValveBiped.Bip01_L_Forearm" 1
+	 "ValveBiped.Bip01_L_Hand" 1
+	 "ValveBiped.Bip01_R_Thigh" 0
+	 "ValveBiped.Bip01_R_Calf" 0
+	 "ValveBiped.Bip01_R_Foot" 0
+	 "ValveBiped.Bip01_R_Toe0" 0
+	 "ValveBiped.Bip01_L_Thigh" 0
+	 "ValveBiped.Bip01_L_Calf" 0
+	 "ValveBiped.Bip01_L_Foot" 0
+	 "ValveBiped.Bip01_L_Toe0" 0
+	 "ValveBiped.Bip01_L_Finger3" 1
+	 "ValveBiped.Bip01_L_Finger31" 1
+	 "ValveBiped.Bip01_L_Finger32" 1
+	 "ValveBiped.Bip01_L_Finger2" 1
+	 "ValveBiped.Bip01_L_Finger21" 1
+	 "ValveBiped.Bip01_L_Finger22" 1
+	 "ValveBiped.Bip01_L_Finger1" 1
+	 "ValveBiped.Bip01_L_Finger11" 1
+	 "ValveBiped.Bip01_L_Finger12" 1
+	 "ValveBiped.Bip01_L_Finger0" 1
+	 "ValveBiped.Bip01_L_Finger01" 1
+	 "ValveBiped.Bip01_L_Finger02" 1
+	 "ValveBiped.Bip01_R_Finger3" 1
+	 "ValveBiped.Bip01_R_Finger31" 1
+	 "ValveBiped.Bip01_R_Finger32" 1
+	 "ValveBiped.Bip01_R_Finger2" 1
+	 "ValveBiped.Bip01_R_Finger21" 1
+	 "ValveBiped.Bip01_R_Finger22" 1
+	 "ValveBiped.Bip01_R_Finger1" 1
+	 "ValveBiped.Bip01_R_Finger11" 1
+	 "ValveBiped.Bip01_R_Finger12" 1
+	 "ValveBiped.Bip01_R_Finger0" 1
+	 "ValveBiped.Bip01_R_Finger01" 1
+	 "ValveBiped.Bip01_R_Finger02" 1
+}
+
+$weightlist "weights_blend_crouchN_CrouchWalkIdle_FIST" {
+	 "ValveBiped.Bip01_Pelvis" 0.1
+	 "ValveBiped.Bip01_Spine" 0.2
+	 "ValveBiped.Bip01_Spine1" 0.4
+	 "ValveBiped.Bip01_Spine2" 0.6
+	 "ValveBiped.Bip01_Spine4" 0.4
+	 "ValveBiped.Bip01_R_Clavicle" 0.8
+	 "ValveBiped.Bip01_R_UpperArm" 1
+	 "ValveBiped.Bip01_R_Forearm" 1
+	 "ValveBiped.Bip01_R_Hand" 1
+	 "ValveBiped.Bip01_L_Clavicle" 0.8
+	 "ValveBiped.Bip01_L_UpperArm" 1
+	 "ValveBiped.Bip01_L_Forearm" 1
+	 "ValveBiped.Bip01_L_Hand" 1
+	 "ValveBiped.Bip01_R_Thigh" 0
+	 "ValveBiped.Bip01_R_Calf" 0
+	 "ValveBiped.Bip01_R_Foot" 0
+	 "ValveBiped.Bip01_R_Toe0" 0
+	 "ValveBiped.Bip01_L_Thigh" 0
+	 "ValveBiped.Bip01_L_Calf" 0
+	 "ValveBiped.Bip01_L_Foot" 0
+	 "ValveBiped.Bip01_L_Toe0" 0
+	 "ValveBiped.Bip01_L_Finger3" 1
+	 "ValveBiped.Bip01_L_Finger31" 1
+	 "ValveBiped.Bip01_L_Finger32" 1
+	 "ValveBiped.Bip01_L_Finger2" 1
+	 "ValveBiped.Bip01_L_Finger21" 1
+	 "ValveBiped.Bip01_L_Finger22" 1
+	 "ValveBiped.Bip01_L_Finger1" 1
+	 "ValveBiped.Bip01_L_Finger11" 1
+	 "ValveBiped.Bip01_L_Finger12" 1
+	 "ValveBiped.Bip01_L_Finger0" 1
+	 "ValveBiped.Bip01_L_Finger01" 1
+	 "ValveBiped.Bip01_L_Finger02" 1
+	 "ValveBiped.Bip01_R_Finger3" 1
+	 "ValveBiped.Bip01_R_Finger31" 1
+	 "ValveBiped.Bip01_R_Finger32" 1
+	 "ValveBiped.Bip01_R_Finger2" 1
+	 "ValveBiped.Bip01_R_Finger21" 1
+	 "ValveBiped.Bip01_R_Finger22" 1
+	 "ValveBiped.Bip01_R_Finger1" 1
+	 "ValveBiped.Bip01_R_Finger11" 1
+	 "ValveBiped.Bip01_R_Finger12" 1
+	 "ValveBiped.Bip01_R_Finger0" 1
+	 "ValveBiped.Bip01_R_Finger01" 1
+	 "ValveBiped.Bip01_R_Finger02" 1
+}
+
+$weightlist "weights_Attack_PISTOL2" {
+	 "ValveBiped.Bip01_Pelvis" 0.1
+	 "ValveBiped.Bip01_Spine" 0.2
+	 "ValveBiped.Bip01_Spine1" 0.4
+	 "ValveBiped.Bip01_Spine2" 0.6
+	 "ValveBiped.Bip01_Spine4" 1
+	 "ValveBiped.Bip01_R_Clavicle" 1
+	 "ValveBiped.Bip01_R_UpperArm" 1
+	 "ValveBiped.Bip01_R_Forearm" 1
+	 "ValveBiped.Bip01_R_Hand" 1
+	 "ValveBiped.Bip01_L_Clavicle" 1
+	 "ValveBiped.Bip01_L_UpperArm" 1
+	 "ValveBiped.Bip01_L_Forearm" 1
+	 "ValveBiped.Bip01_L_Hand" 1
+	 "ValveBiped.Bip01_R_Thigh" 0
+	 "ValveBiped.Bip01_R_Calf" 0
+	 "ValveBiped.Bip01_R_Foot" 0
+	 "ValveBiped.Bip01_R_Toe0" 0
+	 "ValveBiped.Bip01_L_Thigh" 0
+	 "ValveBiped.Bip01_L_Calf" 0
+	 "ValveBiped.Bip01_L_Foot" 0
+	 "ValveBiped.Bip01_L_Toe0" 0
+	 "ValveBiped.Bip01_L_Finger3" 1
+	 "ValveBiped.Bip01_L_Finger31" 1
+	 "ValveBiped.Bip01_L_Finger32" 1
+	 "ValveBiped.Bip01_L_Finger2" 1
+	 "ValveBiped.Bip01_L_Finger21" 1
+	 "ValveBiped.Bip01_L_Finger22" 1
+	 "ValveBiped.Bip01_L_Finger1" 1
+	 "ValveBiped.Bip01_L_Finger11" 1
+	 "ValveBiped.Bip01_L_Finger12" 1
+	 "ValveBiped.Bip01_L_Finger0" 1
+	 "ValveBiped.Bip01_L_Finger01" 1
+	 "ValveBiped.Bip01_L_Finger02" 1
+	 "ValveBiped.Bip01_R_Finger3" 1
+	 "ValveBiped.Bip01_R_Finger31" 1
+	 "ValveBiped.Bip01_R_Finger32" 1
+	 "ValveBiped.Bip01_R_Finger2" 1
+	 "ValveBiped.Bip01_R_Finger21" 1
+	 "ValveBiped.Bip01_R_Finger22" 1
+	 "ValveBiped.Bip01_R_Finger1" 1
+	 "ValveBiped.Bip01_R_Finger11" 1
+	 "ValveBiped.Bip01_R_Finger12" 1
+	 "ValveBiped.Bip01_R_Finger0" 1
+	 "ValveBiped.Bip01_R_Finger01" 1
+	 "ValveBiped.Bip01_R_Finger02" 1
+}
+
+$weightlist "weights_reload_ar2_base_layer" {
+	 "ValveBiped.Bip01_Pelvis" 0
+	 "ValveBiped.Bip01_L_Thigh" 0
+	 "ValveBiped.Bip01_L_Calf" 0
+	 "ValveBiped.Bip01_L_Foot" 0
+	 "ValveBiped.Bip01_Spine" 0.2
+	 "ValveBiped.Bip01_Spine1" 0.6
+	 "ValveBiped.Bip01_Spine2" 0.9
+	 "ValveBiped.Bip01_Spine4" 1
+	 "ValveBiped.Bip01_R_Thigh" 0
+	 "ValveBiped.Bip01_R_Calf" 0
+	 "ValveBiped.Bip01_R_Foot" 0
+	 "ValveBiped.Bip01_R_Clavicle" 1
+	 "ValveBiped.Bip01_R_UpperArm" 1
+	 "ValveBiped.Bip01_R_Forearm" 1
+	 "ValveBiped.Bip01_R_Hand" 1
+	 "ValveBiped.Bip01_R_Finger2" 1
+	 "ValveBiped.Bip01_L_Clavicle" 1
+	 "ValveBiped.Bip01_L_UpperArm" 1
+	 "ValveBiped.Bip01_L_Forearm" 1
+	 "ValveBiped.Bip01_L_Hand" 1
+	 "ValveBiped.Bip01_L_Finger2" 1
+	 "ValveBiped.Bip01_L_Finger1" 1
+	 "ValveBiped.Bip01_L_Finger3" 1
+	 "ValveBiped.Bip01_R_Finger3" 1
+	 "ValveBiped.Bip01_L_Toe0" 0
+	 "ValveBiped.Bip01_R_Toe0" 0
+	 "ValveBiped.Bip01_L_Finger0" 1
+	 "ValveBiped.Bip01_R_Finger0" 1
+	 "ValveBiped.Bip01_R_Finger1" 1
+	 "ValveBiped.Bip01_R_Finger11" 1
+	 "ValveBiped.Bip01_L_Finger21" 1
+	 "ValveBiped.Bip01_L_Finger11" 1
+	 "ValveBiped.Bip01_R_Finger21" 1
+	 "ValveBiped.Bip01_R_Finger01" 1
+	 "ValveBiped.Bip01_R_Finger02" 1
+	 "ValveBiped.Bip01_L_Finger01" 1
+	 "ValveBiped.Bip01_L_Finger02" 1
+	 "ValveBiped.Bip01_R_Finger31" 1
+	 "ValveBiped.Bip01_L_Finger31" 1
+	 "ValveBiped.Bip01_L_Finger32" 1
+	 "ValveBiped.Bip01_R_Finger22" 1
+	 "ValveBiped.Bip01_L_Finger12" 1
+	 "ValveBiped.Bip01_R_Finger32" 1
+	 "ValveBiped.Bip01_R_Finger12" 1
+	 "ValveBiped.Bip01_L_Finger22" 1
+}
+
 $animation "a_WalkN" "zombie_soldier_anims\a_WalkN.smd" {
 	fps 30
 	loop
@@ -1942,6 +2134,468 @@ $animation "a_run_aim_straight_up" "zombie_soldier_anims\a_run_aim_straight_up.s
 	weightlist "weights_layer_Aim_all_MG"
 }
 
+$animation "a_aimmatrix_run_pistol_straight_up_corrective_animation" "zombie_soldier_anims\a_aimmatrix_run_pistol_straight_up_corrective_animation.smd" {
+}
+
+$animation "a_aimmatrix_run_pistol_up_right_corrective_animation" "zombie_soldier_anims\a_aimmatrix_run_pistol_up_right_corrective_animation.smd" {
+}
+
+$animation "a_aimmatrix_run_pistol_up_center_corrective_animation" "zombie_soldier_anims\a_aimmatrix_run_pistol_up_center_corrective_animation.smd" {
+}
+
+$animation "a_aimmatrix_run_pistol_up_left_corrective_animation" "zombie_soldier_anims\a_aimmatrix_run_pistol_up_left_corrective_animation.smd" {
+}
+
+$animation "a_aimmatrix_run_pistol_mid_right_corrective_animation" "zombie_soldier_anims\a_aimmatrix_run_pistol_mid_right_corrective_animation.smd" {
+}
+
+$animation "a_aimmatrix_run_pistol_mid_center_corrective_animation" "zombie_soldier_anims\a_aimmatrix_run_pistol_mid_center_corrective_animation.smd" {
+}
+
+$animation "a_aimmatrix_run_pistol_mid_center_corrective_animation2" "zombie_soldier_anims\a_aimmatrix_run_pistol_mid_center_corrective_animation2.smd" {
+}
+
+$animation "a_aimmatrix_run_pistol_mid_left_corrective_animation" "zombie_soldier_anims\a_aimmatrix_run_pistol_mid_left_corrective_animation.smd" {
+}
+
+$animation "a_aimmatrix_run_pistol_down_right_corrective_animation" "zombie_soldier_anims\a_aimmatrix_run_pistol_down_right_corrective_animation.smd" {
+}
+
+$animation "a_aimmatrix_run_pistol_down_center_corrective_animation" "zombie_soldier_anims\a_aimmatrix_run_pistol_down_center_corrective_animation.smd" {
+}
+
+$animation "a_aimmatrix_run_pistol_down_left_corrective_animation" "zombie_soldier_anims\a_aimmatrix_run_pistol_down_left_corrective_animation.smd" {
+}
+
+
+$animation "a_runI_RunIdle_PISTOL" "zombie_soldier_anims\a_runI_RunIdle_PISTOL.smd" {
+	fps 30
+	loop
+	ikrule "lhand" touch "ValveBiped.Bip01_R_Hand" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 1
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 2
+}
+
+$animation "a_runS_RunIdle_PISTOL" "zombie_soldier_anims\a_runS_RunIdle_PISTOL.smd" {
+	fps 30
+	loop
+	ikrule "lhand" touch "ValveBiped.Bip01_R_Hand" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 1
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 2
+	walkframe 16 LX LY
+}
+
+$animation "a_runSE_RunIdle_PISTOL" "zombie_soldier_anims\a_runSE_RunIdle_PISTOL.smd" {
+	fps 30
+	loop
+	ikrule "lhand" touch "ValveBiped.Bip01_R_Hand" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 1
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 2
+	walkframe 16 LX LY
+}
+
+$animation "a_runE_RunIdle_PISTOL" "zombie_soldier_anims\a_runE_RunIdle_PISTOL.smd" {
+	fps 30
+	loop
+	ikrule "lhand" touch "ValveBiped.Bip01_R_Hand" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 1
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 2
+	walkframe 16 LX LY
+}
+
+$animation "a_runNE_RunIdle_PISTOL" "zombie_soldier_anims\a_runNE_RunIdle_PISTOL.smd" {
+	fps 30
+	loop
+	ikrule "lhand" touch "ValveBiped.Bip01_R_Hand" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 1
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 2
+	walkframe 16 LX LY
+}
+
+$animation "a_runN_RunIdle_PISTOL" "zombie_soldier_anims\a_runN_RunIdle_PISTOL.smd" {
+	fps 30
+	loop
+	ikrule "lhand" touch "ValveBiped.Bip01_R_Hand" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 1
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 2
+	walkframe 16 LX LY
+}
+
+$animation "a_runNW_RunIdle_PISTOL" "zombie_soldier_anims\a_runNW_RunIdle_PISTOL.smd" {
+	fps 30
+	loop
+	ikrule "lhand" touch "ValveBiped.Bip01_R_Hand" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 1
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 2
+	walkframe 16 LX LY
+}
+
+$animation "a_runW_RunIdle_PISTOL" "zombie_soldier_anims\a_runW_RunIdle_PISTOL.smd" {
+	fps 30
+	loop
+	ikrule "lhand" touch "ValveBiped.Bip01_R_Hand" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 1
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 2
+	walkframe 16 LX LY
+}
+
+$animation "a_runSW_RunIdle_PISTOL" "zombie_soldier_anims\a_runSW_RunIdle_PISTOL.smd" {
+	fps 30
+	loop
+	ikrule "lhand" touch "ValveBiped.Bip01_R_Hand" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 1
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 16 16 target 2
+	walkframe 16 LX LY
+}
+
+$animation "a_aimmatrix_run_pistol_neutral" "zombie_soldier_anims\a_aimmatrix_run_pistol_neutral.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+}
+
+$animation "a_aimmatrix_run_pistol_down_left" "zombie_soldier_anims\a_aimmatrix_run_pistol_down_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_aimmatrix_run_pistol_down_left_corrective_animation" 0
+	weightlist "weights_aimmatrix_idle"
+}
+
+$animation "a_aimmatrix_run_pistol_down_center" "zombie_soldier_anims\a_aimmatrix_run_pistol_down_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_aimmatrix_run_pistol_down_center_corrective_animation" 0
+	weightlist "weights_aimmatrix_idle"
+}
+
+$animation "a_aimmatrix_run_pistol_down_right" "zombie_soldier_anims\a_aimmatrix_run_pistol_down_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_aimmatrix_run_pistol_down_right_corrective_animation" 0
+	weightlist "weights_aimmatrix_idle"
+}
+
+$animation "a_aimmatrix_run_pistol_mid_left" "zombie_soldier_anims\a_aimmatrix_run_pistol_mid_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_aimmatrix_run_pistol_mid_left_corrective_animation" 0
+	weightlist "weights_aimmatrix_idle"
+}
+
+$animation "a_aimmatrix_run_pistol_mid_center" "zombie_soldier_anims\a_aimmatrix_run_pistol_mid_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_aimmatrix_run_pistol_mid_center_corrective_animation" 0
+	weightlist "weights_aimmatrix_idle"
+}
+
+$animation "a_aimmatrix_run_pistol_mid_right" "zombie_soldier_anims\a_aimmatrix_run_pistol_mid_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_aimmatrix_run_pistol_mid_right_corrective_animation" 0
+	weightlist "weights_aimmatrix_idle"
+}
+
+$animation "a_aimmatrix_run_pistol_up_left" "zombie_soldier_anims\a_aimmatrix_run_pistol_up_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_aimmatrix_run_pistol_up_left_corrective_animation" 0
+	weightlist "weights_aimmatrix_idle"
+}
+
+$animation "a_aimmatrix_run_pistol_up_center" "zombie_soldier_anims\a_aimmatrix_run_pistol_up_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_aimmatrix_run_pistol_up_center_corrective_animation" 0
+	weightlist "weights_aimmatrix_idle"
+}
+
+$animation "a_aimmatrix_run_pistol_up_right" "zombie_soldier_anims\a_aimmatrix_run_pistol_up_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_aimmatrix_run_pistol_up_right_corrective_animation" 0
+	weightlist "weights_aimmatrix_idle"
+}
+
+$animation "a_aimmatrix_run_pistol_straight_up" "zombie_soldier_anims\a_aimmatrix_run_pistol_straight_up.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_aimmatrix_run_pistol_straight_up_corrective_animation" 0
+	weightlist "weights_aimmatrix_idle"
+}
+
+$animation "a_crouchSE" "zombie_soldier_anims\a_crouchSE.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 2
+	walkframe 24 LX LY
+}
+
+$animation "a_crouchE" "zombie_soldier_anims\a_crouchE.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 2
+	walkframe 24 LX LY
+}
+
+$animation "a_crouchNE" "zombie_soldier_anims\a_crouchNE.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 2
+	walkframe 24 LX LY
+}
+
+$animation "a_crouchN" "zombie_soldier_anims\a_crouchN.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 2
+	walkframe 24 LX LY
+}
+
+$animation "a_crouchNW" "zombie_soldier_anims\a_crouchNW.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 2
+	walkframe 24 LX LY
+}
+
+$animation "a_crouchW" "zombie_soldier_anims\a_crouchW.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 2
+	walkframe 24 LX LY
+}
+
+$animation "a_crouchSW" "zombie_soldier_anims\a_crouchSW.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 2
+	walkframe 24 LX LY
+}
+
+$animation "a_crouchS" "zombie_soldier_anims\a_crouchS.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 2
+	walkframe 24 LX LY
+}
+
+$animation "a_crouchI_CrouchWalkIdle_PISTOL" "zombie_soldier_anims\a_crouchI_CrouchWalkIdle_PISTOL.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 3
+	ikrule "rfoot" touch "" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 24 24 target 2
+}
+
+$animation "a_357_SwimC" "zombie_soldier_anims\a_swimming_swimming_revolver_C.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_357_SwimE" "zombie_soldier_anims\a_swimming_swimming_revolver_E.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_357_SwimN" "zombie_soldier_anims\a_swimming_swimming_revolver_N.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_357_SwimNE" "zombie_soldier_anims\a_swimming_swimming_revolver_NE.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_357_SwimNW" "zombie_soldier_anims\a_swimming_swimming_revolver_NW.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_357_SwimS" "zombie_soldier_anims\a_swimming_swimming_revolver_S.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_357_SwimSE" "zombie_soldier_anims\a_swimming_swimming_revolver_SE.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_357_SwimSW" "zombie_soldier_anims\a_swimming_swimming_revolver_SW.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_357_SwimW" "zombie_soldier_anims\a_swimming_swimming_revolver_W.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "@Attack_PISTOL_corrective_animation" "zombie_soldier_anims\@Attack_PISTOL_corrective_animation.smd" {
+}
+
+$animation "a_reload_revolver_pelvis_layer_corrective_animation" "zombie_soldier_anims\a_reload_revolver_pelvis_layer_corrective_animation.smd" {
+}
+
+
+$animation "a_reload_revolver_pelvis_layer" "zombie_soldier_anims\a_reload_revolver_pelvis_layer.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_reload_revolver_pelvis_layer_corrective_animation" 0
+	weightlist "weights_gesture_agree_pelvis_layer"
+}
+
+$animation "a_pistol_SwimC" "zombie_soldier_anims\a_swimming_swimming_pistol_C.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_pistol_SwimE" "zombie_soldier_anims\a_swimming_swimming_pistol_E.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_pistol_SwimN" "zombie_soldier_anims\a_swimming_swimming_pistol_N.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_pistol_SwimNE" "zombie_soldier_anims\a_swimming_swimming_pistol_NE.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_pistol_SwimNW" "zombie_soldier_anims\a_swimming_swimming_pistol_NW.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_pistol_SwimS" "zombie_soldier_anims\a_swimming_swimming_pistol_S.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_pistol_SwimSE" "zombie_soldier_anims\a_swimming_swimming_pistol_SE.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_pistol_SwimSW" "zombie_soldier_anims\a_swimming_swimming_pistol_SW.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_pistol_SwimW" "zombie_soldier_anims\a_swimming_swimming_pistol_W.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$Animation "a_sawedoff_corrective" "zombie_soldier_anims\StandIdle_PISTOL.smd" {
+	fps 30
+	loop
+	subtract "a_aimmatrix_run_pistol_mid_center_corrective_animation2" 0
+	weightlist "weights_aimmatrix_idle"
+}
+
 $sequence "Ref" {
 	"zombie_soldier_anims\refpose.smd"
 	activity "" 1
@@ -1970,6 +2624,30 @@ $sequence "gmod_breath_layer" {
 	iklock "rfoot" 1 0
 	iklock "lfoot" 1 0
 	realtime
+}
+
+$sequence "aimmatrix_run_pistol" {
+	"a_aimmatrix_run_pistol_straight_up"
+	"a_aimmatrix_run_pistol_straight_up"
+	"a_aimmatrix_run_pistol_straight_up"
+	"a_aimmatrix_run_pistol_up_right"
+	"a_aimmatrix_run_pistol_up_center"
+	"a_aimmatrix_run_pistol_up_left"
+	"a_aimmatrix_run_pistol_mid_right"
+	"a_aimmatrix_run_pistol_mid_center"
+	"a_aimmatrix_run_pistol_mid_left"
+	"a_aimmatrix_run_pistol_down_right"
+	"a_aimmatrix_run_pistol_down_center"
+	"a_aimmatrix_run_pistol_down_left"
+	blend "body_yaw" 45 -45
+	blend "body_pitch" 90 -45
+	blendwidth 3
+	delta
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	iklock "rfoot" 1 0
+	iklock "lfoot" 1 0
 }
 
 $sequence "layer_Aim_all" {
@@ -2233,6 +2911,28 @@ $sequence "zombie_run_upperbody_layer" {
 	realtime
 }
 
+$sequence "taunt_dance_base" {
+	"zombie_soldier_anims\taunt_dance_base.smd"
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 290 290 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 290 290 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 290 290 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 290 290 target 3
+}
+
+$sequence "taunt_dance" {
+	"zombie_soldier_anims\taunt_dance.smd"
+	activity "ACT_GMOD_TAUNT_DANCE" 1
+	fadein 0.2
+	fadeout 0.2
+	blendlayer "taunt_dance_base" 0 10 270 290 spline
+	fps 32
+	weightlist "weights_gesture_agree"
+}
+
 $sequence "enforce_run_melee" {
 	"a_ZRunSW"
 	"a_ZRunS"
@@ -2395,8 +3095,297 @@ $sequence "taunt_zombie" {
 	blendlayer "taunt_zombie_base_layer" 0 10 45 60 spline
 	addlayer "zombie_anim_fix"
 	fps 25
-	ikrule "lhand" release contact 10 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 10 45 1 target 1 usesequence 
 	ikrule "rhand" release contact 10 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 10 45 1 target 0 usesequence 
+	weightlist "weights_gesture_agree"
+}
+
+$sequence "idle_sawedoff" {
+	"zombie_soldier_anims\StandIdle_PISTOL.smd"
+	activity "ACT_MP_STAND_PRIMARY" 1
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	addlayer "aimmatrix_run_pistol"
+	fps 30
+    loop
+}
+
+$sequence "crouch_idle_sawedoff" {
+	"zombie_soldier_anims\CrouchIdle_PISTOL.smd"
+	activity "ACT_MP_CROUCH_PRIMARY" 1
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	addlayer "aimmatrix_run_pistol"
+	fps 30
+	loop
+}
+
+$sequence "run_sawedoff" {
+	"a_runSW_RunIdle_PISTOL"
+	"a_runS_RunIdle_PISTOL"
+	"a_runSE_RunIdle_PISTOL"
+	"a_runW_RunIdle_PISTOL"
+	"a_runI_RunIdle_PISTOL"
+	"a_runE_RunIdle_PISTOL"
+	"a_runNW_RunIdle_PISTOL"
+	"a_runN_RunIdle_PISTOL"
+	"a_runNE_RunIdle_PISTOL"
+	activity "ACT_MP_RUN_PRIMARY" 1
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	{ event 6004 5 "NPC_CombineS" }
+	{ event 6005 14 "NPC_CombineS" }
+	fadein 0.4
+	fadeout 0.3
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	addlayer "aimmatrix_run_pistol"
+	node "running"
+}
+
+$sequence "blend_crouchN_CrouchWalkIdle_PISTOL" {
+	"a_sawedoff_corrective"
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	addlayer "aimmatrix_run_pistol"
+	worldspace
+	loop
+	walkframe 48 LX LY
+	weightlist "weights_blend_crouchN_CrouchWalkIdle_FIST"
+}
+
+$sequence "crouch_walk_sawedoff" {
+	"a_CrouchSW"
+	"a_CrouchS"
+	"a_CrouchSE"
+	"a_CrouchW"
+	"a_crouchI_CrouchWalkIdle_PISTOL"
+	"a_CrouchE"
+	"a_CrouchNW"
+	"a_CrouchN"
+	"a_CrouchNE"
+	activity "ACT_MP_CROUCHWALK_PRIMARY" 1
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	{ event 6004 5 "NPC_CombineS" }
+	{ event 6005 14 "NPC_CombineS" }
+	fadein 0.4
+	fadeout 0.3
+	blendlayer "blend_crouchN_CrouchWalkIdle_PISTOL" 0 0 0 0 local
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	node "running"
+}
+
+$sequence "swim_sawedoff" {
+	"a_PISTOL_SwimSW"
+	"a_PISTOL_SwimS"
+	"a_PISTOL_SwimSE"
+	"a_PISTOL_SwimW"
+	"a_PISTOL_SwimC"
+	"a_PISTOL_SwimE"
+	"a_PISTOL_SwimNW"
+	"a_PISTOL_SwimN"
+	"a_PISTOL_SwimNE"
+	activity "ACT_MP_SWIM_PRIMARY" 1
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	fadein 0.4
+	fadeout 0.3
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	node "running"
+}
+
+$sequence "attack_sawedoff" {
+	"zombie_soldier_anims\Attack_PISTOL.smd"
+	activity "ACT_MP_ATTACK_STAND_PRIMARY" 1
+	blendwidth 1
+	delta
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "@Attack_PISTOL_corrective_animation" 0
+	fadein 0.2
+	fadeout 0.2
+	iklock "rfoot" 1 0
+	iklock "lfoot" 1 0
+	fps 30
+}
+
+$sequence "attack_sawedoff_crouch" {
+	"zombie_soldier_anims\Attack_PISTOL.smd"
+	activity "ACT_MP_ATTACK_CROUCH_PRIMARY" 1
+	blendwidth 1
+	delta
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "@Attack_PISTOL_corrective_animation" 0
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "attack_sawedoff_swim" {
+	"zombie_soldier_anims\Attack_PISTOL.smd"
+	activity "ACT_MP_ATTACK_SWIM_PRIMARY" 1
+	blendwidth 1
+	delta
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "@Attack_PISTOL_corrective_animation" 0
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "attack_sawedoff_airwalk" {
+	"zombie_soldier_anims\Attack_PISTOL.smd"
+	activity "ACT_MP_ATTACK_AIRWALK_PRIMARY" 1
+	blendwidth 1
+	delta
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "@Attack_PISTOL_corrective_animation" 0
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "jump_sawedoff_jump" {
+	"zombie_soldier_anims\jump_revolver.smd"
+	activity "ACT_MP_JUMP_PRIMARY" 1
+	blendwidth 1
+	fadein 0.4
+	fadeout 0.2
+    fps 30
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	node "jumping"
+	blendlayer "blend_crouchN_CrouchWalkIdle_PISTOL" 0 0 0 0 local
+}
+
+$sequence "jump_sawedoff_jump_start" {
+	"zombie_soldier_anims\jump_revolver.smd"
+	activity "ACT_MP_JUMP_START_PRIMARY" 1
+	blendwidth 1
+	fadein 0.4
+	fadeout 0.2
+    fps 30
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	node "jumping"
+	blendlayer "blend_crouchN_CrouchWalkIdle_PISTOL" 0 0 0 0 local
+}
+
+$sequence "jump_sawedoff_jump_float_float" {
+	"zombie_soldier_anims\jump_revolver.smd"
+	activity "ACT_MP_JUMP_FLOAT_PRIMARY" 1
+	blendwidth 1
+	fadein 0.4
+	fadeout 0.2
+    fps 30
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	node "jumping"
+	blendlayer "blend_crouchN_CrouchWalkIdle_PISTOL" 0 0 0 0 local
+}
+
+$sequence "jump_sawedoff_airwalk" {
+	"zombie_soldier_anims\jump_revolver.smd"
+	activity "ACT_MP_AIRWALK_PRIMARY" 1
+	blendwidth 1
+	fadein 0.4
+	fadeout 0.2
+    fps 30
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	node "jumping"
+	blendlayer "blend_crouchN_CrouchWalkIdle_PISTOL" 0 0 0 0 local
+}
+
+$sequence "reload_revolver_pelvis_layer" {
+	"a_reload_revolver_pelvis_layer"
+	delta
+	fadein 0.2
+	fadeout 0.1
+	hidden
+}
+
+$sequence "reload_revolver_base_layer" {
+	"zombie_soldier_anims\reload_revolver_base_layer.smd"
+	fadein 0.2
+	fadeout 0.1
+	hidden
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 110 110 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 110 110 target 1
+	weightlist "weights_reload_ar2_base_layer"
+}
+
+$sequence "reload_revolver" {
+	"zombie_soldier_anims\reload_revolver.smd"
+	activity "ACT_MP_RELOAD_STAND_PRIMARY" 1
+	fadein 0.2
+	fadeout 0.1
+	iklock "rfoot" 1 0
+	iklock "lfoot" 1 0
+	blendlayer "reload_revolver_pelvis_layer" 0 15 90 110 spline
+	blendlayer "reload_revolver_base_layer" 0 15 90 110 spline
+	fps 38
+	ikrule "lhand" release contact 15 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 15 90 1 target 1 usesequence 
+	ikrule "rhand" release contact 15 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 15 90 1 target 0 usesequence 
+	ikrule "lhand" release contact 15 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 15 90 1 target 1 usesequence 
+	weightlist "weights_gesture_agree"
+}
+
+$sequence "reload_revolver_crouch" {
+	"zombie_soldier_anims\reload_revolver.smd"
+	activity "ACT_MP_RELOAD_CROUCH_PRIMARY" 1
+	fadein 0.2
+	fadeout 0.1
+	iklock "rfoot" 1 0
+	iklock "lfoot" 1 0
+	blendlayer "reload_revolver_pelvis_layer" 0 15 90 110 spline
+	blendlayer "reload_revolver_base_layer" 0 15 90 110 spline
+	fps 38
+	ikrule "lhand" release contact 15 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 15 90 1 target 1 usesequence 
+	ikrule "rhand" release contact 15 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 15 90 1 target 0 usesequence 
+	ikrule "lhand" release contact 15 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 15 90 1 target 1 usesequence 
+	weightlist "weights_gesture_agree"
+}
+
+$sequence "reload_revolver_swim" {
+	"zombie_soldier_anims\reload_revolver.smd"
+	activity "ACT_MP_RELOAD_SWIM_PRIMARY" 1
+	fadein 0.2
+	fadeout 0.1
+	iklock "rfoot" 1 0
+	iklock "lfoot" 1 0
+	blendlayer "reload_revolver_pelvis_layer" 0 15 90 110 spline
+	blendlayer "reload_revolver_base_layer" 0 15 90 110 spline
+	fps 38
+	ikrule "lhand" release contact 15 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 15 90 1 target 1 usesequence 
+	ikrule "rhand" release contact 15 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 15 90 1 target 0 usesequence 
+	ikrule "lhand" release contact 15 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 15 90 1 target 1 usesequence 
+	weightlist "weights_gesture_agree"
+}
+
+$sequence "reload_revolver_airwalk" {
+	"zombie_soldier_anims\reload_revolver.smd"
+	activity "ACT_MP_RELOAD_AIRWALK_PRIMARY" 1
+	fadein 0.2
+	fadeout 0.1
+	iklock "rfoot" 1 0
+	iklock "lfoot" 1 0
+	blendlayer "reload_revolver_pelvis_layer" 0 15 90 110 spline
+	blendlayer "reload_revolver_base_layer" 0 15 90 110 spline
+	fps 38
+	ikrule "lhand" release contact 15 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 15 90 1 target 1 usesequence 
+	ikrule "rhand" release contact 15 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 15 90 1 target 0 usesequence 
+	ikrule "lhand" release contact 15 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 15 90 1 target 1 usesequence 
 	weightlist "weights_gesture_agree"
 }
 
