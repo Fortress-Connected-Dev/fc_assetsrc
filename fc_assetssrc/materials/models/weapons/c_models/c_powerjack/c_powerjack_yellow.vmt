@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "workshop/weapons/c_models/c_powerjack/c_powerjack_yellow"
+	"$translucent" 1
+	"$vertexcolor" 1
+}
