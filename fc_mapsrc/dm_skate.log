@@ -1,0 +1,2697 @@
+20:40:10.751 INFO  Loading C:\Users\Administrator\Desktop\dm_skate.bsp
+20:40:10.814 INFO  Uncompressing lumps
+20:40:12.154 WARN  Difference in LZMA data length: found 14403 bytes, expected 14400
+20:40:12.229 INFO  Using 'DStaticPropV10' for sprp version 10
+20:40:12.254 WARN  Lump LUMP_OVERLAY_SYSTEM_LEVELS is empty
+20:40:12.264 INFO  BSP version: 20
+20:40:12.266 INFO  Game: Black Mesa
+20:40:12.291 INFO  Equal amount of areaporal entities and areaportal brushes. Using 'Ordered' method
+20:40:12.298 INFO  No occluders to reallocate...
+20:40:12.430 INFO  4155 (29.5%) exact brushside->origface matches
+20:40:12.434 INFO  0/304 (nondisp/disp) original faces left after exact brushside->origface matching
+20:40:12.472 INFO  140 (1.0%) partial brushside->origface matches
+20:40:12.473 INFO  Writing brushes and planes
+20:40:12.678 INFO  Writing displacements
+20:40:12.734 INFO  Writing entities
+20:40:12.747 INFO  Writing func_details
+20:40:12.868 INFO  Writing info_overlays
+20:40:12.873 INFO  Writing prop_statics
+20:40:12.883 INFO  Writing env_cubemaps
+20:40:12.883 INFO  Writing func_ladders
+20:40:12.886 INFO  Finished decompiling C:\Users\Administrator\Desktop\dm_skate.bsp.
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+material "signs/kritz" not found.
+material "signs/kritzicon" not found.
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (1) (596947 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Error loading studio model "models/props_furniture/stackerchair.mdl"!
+Error loading studio model "models/props_watergate/urban_window002_watergate.mdl"!
+Error loading studio model "models/props_vehicles/forklift_01.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_skate/skateboard.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3649 texinfos to 2257
+Reduced 147 texdatas to 141 (3706 bytes to 3494)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 7227, actual size 5405
+5 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 10
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 532 portalclusters
+1358 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6232 visible clusters (3.35%)
+Total clusters visible: 185780
+Average clusters visible: 349
+Building PAS...
+Average clusters audible: 521
+visdatasize:71866  compressed from 76608
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+7462 faces
+8 degenerate faces
+3185951 square feet [458776928.00 square inches]
+297 Displacements
+442922 Square Feet [63780796.00 Square Inches]
+7454 patches before subdivision
+7454 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 835160, max 1294
+transfer lists:   6.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(16627, 14697, 13919)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(3703, 3028, 2483)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(860, 660, 487)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(220, 159, 108)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(57, 39, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(15, 10, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(4, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0738 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes               1726/8192        20712/98304    (21.1%) 
+brushsides           14426/65536      115408/524288   (22.0%) 
+planes               10798/65536      215960/1310720  (16.5%) 
+vertexes             13238/65536      158856/786432   (20.2%) 
+nodes                 1575/65536       50400/2097152  ( 2.4%) 
+texinfos              2257/12288      162504/884736   (18.4%) 
+texdata                141/2048         4512/65536    ( 6.9%) 
+dispinfos              297/0           52272/0        ( 0.0%) 
+disp_verts            8153/0          163060/0        ( 0.0%) 
+disp_tris            10752/0           21504/0        ( 0.0%) 
+disp_lmsamples      294220/0          294220/0        ( 0.0%) 
+faces                 7462/65536      417872/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4494/65536      251664/3670016  ( 6.9%) 
+leaves                1583/65536       50656/2097152  ( 2.4%) 
+leaffaces             9768/65536       19536/131072   (14.9%) 
+leafbrushes           3986/65536        7972/131072   ( 6.1%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            55881/512000     223524/2048000  (10.9%) 
+edges                34929/256000     139716/1024000  (13.6%) 
+LDR worldlights         73/8192         6424/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1261/32768       12610/327680   ( 3.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23337/65536       46674/131072   (35.6%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               103/512         36256/180224   (20.1%) 
+LDR lightdata         [variable]    12097328/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       71866/16777216 ( 0.4%) 
+entdata               [variable]      123686/393216   (31.5%) 
+LDR ambient table     1583/65536        6332/262144   ( 2.4%) 
+HDR ambient table     1583/65536        6332/262144   ( 2.4%) 
+LDR leaf ambient      7655/65536      214340/1835008  (11.7%) 
+HDR leaf ambient      1583/65536       44324/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/72596    ( 0.0%) 
+pakfile               [variable]        5405/0        ( 0.0%) 
+physics               [variable]      596947/4194304  (14.2%) 
+physics terrain       [variable]       52927/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 23058
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+30 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (1) (596331 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Error loading studio model "models/props_furniture/stackerchair.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3728 texinfos to 2269
+Reduced 149 texdatas to 141 (3895 bytes to 3646)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 8784, actual size 6560
+5 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 541 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 7000 visible clusters (3.64%)
+Total clusters visible: 192273
+Average clusters visible: 355
+Building PAS...
+Average clusters audible: 530
+visdatasize:74153  compressed from 77904
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (1) (596331 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Error loading studio model "models/props_furniture/stackerchair.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3728 texinfos to 2269
+Reduced 149 texdatas to 141 (3895 bytes to 3646)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 8784, actual size 6560
+5 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 541 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1579 visible clusters (1.16%)
+Total clusters visible: 136094
+Average clusters visible: 251
+Building PAS...
+Average clusters audible: 519
+visdatasize:71908  compressed from 77904
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+7493 faces
+8 degenerate faces
+3186685 square feet [458882720.00 square inches]
+297 Displacements
+442922 Square Feet [63780796.00 Square Inches]
+7485 patches before subdivision
+177331 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12352436, max 1309
+transfer lists:  94.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(192549, 168905, 156758)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(47461, 38048, 29415)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13007, 9637, 6478)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3753, 2575, 1534)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1114, 706, 375)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(336, 196, 93)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(102, 55, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(31, 16, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(10, 4, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0432 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes               1726/8192        20712/98304    (21.1%) 
+brushsides           14426/65536      115408/524288   (22.0%) 
+planes               10798/65536      215960/1310720  (16.5%) 
+vertexes             13279/65536      159348/786432   (20.3%) 
+nodes                 1586/65536       50752/2097152  ( 2.4%) 
+texinfos              2269/12288      163368/884736   (18.5%) 
+texdata                141/2048         4512/65536    ( 6.9%) 
+dispinfos              297/0           52272/0        ( 0.0%) 
+disp_verts            8153/0          163060/0        ( 0.0%) 
+disp_tris            10752/0           21504/0        ( 0.0%) 
+disp_lmsamples      267392/0          267392/0        ( 0.0%) 
+faces                 7493/65536      419608/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4503/65536      252168/3670016  ( 6.9%) 
+leaves                1594/65536       51008/2097152  ( 2.4%) 
+leaffaces             9863/65536       19726/131072   (15.0%) 
+leafbrushes           4005/65536        8010/131072   ( 6.1%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            56085/512000     224340/2048000  (11.0%) 
+edges                35042/256000     140168/1024000  (13.7%) 
+LDR worldlights         73/8192         6424/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1270/32768       12700/327680   ( 3.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23523/65536       47046/131072   (35.9%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               102/512         35904/180224   (19.9%) 
+LDR lightdata         [variable]    12423944/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       71908/16777216 ( 0.4%) 
+entdata               [variable]       90159/393216   (22.9%) 
+LDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+HDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+LDR leaf ambient      7763/65536      217364/1835008  (11.8%) 
+HDR leaf ambient      1594/65536       44632/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/72828    ( 0.0%) 
+pakfile               [variable]        6560/0        ( 0.0%) 
+physics               [variable]      596331/4194304  (14.2%) 
+physics terrain       [variable]       52927/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 23164
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+1 minute, 9 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (1) (596331 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3722 texinfos to 2266
+Reduced 150 texdatas to 141 (3928 bytes to 3660)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 8784, actual size 6560
+5 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 541 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1579 visible clusters (1.16%)
+Total clusters visible: 136094
+Average clusters visible: 251
+Building PAS...
+Average clusters audible: 519
+visdatasize:71908  compressed from 77904
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+23 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+7492 faces
+8 degenerate faces
+3186603 square feet [458870944.00 square inches]
+296 Displacements
+442379 Square Feet [63702692.00 Square Inches]
+7484 patches before subdivision
+178120 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12467023, max 1310
+transfer lists:  95.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(193571, 170151, 158721)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(47796, 38387, 29824)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13125, 9736, 6566)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3798, 2609, 1560)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1131, 718, 383)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(342, 201, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(105, 57, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(32, 16, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(10, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0436 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes               1726/8192        20712/98304    (21.1%) 
+brushsides           14426/65536      115408/524288   (22.0%) 
+planes               10786/65536      215720/1310720  (16.5%) 
+vertexes             13276/65536      159312/786432   (20.3%) 
+nodes                 1586/65536       50752/2097152  ( 2.4%) 
+texinfos              2266/12288      163152/884736   (18.4%) 
+texdata                141/2048         4512/65536    ( 6.9%) 
+dispinfos              296/0           52096/0        ( 0.0%) 
+disp_verts            8128/0          162560/0        ( 0.0%) 
+disp_tris            10720/0           21440/0        ( 0.0%) 
+disp_lmsamples      265012/0          265012/0        ( 0.0%) 
+faces                 7492/65536      419552/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4502/65536      252112/3670016  ( 6.9%) 
+leaves                1594/65536       51008/2097152  ( 2.4%) 
+leaffaces             9863/65536       19726/131072   (15.0%) 
+leafbrushes           4005/65536        8010/131072   ( 6.1%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            56077/512000     224308/2048000  (11.0%) 
+edges                35034/256000     140136/1024000  (13.7%) 
+LDR worldlights         73/8192         6424/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1271/32768       12710/327680   ( 3.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23538/65536       47076/131072   (35.9%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               103/512         36256/180224   (20.1%) 
+LDR lightdata         [variable]    12578536/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       71908/16777216 ( 0.4%) 
+entdata               [variable]       90159/393216   (22.9%) 
+LDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+HDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+LDR leaf ambient      7760/65536      217280/1835008  (11.8%) 
+HDR leaf ambient      1594/65536       44632/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/72828    ( 0.0%) 
+pakfile               [variable]        6560/0        ( 0.0%) 
+physics               [variable]      596331/4194304  (14.2%) 
+physics terrain       [variable]       52762/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 23162
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+1 minute, 8 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (0) (596331 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3721 texinfos to 2265
+Reduced 150 texdatas to 141 (3928 bytes to 3660)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 8784, actual size 6560
+5 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 541 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1577 visible clusters (1.16%)
+Total clusters visible: 136092
+Average clusters visible: 251
+Building PAS...
+Average clusters audible: 519
+visdatasize:71908  compressed from 77904
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+7491 faces
+8 degenerate faces
+3186603 square feet [458870944.00 square inches]
+295 Displacements
+442377 Square Feet [63702392.00 Square Inches]
+7483 patches before subdivision
+178119 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12467014, max 1310
+transfer lists:  95.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(193572, 170151, 158721)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(47795, 38387, 29824)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13125, 9736, 6566)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3798, 2609, 1560)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1131, 718, 383)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(342, 201, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(105, 57, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(32, 16, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(10, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0445 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4.
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (1) (596331 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3721 texinfos to 2265
+Reduced 150 texdatas to 141 (3928 bytes to 3660)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 8784, actual size 6560
+5 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 541 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1579 visible clusters (1.16%)
+Total clusters visible: 136094
+Average clusters visible: 251
+Building PAS...
+Average clusters audible: 519
+visdatasize:71908  compressed from 77904
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+6 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+7491 faces
+8 degenerate faces
+3186603 square feet [458870944.00 square inches]
+295 Displacements
+442377 Square Feet [63702392.00 Square Inches]
+7483 patches before subdivision
+178119 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12467014, max 1310
+transfer lists:  95.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(193572, 170152, 158721)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(47795, 38387, 29824)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13125, 9736, 6566)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3798, 2609, 1560)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1131, 718, 383)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(342, 201, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(105, 57, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(32, 16, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(10, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0450 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes               1726/8192        20712/98304    (21.1%) 
+brushsides           14426/65536      115408/524288   (22.0%) 
+planes               10784/65536      215680/1310720  (16.5%) 
+vertexes             13274/65536      159288/786432   (20.3%) 
+nodes                 1586/65536       50752/2097152  ( 2.4%) 
+texinfos              2265/12288      163080/884736   (18.4%) 
+texdata                141/2048         4512/65536    ( 6.9%) 
+dispinfos              295/0           51920/0        ( 0.0%) 
+disp_verts            8103/0          162060/0        ( 0.0%) 
+disp_tris            10688/0           21376/0        ( 0.0%) 
+disp_lmsamples      264836/0          264836/0        ( 0.0%) 
+faces                 7491/65536      419496/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4501/65536      252056/3670016  ( 6.9%) 
+leaves                1594/65536       51008/2097152  ( 2.4%) 
+leaffaces             9863/65536       19726/131072   (15.0%) 
+leafbrushes           4005/65536        8010/131072   ( 6.1%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            56069/512000     224276/2048000  (11.0%) 
+edges                35028/256000     140112/1024000  (13.7%) 
+LDR worldlights         73/8192         6424/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1271/32768       12710/327680   ( 3.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23538/65536       47076/131072   (35.9%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               103/512         36256/180224   (20.1%) 
+LDR lightdata         [variable]    12578536/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       71908/16777216 ( 0.4%) 
+entdata               [variable]       91561/393216   (23.3%) 
+LDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+HDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+LDR leaf ambient      7761/65536      217308/1835008  (11.8%) 
+HDR leaf ambient      1594/65536       44632/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/72828    ( 0.0%) 
+pakfile               [variable]        6560/0        ( 0.0%) 
+physics               [variable]      596331/4194304  (14.2%) 
+physics terrain       [variable]       52681/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 23160
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+1 minute, 2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (1) (596331 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3721 texinfos to 2265
+Reduced 150 texdatas to 141 (3928 bytes to 3660)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 8784, actual size 6560
+5 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 541 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1582 visible clusters (1.16%)
+Total clusters visible: 136097
+Average clusters visible: 251
+Building PAS...
+Average clusters audible: 519
+visdatasize:71908  compressed from 77904
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+6 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+7491 faces
+8 degenerate faces
+3186603 square feet [458870944.00 square inches]
+295 Displacements
+442377 Square Feet [63702392.00 Square Inches]
+7483 patches before subdivision
+178119 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12467014, max 1310
+transfer lists:  95.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(193572, 170152, 158722)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(47795, 38387, 29824)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13125, 9736, 6566)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3798, 2609, 1560)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1131, 718, 383)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(342, 201, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(105, 57, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(32, 16, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(10, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0433 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes               1726/8192        20712/98304    (21.1%) 
+brushsides           14426/65536      115408/524288   (22.0%) 
+planes               10784/65536      215680/1310720  (16.5%) 
+vertexes             13274/65536      159288/786432   (20.3%) 
+nodes                 1586/65536       50752/2097152  ( 2.4%) 
+texinfos              2265/12288      163080/884736   (18.4%) 
+texdata                141/2048         4512/65536    ( 6.9%) 
+dispinfos              295/0           51920/0        ( 0.0%) 
+disp_verts            8103/0          162060/0        ( 0.0%) 
+disp_tris            10688/0           21376/0        ( 0.0%) 
+disp_lmsamples      264836/0          264836/0        ( 0.0%) 
+faces                 7491/65536      419496/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4501/65536      252056/3670016  ( 6.9%) 
+leaves                1594/65536       51008/2097152  ( 2.4%) 
+leaffaces             9863/65536       19726/131072   (15.0%) 
+leafbrushes           4005/65536        8010/131072   ( 6.1%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            56069/512000     224276/2048000  (11.0%) 
+edges                35028/256000     140112/1024000  (13.7%) 
+LDR worldlights         73/8192         6424/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1271/32768       12710/327680   ( 3.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23538/65536       47076/131072   (35.9%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               103/512         36256/180224   (20.1%) 
+LDR lightdata         [variable]    12578536/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       71908/16777216 ( 0.4%) 
+entdata               [variable]       90470/393216   (23.0%) 
+LDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+HDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+LDR leaf ambient      7761/65536      217308/1835008  (11.8%) 
+HDR leaf ambient      1594/65536       44632/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/72828    ( 0.0%) 
+pakfile               [variable]        6560/0        ( 0.0%) 
+physics               [variable]      596331/4194304  (14.2%) 
+physics terrain       [variable]       52681/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 23160
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+1 minute, 4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (1) (596067 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3716 texinfos to 2266
+Reduced 150 texdatas to 141 (3928 bytes to 3660)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 8784, actual size 6560
+5 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 541 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1579 visible clusters (1.16%)
+Total clusters visible: 136094
+Average clusters visible: 251
+Building PAS...
+Average clusters audible: 519
+visdatasize:71908  compressed from 77904
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+6 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+7487 faces
+8 degenerate faces
+3186603 square feet [458870944.00 square inches]
+291 Displacements
+442298 Square Feet [63690968.00 Square Inches]
+7479 patches before subdivision
+178117 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12460865, max 1310
+transfer lists:  95.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(193289, 169902, 158531)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(47756, 38359, 29806)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13108, 9726, 6561)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3794, 2607, 1559)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1129, 717, 383)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(342, 200, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(105, 57, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(32, 16, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(10, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0445 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes               1725/8192        20700/98304    (21.1%) 
+brushsides           14417/65536      115336/524288   (22.0%) 
+planes               10782/65536      215640/1310720  (16.5%) 
+vertexes             13274/65536      159288/786432   (20.3%) 
+nodes                 1586/65536       50752/2097152  ( 2.4%) 
+texinfos              2266/12288      163152/884736   (18.4%) 
+texdata                141/2048         4512/65536    ( 6.9%) 
+dispinfos              291/0           51216/0        ( 0.0%) 
+disp_verts            8003/0          160060/0        ( 0.0%) 
+disp_tris            10560/0           21120/0        ( 0.0%) 
+disp_lmsamples      263688/0          263688/0        ( 0.0%) 
+faces                 7487/65536      419272/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4497/65536      251832/3670016  ( 6.9%) 
+leaves                1594/65536       51008/2097152  ( 2.4%) 
+leaffaces             9863/65536       19726/131072   (15.0%) 
+leafbrushes           4004/65536        8008/131072   ( 6.1%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            56037/512000     224148/2048000  (10.9%) 
+edges                35012/256000     140048/1024000  (13.7%) 
+LDR worldlights         73/8192         6424/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1271/32768       12710/327680   ( 3.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23538/65536       47076/131072   (35.9%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               103/512         36256/180224   (20.1%) 
+LDR lightdata         [variable]    12570504/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       71908/16777216 ( 0.4%) 
+entdata               [variable]       90778/393216   (23.1%) 
+LDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+HDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+LDR leaf ambient      7763/65536      217364/1835008  (11.8%) 
+HDR leaf ambient      1594/65536       44632/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/72828    ( 0.0%) 
+pakfile               [variable]        6560/0        ( 0.0%) 
+physics               [variable]      596067/4194304  (14.2%) 
+physics terrain       [variable]       52175/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 23152
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+1 minute, 2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (1) (596067 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3716 texinfos to 2266
+Reduced 150 texdatas to 141 (3928 bytes to 3660)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 8784, actual size 6560
+5 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 541 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1578 visible clusters (1.16%)
+Total clusters visible: 136093
+Average clusters visible: 251
+Building PAS...
+Average clusters audible: 519
+visdatasize:71908  compressed from 77904
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+7 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+7487 faces
+8 degenerate faces
+3186603 square feet [458870944.00 square inches]
+291 Displacements
+442298 Square Feet [63690968.00 Square Inches]
+7479 patches before subdivision
+178117 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12460865, max 1310
+transfer lists:  95.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(193289, 169902, 158531)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(47756, 38359, 29806)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13108, 9726, 6561)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3794, 2607, 1559)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1129, 717, 383)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(342, 200, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(105, 57, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(32, 16, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(10, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0447 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes               1725/8192        20700/98304    (21.1%) 
+brushsides           14417/65536      115336/524288   (22.0%) 
+planes               10782/65536      215640/1310720  (16.5%) 
+vertexes             13274/65536      159288/786432   (20.3%) 
+nodes                 1586/65536       50752/2097152  ( 2.4%) 
+texinfos              2266/12288      163152/884736   (18.4%) 
+texdata                141/2048         4512/65536    ( 6.9%) 
+dispinfos              291/0           51216/0        ( 0.0%) 
+disp_verts            8003/0          160060/0        ( 0.0%) 
+disp_tris            10560/0           21120/0        ( 0.0%) 
+disp_lmsamples      263688/0          263688/0        ( 0.0%) 
+faces                 7487/65536      419272/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4497/65536      251832/3670016  ( 6.9%) 
+leaves                1594/65536       51008/2097152  ( 2.4%) 
+leaffaces             9863/65536       19726/131072   (15.0%) 
+leafbrushes           4004/65536        8008/131072   ( 6.1%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            56037/512000     224148/2048000  (10.9%) 
+edges                35012/256000     140048/1024000  (13.7%) 
+LDR worldlights         73/8192         6424/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1271/32768       12710/327680   ( 3.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23538/65536       47076/131072   (35.9%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               103/512         36256/180224   (20.1%) 
+LDR lightdata         [variable]    12570504/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       71908/16777216 ( 0.4%) 
+entdata               [variable]       90778/393216   (23.1%) 
+LDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+HDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+LDR leaf ambient      7763/65536      217364/1835008  (11.8%) 
+HDR leaf ambient      1594/65536       44632/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/72828    ( 0.0%) 
+pakfile               [variable]        6560/0        ( 0.0%) 
+physics               [variable]      596067/4194304  (14.2%) 
+physics terrain       [variable]       52175/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 23152
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+1 minute, 4 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\fc\materials
+Loading D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (0) (596067 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3716 texinfos to 2266
+Reduced 150 texdatas to 141 (3928 bytes to 3660)
+Writing D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 8784, actual size 6560
+7 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+6 threads
+reading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 541 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1579 visible clusters (1.16%)
+Total clusters visible: 136094
+Average clusters visible: 251
+Building PAS...
+Average clusters audible: 519
+visdatasize:71908  compressed from 77904
+writing d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+6 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+7487 faces
+8 degenerate faces
+3186603 square feet [458870944.00 square inches]
+291 Displacements
+442298 Square Feet [63690968.00 Square Inches]
+7479 patches before subdivision
+178117 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12460865, max 1310
+transfer lists:  95.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(193290, 169903, 158532)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(47757, 38360, 29807)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13109, 9726, 6561)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3794, 2607, 1559)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1129, 717, 383)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(342, 200, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(105, 57, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(32, 16, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(10, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0473 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes               1725/8192        20700/98304    (21.1%) 
+brushsides           14417/65536      115336/524288   (22.0%) 
+planes               10782/65536      215640/1310720  (16.5%) 
+vertexes             13274/65536      159288/786432   (20.3%) 
+nodes                 1586/65536       50752/2097152  ( 2.4%) 
+texinfos              2266/12288      163152/884736   (18.4%) 
+texdata                141/2048         4512/65536    ( 6.9%) 
+dispinfos              291/0           51216/0        ( 0.0%) 
+disp_verts            8003/0          160060/0        ( 0.0%) 
+disp_tris            10560/0           21120/0        ( 0.0%) 
+disp_lmsamples      263688/0          263688/0        ( 0.0%) 
+faces                 7487/65536      419272/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4497/65536      251832/3670016  ( 6.9%) 
+leaves                1594/65536       51008/2097152  ( 2.4%) 
+leaffaces             9863/65536       19726/131072   (15.0%) 
+leafbrushes           4004/65536        8008/131072   ( 6.1%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            56037/512000     224148/2048000  (10.9%) 
+edges                35012/256000     140048/1024000  (13.7%) 
+LDR worldlights         73/8192         6424/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1271/32768       12710/327680   ( 3.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23538/65536       47076/131072   (35.9%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               103/512         36256/180224   (20.1%) 
+LDR lightdata         [variable]    12570504/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       71908/16777216 ( 0.4%) 
+entdata               [variable]       91325/393216   (23.2%) 
+LDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+HDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+LDR leaf ambient      7763/65536      217364/1835008  (11.8%) 
+HDR leaf ambient      1594/65536       44632/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/72828    ( 0.0%) 
+pakfile               [variable]        6560/0        ( 0.0%) 
+physics               [variable]      596067/4194304  (14.2%) 
+physics terrain       [variable]       52175/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 23152
+Writing d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+1 minute, 9 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\fc\materials
+Loading D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (0) (596067 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3716 texinfos to 2266
+Reduced 150 texdatas to 141 (3928 bytes to 3660)
+Writing D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 8784, actual size 6560
+6 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+6 threads
+reading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 541 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 7000 visible clusters (3.64%)
+Total clusters visible: 192273
+Average clusters visible: 355
+Building PAS...
+Average clusters audible: 530
+visdatasize:74153  compressed from 77904
+writing d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+7487 faces
+8 degenerate faces
+3186603 square feet [458870944.00 square inches]
+291 Displacements
+442298 Square Feet [63690968.00 Square Inches]
+7479 patches before subdivision
+7479 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 837411, max 1295
+transfer lists:   6.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(18127, 16027, 14966)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4254, 3468, 2787)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1051, 796, 567)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(280, 198, 128)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(75, 50, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(21, 13, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(6, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0506 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes               1725/8192        20700/98304    (21.1%) 
+brushsides           14417/65536      115336/524288   (22.0%) 
+planes               10782/65536      215640/1310720  (16.5%) 
+vertexes             13274/65536      159288/786432   (20.3%) 
+nodes                 1586/65536       50752/2097152  ( 2.4%) 
+texinfos              2266/12288      163152/884736   (18.4%) 
+texdata                141/2048         4512/65536    ( 6.9%) 
+dispinfos              291/0           51216/0        ( 0.0%) 
+disp_verts            8003/0          160060/0        ( 0.0%) 
+disp_tris            10560/0           21120/0        ( 0.0%) 
+disp_lmsamples      263688/0          263688/0        ( 0.0%) 
+faces                 7487/65536      419272/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4497/65536      251832/3670016  ( 6.9%) 
+leaves                1594/65536       51008/2097152  ( 2.4%) 
+leaffaces             9863/65536       19726/131072   (15.0%) 
+leafbrushes           4004/65536        8008/131072   ( 6.1%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            56037/512000     224148/2048000  (10.9%) 
+edges                35012/256000     140048/1024000  (13.7%) 
+LDR worldlights         73/8192         6424/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1271/32768       12710/327680   ( 3.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23538/65536       47076/131072   (35.9%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               103/512         36256/180224   (20.1%) 
+LDR lightdata         [variable]    12760376/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       74153/16777216 ( 0.4%) 
+entdata               [variable]       91502/393216   (23.3%) 
+LDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+HDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+LDR leaf ambient      7766/65536      217448/1835008  (11.8%) 
+HDR leaf ambient      1594/65536       44632/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/72828    ( 0.0%) 
+pakfile               [variable]        6560/0        ( 0.0%) 
+physics               [variable]      596067/4194304  (14.2%) 
+physics terrain       [variable]       52175/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 23152
+Writing d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+31 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\fc\materials
+Loading D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (0) (596067 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3716 texinfos to 2266
+Reduced 150 texdatas to 141 (3928 bytes to 3660)
+Writing D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 8784, actual size 6560
+5 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+6 threads
+reading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 541 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 7000 visible clusters (3.64%)
+Total clusters visible: 192273
+Average clusters visible: 355
+Building PAS...
+Average clusters audible: 530
+visdatasize:74153  compressed from 77904
+writing d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+7487 faces
+8 degenerate faces
+3186603 square feet [458870944.00 square inches]
+291 Displacements
+442298 Square Feet [63690968.00 Square Inches]
+7479 patches before subdivision
+7479 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 837411, max 1295
+transfer lists:   6.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(18127, 16027, 14966)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4254, 3468, 2787)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1051, 796, 567)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(280, 198, 128)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(75, 50, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(21, 13, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(6, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0513 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes               1725/8192        20700/98304    (21.1%) 
+brushsides           14417/65536      115336/524288   (22.0%) 
+planes               10782/65536      215640/1310720  (16.5%) 
+vertexes             13274/65536      159288/786432   (20.3%) 
+nodes                 1586/65536       50752/2097152  ( 2.4%) 
+texinfos              2266/12288      163152/884736   (18.4%) 
+texdata                141/2048         4512/65536    ( 6.9%) 
+dispinfos              291/0           51216/0        ( 0.0%) 
+disp_verts            8003/0          160060/0        ( 0.0%) 
+disp_tris            10560/0           21120/0        ( 0.0%) 
+disp_lmsamples      263688/0          263688/0        ( 0.0%) 
+faces                 7487/65536      419272/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4497/65536      251832/3670016  ( 6.9%) 
+leaves                1594/65536       51008/2097152  ( 2.4%) 
+leaffaces             9863/65536       19726/131072   (15.0%) 
+leafbrushes           4004/65536        8008/131072   ( 6.1%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            56037/512000     224148/2048000  (10.9%) 
+edges                35012/256000     140048/1024000  (13.7%) 
+LDR worldlights         73/8192         6424/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1271/32768       12710/327680   ( 3.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23538/65536       47076/131072   (35.9%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               103/512         36256/180224   (20.1%) 
+LDR lightdata         [variable]    12760376/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       74153/16777216 ( 0.4%) 
+entdata               [variable]       95896/393216   (24.4%) 
+LDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+HDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+LDR leaf ambient      7766/65536      217448/1835008  (11.8%) 
+HDR leaf ambient      1594/65536       44632/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/72828    ( 0.0%) 
+pakfile               [variable]        6560/0        ( 0.0%) 
+physics               [variable]      596067/4194304  (14.2%) 
+physics terrain       [variable]       52175/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 23152
+Writing d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+33 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\fc\materials
+Loading D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (1)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (0) (595675 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3716 texinfos to 2266
+Reduced 150 texdatas to 141 (3928 bytes to 3660)
+Writing D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 8784, actual size 6560
+6 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+6 threads
+reading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 541 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 7000 visible clusters (3.64%)
+Total clusters visible: 192273
+Average clusters visible: 355
+Building PAS...
+Average clusters audible: 530
+visdatasize:74153  compressed from 77904
+writing d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+7487 faces
+8 degenerate faces
+3186603 square feet [458870944.00 square inches]
+291 Displacements
+442298 Square Feet [63690968.00 Square Inches]
+7479 patches before subdivision
+7479 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 837411, max 1295
+transfer lists:   6.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(18127, 16027, 14966)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4254, 3468, 2787)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1051, 796, 567)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(280, 198, 128)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(75, 50, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(21, 13, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(6, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0460 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes               1724/8192        20688/98304    (21.0%) 
+brushsides           14411/65536      115288/524288   (22.0%) 
+planes               10778/65536      215560/1310720  (16.4%) 
+vertexes             13274/65536      159288/786432   (20.3%) 
+nodes                 1586/65536       50752/2097152  ( 2.4%) 
+texinfos              2266/12288      163152/884736   (18.4%) 
+texdata                141/2048         4512/65536    ( 6.9%) 
+dispinfos              291/0           51216/0        ( 0.0%) 
+disp_verts            8003/0          160060/0        ( 0.0%) 
+disp_tris            10560/0           21120/0        ( 0.0%) 
+disp_lmsamples      263688/0          263688/0        ( 0.0%) 
+faces                 7487/65536      419272/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4497/65536      251832/3670016  ( 6.9%) 
+leaves                1594/65536       51008/2097152  ( 2.4%) 
+leaffaces             9863/65536       19726/131072   (15.0%) 
+leafbrushes           3998/65536        7996/131072   ( 6.1%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            56037/512000     224148/2048000  (10.9%) 
+edges                35012/256000     140048/1024000  (13.7%) 
+LDR worldlights         73/8192         6424/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1271/32768       12710/327680   ( 3.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23538/65536       47076/131072   (35.9%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               103/512         36256/180224   (20.1%) 
+LDR lightdata         [variable]    12760376/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       74153/16777216 ( 0.4%) 
+entdata               [variable]      100577/393216   (25.6%) 
+LDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+HDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+LDR leaf ambient      7766/65536      217448/1835008  (11.8%) 
+HDR leaf ambient      1594/65536       44632/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/72828    ( 0.0%) 
+pakfile               [variable]        6560/0        ( 0.0%) 
+physics               [variable]      595675/4194304  (14.2%) 
+physics terrain       [variable]       52175/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 23152
+Writing d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+32 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\fc\materials
+Loading D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (0) (595675 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3716 texinfos to 2266
+Reduced 150 texdatas to 141 (3928 bytes to 3660)
+Writing D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 8784, actual size 6560
+5 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+6 threads
+reading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 541 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 7000 visible clusters (3.64%)
+Total clusters visible: 192273
+Average clusters visible: 355
+Building PAS...
+Average clusters audible: 530
+visdatasize:74153  compressed from 77904
+writing d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+7487 faces
+8 degenerate faces
+3186603 square feet [458870944.00 square inches]
+291 Displacements
+442298 Square Feet [63690968.00 Square Inches]
+7479 patches before subdivision
+7479 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 837411, max 1295
+transfer lists:   6.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(18127, 16027, 14966)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4254, 3468, 2787)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1051, 796, 567)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(280, 198, 128)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(75, 50, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(21, 13, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(6, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0459 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes               1724/8192        20688/98304    (21.0%) 
+brushsides           14411/65536      115288/524288   (22.0%) 
+planes               10778/65536      215560/1310720  (16.4%) 
+vertexes             13274/65536      159288/786432   (20.3%) 
+nodes                 1586/65536       50752/2097152  ( 2.4%) 
+texinfos              2266/12288      163152/884736   (18.4%) 
+texdata                141/2048         4512/65536    ( 6.9%) 
+dispinfos              291/0           51216/0        ( 0.0%) 
+disp_verts            8003/0          160060/0        ( 0.0%) 
+disp_tris            10560/0           21120/0        ( 0.0%) 
+disp_lmsamples      263688/0          263688/0        ( 0.0%) 
+faces                 7487/65536      419272/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4497/65536      251832/3670016  ( 6.9%) 
+leaves                1594/65536       51008/2097152  ( 2.4%) 
+leaffaces             9863/65536       19726/131072   (15.0%) 
+leafbrushes           3998/65536        7996/131072   ( 6.1%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            56037/512000     224148/2048000  (10.9%) 
+edges                35012/256000     140048/1024000  (13.7%) 
+LDR worldlights         73/8192         6424/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1271/32768       12710/327680   ( 3.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23538/65536       47076/131072   (35.9%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               103/512         36256/180224   (20.1%) 
+LDR lightdata         [variable]    12760376/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       74153/16777216 ( 0.4%) 
+entdata               [variable]      100520/393216   (25.6%) 
+LDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+HDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+LDR leaf ambient      7766/65536      217448/1835008  (11.8%) 
+HDR leaf ambient      1594/65536       44632/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/72828    ( 0.0%) 
+pakfile               [variable]        6560/0        ( 0.0%) 
+physics               [variable]      595675/4194304  (14.2%) 
+physics terrain       [variable]       52175/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 23152
+Writing d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+29 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\fc\materials
+Loading D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (0) (595675 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3716 texinfos to 2266
+Reduced 150 texdatas to 141 (3928 bytes to 3660)
+Writing D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 8784, actual size 6560
+5 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+6 threads
+reading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 541 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1578 visible clusters (1.16%)
+Total clusters visible: 136093
+Average clusters visible: 251
+Building PAS...
+Average clusters audible: 519
+visdatasize:71908  compressed from 77904
+writing d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+7487 faces
+8 degenerate faces
+3186603 square feet [458870944.00 square inches]
+291 Displacements
+442298 Square Feet [63690968.00 Square Inches]
+7479 patches before subdivision
+178117 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 12460865, max 1310
+transfer lists:  95.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(193290, 169903, 158532)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(47757, 38360, 29807)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(13109, 9726, 6561)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3794, 2607, 1559)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(1129, 717, 383)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(342, 200, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(105, 57, 24)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(32, 16, 6)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(10, 5, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(3, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0430 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes               1724/8192        20688/98304    (21.0%) 
+brushsides           14411/65536      115288/524288   (22.0%) 
+planes               10778/65536      215560/1310720  (16.4%) 
+vertexes             13274/65536      159288/786432   (20.3%) 
+nodes                 1586/65536       50752/2097152  ( 2.4%) 
+texinfos              2266/12288      163152/884736   (18.4%) 
+texdata                141/2048         4512/65536    ( 6.9%) 
+dispinfos              291/0           51216/0        ( 0.0%) 
+disp_verts            8003/0          160060/0        ( 0.0%) 
+disp_tris            10560/0           21120/0        ( 0.0%) 
+disp_lmsamples      263688/0          263688/0        ( 0.0%) 
+faces                 7487/65536      419272/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4497/65536      251832/3670016  ( 6.9%) 
+leaves                1594/65536       51008/2097152  ( 2.4%) 
+leaffaces             9863/65536       19726/131072   (15.0%) 
+leafbrushes           3998/65536        7996/131072   ( 6.1%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            56037/512000     224148/2048000  (10.9%) 
+edges                35012/256000     140048/1024000  (13.7%) 
+LDR worldlights         73/8192         6424/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1271/32768       12710/327680   ( 3.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23538/65536       47076/131072   (35.9%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               103/512         36256/180224   (20.1%) 
+LDR lightdata         [variable]    12570504/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       71908/16777216 ( 0.4%) 
+entdata               [variable]      100789/393216   (25.6%) 
+LDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+HDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+LDR leaf ambient      7763/65536      217364/1835008  (11.8%) 
+HDR leaf ambient      1594/65536       44632/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/72828    ( 0.0%) 
+pakfile               [variable]        6560/0        ( 0.0%) 
+physics               [variable]      595675/4194304  (14.2%) 
+physics terrain       [variable]       52175/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 23152
+Writing d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+1 minute, 0 seconds elapsed
+
+
+
+materialPath: D:\Steam\steamapps\sourcemods\fc\materials
+Loading D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.vmf
+material "construction/brick/constructwall001" not found.
+Material not found!: CONSTRUCTION/BRICK/CONSTRUCTWALL001
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+material "skate/plywood_01a" not found.
+Material not found!: SKATE/PLYWOOD_01A
+material "skate/park_base_01" not found.
+Material not found!: SKATE/PARK_BASE_01
+material "concrete/pavement001" not found.
+Material not found!: CONCRETE/PAVEMENT001
+material "concrete/concretefloor003desat" not found.
+Material not found!: CONCRETE/CONCRETEFLOOR003DESAT
+material "skate/tarp_01" not found.
+Material not found!: SKATE/TARP_01
+material "skate/park_ramp_01" not found.
+Material not found!: SKATE/PARK_RAMP_01
+material "brick/brickwall001mod" not found.
+Material not found!: BRICK/BRICKWALL001MOD
+Patching WVT material: maps/dm_skate/nature/blendgroundtograss007_wvt_patch
+Patching WVT material: maps/dm_skate/nature/blendgroundtogravel004_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1712 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+
+qhull precision error: Only 4 facets remain.  Can not merge another
+pair.  The convexity constraints may be too strong.  Reduce the
+magnitude of 'Cn' or increase the magnitude of 'An'.  For example,
+try 'C-0.001' instead of 'C-0.1' or 'A-0.999' instead of 'A-0.9'.
+done (1) (595675 bytes)
+Error loading studio model "models/props_scaffold/scaffold_pole_256.mdl"!
+Error loading studio model "models/props_training/target_civilian.mdl"!
+Error loading studio model "models/props_watergate/dumpster.mdl"!
+Error loading studio model "models/prop_cables/cable_long_suspended_02.mdl"!
+Error loading studio model "models/props_scaffold/scaffold_base.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9.Material NATURE/BLENDGROUNDTOGRASS007 uses unknown detail object type tf_forest_grass!
+..10
+Compacting texture/material tables...
+Reduced 3716 texinfos to 2266
+Reduced 150 texdatas to 141 (3928 bytes to 3660)
+Writing D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 8784, actual size 6560
+6 seconds elapsed
+CMaterialDict::Shutdown m_MissingList count: 8
+
+
+
+6 threads
+reading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+reading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.prt
+ 541 portalclusters
+1392 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 7000 visible clusters (3.64%)
+Total clusters visible: 192273
+Average clusters visible: 355
+Building PAS...
+Average clusters audible: 530
+visdatasize:74153  compressed from 77904
+writing d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+7487 faces
+8 degenerate faces
+3186603 square feet [458870944.00 square inches]
+291 Displacements
+442298 Square Feet [63690968.00 Square Inches]
+7479 patches before subdivision
+7479 patches after subdivision
+73 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 837411, max 1295
+transfer lists:   6.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(18127, 16027, 14966)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(4254, 3468, 2787)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1051, 796, 567)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(280, 198, 128)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(75, 50, 29)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(21, 13, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(6, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0494 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   7/1024          336/49152    ( 0.7%) 
+brushes               1724/8192        20688/98304    (21.0%) 
+brushsides           14411/65536      115288/524288   (22.0%) 
+planes               10778/65536      215560/1310720  (16.4%) 
+vertexes             13274/65536      159288/786432   (20.3%) 
+nodes                 1586/65536       50752/2097152  ( 2.4%) 
+texinfos              2266/12288      163152/884736   (18.4%) 
+texdata                141/2048         4512/65536    ( 6.9%) 
+dispinfos              291/0           51216/0        ( 0.0%) 
+disp_verts            8003/0          160060/0        ( 0.0%) 
+disp_tris            10560/0           21120/0        ( 0.0%) 
+disp_lmsamples      263688/0          263688/0        ( 0.0%) 
+faces                 7487/65536      419272/3670016  (11.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             4497/65536      251832/3670016  ( 6.9%) 
+leaves                1594/65536       51008/2097152  ( 2.4%) 
+leaffaces             9863/65536       19726/131072   (15.0%) 
+leafbrushes           3998/65536        7996/131072   ( 6.1%) 
+areas                    6/256            48/2048     ( 2.3%) 
+surfedges            56037/512000     224148/2048000  (10.9%) 
+edges                35012/256000     140048/1024000  (13.7%) 
+LDR worldlights         73/8192         6424/720896   ( 0.9%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips           1271/32768       12710/327680   ( 3.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         23538/65536       47076/131072   (35.9%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays               103/512         36256/180224   (20.1%) 
+LDR lightdata         [variable]    12760376/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       74153/16777216 ( 0.4%) 
+entdata               [variable]      100789/393216   (25.6%) 
+LDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+HDR ambient table     1594/65536        6376/262144   ( 2.4%) 
+LDR leaf ambient      7766/65536      217448/1835008  (11.8%) 
+HDR leaf ambient      1594/65536       44632/1835008  ( 2.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/72828    ( 0.0%) 
+pakfile               [variable]        6560/0        ( 0.0%) 
+physics               [variable]      595675/4194304  (14.2%) 
+physics terrain       [variable]       52175/1048576  ( 5.0%) 
+
+Level flags = 0
+
+Total triangle count: 23152
+Writing d:\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_skate.bsp
+30 seconds elapsed

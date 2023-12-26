@@ -1,0 +1,130 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\fc\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_shipment.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_shipment.prt...Building visibility clusters...
+done (0)
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+*** Error: Skybox vtf files for skybox/sky_yuki_01 weren't compiled with the same size texture and/or same flags!
+Can't load skybox file skybox/sky_yuki_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (17024 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 89 texinfos to 12
+Reduced 10 texdatas to 8 (225 bytes to 176)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_shipment.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'C:\Program Files (x86)\Steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_shipment.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+6 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_shipment.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_shipment.prt
+ 181 portalclusters
+ 502 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 7 visible clusters (0.03%)
+Total clusters visible: 26478
+Average clusters visible: 146
+Building PAS...
+Average clusters audible: 173
+visdatasize:9677  compressed from 8688
+writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_shipment.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_shipment.bsp', but we don't own that location. Allowing.
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_shipment.bsp
+367 faces
+735848 square feet [105962112.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+367 patches before subdivision
+10713 patches after subdivision
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 18313, max 146
+transfer lists:   0.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(12, 19, 35)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 44/8192          528/98304    ( 0.5%) 
+brushsides             285/65536        2280/524288   ( 0.4%) 
+planes                 300/65536        6000/1310720  ( 0.5%) 
+vertexes               588/65536        7056/786432   ( 0.9%) 
+nodes                  344/65536       11008/2097152  ( 0.5%) 
+texinfos                12/12288         864/884736   ( 0.1%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  367/65536       20552/3670016  ( 0.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               47/65536        2632/3670016  ( 0.1%) 
+leaves                 346/65536       11072/2097152  ( 0.5%) 
+leaffaces              433/65536         866/131072   ( 0.7%) 
+leafbrushes            228/65536         456/131072   ( 0.3%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             1811/512000       7244/2048000  ( 0.4%) 
+edges                 1058/256000       4232/1024000  ( 0.4%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             20/32768         200/327680   ( 0.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           249/65536         498/131072   ( 0.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1009172/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]        9677/16777216 ( 0.1%) 
+entdata               [variable]       22977/393216   ( 5.8%) 
+LDR ambient table      346/65536        1384/262144   ( 0.5%) 
+HDR ambient table      346/65536        1384/262144   ( 0.5%) 
+LDR leaf ambient      1818/65536       50904/1835008  ( 2.8%) 
+HDR leaf ambient       346/65536        9688/1835008  ( 0.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12548    ( 0.0%) 
+pakfile               [variable]          54/0        ( 0.0%) 
+physics               [variable]       17024/4194304  ( 0.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 889
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fc_assetsrc\fc_mapsrc\dm_shipment.bsp
+ZIP Output overshot buffer estimate: Estimated 0, actual 54
+2 seconds elapsed
