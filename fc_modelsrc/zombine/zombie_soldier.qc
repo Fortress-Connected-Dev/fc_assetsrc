@@ -1509,6 +1509,16 @@ $animation "a_Idle" "zombie_soldier_anims\Idle01.smd" {
 	walkframe 30 LX LY
 }
 
+$animation "a_Idle_old" "zombie_soldier_anims\Idle_01.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" footstep contact 8 fakeorigin 10.7 4.68 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 19 8 11 19 target 3
+	ikrule "rfoot" footstep contact 18 fakeorigin 8.74 -7.3 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 10 18 2 10 target 2
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 1
+	walkframe 30 LX LY
+}
+
 $animation "a_swim_c" "zombie_soldier_anims\swimming_all.smd" {
 	fps 30
 	loop
@@ -2698,6 +2708,23 @@ $sequence "Enforcer_Idle01" {
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 3
 }
 
+$sequence "Enforcer_Idle01_grenade" {
+	"zombie_soldier_anims\Idle01.smd"
+	activity "ACT_MP_STAND_ITEM1" 1
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+	loop
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 3
+}
+
 $sequence "loadout_anim" {
 	"zombie_soldier_anims\Idle01.smd"
 	activity "ACT_MP_COMPETITIVE_LOSERSTATE" 1
@@ -2792,9 +2819,19 @@ $sequence "Jump_Glide_airwalk" {
 $sequence "Crouch" {
 	"zombie_soldier_anims\pose_ducking_01.smd"
 	activity "ACT_MP_CROUCH_MELEE" 1
-	blend "body_yaw" -29.7 29.7
-	blend "head_pitch" -60 60
-	blend "head_yaw" -75 75
+	blendwidth 1
+	fps 30
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
+	loop
+	fadein 0.2
+	fadeout 0.2
+}
+
+$sequence "Crouch_grenade" {
+	"zombie_soldier_anims\pose_ducking_01.smd"
+	activity "ACT_MP_CROUCH_ITEM1" 1
 	blendwidth 1
 	fps 30
 	addlayer "gmod_breath_layer"
@@ -2825,6 +2862,26 @@ $sequence "Crouch_Walk" {
 	fadeout 0.2
 }
 
+$sequence "Crouch_Walk_grenade" {
+	"a_CrouchWalk_SW"
+	"a_CrouchWalk_S"
+	"a_CrouchWalk_SE"
+	"a_CrouchWalk_W"
+	"a_CrouchWalk_C"
+	"a_CrouchWalk_E"
+	"a_CrouchWalk_NW"
+	"a_CrouchWalk_N"
+	"a_CrouchWalk_NE"
+	activity "ACT_MP_CROUCHWALK_ITEM1" 1
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	addlayer "layer_Aim_all"
+	{ event 6004 5 "NPC_CombineS" }
+	{ event 6005 22 "NPC_CombineS" }
+	fadein 0.2
+	fadeout 0.2
+}
+
 $sequence "Swimming" {
 	"a_swim_sw"
 	"a_swim_s"
@@ -2836,6 +2893,24 @@ $sequence "Swimming" {
 	"a_swim_n"
 	"a_swim_ne"
 	activity "ACT_MP_SWIM_MELEE" 1
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	addlayer "layer_Aim_all"
+	fadein 0.2
+	fadeout 0.2
+}
+
+$sequence "Swimming_grenade" {
+	"a_swim_sw"
+	"a_swim_s"
+	"a_swim_se"
+	"a_swim_w"
+	"a_swim_c"
+	"a_swim_e"
+	"a_swim_nw"
+	"a_swim_n"
+	"a_swim_ne"
+	activity "ACT_MP_SWIM_ITEM1" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
 	addlayer "layer_Aim_all"
@@ -2944,6 +3019,28 @@ $sequence "enforce_run_melee" {
 	"a_ZRunN"
 	"a_ZRunNE"
 	activity "ACT_MP_RUN_MELEE" 1
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	{ event 6004 5 "NPC_CombineS" }
+	{ event 6005 14 "NPC_CombineS" }
+	fadein 0.2
+	fadeout 0.2
+	addlayer "zombie_run_upperbody_layer"
+	addlayer "idle_layer_alt"
+	addlayer "layer_Aim_all"
+}
+
+$sequence "enforce_run_melee_grenade" {
+	"a_ZRunSW"
+	"a_ZRunS"
+	"a_ZRunSE"
+	"a_ZRunW"
+	"a_ZRunC"
+	"a_ZRunE"
+	"a_ZRunNW"
+	"a_ZRunN"
+	"a_ZRunNE"
+	activity "ACT_MP_RUN_ITEM1" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
 	{ event 6004 5 "NPC_CombineS" }
@@ -3556,27 +3653,27 @@ $sequence "swim_gravgun" {
 	node "running"
 }
 
-$sequence "Run_All_grenade" {
-	"a_WalkS"
-	"a_WalkSE"
-	"a_WalkE"
-	"a_run_ne"
-	"a_run_n"
-	"a_run_nw"
-	"a_WalkW"
+$sequence "run_grenade_pulled" {
 	"a_WalkSW"
 	"a_WalkS"
-	activity "" 1
-	blend "move_yaw" -180 180
-	blendwidth 9
+	"a_WalkSE"
+	"a_WalkW"
+	"a_Idle_old"
+	"a_WalkE"
+	"a_run_nw"
+	"a_run_n"
+	"a_run_ne"
+	activity "ACT_MP_GRENADE_PULL" 1
+	blend "move_y" -1 1
+	blend "move_x" -1 1
 	{ event 6004 15 "NPC_CombineS" }
 	{ event 6005 7 "NPC_CombineS" }
-	fadein 0.2
-	fadeout 0.2
-	keyvalues
-	{
-		interior Idle_Grenade
-	}
+	fadein 0.4
+	fadeout 0.3
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
+	node "running"
 }
 
 $sequence "FireWalk" {
