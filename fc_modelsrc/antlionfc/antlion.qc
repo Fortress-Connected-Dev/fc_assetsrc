@@ -464,6 +464,16 @@ $sequence "Idle" {
 	loop
 }
 
+$sequence "Idle_Primary" {
+	"a_Idle"
+	activity "ACT_MP_STAND_PRIMARY" 1
+	addlayer "head_aimmatrix"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+	loop
+}
+
 $sequence "Idle_crouch" {
 	"a_Idle"
 	activity "ACT_MP_CROUCH_MELEE" 1
@@ -516,6 +526,28 @@ $sequence "walk_all" {
 	node "walking"
 }
 
+$sequence "crouch_walk_primary" {
+	"a_WalkSW"
+	"a_WalkS"
+	"a_WalkSE"
+	"a_WalkW"
+	"a_Idle"
+	"a_WalkE"
+	"a_WalkNW"
+	"a_WalkN"
+	"a_WalkNE"
+	activity "ACT_MP_CROUCHWALK_PRIMARY" 1
+	addlayer "head_aimmatrix"
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	{ event AE_CL_PLAYSOUND 1 "NPC_Antlion.Footstep" }
+	{ event AE_CL_PLAYSOUND 10 "NPC_Antlion.Footstep" }
+	{ event AE_CL_PLAYSOUND 19 "NPC_Antlion.Footstep" }
+	fadein 0.2
+	fadeout 0.2
+	node "walking"
+}
+
 $sequence "crouch_walk_all" {
 	"a_WalkSW"
 	"a_WalkS"
@@ -549,6 +581,28 @@ $sequence "run_all" {
 	"a_RunN"
 	"a_WalkNEfast"
 	activity "ACT_MP_RUN_MELEE" 1
+	addlayer "head_aimmatrix"
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	{ event AE_CL_PLAYSOUND 1 "NPC_Antlion.Footstep" }
+	{ event AE_CL_PLAYSOUND 10 "NPC_Antlion.Footstep" }
+	{ event AE_CL_PLAYSOUND 19 "NPC_Antlion.Footstep" }
+	fadein 0.2
+	fadeout 0.2
+	node "running"
+}
+
+$sequence "run_primary" {
+	"a_WalkSW"
+	"a_WalkS"
+	"a_WalkSE"
+	"a_ScuttleLeft"
+	"a_Idle"
+	"a_ScuttleRt"
+	"a_WalkNWfast"
+	"a_RunN"
+	"a_WalkNEfast"
+	activity "ACT_MP_RUN_PRIMARY" 1
 	addlayer "head_aimmatrix"
 	blend "move_y" -1 1
 	blend "move_x" -1 1
@@ -625,6 +679,56 @@ $sequence "Jump_Glide_airwalk" {
 $sequence "JumpGlide_swim" {
 	"a_JumpGlide"
 	activity "ACT_MP_SWIM_MELEE" 1
+	addlayer "head_aimmatrix"
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	node "jumping"
+}
+
+$sequence "JumpGlide_start_primary" {
+	"a_JumpGlide"
+	activity "ACT_MP_JUMP_START_PRIMARY" 1
+	addlayer "head_aimmatrix"
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	node "jumping"
+}
+
+$sequence "JumpGlide_float_primary" {
+	"a_JumpGlide"
+	activity "ACT_MP_JUMP_FLOAT_PRIMARY" 1
+	addlayer "head_aimmatrix"
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	node "jumping"
+}
+
+$sequence "JumpGlide_jump_primary" {
+	"a_JumpGlide"
+	activity "ACT_MP_JUMP_PRIMARY" 1
+	addlayer "head_aimmatrix"
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	node "jumping"
+}
+
+$sequence "Jump_Glide_airwalk_primary" {
+	"a_JumpGlide_start"
+	activity "ACT_MP_AIRWALK_PRIMARY" 1
+	addlayer "head_aimmatrix"
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	node "jumping"
+}
+
+$sequence "JumpGlide_swim_primary" {
+	"a_JumpGlide"
+	activity "ACT_MP_SWIM_PRIMARY" 1
 	addlayer "head_aimmatrix"
 	blendwidth 1
 	fadein 0.2
