@@ -123,6 +123,11 @@ $attachment "leftrear" "Antlion.LegMidL3_Bone" 30 0 0 rotate 0 0 0
 $attachment "rightrear" "Antlion.LegMidR3_Bone" 30 0 0 rotate 0 0 0
 $attachment "partyhat" "Antlion.Head_Bone" -3.00 11.00 0.00 rotate -0 180 90
 $attachment "flag" "Antlion.Back_Bone" 26.00 -11.00 -0.00 rotate -90 109 0
+$Attachment "weapon_bone_L" "weapon_bone_L" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone" "weapon_bone" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_2" "weapon_bone_2" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_3" "weapon_bone_3" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_4" "weapon_bone_4" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
@@ -196,6 +201,19 @@ $definebone "Antlion.LegR2_Bone" "Antlion.LegR1_Bone" 19.931141 -0.000002 -0.000
 $definebone "Antlion.LegR3_Bone" "Antlion.LegR2_Bone" 26.044119 0 0.000002 0.000001 120.206658 0 0 0 0 0 0 0
 $definebone "Antlion.WingL_Bone" "Antlion.Body_Bone" -5.849911 4.319725 0.063164 0 46.069988 26.444985 0 0 0 0 0 0
 $definebone "Antlion.WingR_Bone" "Antlion.Body_Bone" -5.827132 4.411093 0.063164 0.331112 46.06993 -18.90079 0 0 0 0 0 0
+$DefineBone "weapon_bone" "Antlion.Head_Bone" -15 1.5 0 0 -90 90 0 0 0 0 0 0
+$DefineBone "weapon_bone_1" "weapon_bone" 0 0 1.136383 0.000006 178.725915 -90.000016 0 0 0 0 0 0
+$DefineBone "weapon_bone_2" "weapon_bone" 0 0 2.268631 -0.000007 0 0.000003 0 0 0 0 0 0
+$DefineBone "weapon_bone_3" "weapon_bone" 0.000001 0 3.869488 -0.000007 0 0.000003 0 0 0 0 0 0
+$DefineBone "weapon_bone_4" "weapon_bone" 0.000002 0 5.895084 -0.000007 0 0.000003 0 0 0 0 0 0
+$DefineBone "weapon_bone_L" "Antlion.Head_Bone" -15 1.5 0 0 -90 90 0 0 0 0 0 0
+
+$BoneMerge "weapon_bone"
+$BoneMerge "weapon_bone_1"
+$BoneMerge "weapon_bone_2"
+$BoneMerge "weapon_bone_3"
+$BoneMerge "weapon_bone_4"
+$BoneMerge "weapon_bone_L"
 
 
 // The 32 below is a guess until further is known about the format.
@@ -464,6 +482,16 @@ $sequence "Idle" {
 	loop
 }
 
+$sequence "Idle_Melee_Allclass" {
+	"a_Idle"
+	activity "ACT_MP_STAND_MELEE_ALLCLASS" 1
+	addlayer "head_aimmatrix"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+	loop
+}
+
 $sequence "Idle_Primary" {
 	"a_Idle"
 	activity "ACT_MP_STAND_PRIMARY" 1
@@ -515,6 +543,28 @@ $sequence "walk_all" {
 	"a_WalkN"
 	"a_WalkNE"
 	activity "ACT_MP_CROUCHWALK_MELEE" 1
+	addlayer "head_aimmatrix"
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	{ event AE_CL_PLAYSOUND 1 "NPC_Antlion.Footstep" }
+	{ event AE_CL_PLAYSOUND 10 "NPC_Antlion.Footstep" }
+	{ event AE_CL_PLAYSOUND 19 "NPC_Antlion.Footstep" }
+	fadein 0.2
+	fadeout 0.2
+	node "walking"
+}
+
+$sequence "walk_melee_allclass" {
+	"a_WalkSW"
+	"a_WalkS"
+	"a_WalkSE"
+	"a_WalkW"
+	"a_Idle"
+	"a_WalkE"
+	"a_WalkNW"
+	"a_WalkN"
+	"a_WalkNE"
+	activity "ACT_MP_CROUCHWALK_MELEE_ALLCLASS" 1
 	addlayer "head_aimmatrix"
 	blend "move_y" -1 1
 	blend "move_x" -1 1
@@ -592,6 +642,28 @@ $sequence "run_all" {
 	node "running"
 }
 
+$sequence "run_melee_allclass" {
+	"a_WalkSW"
+	"a_WalkS"
+	"a_WalkSE"
+	"a_ScuttleLeft"
+	"a_Idle"
+	"a_ScuttleRt"
+	"a_WalkNWfast"
+	"a_RunN"
+	"a_WalkNEfast"
+	activity "ACT_MP_RUN_MELEE_ALLCLASS" 1
+	addlayer "head_aimmatrix"
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	{ event AE_CL_PLAYSOUND 1 "NPC_Antlion.Footstep" }
+	{ event AE_CL_PLAYSOUND 10 "NPC_Antlion.Footstep" }
+	{ event AE_CL_PLAYSOUND 19 "NPC_Antlion.Footstep" }
+	fadein 0.2
+	fadeout 0.2
+	node "running"
+}
+
 $sequence "run_primary" {
 	"a_WalkSW"
 	"a_WalkS"
@@ -656,9 +728,39 @@ $sequence "JumpGlide_float" {
 	node "jumping"
 }
 
+$sequence "JumpGlide_start_melee_allclass" {
+	"a_JumpGlide"
+	activity "ACT_MP_JUMP_START_MELEE_ALLCLASS" 1
+	addlayer "head_aimmatrix"
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	node "jumping"
+}
+
+$sequence "JumpGlide_float_melee_allclass" {
+	"a_JumpGlide"
+	activity "ACT_MP_JUMP_FLOAT_MELEE_ALLCLASS" 1
+	addlayer "head_aimmatrix"
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	node "jumping"
+}
+
 $sequence "JumpGlide_jump" {
 	"a_JumpGlide"
 	activity "ACT_MP_JUMP_MELEE" 1
+	addlayer "head_aimmatrix"
+	blendwidth 1
+	fadein 0.2
+	fadeout 0.2
+	node "jumping"
+}
+
+$sequence "JumpGlide_jump_melee_allclass" {
+	"a_JumpGlide"
+	activity "ACT_MP_JUMP_MELEE_ALLCLASS" 1
 	addlayer "head_aimmatrix"
 	blendwidth 1
 	fadein 0.2
@@ -948,6 +1050,38 @@ $sequence "charge_end" {
 $sequence "hit01" {
 	"antlion_anims\hit01.smd"
 	activity "" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 60
+}
+
+$sequence "melee_swing" {
+	"antlion_anims\hit01.smd"
+	activity "ACT_MP_ATTACK_STAND_MELEE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 60
+}
+
+$sequence "melee_swing_crouch" {
+	"antlion_anims\hit01.smd"
+	activity "ACT_MP_ATTACK_CROUCH_MELEE" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 60
+}
+
+$sequence "melee_swing_allclass" {
+	"antlion_anims\hit01.smd"
+	activity "ACT_MP_ATTACK_STAND_MELEE_ALLCLASS" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 60
+}
+
+$sequence "melee_swing_crouch_allclass" {
+	"antlion_anims\hit01.smd"
+	activity "ACT_MP_ATTACK_CROUCH_MELEE_ALLCLASS" 1
 	fadein 0.2
 	fadeout 0.2
 	fps 60
