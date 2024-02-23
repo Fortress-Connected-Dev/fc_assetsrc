@@ -14,6 +14,9 @@ hls00amrl fc_hls_00
 ->*  dead players stop train
 -    Building stop train
 -    add lfce_progresion
+-?   Remove lock sound when bumping into closed big gate
+>*   BONUS: Add chairs to the into scene for RP (Ask about compat later)
+-    REBUILD MAP FULLY HL1 LDR + CUBEMAPS
 hls01amrl fc_hls_01
 -    Lighting Bugged
 -    gmanroom glass unbreakable
@@ -37,6 +40,15 @@ hls01amrl fc_hls_01
 -    barn triggers door overlapping
 -    add lfce_progresion
 -    test chamber carrier softlock
+*    main door continous noise (intentional???)
+-    logic overhaul and prevent cheese at suit pickup
+-?   potential malformed brush in water room
+-    scarry elevator bottom door gets stuck open (how??) (Turns out I'm retarded)
+-    main room desk clip black hole
+-    Altered main room chair clip to be bigger to prevent weirdness
+-?   light room sci not sitting properly (nah fr fuck figuring out how to get this man to sit, he can stand from now on, fat ass)
+-    remove npc status from BUFF CABINENT
+-    REBUILD MAP FULLY HL1 LDR + CUBEMAPS
 hls02amrl fc_hls_02
     Rubble to Phys props
     fix scarry elev
