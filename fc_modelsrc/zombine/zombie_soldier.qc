@@ -276,17 +276,18 @@ $mostlyopaque
 
 $cdmaterials "models\player\zombine\"
 $cdmaterials "models\headcrab_classic\"
+$CDMaterials "..\..\effects\"
 
 $texturegroup "skinfamilies"
 {
-	{ "enforcer_red"           "combinesoldiersheet_zombie"  }
-	{ "enforcer_blue"          "combinesoldiersheet_zombie2" }
-	{ "enforcer_red_invun"     "combinesoldiersheet_zombie_invun" }
-	{ "enforcer_blue_invun"    "combinesoldiersheet_zombie2_invun" }
-	{ "enforcer_green"         "combinesoldiersheet_zombie_green" }
-	{ "enforcer_yellow"        "combinesoldiersheet_zombie_yellow" }
-	{ "enforcer_green_invun"    "combinesoldiersheet_zombie_green_invun" }
-	{ "enforcer_yellow_invun"    "combinesoldiersheet_zombie_yellow_invun" }
+	{ "enforcer_red"           "combinesoldiersheet_zombie" "headcrabsheet" }
+	{ "enforcer_blue"          "combinesoldiersheet_zombie2" "headcrabsheet" }
+	{ "enforcer_red_invun"     "combinesoldiersheet_zombie_invun"  "..\..\effects\invulnfx_red"}
+	{ "enforcer_blue_invun"    "combinesoldiersheet_zombie2_invun" "..\..\effects\invulnfx_blue" }
+	{ "enforcer_green"         "combinesoldiersheet_zombie_green" "headcrabsheet"}
+	{ "enforcer_yellow"        "combinesoldiersheet_zombie_yellow" "headcrabsheet" }
+	{ "enforcer_green_invun"    "combinesoldiersheet_zombie_green_invun" "..\..\effects\invulnfx_green"}
+	{ "enforcer_yellow_invun"    "combinesoldiersheet_zombie_yellow_invun" "..\..\effects\invulnfx_yellow" }
 }
 
 $attachment "headcrab" "ValveBiped.HC_Rear_Bone" 0 0 0 rotate 0 0 0
