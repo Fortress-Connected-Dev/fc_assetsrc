@@ -1,0 +1,225 @@
+
+
+
+materialPath: D:\Steam\steamapps\common\Source SDK Base 2013 Multiplayer\tf\materials
+Loading D:\fc_assetsrc\fc_mapsrc\l4d\fc_l4d_test.vmf
+Could not locate GameData file tf_coop_extended.fgd
+Patching WVT material: maps/fc_l4d_test/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\fc_assetsrc\fc_mapsrc\l4d\fc_l4d_test.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (13366 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 54 texinfos to 23
+Reduced 10 texdatas to 8 (258 bytes to 215)
+Writing D:\fc_assetsrc\fc_mapsrc\l4d\fc_l4d_test.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'D:\fc_assetsrc\fc_mapsrc\l4d\fc_l4d_test.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 106362, actual size 106014
+0 seconds elapsed
+
+
+
+8 threads
+reading d:\fc_assetsrc\fc_mapsrc\l4d\fc_l4d_test.bsp
+reading d:\fc_assetsrc\fc_mapsrc\l4d\fc_l4d_test.prt
+  23 portalclusters
+  29 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 3 visible clusters (1.18%)
+Total clusters visible: 254
+Average clusters visible: 11
+Building PAS...
+Average clusters audible: 19
+visdatasize:339  compressed from 368
+writing d:\fc_assetsrc\fc_mapsrc\l4d\fc_l4d_test.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'd:\fc_assetsrc\fc_mapsrc\l4d\fc_l4d_test.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading d:\fc_assetsrc\fc_mapsrc\l4d\fc_l4d_test.bsp
+Error! Unable to load file "models/props_vehicles/cara_95sedan_glass_alarm.dx80.vtx"
+Error! Unable to load file "models/props_doors/checkpoint_doorframe_01.dx80.vtx"
+153 faces
+111000 square feet [15984112.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+153 patches before subdivision
+14963 patches after subdivision
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1249974, max 280
+transfer lists:   9.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(19276, 13200, 7237)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2753, 1445, 437)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(658, 179, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(119, 22, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(27, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0019 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             208/65536        1664/524288   ( 0.3%) 
+planes                 210/65536        4200/1310720  ( 0.3%) 
+vertexes               266/65536        3192/786432   ( 0.4%) 
+nodes                  114/65536        3648/2097152  ( 0.2%) 
+texinfos                23/12288        1656/884736   ( 0.2%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  153/65536        8568/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               71/65536        3976/3670016  ( 0.1%) 
+leaves                 120/65536        3840/2097152  ( 0.2%) 
+leaffaces              163/65536         326/131072   ( 0.2%) 
+leafbrushes             78/65536         156/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              991/512000       3964/2048000  ( 0.2%) 
+edges                  575/256000       2300/1024000  ( 0.2%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           144/65536         288/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]      237312/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         339/16777216 ( 0.0%) 
+entdata               [variable]       29346/393216   ( 7.5%) 
+LDR ambient table      120/65536         480/262144   ( 0.2%) 
+HDR ambient table      120/65536         480/262144   ( 0.2%) 
+LDR leaf ambient       398/65536       11144/1835008  ( 0.6%) 
+HDR leaf ambient       120/65536        3360/1835008  ( 0.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/420      ( 0.2%) 
+pakfile               [variable]      106014/0        ( 0.0%) 
+physics               [variable]       13366/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 401
+Writing d:\fc_assetsrc\fc_mapsrc\l4d\fc_l4d_test.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[50 texlights parsed from 'lights.rad']
+
+Loading d:\fc_assetsrc\fc_mapsrc\l4d\fc_l4d_test.bsp
+Error! Unable to load file "models/props_vehicles/cara_95sedan_glass_alarm.dx80.vtx"
+Error! Unable to load file "models/props_doors/checkpoint_doorframe_01.dx80.vtx"
+153 faces
+111000 square feet [15984112.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+153 patches before subdivision
+14963 patches after subdivision
+5 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1249974, max 280
+transfer lists:   9.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(19276, 13200, 7238)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2753, 1445, 437)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(658, 179, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(119, 22, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(27, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0020 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                 34/8192          408/98304    ( 0.4%) 
+brushsides             208/65536        1664/524288   ( 0.3%) 
+planes                 210/65536        4200/1310720  ( 0.3%) 
+vertexes               266/65536        3192/786432   ( 0.4%) 
+nodes                  114/65536        3648/2097152  ( 0.2%) 
+texinfos                23/12288        1656/884736   ( 0.2%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  153/65536        8568/3670016  ( 0.2%) 
+hdr faces              153/65536        8568/3670016  ( 0.2%) 
+origfaces               71/65536        3976/3670016  ( 0.1%) 
+leaves                 120/65536        3840/2097152  ( 0.2%) 
+leaffaces              163/65536         326/131072   ( 0.2%) 
+leafbrushes             78/65536         156/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              991/512000       3964/2048000  ( 0.2%) 
+edges                  575/256000       2300/1024000  ( 0.2%) 
+LDR worldlights          5/8192          440/720896   ( 0.1%) 
+HDR worldlights          5/8192          440/720896   ( 0.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              8/32768          80/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           144/65536         288/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 1/512           352/180224   ( 0.2%) 
+LDR lightdata         [variable]      237312/0        ( 0.0%) 
+HDR lightdata         [variable]      237312/0        ( 0.0%) 
+visdata               [variable]         339/16777216 ( 0.0%) 
+entdata               [variable]       29346/393216   ( 7.5%) 
+LDR ambient table      120/65536         480/262144   ( 0.2%) 
+HDR ambient table      120/65536         480/262144   ( 0.2%) 
+LDR leaf ambient       398/65536       11144/1835008  ( 0.6%) 
+HDR leaf ambient       398/65536       11144/1835008  ( 0.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/420      ( 0.2%) 
+pakfile               [variable]      106014/0        ( 0.0%) 
+physics               [variable]       13366/4194304  ( 0.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 401
+Writing d:\fc_assetsrc\fc_mapsrc\l4d\fc_l4d_test.bsp
+1 second elapsed
