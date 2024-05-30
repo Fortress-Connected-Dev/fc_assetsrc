@@ -938,6 +938,65 @@ $weightlist "weights_jump_slam_layer" {
 	 "ValveBiped.Bip01_R_Finger02" 1
 }
 
+$weightlist "weights_Reload_Standing_SMG_layer" {
+	 "ValveBiped.Bip01_Pelvis" 0
+	 "ValveBiped.Bip01_Spine" 0.2
+	 "ValveBiped.Bip01_Spine1" 0.4
+	 "ValveBiped.Bip01_Spine2" 1
+	 "ValveBiped.Bip01_Spine4" 1
+	 "ValveBiped.Bip01_Neck1" 1
+	 "ValveBiped.Bip01_Head1" 1
+	 "ValveBiped.forward" 1
+	 "ValveBiped.Bip01_R_Clavicle" 1
+	 "ValveBiped.Bip01_R_UpperArm" 1
+	 "ValveBiped.Bip01_R_Forearm" 1
+	 "ValveBiped.Bip01_R_Hand" 1
+	 "ValveBiped.Anim_Attachment_RH" 1
+	 "ValveBiped.Bip01_L_Clavicle" 1
+	 "ValveBiped.Bip01_L_UpperArm" 1
+	 "ValveBiped.Bip01_L_Forearm" 1
+	 "ValveBiped.Bip01_L_Hand" 1
+	 "ValveBiped.Anim_Attachment_LH" 1
+	 "ValveBiped.Bip01_R_Thigh" 0
+	 "ValveBiped.Bip01_R_Calf" 0
+	 "ValveBiped.Bip01_R_Foot" 0
+	 "ValveBiped.Bip01_R_Toe0" 0
+	 "ValveBiped.Bip01_L_Thigh" 0
+	 "ValveBiped.Bip01_L_Calf" 0
+	 "ValveBiped.Bip01_L_Foot" 0
+	 "ValveBiped.Bip01_L_Toe0" 0
+	 "ValveBiped.Bip01_L_Finger4" 1
+	 "ValveBiped.Bip01_L_Finger41" 1
+	 "ValveBiped.Bip01_L_Finger42" 1
+	 "ValveBiped.Bip01_L_Finger3" 1
+	 "ValveBiped.Bip01_L_Finger31" 1
+	 "ValveBiped.Bip01_L_Finger32" 1
+	 "ValveBiped.Bip01_L_Finger2" 1
+	 "ValveBiped.Bip01_L_Finger21" 1
+	 "ValveBiped.Bip01_L_Finger22" 1
+	 "ValveBiped.Bip01_L_Finger1" 1
+	 "ValveBiped.Bip01_L_Finger11" 1
+	 "ValveBiped.Bip01_L_Finger12" 1
+	 "ValveBiped.Bip01_L_Finger0" 1
+	 "ValveBiped.Bip01_L_Finger01" 1
+	 "ValveBiped.Bip01_L_Finger02" 1
+	 "ValveBiped.Bip01_R_Finger4" 1
+	 "ValveBiped.Bip01_R_Finger41" 1
+	 "ValveBiped.Bip01_R_Finger42" 1
+	 "ValveBiped.Bip01_R_Finger3" 1
+	 "ValveBiped.Bip01_R_Finger31" 1
+	 "ValveBiped.Bip01_R_Finger32" 1
+	 "ValveBiped.Bip01_R_Finger2" 1
+	 "ValveBiped.Bip01_R_Finger21" 1
+	 "ValveBiped.Bip01_R_Finger22" 1
+	 "ValveBiped.Bip01_R_Finger1" 1
+	 "ValveBiped.Bip01_R_Finger11" 1
+	 "ValveBiped.Bip01_R_Finger12" 1
+	 "ValveBiped.Bip01_R_Finger0" 1
+	 "ValveBiped.Bip01_R_Finger01" 1
+	 "ValveBiped.Bip01_R_Finger02" 1
+}
+
 $animation "a_proportions_corrective_animation" "combine_suppresor_anims\a_proportions_corrective_animation.smd" {
 	fps 30
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
@@ -2106,6 +2165,46 @@ $animation "a_RunN_melee" "combine_suppresor_anims\otheranims\a_l4dRunN_Elites.s
 	walkframe 42 LX LY
 }
 
+$animation "a_l4dRunN_Rifle" "combine_suppresor_anims\otheranims\a_l4dRunN_Rifle.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 42 LX LY
+}
+
+$animation "a_RunZero_Pistol" "combine_suppresor_anims\otheranims\a_RunZero_Pistol.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 42 LX LY
+}
+
+$animation "a_l4dCrouchWalkN_Rifle" "combine_suppresor_anims\otheranims\a_l4dCrouchWalkN_Rifle.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 42 LX LY
+}
+
+$animation "a_CrouchWalkZero_Pistol" "combine_suppresor_anims\otheranims\a_CrouchWalkZero_Pistol.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 42 LX LY
+}
+
 $animation "a_melee_CrouchE" "combine_suppresor_anims\a_CrouchWalking_cwalk_melee_E.smd" {
 	fps 30
 	loop
@@ -2678,6 +2777,534 @@ $animation "a_Jump_S_Shotgun" "combine_suppresor_anims\a_Jump_S_Shotgun.smd" {
 	walkframe 40 LX
 }
 
+$animation "a_NamVet_AimMatrix_Pistol_Standing_straight_up_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_straight_up_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_up_right_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_up_right_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_up_center_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_up_center_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_up_left_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_up_left_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_mid_right_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_mid_right_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_mid_center_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_mid_center_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_mid_left_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_mid_left_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_down_right_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_down_right_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_down_center_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_down_center_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_down_left_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_down_left_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_straight_up_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_straight_up_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_up_right_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_up_right_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_up_center_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_up_center_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_up_left_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_up_left_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_mid_right_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_mid_right_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_mid_center_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_mid_center_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_mid_left_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_mid_left_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_down_right_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_down_right_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_down_center_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_down_center_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_down_left_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_down_left_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_neutral" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_neutral.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 3
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_down_right" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_down_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Crouching_down_right_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_down_center" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_down_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Crouching_down_center_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_down_left" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_down_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Crouching_down_left_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_mid_right" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_mid_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Crouching_mid_right_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_mid_center" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_mid_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Crouching_mid_center_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_mid_left" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_mid_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Crouching_mid_left_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_up_right" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_up_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Crouching_up_right_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_up_center" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_up_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Crouching_up_center_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_up_left" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_up_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Crouching_up_left_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Crouching_straight_up" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Crouching_straight_up.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Crouching_straight_up_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_neutral" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_neutral.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 3
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_down_right" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_down_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Standing_down_right_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_down_center" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_down_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Standing_down_center_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_down_left" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_down_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Standing_down_left_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_mid_right" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_mid_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Standing_mid_right_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_mid_center" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_mid_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Standing_mid_center_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_mid_left" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_mid_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Standing_mid_left_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_up_right" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_up_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Standing_up_right_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_up_center" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_up_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Standing_up_center_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_up_left" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_up_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Standing_up_left_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_straight_up" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_straight_up.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_Standing_straight_up_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing_base" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing_base.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 3
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_Standing" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 3
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_straight_up_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_straight_up_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_up_right_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_up_right_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_up_center_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_up_center_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_up_left_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_up_left_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_mid_right_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_mid_right_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_mid_center_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_mid_center_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_mid_left_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_mid_left_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_down_right_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_down_right_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_down_center_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_down_center_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_down_left_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_down_left_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_neutral" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_neutral.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 3
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_down_right" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_down_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Rifle_Running_down_right_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_down_center" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_down_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Rifle_Running_down_center_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_down_left" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_down_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Rifle_Running_down_left_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_mid_right" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_mid_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Rifle_Running_mid_right_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_mid_center" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_mid_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Rifle_Running_mid_center_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_mid_left" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_mid_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Rifle_Running_mid_left_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_up_right" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_up_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Rifle_Running_up_right_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_up_center" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_up_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Rifle_Running_up_center_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_up_left" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_up_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Rifle_Running_up_left_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Rifle_Running_straight_up" "combine_suppresor_anims\a_NamVet_AimMatrix_Rifle_Running_straight_up.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Rifle_Running_straight_up_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_straight_up_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_straight_up_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_up_right_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_up_right_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_up_center_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_up_center_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_up_left_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_up_left_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_right_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_right_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_center_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_center_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_left_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_left_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_down_right_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_down_right_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_down_center_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_down_center_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_down_left_corrective_animation" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_down_left_corrective_animation.smd" {
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_neutral" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_neutral.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 3
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_down_right" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_down_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_CrouchWalking_down_right_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_down_center" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_down_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_CrouchWalking_down_center_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_down_left" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_down_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_CrouchWalking_down_left_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_right" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_right_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_center" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_center_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_left" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_left_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_up_right" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_up_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_CrouchWalking_up_right_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_up_center" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_up_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_CrouchWalking_up_center_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_up_left" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_up_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_CrouchWalking_up_left_corrective_animation" 0
+}
+
+$animation "a_NamVet_AimMatrix_Pistol_CrouchWalking_straight_up" "combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_CrouchWalking_straight_up.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_NamVet_AimMatrix_Pistol_CrouchWalking_straight_up_corrective_animation" 0
+}
+
+$animation "a_swimming_pistol_C" "combine_suppresor_anims\a_swimming_pistol_C.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_swimming_pistol_E" "combine_suppresor_anims\a_swimming_pistol_E.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_swimming_pistol_N" "combine_suppresor_anims\a_swimming_pistol_N.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_swimming_pistol_NE" "combine_suppresor_anims\a_swimming_pistol_NE.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_swimming_pistol_NW" "combine_suppresor_anims\a_swimming_pistol_NW.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_swimming_pistol_S" "combine_suppresor_anims\a_swimming_pistol_S.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_swimming_pistol_SE" "combine_suppresor_anims\a_swimming_pistol_SE.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_swimming_pistol_SW" "combine_suppresor_anims\a_swimming_pistol_SW.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "a_swimming_pistol_W" "combine_suppresor_anims\a_swimming_pistol_W.smd" {
+	fps 30
+	loop
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 1
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 18 18 target 3
+	walkframe 60 LX LY
+}
+
+$animation "@range_pistol_corrective_animation" "combine_suppresor_anims\@range_pistol_corrective_animation.smd" {
+}
+
+$animation "a_Jump_N_Pistol" "combine_suppresor_anims\a_Jump_N_Pistol.smd" {
+	fps 30
+	ikrule "lhand" touch "ValveBiped.Bip01_R_Hand" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 33 33 target 1
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 33 33 target 0
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 33 33 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 33 33 target 3
+	walkframe 33 LX
+}
+
+$animation "a_Jump_Center_Pistol" "combine_suppresor_anims\a_Jump_Center_Pistol.smd" {
+	fps 30
+	ikrule "lhand" touch "ValveBiped.Bip01_R_Hand" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 40 40 target 1
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 40 40 target 0
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 40 40 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 40 40 target 3
+	walkframe 31
+}
+
+$animation "a_Jump_S_Pistol" "combine_suppresor_anims\a_Jump_S_Pistol.smd" {
+	fps 30
+	ikrule "lhand" touch "ValveBiped.Bip01_R_Hand" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 40 40 target 1
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 40 40 target 0
+	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 40 40 target 2
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 40 40 target 3
+	walkframe 40 LX
+}
+
 $sequence "reference" {
 	"combine_suppresor_anims\reference.smd"
 	fadein 0.2
@@ -2789,7 +3416,7 @@ $sequence "Idle_Angry_MG" {
 	ikrule "lfoot" footstep contact 0 fakeorigin 17.09 16.14 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 0 0 29 29 target 3
 	ikrule "rfoot" footstep contact 0 fakeorigin -5.17 -12.85 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 0 0 29 29 target 2
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
-	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "Idle_MG_Aim" {
@@ -3032,7 +3659,7 @@ $sequence "Crouch_LMG" {
 	fadein 0.2
 	fadeout 0.2
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 0
-	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 1
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 29 29 target 3
 }
@@ -3183,7 +3810,7 @@ $sequence "layer_walk_holding_MG" {
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 30 30 target 0
-	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 30 30 target 1
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 	weightlist "weights_layer_Aim_all_MG"
 }
 
@@ -3950,6 +4577,345 @@ $sequence "attack_melee_airwalk" {
 	weightlist "weights_gesture_reload_pistol"
 }
 
+$sequence "NamVet_AimMatrix_Pistol_Standing" {
+	"a_NamVet_AimMatrix_Pistol_Standing_straight_up"
+	"a_NamVet_AimMatrix_Pistol_Standing_straight_up"
+	"a_NamVet_AimMatrix_Pistol_Standing_straight_up"
+	"a_NamVet_AimMatrix_Pistol_Standing_up_right"
+	"a_NamVet_AimMatrix_Pistol_Standing_up_center"
+	"a_NamVet_AimMatrix_Pistol_Standing_up_left"
+	"a_NamVet_AimMatrix_Pistol_Standing_mid_right"
+	"a_NamVet_AimMatrix_Pistol_Standing_mid_center"
+	"a_NamVet_AimMatrix_Pistol_Standing_mid_left"
+	"a_NamVet_AimMatrix_Pistol_Standing_down_right"
+	"a_NamVet_AimMatrix_Pistol_Standing_down_center"
+	"a_NamVet_AimMatrix_Pistol_Standing_down_left"
+	blend "body_yaw" 45 -45
+	blend "body_pitch" 90 -45
+	blendwidth 3
+	delta
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	iklock "rfoot" 1 0
+	iklock "lfoot" 1 0
+}
+
+$sequence "NamVet_AimMatrix_Pistol_Crouching" {
+	"a_NamVet_AimMatrix_Pistol_Crouching_straight_up"
+	"a_NamVet_AimMatrix_Pistol_Crouching_straight_up"
+	"a_NamVet_AimMatrix_Pistol_Crouching_straight_up"
+	"a_NamVet_AimMatrix_Pistol_Crouching_up_right"
+	"a_NamVet_AimMatrix_Pistol_Crouching_up_center"
+	"a_NamVet_AimMatrix_Pistol_Crouching_up_left"
+	"a_NamVet_AimMatrix_Pistol_Crouching_mid_right"
+	"a_NamVet_AimMatrix_Pistol_Crouching_mid_center"
+	"a_NamVet_AimMatrix_Pistol_Crouching_mid_left"
+	"a_NamVet_AimMatrix_Pistol_Crouching_down_right"
+	"a_NamVet_AimMatrix_Pistol_Crouching_down_center"
+	"a_NamVet_AimMatrix_Pistol_Crouching_down_left"
+	blend "body_yaw" 45 -45
+	blend "body_pitch" 90 -45
+	blendwidth 3
+	delta
+	fadein 0.2
+	fadeout 0.2
+	hidden
+}
+
+$sequence "NamVet_AimMatrix_Rifle_Running" {
+	"a_NamVet_AimMatrix_Rifle_Running_straight_up"
+	"a_NamVet_AimMatrix_Rifle_Running_straight_up"
+	"a_NamVet_AimMatrix_Rifle_Running_straight_up"
+	"a_NamVet_AimMatrix_Rifle_Running_up_right"
+	"a_NamVet_AimMatrix_Rifle_Running_up_center"
+	"a_NamVet_AimMatrix_Rifle_Running_up_left"
+	"a_NamVet_AimMatrix_Rifle_Running_mid_right"
+	"a_NamVet_AimMatrix_Rifle_Running_mid_center"
+	"a_NamVet_AimMatrix_Rifle_Running_mid_left"
+	"a_NamVet_AimMatrix_Rifle_Running_down_right"
+	"a_NamVet_AimMatrix_Rifle_Running_down_center"
+	"a_NamVet_AimMatrix_Rifle_Running_down_left"
+	blend "body_yaw" 45 -45
+	blend "body_pitch" 90 -45
+	blendwidth 3
+	delta
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	iklock "rfoot" 1 0
+	iklock "lfoot" 1 0
+}
+
+$sequence "NamVet_AimMatrix_Pistol_CrouchWalking" {
+	"a_NamVet_AimMatrix_Pistol_CrouchWalking_straight_up"
+	"a_NamVet_AimMatrix_Pistol_CrouchWalking_straight_up"
+	"a_NamVet_AimMatrix_Pistol_CrouchWalking_straight_up"
+	"a_NamVet_AimMatrix_Pistol_CrouchWalking_up_right"
+	"a_NamVet_AimMatrix_Pistol_CrouchWalking_up_center"
+	"a_NamVet_AimMatrix_Pistol_CrouchWalking_up_left"
+	"a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_right"
+	"a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_center"
+	"a_NamVet_AimMatrix_Pistol_CrouchWalking_mid_left"
+	"a_NamVet_AimMatrix_Pistol_CrouchWalking_down_right"
+	"a_NamVet_AimMatrix_Pistol_CrouchWalking_down_center"
+	"a_NamVet_AimMatrix_Pistol_CrouchWalking_down_left"
+	blend "aim_yaw" -89.64034 89.63541
+	blend "aim_pitch" -86.82706 44.7866
+	blendwidth 3
+	delta
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	iklock "rfoot" 1 0
+	iklock "lfoot" 1 0
+}
+
+$sequence "handlock_corrector_Workplease" {
+	"a_NamVet_AimMatrix_Pistol_Standing_base"
+	delta
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	iklock "rfoot" 1 0
+	iklock "lfoot" 1 0
+	realtime
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
+}
+
+$sequence "NamVet_AimMatrix_Pistol_Standing_layer" {
+	"combine_suppresor_anims\NamVet_AimMatrix_Pistol_Standing_layer.smd"
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	iklock "lfoot" 1 0
+	iklock "rfoot" 1 0
+	worldspace
+	fps 40
+	loop
+	walkframe 241
+	weightlist "weights_CrouchWalk_GMWeps_delta"
+}
+
+$sequence "NamVet_AimMatrix_Pistol_Standing_arms" {
+	"combine_suppresor_anims\NamVet_AimMatrix_Pistol_Standing_arms.smd"
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	fps 40
+	loop
+	ikrule "lhand" touch "ValveBiped.Bip01_R_Hand" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 241 241 target 1
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 241 241 target 0
+	weightlist "weights_CrouchWalkN_Pistol_arms"
+}
+
+$sequence "idle_pistol" {
+	"a_NamVet_AimMatrix_Pistol_Standing"
+	activity "ACT_HL2MP_IDLE_PISTOL" 1
+	fadein 0.5
+	fadeout 0.5
+	blendlayer "NamVet_AimMatrix_Pistol_Standing_layer" 0 0 0 0 local
+	addlayer "NamVet_AimMatrix_Pistol_Standing_arms"
+	addlayer "NamVet_AimMatrix_Pistol_Standing"
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
+}
+
+$sequence "cidle_pistol" {
+	"combine_suppresor_anims\cidle_pistol.smd"
+	activity "ACT_HL2MP_IDLE_CROUCH_PISTOL" -1
+	fadein 0.5
+	fadeout 1
+	addlayer "NamVet_AimMatrix_Pistol_Crouching"
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	fps 40
+	loop
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 241 241 target 0 usesequence 
+}
+
+$sequence "RunN_Pistol_layer" {
+	"combine_suppresor_anims\RunN_Pistol_layer.smd"
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	iklock "lfoot" 1 0
+	iklock "rfoot" 1 0
+	worldspace
+	fps 30.9
+	loop
+	walkframe 40
+	weightlist "weights_CrouchWalk_GMWeps_delta"
+}
+
+$sequence "RunN_Pistol_arms" {
+	"combine_suppresor_anims\RunN_Pistol_arms.smd"
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	fps 30.9
+	loop
+	ikrule "lhand" touch "ValveBiped.Bip01_R_Hand" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 40 40 target 1 usesequence 
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 40 40 target 0 usesequence 
+	walkframe 40
+	weightlist "weights_CrouchWalkN_Pistol_arms"
+}
+
+$sequence "run_pistol" {
+	"a_RunSW_melee"
+	"a_RunS_melee"
+	"a_RunSE_melee"
+	"a_RunW_melee"
+	"combine_suppresor_anims\a_NamVet_AimMatrix_Pistol_Standing.smd"
+	"a_RunE_melee"
+	"a_RunNW_melee"
+	"a_l4dRunN_Rifle"
+	"a_RunNE_melee"
+	activity "ACT_HL2MP_RUN_PISTOL" -1
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	{ event 6004 7 "NPC_CombineS" }
+	{ event 6004 18 "NPC_CombineS" }
+	{ event 6004 27 "NPC_CombineS" }
+	{ event 6004 37 "NPC_CombineS" }
+	fadein 0.5
+	fadeout 0.5
+	blendlayer "RunN_Pistol_layer" 0 0 0 0 local
+	addlayer "RunN_Pistol_arms"
+	addlayer "NamVet_AimMatrix_Rifle_Running"
+}
+
+$sequence "CrouchWalkN_Pistol_layer" {
+	"combine_suppresor_anims\CrouchWalkN_Pistol_layer.smd"
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	iklock "lfoot" 1 0
+	iklock "rfoot" 1 0
+	worldspace
+	fps 25.05
+	loop
+	walkframe 55
+	weightlist "weights_CrouchWalk_GMWeps_delta"
+}
+
+$sequence "CrouchWalkN_Pistol_arms" {
+	"combine_suppresor_anims\CrouchWalkN_Pistol_arms.smd"
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	fps 25.05
+	loop
+	ikrule "lhand" touch "ValveBiped.Bip01_R_Hand" contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 55 55 target 1 usesequence 
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 55 55 target 0 usesequence 
+	walkframe 55
+	weightlist "weights_CrouchWalkN_Pistol_arms"
+}
+
+$sequence "cwalk_pistol" {
+	"a_l4dCrouchWalkSW"
+	"a_l4dCrouchWalkS"
+	"a_l4dCrouchWalkSE"
+	"a_l4dCrouchWalkW"
+	"combine_suppresor_anims\cidle_pistol.smd"
+	"a_l4dCrouchWalkE"
+	"a_l4dCrouchWalkNW"
+	"a_l4dCrouchWalkN_Elites"
+	"a_l4dCrouchWalkNE"
+	activity "ACT_HL2MP_WALK_CROUCH_PISTOL" -1
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	{ event 6004 8 "NPC_CombineS" }
+	{ event 6004 22 "NPC_CombineS" }
+	{ event 6004 35 "NPC_CombineS" }
+	{ event 6004 48 "NPC_CombineS" }
+	fadein 0.75
+	fadeout 0.5
+	blendlayer "CrouchWalkN_Pistol_layer" 0 0 0 0 local
+	addlayer "CrouchWalkN_Pistol_arms"
+	addlayer "NamVet_AimMatrix_Pistol_CrouchWalking"
+}
+
+$sequence "swimming_pistol_ik_hack" {
+	"combine_suppresor_anims\swimming_revolver_ik_hack.smd"
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	fps 30
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
+	weightlist "weights_aimlayer_rpg"
+}
+
+$sequence "swimming_pistol" {
+	"a_swimming_pistol_SW"
+	"a_swimming_pistol_S"
+	"a_swimming_pistol_SE"
+	"a_swimming_pistol_W"
+	"a_swimming_pistol_C"
+	"a_swimming_pistol_E"
+	"a_swimming_pistol_NW"
+	"a_swimming_pistol_N"
+	"a_swimming_pistol_NE"
+	activity "ACT_HL2MP_SWIM_PISTOL" 1
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	fadein 0.5
+	fadeout 0.5
+	addlayer "NamVet_AimMatrix_Pistol_Standing_arms"
+	addlayer "NamVet_AimMatrix_Pistol_Standing"
+	node "swimming"
+}
+
+$sequence "range_pistol" {
+	"combine_suppresor_anims\range_pistol.smd"
+	activity "ACT_HL2MP_ATTACK_PISTOL" 1
+	delta
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "@range_pistol_corrective_animation" 0
+	fadein 0.2
+	fadeout 0.2
+	iklock "lfoot" 1 0
+	iklock "rfoot" 1 0
+	snap
+	fps 60
+}
+
+$sequence "Reload_Standing_Pistol_layer" {
+	"combine_suppresor_anims\Reload_Standing_Pistol_layer.smd"
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 65 65 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 65 65 target 1
+	weightlist "weights_Reload_Standing_SMG_layer"
+}
+
+$sequence "reload_pistol" {
+	"combine_suppresor_anims\reload_pistol.smd"
+	activity "ACT_HL2MP_RELOAD_PISTOL" 1
+	fadein 0.2
+	fadeout 0.2
+	blendlayer "Reload_Standing_Pistol_layer" 0 6 45 65 spline
+	fps 45
+	weightlist "weights_aimlayer_rpg"
+}
+
+$sequence "jump_pistol" {
+	"a_Jump_S_Pistol"
+	"a_Jump_Center_Pistol"
+	"a_Jump_N_Pistol"
+	activity "ACT_HL2MP_JUMP_PISTOL" -1
+	blend "move_x" -1 1
+	blendwidth 3
+	{ event 6004 0 "NPC_CombineS" }
+	fadein 0.2
+	fadeout 0.2
+	addlayer "NamVet_AimMatrix_Pistol_Standing"
+}
+
 $sequence "classselect_anim" {
 	"combine_suppresor_anims\pose_standing_01.smd"
 	activity "ACT_MP_COMPETITIVE_LOSERSTATE" 1
@@ -3964,4 +4930,3 @@ $sequence "classselect_anim" {
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
 }
-
