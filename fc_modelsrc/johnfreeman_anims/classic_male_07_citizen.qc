@@ -80,16 +80,6 @@ $bonemerge "ValveBiped.Bip01_R_Forearm"
 $bonemerge "ValveBiped.Bip01_R_Hand"
 $bonemerge "ValveBiped.Anim_Attachment_RH"
 
-
-$poseparameter "aim_yaw" -49.44321 52.5174 loop 0
-$poseparameter "aim_pitch" -80.86302 49.98479 loop 0
-$poseparameter "move_yaw" -180 180 loop 0
-$poseparameter "body_yaw" -29.7342 29.73428 loop 0
-$poseparameter "spine_yaw" -30.7085 30.70849 loop 0
-$poseparameter "head_yaw" -44.81896 44.81872 loop 0
-$poseparameter "head_pitch" -20.00001 22.99998 loop 0
-$poseparameter "head_roll" -10.93144 10.85242 loop 0
-
 $ikchain "rhand" "ValveBiped.Bip01_R_Hand" knee 0.707 0.707 0
 $ikchain "lhand" "ValveBiped.Bip01_L_Hand" knee 0.707 0.707 0
 $ikchain "rfoot" "ValveBiped.Bip01_R_Foot" knee 0.707 -0.707 0
@@ -686,6 +676,65 @@ $weightlist "weights_idle_layer_alt" {
 
 $weightlist "weights_range_melee2_b" {
 	 "ValveBiped.Bip01_Pelvis" 0.5
+	 "ValveBiped.Bip01_Spine" 1
+	 "ValveBiped.Bip01_Spine1" 1
+	 "ValveBiped.Bip01_Spine2" 1
+	 "ValveBiped.Bip01_Spine4" 1
+	 "ValveBiped.Bip01_Neck1" 1
+	 "ValveBiped.Bip01_Head1" 1
+	 "ValveBiped.forward" 1
+	 "ValveBiped.Bip01_R_Clavicle" 1
+	 "ValveBiped.Bip01_R_UpperArm" 1
+	 "ValveBiped.Bip01_R_Forearm" 1
+	 "ValveBiped.Bip01_R_Hand" 1
+	 "ValveBiped.Anim_Attachment_RH" 1
+	 "ValveBiped.Bip01_L_Clavicle" 1
+	 "ValveBiped.Bip01_L_UpperArm" 1
+	 "ValveBiped.Bip01_L_Forearm" 1
+	 "ValveBiped.Bip01_L_Hand" 1
+	 "ValveBiped.Anim_Attachment_LH" 1
+	 "ValveBiped.Bip01_R_Thigh" 0
+	 "ValveBiped.Bip01_R_Calf" 0
+	 "ValveBiped.Bip01_R_Foot" 0
+	 "ValveBiped.Bip01_R_Toe0" 0
+	 "ValveBiped.Bip01_L_Thigh" 0
+	 "ValveBiped.Bip01_L_Calf" 0
+	 "ValveBiped.Bip01_L_Foot" 0
+	 "ValveBiped.Bip01_L_Toe0" 0
+	 "ValveBiped.Bip01_L_Finger4" 1
+	 "ValveBiped.Bip01_L_Finger41" 1
+	 "ValveBiped.Bip01_L_Finger42" 1
+	 "ValveBiped.Bip01_L_Finger3" 1
+	 "ValveBiped.Bip01_L_Finger31" 1
+	 "ValveBiped.Bip01_L_Finger32" 1
+	 "ValveBiped.Bip01_L_Finger2" 1
+	 "ValveBiped.Bip01_L_Finger21" 1
+	 "ValveBiped.Bip01_L_Finger22" 1
+	 "ValveBiped.Bip01_L_Finger1" 1
+	 "ValveBiped.Bip01_L_Finger11" 1
+	 "ValveBiped.Bip01_L_Finger12" 1
+	 "ValveBiped.Bip01_L_Finger0" 1
+	 "ValveBiped.Bip01_L_Finger01" 1
+	 "ValveBiped.Bip01_L_Finger02" 1
+	 "ValveBiped.Bip01_R_Finger4" 1
+	 "ValveBiped.Bip01_R_Finger41" 1
+	 "ValveBiped.Bip01_R_Finger42" 1
+	 "ValveBiped.Bip01_R_Finger3" 1
+	 "ValveBiped.Bip01_R_Finger31" 1
+	 "ValveBiped.Bip01_R_Finger32" 1
+	 "ValveBiped.Bip01_R_Finger2" 1
+	 "ValveBiped.Bip01_R_Finger21" 1
+	 "ValveBiped.Bip01_R_Finger22" 1
+	 "ValveBiped.Bip01_R_Finger1" 1
+	 "ValveBiped.Bip01_R_Finger11" 1
+	 "ValveBiped.Bip01_R_Finger12" 1
+	 "ValveBiped.Bip01_R_Finger0" 1
+	 "ValveBiped.Bip01_R_Finger01" 1
+	 "ValveBiped.Bip01_R_Finger02" 1
+}
+
+$weightlist "weights_layer_Aim_all_MG" {
+	 "ValveBiped.Bip01_Pelvis" 0
 	 "ValveBiped.Bip01_Spine" 1
 	 "ValveBiped.Bip01_Spine1" 1
 	 "ValveBiped.Bip01_Spine2" 1
@@ -6200,6 +6249,112 @@ $animation "a_range_melee2_b" "classic_male_07_citizen_anims\a_range_melee2_b.sm
 	weightlist "weights_range_melee2_b"
 }
 
+$animation "a_run_aim_straight_up_corrective_animation" "classic_male_07_citizen_anims\a_run_aim_straight_up_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_up_right_corrective_animation" "classic_male_07_citizen_anims\a_run_aim_up_right_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_up_center_corrective_animation" "classic_male_07_citizen_anims\a_run_aim_up_center_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_up_left_corrective_animation" "classic_male_07_citizen_anims\a_run_aim_up_left_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_mid_right_corrective_animation" "classic_male_07_citizen_anims\a_run_aim_mid_right_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_mid_center_corrective_animation" "classic_male_07_citizen_anims\a_run_aim_mid_center_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_mid_left_corrective_animation" "classic_male_07_citizen_anims\a_run_aim_mid_left_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_down_right_corrective_animation" "classic_male_07_citizen_anims\a_run_aim_down_right_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_down_center_corrective_animation" "classic_male_07_citizen_anims\a_run_aim_down_center_corrective_animation.smd" {
+}
+
+$animation "a_run_aim_down_left_corrective_animation" "classic_male_07_citizen_anims\a_run_aim_down_left_corrective_animation.smd" {
+}
+
+$animation "a_aim_neutral" "classic_male_07_citizen_anims\a_aim_neutral.smd" {
+	fps 30
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 0 0 target 1
+}
+
+$animation "a_run_aim_down_left" "classic_male_07_citizen_anims\a_run_aim_down_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_down_left_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_down_center" "classic_male_07_citizen_anims\a_run_aim_down_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_down_center_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_down_right" "classic_male_07_citizen_anims\a_run_aim_down_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_down_right_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_mid_left" "classic_male_07_citizen_anims\a_run_aim_mid_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_mid_left_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_mid_center" "classic_male_07_citizen_anims\a_run_aim_mid_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_mid_center_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_mid_right" "classic_male_07_citizen_anims\a_run_aim_mid_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_mid_right_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_up_left" "classic_male_07_citizen_anims\a_run_aim_up_left.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_up_left_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_up_center" "classic_male_07_citizen_anims\a_run_aim_up_center.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_up_center_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_up_right" "classic_male_07_citizen_anims\a_run_aim_up_right.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_up_right_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
+$animation "a_run_aim_straight_up" "classic_male_07_citizen_anims\a_run_aim_straight_up.smd" {
+	fps 30
+	// Crowbar writes this subtract option to prevent jigglebone and poseparameter problems when delta sequences are recompiled.
+	subtract "a_run_aim_straight_up_corrective_animation" 0
+	weightlist "weights_layer_Aim_all_MG"
+}
+
 $sequence "reference" {
 	"classic_male_07_citizen_anims\reference.smd"
 	fadein 0.2
@@ -6209,6 +6364,56 @@ $sequence "reference" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+}
+
+$sequence "layer_Aim_all_MG" {
+	"a_run_aim_straight_up"
+	"a_run_aim_straight_up"
+	"a_run_aim_straight_up"
+	"a_run_aim_up_right"
+	"a_run_aim_up_center"
+	"a_run_aim_up_left"
+	"a_run_aim_mid_right"
+	"a_run_aim_mid_center"
+	"a_run_aim_mid_left"
+	"a_run_aim_down_right"
+	"a_run_aim_down_center"
+	"a_run_aim_down_left"
+	blend "body_yaw" 45 -45
+	blend "body_pitch" 90 -45
+	blendwidth 3
+	delta
+	fadein 0.2
+	fadeout 0.2
+	hidden
+	iklock "rfoot" 1 0
+	iklock "lfoot" 1 0
+}
+
+$sequence "head_rot_z" {
+	"a_head_rot_z_lt"
+	"a_head_rot"
+	"a_head_rot_z_rt"
+	autoplay
+	blend "head_yaw" 75 -75
+	blendwidth 3
+	delta
+	fadein 0.2
+	fadeout 0.2
+	//hidden
+}
+
+$sequence "head_rot_y" {
+	"a_head_rot_dwn"
+	"a_head_rot"
+	"a_head_rot_up"
+	autoplay
+	blend "head_pitch" 60 -60
+	blendwidth 3
+	delta
+	fadein 0.2
+	fadeout 0.2
+	//hidden
 }
 
 $sequence "reload_smg1_pelvis_layer" {
@@ -6248,6 +6453,7 @@ $sequence "idle_default" {
 	activity "ACT_MP_STAND_MELEE" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -6263,6 +6469,7 @@ $sequence "crouch_idle_default" {
 	activity "ACT_MP_CROUCH_MELEE" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -6290,6 +6497,7 @@ $sequence "crouch_walk_default" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "crouching"
@@ -6312,6 +6520,7 @@ $sequence "run_default" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "crouching"
@@ -6332,6 +6541,7 @@ $sequence "swim_default" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -6344,6 +6554,7 @@ $sequence "jump_default" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6360,6 +6571,7 @@ $sequence "jump_default_start" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6376,6 +6588,7 @@ $sequence "jump_default_stop" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6392,6 +6605,7 @@ $sequence "jump_default_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6406,6 +6620,7 @@ $sequence "idle_melee" {
 	activity "ACT_HL2MP_IDLE_MELEE" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -6421,6 +6636,7 @@ $sequence "crouch_idle_melee" {
 	activity "ACT_HL2MP_IDLE_CROUCH_MELEE" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -6438,6 +6654,7 @@ $sequence "jump_melee_jump_and_start" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6454,6 +6671,7 @@ $sequence "jump_melee_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6480,6 +6698,7 @@ $sequence "run_melee" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -6500,6 +6719,7 @@ $sequence "swim_melee" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -6522,6 +6742,7 @@ $sequence "crouch_walk_melee" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -6535,6 +6756,7 @@ $sequence "attack_melee" {
 	fadeout 0.2
 	iklock "lfoot" 1 0
 	iklock "rfoot" 1 0
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 }
@@ -6547,6 +6769,7 @@ $sequence "attack_melee_crouch" {
 	fadeout 0.2
 	iklock "lfoot" 1 0
 	iklock "rfoot" 1 0
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 }
@@ -6559,6 +6782,7 @@ $sequence "attack_melee_swim" {
 	fadeout 0.2
 	iklock "lfoot" 1 0
 	iklock "rfoot" 1 0
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 }
@@ -6571,6 +6795,7 @@ $sequence "attack_melee_airwalk" {
 	fadeout 0.2
 	iklock "lfoot" 1 0
 	iklock "rfoot" 1 0
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 }
@@ -6580,6 +6805,7 @@ $sequence "idle_gravgun" {
 	activity "ACT_MP_STAND_SECONDARY" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -6588,6 +6814,7 @@ $sequence "idle_gravgun" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "crouch_idle_gravgun" {
@@ -6595,6 +6822,7 @@ $sequence "crouch_idle_gravgun" {
 	activity "ACT_MP_CROUCH_SECONDARY" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -6603,6 +6831,7 @@ $sequence "crouch_idle_gravgun" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "run_gravgun" {
@@ -6615,6 +6844,7 @@ $sequence "run_gravgun" {
 	"a_gravgun_RunNW"
 	"a_gravgun_RunN"
 	"a_gravgun_RunNE"
+	addlayer "layer_Aim_all_MG"
 	activity "ACT_MP_RUN_SECONDARY" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
@@ -6637,6 +6867,7 @@ $sequence "crouch_walk_gravgun" {
 	"a_gravgun_CrouchNW"
 	"a_gravgun_CrouchN"
 	"a_gravgun_CrouchNE"
+	addlayer "layer_Aim_all_MG"
 	activity "ACT_MP_CROUCHWALK_SECONDARY" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
@@ -6656,6 +6887,7 @@ $sequence "jump_gravgun_jump" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6663,6 +6895,7 @@ $sequence "jump_gravgun_jump" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "jump_gravgun_jump_start" {
@@ -6672,6 +6905,7 @@ $sequence "jump_gravgun_jump_start" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6679,6 +6913,7 @@ $sequence "jump_gravgun_jump_start" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "jump_gravgun_jump_float" {
@@ -6688,6 +6923,7 @@ $sequence "jump_gravgun_jump_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6695,6 +6931,7 @@ $sequence "jump_gravgun_jump_float" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "jump_gravgun_airwalk" {
@@ -6704,6 +6941,7 @@ $sequence "jump_gravgun_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6711,6 +6949,7 @@ $sequence "jump_gravgun_airwalk" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "swim_gravgun" {
@@ -6728,6 +6967,7 @@ $sequence "swim_gravgun" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -6738,6 +6978,7 @@ $sequence "idle_smg1" {
 	activity "ACT_HL2MP_IDLE_SMG1" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -6746,6 +6987,7 @@ $sequence "idle_smg1" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "crouch_idle_smg1" {
@@ -6753,6 +6995,7 @@ $sequence "crouch_idle_smg1" {
 	activity "ACT_HL2MP_IDLE_CROUCH_SMG1" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -6761,6 +7004,7 @@ $sequence "crouch_idle_smg1" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "jump_smg1_jump_start_float" {
@@ -6770,6 +7014,7 @@ $sequence "jump_smg1_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6777,6 +7022,7 @@ $sequence "jump_smg1_jump_start_float" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "jump_smg1_airwalk" {
@@ -6786,6 +7032,7 @@ $sequence "jump_smg1_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6793,6 +7040,7 @@ $sequence "jump_smg1_airwalk" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "run_smg1" {
@@ -6812,6 +7060,7 @@ $sequence "run_smg1" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -6834,6 +7083,7 @@ $sequence "crouch_walk_smg1" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -6854,6 +7104,7 @@ $sequence "swim_smg1" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -6968,6 +7219,7 @@ $sequence "idle_shotgun" {
 	activity "ACT_MP_STAND_PRIMARY" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -6976,6 +7228,7 @@ $sequence "idle_shotgun" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "crouch_idle_shotgun" {
@@ -6983,6 +7236,7 @@ $sequence "crouch_idle_shotgun" {
 	activity "ACT_MP_CROUCH_PRIMARY" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -6991,6 +7245,7 @@ $sequence "crouch_idle_shotgun" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "jump_shotgun_jump" {
@@ -7000,6 +7255,7 @@ $sequence "jump_shotgun_jump" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -7007,6 +7263,7 @@ $sequence "jump_shotgun_jump" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "jump_shotgun_jump_start" {
@@ -7016,6 +7273,7 @@ $sequence "jump_shotgun_jump_start" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -7023,6 +7281,7 @@ $sequence "jump_shotgun_jump_start" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "jump_shotgun_jump_float" {
@@ -7032,6 +7291,7 @@ $sequence "jump_shotgun_jump_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -7039,15 +7299,17 @@ $sequence "jump_shotgun_jump_float" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
-$sequence "jump_shotgun_aitwalk" {
+$sequence "jump_shotgun_airwalk" {
 	"classic_male_07_citizen_anims\jump_shotgun.smd"
 	activity "ACT_MP_AIRWALK_PRIMARY" 1
 	blendwidth 1
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -7055,6 +7317,7 @@ $sequence "jump_shotgun_aitwalk" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "run_shotgun" {
@@ -7074,6 +7337,7 @@ $sequence "run_shotgun" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -7096,6 +7360,7 @@ $sequence "crouch_walk_shotgun" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -7116,6 +7381,7 @@ $sequence "swim_shotgun" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -7337,6 +7603,7 @@ $sequence "idle_ar2" {
 	activity "ACT_HL2MP_IDLE_AR2" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -7345,6 +7612,7 @@ $sequence "idle_ar2" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "crouch_idle_ar2" {
@@ -7352,6 +7620,7 @@ $sequence "crouch_idle_ar2" {
 	activity "ACT_HL2MP_IDLE_CROUCH_AR2" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -7360,6 +7629,7 @@ $sequence "crouch_idle_ar2" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "run_ar2" {
@@ -7379,6 +7649,7 @@ $sequence "run_ar2" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -7401,6 +7672,7 @@ $sequence "crouch_walk_ar2" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -7421,6 +7693,7 @@ $sequence "swim_ar2" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -7478,6 +7751,7 @@ $sequence "jump_ar2_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -7485,6 +7759,7 @@ $sequence "jump_ar2_jump_start_float" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "jump_ar2_aitwalk" {
@@ -7494,6 +7769,7 @@ $sequence "jump_ar2_aitwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -7501,6 +7777,7 @@ $sequence "jump_ar2_aitwalk" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "idle_357" {
@@ -7508,6 +7785,7 @@ $sequence "idle_357" {
 	activity "ACT_HL2MP_IDLE_357" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -7516,6 +7794,7 @@ $sequence "idle_357" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "crouch_idle_357" {
@@ -7523,6 +7802,7 @@ $sequence "crouch_idle_357" {
 	activity "ACT_HL2MP_IDLE_CROUCH_357" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -7531,6 +7811,7 @@ $sequence "crouch_idle_357" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "run_357" {
@@ -7550,6 +7831,7 @@ $sequence "run_357" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -7572,6 +7854,7 @@ $sequence "crouch_walk_357" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -7592,6 +7875,7 @@ $sequence "swim_357" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -7649,6 +7933,7 @@ $sequence "jump_357_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -7656,6 +7941,7 @@ $sequence "jump_357_jump_start_float" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "jump_357_airwalk" {
@@ -7665,6 +7951,7 @@ $sequence "jump_357_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -7672,6 +7959,7 @@ $sequence "jump_357_airwalk" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "idle_rpg" {
@@ -7679,6 +7967,7 @@ $sequence "idle_rpg" {
 	activity "ACT_HL2MP_IDLE_RPG" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -7687,6 +7976,7 @@ $sequence "idle_rpg" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "crouch_idle_rpg" {
@@ -7694,6 +7984,7 @@ $sequence "crouch_idle_rpg" {
 	activity "ACT_HL2MP_IDLE_CROUCH_RPG" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -7702,6 +7993,7 @@ $sequence "crouch_idle_rpg" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "run_RPG" {
@@ -7721,6 +8013,7 @@ $sequence "run_RPG" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -7743,6 +8036,7 @@ $sequence "crouch_walk_RPG" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -7763,6 +8057,7 @@ $sequence "swim_RPG" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -7775,6 +8070,7 @@ $sequence "jump_rpg_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -7782,6 +8078,7 @@ $sequence "jump_rpg_jump_start_float" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+    ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "jump_rpg_airwalk" {
@@ -7791,6 +8088,7 @@ $sequence "jump_rpg_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -7798,6 +8096,7 @@ $sequence "jump_rpg_airwalk" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "range_rpg" {
@@ -7831,6 +8130,7 @@ $sequence "idle_pistol" {
 	activity "ACT_HL2MP_IDLE_PISTOL" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -7846,6 +8146,7 @@ $sequence "crouch_idle_pistol" {
 	activity "ACT_HL2MP_IDLE_CROUCH_PISTOL" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -7854,6 +8155,7 @@ $sequence "crouch_idle_pistol" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "run_PISTOL" {
@@ -7873,6 +8175,7 @@ $sequence "run_PISTOL" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -7895,6 +8198,7 @@ $sequence "crouch_walk_PISTOL" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -7915,6 +8219,7 @@ $sequence "swim_PISTOL" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -7927,6 +8232,7 @@ $sequence "jump_pistol_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -7934,6 +8240,7 @@ $sequence "jump_pistol_jump_start_float" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "jump_pistol_airwalk" {
@@ -7943,6 +8250,7 @@ $sequence "jump_pistol_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -7950,6 +8258,7 @@ $sequence "jump_pistol_airwalk" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "attack_pistol" {
@@ -8002,6 +8311,7 @@ $sequence "idle_crossbow" {
 	activity "ACT_HL2MP_IDLE_CROSSBOW" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -8010,6 +8320,7 @@ $sequence "idle_crossbow" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "crouch_idle_crossbow" {
@@ -8017,6 +8328,7 @@ $sequence "crouch_idle_crossbow" {
 	activity "ACT_HL2MP_IDLE_CROUCH_CROSSBOW" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -8025,6 +8337,7 @@ $sequence "crouch_idle_crossbow" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "run_crossbow" {
@@ -8044,6 +8357,7 @@ $sequence "run_crossbow" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -8066,6 +8380,7 @@ $sequence "crouch_walk_crossbow" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -8086,6 +8401,7 @@ $sequence "swim_crossbow" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -8098,6 +8414,7 @@ $sequence "jump_crossbow_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -8105,6 +8422,7 @@ $sequence "jump_crossbow_jump_start_float" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "jump_crossbow_airwalk" {
@@ -8114,6 +8432,7 @@ $sequence "jump_crossbow_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -8121,6 +8440,7 @@ $sequence "jump_crossbow_airwalk" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "attack_crossbow" {
@@ -8154,6 +8474,7 @@ $sequence "idle_knife" {
 	activity "ACT_HL2MP_IDLE_KNIFE" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -8169,6 +8490,7 @@ $sequence "crouch_idle_knife" {
 	activity "ACT_HL2MP_IDLE_CROUCH_KNIFE" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -8196,6 +8518,7 @@ $sequence "run_knife" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -8218,6 +8541,7 @@ $sequence "crouch_walk_knife" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -8238,6 +8562,7 @@ $sequence "swim_knife" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -8250,6 +8575,7 @@ $sequence "jump_knife_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -8266,6 +8592,7 @@ $sequence "jump_knife_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -8290,6 +8617,7 @@ $sequence "idle_2hand" {
 	activity "ACT_HL2MP_IDLE_2HAND" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -8298,6 +8626,7 @@ $sequence "idle_2hand" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "crouch_idle_2hand" {
@@ -8305,6 +8634,7 @@ $sequence "crouch_idle_2hand" {
 	activity "ACT_HL2MP_IDLE_CROUCH_2HAND" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -8313,6 +8643,7 @@ $sequence "crouch_idle_2hand" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "run_2hand" {
@@ -8332,6 +8663,7 @@ $sequence "run_2hand" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -8354,6 +8686,7 @@ $sequence "crouch_walk_2hand" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -8374,6 +8707,7 @@ $sequence "swim_2hand" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -8386,6 +8720,7 @@ $sequence "jump_2hand_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -8393,6 +8728,7 @@ $sequence "jump_2hand_jump_start_float" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "jump_2hand_airwalk" {
@@ -8402,6 +8738,7 @@ $sequence "jump_2hand_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -8409,6 +8746,7 @@ $sequence "jump_2hand_airwalk" {
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 2
 	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 100 100 target 3
+	ikrule lhand touch "ValveBiped.Bip01_R_Hand"
 }
 
 $sequence "attack_melee2" {
