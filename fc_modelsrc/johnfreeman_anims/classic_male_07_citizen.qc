@@ -6391,29 +6391,29 @@ $sequence "layer_Aim_all_MG" {
 }
 
 $sequence "head_rot_z" {
-	"a_head_rot_z_lt"
-	"a_head_rot"
 	"a_head_rot_z_rt"
+	"a_head_rot"
+	"a_head_rot_z_lt"
 	autoplay
-	blend "head_yaw" 75 -75
+	blend "body_yaw" 100 -100
 	blendwidth 3
 	delta
 	fadein 0.2
 	fadeout 0.2
-	//hidden
+	hidden
 }
 
 $sequence "head_rot_y" {
-	"a_head_rot_dwn"
-	"a_head_rot"
 	"a_head_rot_up"
+	"a_head_rot"
+	"a_head_rot_dwn"
 	autoplay
-	blend "head_pitch" 60 -60
+	blend "body_pitch" 100 -80
 	blendwidth 3
 	delta
 	fadein 0.2
 	fadeout 0.2
-	//hidden
+	hidden
 }
 
 $sequence "reload_smg1_pelvis_layer" {
@@ -6453,7 +6453,8 @@ $sequence "idle_default" {
 	activity "ACT_MP_STAND_MELEE" 1
 	fadein 0.2
 	fadeout 0.2
-	addlayer "layer_Aim_all_MG"
+	addlayer "head_rot_z"
+	addlayer "head_rot_y"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -6469,7 +6470,8 @@ $sequence "crouch_idle_default" {
 	activity "ACT_MP_CROUCH_MELEE" 1
 	fadein 0.2
 	fadeout 0.2
-	addlayer "layer_Aim_all_MG"
+	addlayer "head_rot_z"
+	addlayer "head_rot_y"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	fps 30
@@ -6497,7 +6499,8 @@ $sequence "crouch_walk_default" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
-	addlayer "layer_Aim_all_MG"
+	addlayer "head_rot_z"
+	addlayer "head_rot_y"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "crouching"
@@ -6520,7 +6523,8 @@ $sequence "run_default" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
-	addlayer "layer_Aim_all_MG"
+	addlayer "head_rot_z"
+	addlayer "head_rot_y"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "crouching"
@@ -6541,7 +6545,8 @@ $sequence "swim_default" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
-	addlayer "layer_Aim_all_MG"
+	addlayer "head_rot_z"
+	addlayer "head_rot_y"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "running"
@@ -6554,7 +6559,8 @@ $sequence "jump_default" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
-	addlayer "layer_Aim_all_MG"
+	addlayer "head_rot_z"
+	addlayer "head_rot_y"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6571,7 +6577,8 @@ $sequence "jump_default_start" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
-	addlayer "layer_Aim_all_MG"
+	addlayer "head_rot_z"
+	addlayer "head_rot_y"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6587,8 +6594,8 @@ $sequence "jump_default_stop" {
 	blendwidth 1
 	fadein 0.4
 	fadeout 0.2
-    fps 30
-	addlayer "layer_Aim_all_MG"
+	addlayer "head_rot_z"
+	addlayer "head_rot_y"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6605,7 +6612,8 @@ $sequence "jump_default_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
-	addlayer "layer_Aim_all_MG"
+	addlayer "head_rot_z"
+	addlayer "head_rot_y"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
 	node "jumping"
@@ -6620,6 +6628,8 @@ $sequence "idle_melee" {
 	activity "ACT_HL2MP_IDLE_MELEE" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6636,6 +6646,8 @@ $sequence "crouch_idle_melee" {
 	activity "ACT_HL2MP_IDLE_CROUCH_MELEE" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6654,6 +6666,8 @@ $sequence "jump_melee_jump_and_start" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6671,6 +6685,8 @@ $sequence "jump_melee_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6698,6 +6714,8 @@ $sequence "run_melee" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6719,6 +6737,8 @@ $sequence "swim_melee" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6742,6 +6762,8 @@ $sequence "crouch_walk_melee" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6756,6 +6778,8 @@ $sequence "attack_melee" {
 	fadeout 0.2
 	iklock "lfoot" 1 0
 	iklock "rfoot" 1 0
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6769,6 +6793,8 @@ $sequence "attack_melee_crouch" {
 	fadeout 0.2
 	iklock "lfoot" 1 0
 	iklock "rfoot" 1 0
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6782,6 +6808,8 @@ $sequence "attack_melee_swim" {
 	fadeout 0.2
 	iklock "lfoot" 1 0
 	iklock "rfoot" 1 0
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6795,6 +6823,8 @@ $sequence "attack_melee_airwalk" {
 	fadeout 0.2
 	iklock "lfoot" 1 0
 	iklock "rfoot" 1 0
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6805,6 +6835,8 @@ $sequence "idle_gravgun" {
 	activity "ACT_MP_STAND_SECONDARY" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6822,6 +6854,8 @@ $sequence "crouch_idle_gravgun" {
 	activity "ACT_MP_CROUCH_SECONDARY" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6844,6 +6878,8 @@ $sequence "run_gravgun" {
 	"a_gravgun_RunNW"
 	"a_gravgun_RunN"
 	"a_gravgun_RunNE"
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	activity "ACT_MP_RUN_SECONDARY" 1
 	blend "move_y" -1 1
@@ -6867,6 +6903,8 @@ $sequence "crouch_walk_gravgun" {
 	"a_gravgun_CrouchNW"
 	"a_gravgun_CrouchN"
 	"a_gravgun_CrouchNE"
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	activity "ACT_MP_CROUCHWALK_SECONDARY" 1
 	blend "move_y" -1 1
@@ -6887,6 +6925,8 @@ $sequence "jump_gravgun_jump" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6905,6 +6945,8 @@ $sequence "jump_gravgun_jump_start" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6923,6 +6965,8 @@ $sequence "jump_gravgun_jump_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6941,6 +6985,8 @@ $sequence "jump_gravgun_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6967,6 +7013,8 @@ $sequence "swim_gravgun" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6978,6 +7026,8 @@ $sequence "idle_smg1" {
 	activity "ACT_HL2MP_IDLE_SMG1" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -6995,6 +7045,8 @@ $sequence "crouch_idle_smg1" {
 	activity "ACT_HL2MP_IDLE_CROUCH_SMG1" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7014,6 +7066,8 @@ $sequence "jump_smg1_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7032,6 +7086,8 @@ $sequence "jump_smg1_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7060,6 +7116,8 @@ $sequence "run_smg1" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7083,6 +7141,8 @@ $sequence "crouch_walk_smg1" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7104,6 +7164,8 @@ $sequence "swim_smg1" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7219,6 +7281,8 @@ $sequence "idle_shotgun" {
 	activity "ACT_MP_STAND_PRIMARY" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7236,6 +7300,8 @@ $sequence "crouch_idle_shotgun" {
 	activity "ACT_MP_CROUCH_PRIMARY" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7255,6 +7321,8 @@ $sequence "jump_shotgun_jump" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7273,6 +7341,8 @@ $sequence "jump_shotgun_jump_start" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7291,6 +7361,8 @@ $sequence "jump_shotgun_jump_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7309,6 +7381,8 @@ $sequence "jump_shotgun_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7337,6 +7411,8 @@ $sequence "run_shotgun" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7360,6 +7436,8 @@ $sequence "crouch_walk_shotgun" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7381,6 +7459,8 @@ $sequence "swim_shotgun" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7603,6 +7683,8 @@ $sequence "idle_ar2" {
 	activity "ACT_HL2MP_IDLE_AR2" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7620,6 +7702,8 @@ $sequence "crouch_idle_ar2" {
 	activity "ACT_HL2MP_IDLE_CROUCH_AR2" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7649,6 +7733,8 @@ $sequence "run_ar2" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7672,6 +7758,8 @@ $sequence "crouch_walk_ar2" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7693,6 +7781,8 @@ $sequence "swim_ar2" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7751,6 +7841,8 @@ $sequence "jump_ar2_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7769,6 +7861,8 @@ $sequence "jump_ar2_aitwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7785,6 +7879,8 @@ $sequence "idle_357" {
 	activity "ACT_HL2MP_IDLE_357" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7802,6 +7898,8 @@ $sequence "crouch_idle_357" {
 	activity "ACT_HL2MP_IDLE_CROUCH_357" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7831,6 +7929,8 @@ $sequence "run_357" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7854,6 +7954,8 @@ $sequence "crouch_walk_357" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7875,6 +7977,8 @@ $sequence "swim_357" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7933,6 +8037,8 @@ $sequence "jump_357_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7951,6 +8057,8 @@ $sequence "jump_357_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7967,6 +8075,8 @@ $sequence "idle_rpg" {
 	activity "ACT_HL2MP_IDLE_RPG" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -7984,6 +8094,8 @@ $sequence "crouch_idle_rpg" {
 	activity "ACT_HL2MP_IDLE_CROUCH_RPG" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8013,6 +8125,8 @@ $sequence "run_RPG" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8036,6 +8150,8 @@ $sequence "crouch_walk_RPG" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8057,6 +8173,8 @@ $sequence "swim_RPG" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8070,6 +8188,8 @@ $sequence "jump_rpg_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8088,6 +8208,8 @@ $sequence "jump_rpg_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8130,6 +8252,8 @@ $sequence "idle_pistol" {
 	activity "ACT_HL2MP_IDLE_PISTOL" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8146,6 +8270,8 @@ $sequence "crouch_idle_pistol" {
 	activity "ACT_HL2MP_IDLE_CROUCH_PISTOL" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8175,6 +8301,8 @@ $sequence "run_PISTOL" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8198,6 +8326,8 @@ $sequence "crouch_walk_PISTOL" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8219,6 +8349,8 @@ $sequence "swim_PISTOL" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8232,6 +8364,8 @@ $sequence "jump_pistol_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8250,6 +8384,8 @@ $sequence "jump_pistol_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8311,6 +8447,8 @@ $sequence "idle_crossbow" {
 	activity "ACT_HL2MP_IDLE_CROSSBOW" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8328,6 +8466,8 @@ $sequence "crouch_idle_crossbow" {
 	activity "ACT_HL2MP_IDLE_CROUCH_CROSSBOW" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8357,6 +8497,8 @@ $sequence "run_crossbow" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8380,6 +8522,8 @@ $sequence "crouch_walk_crossbow" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8401,6 +8545,8 @@ $sequence "swim_crossbow" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8414,6 +8560,8 @@ $sequence "jump_crossbow_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8432,6 +8580,8 @@ $sequence "jump_crossbow_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8474,6 +8624,8 @@ $sequence "idle_knife" {
 	activity "ACT_HL2MP_IDLE_KNIFE" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8490,6 +8642,8 @@ $sequence "crouch_idle_knife" {
 	activity "ACT_HL2MP_IDLE_CROUCH_KNIFE" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8518,6 +8672,8 @@ $sequence "run_knife" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8541,6 +8697,8 @@ $sequence "crouch_walk_knife" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8562,6 +8720,8 @@ $sequence "swim_knife" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8575,6 +8735,8 @@ $sequence "jump_knife_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8592,6 +8754,8 @@ $sequence "jump_knife_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8617,6 +8781,8 @@ $sequence "idle_2hand" {
 	activity "ACT_HL2MP_IDLE_2HAND" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8634,6 +8800,8 @@ $sequence "crouch_idle_2hand" {
 	activity "ACT_HL2MP_IDLE_CROUCH_2HAND" 1
 	fadein 0.2
 	fadeout 0.2
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8663,6 +8831,8 @@ $sequence "run_2hand" {
 	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8686,6 +8856,8 @@ $sequence "crouch_walk_2hand" {
 	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8707,6 +8879,8 @@ $sequence "swim_2hand" {
 	blend "move_x" -1 1
 	fadein 0.4
 	fadeout 0.3
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8720,6 +8894,8 @@ $sequence "jump_2hand_jump_start_float" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
@@ -8738,6 +8914,8 @@ $sequence "jump_2hand_airwalk" {
 	fadein 0.4
 	fadeout 0.2
     fps 30
+	addlayer "head_rot_z"
+
 	addlayer "layer_Aim_all_MG"
 	addlayer "gmod_breath_layer"
 	addlayer "idle_layer"
