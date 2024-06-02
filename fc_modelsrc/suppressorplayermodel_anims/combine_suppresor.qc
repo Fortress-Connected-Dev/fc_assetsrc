@@ -4916,6 +4916,19 @@ $sequence "jump_pistol" {
 	addlayer "NamVet_AimMatrix_Pistol_Standing"
 }
 
+$sequence "jump_pistol_airwalk" {
+	"a_Jump_S_Pistol"
+	"a_Jump_Center_Pistol"
+	"a_Jump_N_Pistol"
+	activity "ACT_HL2MP_AIRWALK_PISTOL" -1
+	blend "move_x" -1 1
+	blendwidth 3
+	{ event 6004 0 "NPC_CombineS" }
+	fadein 0.2
+	fadeout 0.2
+	addlayer "NamVet_AimMatrix_Pistol_Standing"
+}
+
 $sequence "classselect_anim" {
 	"combine_suppresor_anims\pose_standing_01.smd"
 	activity "ACT_MP_COMPETITIVE_LOSERSTATE" 1
