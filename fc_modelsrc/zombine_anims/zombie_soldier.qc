@@ -815,6 +815,59 @@ $weightlist "weights_reload_ar2_base_layer" {
 	 "ValveBiped.Bip01_L_Finger22" 1
 }
 
+$weightlist "weights_grenade_pull_base_layer" {
+	 //"ValveBiped.Bip01_Pelvis" 0.1
+	 //"ValveBiped.Bip01_Spine" 0.2
+	 //"ValveBiped.Bip01_Spine1" 0.6
+	 //"ValveBiped.Bip01_Spine2" 0.9
+	 //"ValveBiped.Bip01_Spine4" 1
+	 "ValveBiped.Bip01_Pelvis" 0.6
+	 "ValveBiped.Bip01_Spine" 0.7
+	 "ValveBiped.Bip01_Spine1" 0.8
+	 "ValveBiped.Bip01_Spine2" 0.9
+	 "ValveBiped.Bip01_Spine4" 1
+	 "ValveBiped.Bip01_L_Thigh" 0
+	 "ValveBiped.Bip01_L_Calf" 0
+	 "ValveBiped.Bip01_L_Foot" 0
+	 "ValveBiped.Bip01_R_Thigh" 0
+	 "ValveBiped.Bip01_R_Calf" 0
+	 "ValveBiped.Bip01_R_Foot" 0
+	 "ValveBiped.Bip01_R_Clavicle" 1
+	 "ValveBiped.Bip01_R_UpperArm" 1
+	 "ValveBiped.Bip01_R_Forearm" 1
+	 "ValveBiped.Bip01_R_Hand" 1
+	 "ValveBiped.Bip01_R_Finger2" 1
+	 "ValveBiped.Bip01_L_Clavicle" 1
+	 "ValveBiped.Bip01_L_UpperArm" 1
+	 "ValveBiped.Bip01_L_Forearm" 1
+	 "ValveBiped.Bip01_L_Hand" 1
+	 "ValveBiped.Bip01_L_Finger2" 1
+	 "ValveBiped.Bip01_L_Finger1" 1
+	 "ValveBiped.Bip01_L_Finger3" 1
+	 "ValveBiped.Bip01_R_Finger3" 1
+	 "ValveBiped.Bip01_L_Toe0" 0
+	 "ValveBiped.Bip01_R_Toe0" 0
+	 "ValveBiped.Bip01_L_Finger0" 1
+	 "ValveBiped.Bip01_R_Finger0" 1
+	 "ValveBiped.Bip01_R_Finger1" 1
+	 "ValveBiped.Bip01_R_Finger11" 1
+	 "ValveBiped.Bip01_L_Finger21" 1
+	 "ValveBiped.Bip01_L_Finger11" 1
+	 "ValveBiped.Bip01_R_Finger21" 1
+	 "ValveBiped.Bip01_R_Finger01" 1
+	 "ValveBiped.Bip01_R_Finger02" 1
+	 "ValveBiped.Bip01_L_Finger01" 1
+	 "ValveBiped.Bip01_L_Finger02" 1
+	 "ValveBiped.Bip01_R_Finger31" 1
+	 "ValveBiped.Bip01_L_Finger31" 1
+	 "ValveBiped.Bip01_L_Finger32" 1
+	 "ValveBiped.Bip01_R_Finger22" 1
+	 "ValveBiped.Bip01_L_Finger12" 1
+	 "ValveBiped.Bip01_R_Finger32" 1
+	 "ValveBiped.Bip01_R_Finger12" 1
+	 "ValveBiped.Bip01_L_Finger22" 1
+}
+
 $animation "a_WalkN" "zombie_soldier_anims\a_WalkN.smd" {
 	fps 30
 	loop
@@ -2181,6 +2234,116 @@ $Animation "a_sawedoff_corrective" "zombie_soldier_anims\StandIdle_PISTOL.smd" {
 	weightlist "weights_aimmatrix_idle"
 }
 
+$animation "a_WalkS_2" "zombie_soldier_anims\a_WalkS.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" footstep contact 8 fakeorigin -5.76 3.78 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 1 8 26 1 target 3
+	ikrule "rfoot" footstep contact 23 fakeorigin -8.17 -10.49 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 15 23 8 15 target 2
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 1
+	walkframe 32 LX LY
+	weightlist "weights_grenade_pull_base_layer"
+}
+
+$animation "a_WalkSE_2" "zombie_soldier_anims\a_WalkSE.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" footstep contact 5 fakeorigin 0.27 -1.96 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 30 5 24 30 target 3
+	ikrule "rfoot" footstep contact 22 fakeorigin -8.77 -18.7 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 15 22 8 15 target 2
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 1
+	walkframe 32 LX LY
+	weightlist "weights_grenade_pull_base_layer"
+}
+
+$animation "a_WalkE_2" "zombie_soldier_anims\a_WalkE.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" footstep contact 4 fakeorigin 8.38 -4.28 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 30 4 25 30 target 3
+	ikrule "rfoot" footstep contact 22 fakeorigin -4.01 -22.24 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 14 22 7 14 target 2
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 1
+	walkframe 32 LX LY
+	weightlist "weights_grenade_pull_base_layer"
+}
+
+$animation "a_WalkNE_2" "zombie_soldier_anims\a_WalkNE.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" footstep contact 6 fakeorigin 12.96 -4.02 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 0 6 27 32 target 3
+	ikrule "rfoot" footstep contact 24 fakeorigin 3.2 -18.74 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 16 24 9 16 target 2
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 1
+	walkframe 32 LX LY
+	weightlist "weights_grenade_pull_base_layer"
+}
+
+$animation "a_WalkW_2" "zombie_soldier_anims\a_WalkW.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" footstep contact 10 fakeorigin 5.45 12.04 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 3 10 28 3 target 3
+	ikrule "rfoot" footstep contact 25 fakeorigin -4.46 -4.11 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 16 25 7 16 target 2
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 1
+	walkframe 32 LX LY
+	weightlist "weights_grenade_pull_base_layer"
+}
+
+$animation "a_WalkSW_2" "zombie_soldier_anims\a_WalkSW.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" footstep contact 8 fakeorigin -2.3 11.9 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 1 8 27 1 target 3
+	ikrule "rfoot" footstep contact 24 fakeorigin -4.75 -7.74 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 17 24 10 17 target 2
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 32 32 target 1
+	walkframe 32 LX LY
+	weightlist "weights_grenade_pull_base_layer"
+}
+
+$animation "a_Idle_old_2" "zombie_soldier_anims\Idle_01.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" footstep contact 8 fakeorigin 10.7 4.68 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 19 8 11 19 target 3
+	ikrule "rfoot" footstep contact 18 fakeorigin 8.74 -7.3 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 10 18 2 10 target 2
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 1
+	walkframe 30 LX LY
+	weightlist "weights_grenade_pull_base_layer"
+}
+
+$animation "a_run_ne_2" "zombie_soldier_anims\a_run_ne.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" footstep contact 7 fakeorigin 9.05 -3.83 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 18 7 10 18 target 3
+	ikrule "rfoot" footstep contact 18 fakeorigin 5.16 -18.15 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 10 18 2 10 target 2
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 1
+	walkframe 30 LX LY
+	weightlist "weights_grenade_pull_base_layer"
+}
+
+$animation "a_run_nw_2" "zombie_soldier_anims\a_run_nw.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" footstep contact 8 fakeorigin 10.7 4.68 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 19 8 11 19 target 3
+	ikrule "rfoot" footstep contact 18 fakeorigin 8.74 -7.3 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 10 18 2 10 target 2
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 1
+	walkframe 30 LX LY
+	weightlist "weights_grenade_pull_base_layer"
+}
+
+$animation "a_run_n_2" "zombie_soldier_anims\a_run_n.smd" {
+	fps 30
+	loop
+	ikrule "lfoot" footstep contact 7 fakeorigin 8.44 8.28 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 18 7 10 18 target 3
+	ikrule "rfoot" footstep contact 18 fakeorigin 10.08 -9.31 0 fakerotate 0 0 0 floor 0 height 18 radius 2.5 range 10 18 2 10 target 2
+	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 0
+	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 20 20 target 1
+	walkframe 20 LX LY
+	weightlist "weights_grenade_pull_base_layer"
+}
+
 $sequence "Ref" {
 	"zombie_soldier_anims\refpose.smd"
 	activity "" 1
@@ -2289,15 +2452,20 @@ $sequence "Enforcer_Idle01_grenade" {
 	blendwidth 1
 	fadein 0.2
 	fadeout 0.2
+	//fadein 0.4
+	//fadeout 0.3
+	//iklock "rfoot" 1 0
+	//iklock "lfoot" 1 0
 	fps 30
 	loop
-	addlayer "gmod_breath_layer"
-	addlayer "idle_layer"
-	addlayer "layer_Aim_all"
+	addlayer "pull_grenade_base_layer"
+	//addlayer "gmod_breath_layer"
+	//addlayer "idle_layer"
+	//addlayer "layer_Aim_all"
 	ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 0
 	ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 1
 	ikrule "rfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 2
-	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 3
+	ikrule "lfoot" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 119 119 target 3\
 }
 
 $sequence "loadout_anim" {
@@ -2391,6 +2559,42 @@ $sequence "Jump_Glide_airwalk" {
 	fadeout 0.2
 }
 
+$sequence "Jump_Glide_start_grenade" {
+	"a_JumpGlide"
+	activity "ACT_MP_JUMP_START_ITEM1" 1
+	blendwidth 1
+	addlayer "pull_grenade_base_layer"
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
+	fadein 0.2
+	fadeout 0.2
+}
+
+$sequence "Jump_Glide_float_grenade" {
+	"a_JumpGlide"
+	activity "ACT_MP_JUMP_FLOAT_ITEM1" 1
+	blendwidth 1
+	addlayer "pull_grenade_base_layer"
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
+	fadein 0.2
+	fadeout 0.2
+}
+
+$sequence "Jump_Glide_airwalk_grenade" {
+	"a_JumpGlide"
+	activity "ACT_MP_AIRWALK_ITEM1" 1
+	blendwidth 1
+	addlayer "pull_grenade_base_layer"
+	addlayer "gmod_breath_layer"
+	addlayer "idle_layer"
+	addlayer "layer_Aim_all"
+	fadein 0.2
+	fadeout 0.2
+}
+
 $sequence "Crouch" {
 	"zombie_soldier_anims\pose_ducking_01.smd"
 	activity "ACT_MP_CROUCH_MELEE" 1
@@ -2408,9 +2612,12 @@ $sequence "Crouch_grenade" {
 	"zombie_soldier_anims\pose_ducking_01.smd"
 	activity "ACT_MP_CROUCH_ITEM1" 1
 	blendwidth 1
+	iklock "rfoot" 1 0
+	iklock "lfoot" 1 0
 	fps 30
+	addlayer "pull_grenade_base_layer"
 	addlayer "gmod_breath_layer"
-	addlayer "idle_layer"
+	//addlayer "idle_layer"
 	addlayer "layer_Aim_all"
 	loop
 	fadein 0.2
@@ -2450,6 +2657,7 @@ $sequence "Crouch_Walk_grenade" {
 	activity "ACT_MP_CROUCHWALK_ITEM1" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
+	addlayer "pull_grenade_base_layer"
 	addlayer "layer_Aim_all"
 	{ event 6004 5 "NPC_CombineS" }
 	{ event 6005 22 "NPC_CombineS" }
@@ -2488,6 +2696,7 @@ $sequence "Swimming_grenade" {
 	activity "ACT_MP_SWIM_ITEM1" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
+	addlayer "pull_grenade_base_layer"
 	addlayer "layer_Aim_all"
 	fadein 0.2
 	fadeout 0.2
@@ -2622,7 +2831,7 @@ $sequence "enforce_run_melee_grenade" {
 	{ event 6005 14 "NPC_CombineS" }
 	fadein 0.2
 	fadeout 0.2
-	addlayer "zombie_run_upperbody_layer"
+	addlayer "pull_grenade_base_layer"
 	addlayer "idle_layer_alt"
 	addlayer "layer_Aim_all"
 }
@@ -3249,6 +3458,28 @@ $sequence "run_grenade_pulled" {
 	addlayer "idle_layer"
 	addlayer "layer_Aim_all"
 	node "running"
+}
+
+$sequence "pull_grenade_base_layer" {
+	"a_WalkSW_2"
+	"a_WalkS_2"
+	"a_WalkSE_2"
+	"a_WalkW_2"
+	"a_Idle_old_2"
+	"a_WalkE_2"
+	"a_run_nw_2"
+	"a_run_n_2"
+	"a_run_ne_2"
+	blend "move_y" -1 1
+	blend "move_x" -1 1
+	fadein 0.4
+	fadeout 0.3
+	hidden
+	//fps 30
+	//ikrule "rhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 110 110 target 0
+	//ikrule "lhand" release contact 0 fakeorigin 0 0 0 fakerotate 0 0 0 floor 0 height 0 radius 0 range 0 0 110 110 target 1
+	//subtract "a_idle_layer_alt_corrective_animation" 0
+	weightlist "weights_grenade_pull_base_layer"
 }
 
 $sequence "FireWalk" {
