@@ -246,6 +246,11 @@ $BodyGroup "belt"
 	studio "belt_reference.smd"
 	blank
 }
+$BodyGroup "armbands"
+{
+	studio "armband_reference.smd"
+	blank
+}
 
 $LOD 11
 {
@@ -430,14 +435,14 @@ $CDMaterials "\"
 
 $TextureGroup "skinfamilies"
 {
-	{ "saxton_head"              "saxton_body"     "saxton_hat_color"        "saxton_belt_high"  "eyeball_l" "eyeball_r" }
-	{ "saxton_head_gray"         "saxton_body_blue"     "saxton_hat_color_blue"   "saxton_belt_high"  "eyeball_l" "eyeball_r"    }
-	{ "saxton_head_invun_red"    "saxton_body_invun_red" "saxton_hat_invun_red"    "saxton_belt_invun_red"  "eyeball_invun" "eyeball_invun"    }
-	{ "saxton_head_invun_blue"   "saxton_body_invun_blue"           "saxton_hat_invun_blue"   "saxton_belt_invun_blue"  "eyeball_invun" "eyeball_invun"  }
-	{ "saxton_head"        "saxton_body_green"  "saxton_hat_color_green"  "saxton_belt_high"   "eyeball_l" "eyeball_r" }
-	{ "saxton_head"              "saxton_body_yellow"  "saxton_hat_color_yellow" "saxton_belt_high"   "eyeball_l" "eyeball_r"}
-	{ "saxton_head_invun_green"  "saxton_body_invun_green"     "saxton_hat_invun_green"  "saxton_belt_invun_green"  "eyeball_invun" "eyeball_invun" }
-	{ "saxton_head_invun_yellow" "saxton_body_invun_yellow" "saxton_hat_invun_yellow" "saxton_belt_invun_yellow" "eyeball_invun" "eyeball_invun" }
+	{ "saxton_head"              "saxton_body"     "saxton_hat_color"        "saxton_belt_high"  "eyeball_l" "eyeball_r" "armband"}
+	{ "saxton_head_gray"         "saxton_body_blue"     "saxton_hat_color_blue"   "saxton_belt_high_blue"  "eyeball_l" "eyeball_r"  "armband_blue"  }
+	{ "saxton_head_invun_red"    "saxton_body_invun_red" "saxton_hat_invun_red"    "saxton_belt_invun_red"  "eyeball_invun" "eyeball_invun" "armband_invun"   }
+	{ "saxton_head_invun_blue"   "saxton_body_invun_blue"           "saxton_hat_invun_blue"   "saxton_belt_invun_blue"  "eyeball_invun" "eyeball_invun" "armband_invun_blue"  }
+	{ "saxton_head_brown"        "saxton_body_green"  "saxton_hat_color_green"  "saxton_belt_high_green"   "eyeball_l" "eyeball_r" "armband_green" }
+	{ "saxton_head_blond"              "saxton_body_yellow"  "saxton_hat_color_yellow" "saxton_belt_high_yellow"   "eyeball_l" "eyeball_r" "armband_yellow"}
+	{ "saxton_head_invun_green"  "saxton_body_invun_green"     "saxton_hat_invun_green"  "saxton_belt_invun_green"  "eyeball_invun" "eyeball_invun" "armband_invun_green" }
+	{ "saxton_head_invun_yellow" "saxton_body_invun_yellow" "saxton_hat_invun_yellow" "saxton_belt_invun_yellow" "eyeball_invun" "eyeball_invun" "armband_invun_yellow"}
 }
 
 $Attachment "eyes" "bip_head" 0 -5.09 3.52 rotate -82.94 -90 180
@@ -562,6 +567,12 @@ $DefineBone "bip_upperArm_hlp_R" "bip_upperArm_R" 7.895126 0.073708 0.608934 -2.
 $DefineBone "bip_dash_effect" "" 0 0 0 0 0 0 0 0 0 0 0 0
 $DefineBone "bip_lowerArm_hlp_L" "bip_lowerArm_L" 5.760052 -0.158516 0.495699 -1.711743 87.968609 -173.131867 0 0 0 0 0 0
 $DefineBone "bip_lowerArm_hlp_R" "bip_lowerArm_R" 5.760075 0.158485 0.49571 1.711821 92.031144 -173.131922 0 0 0 0 0 0
+
+$DefineBone "medal_bone" "bip_pelvis" -5 -2 -6.5 16 0 180 0 0 0 0 0 0
+$DefineBone "mvm" "bip_pelvis" 5 -2.5 6 -20 -180 0 0 0 0 0 0 0
+
+$BoneMerge "mvm"
+$BoneMerge "medal_bone"
 
 $BoneMerge "bip_pelvis"
 $BoneMerge "bip_spine_0"
@@ -1157,15 +1168,15 @@ $CollisionJoints "saxton_hale_physics.smd"
 	$jointconstrain "bip_foot_R" z limit -30 41 0
 }
 
-$KeyValues
-{
-	particles 
-	{
-		"effect"		 
-		{
-			"name"			"vsh_body_trail"
-			"attachment_type"			"follow_attachment"
-			"attachment_point"			"vsh_trail"
-		}
-	}
-}
+//$KeyValues
+//{
+//	particles 
+//	{
+//		"effect"		 
+//		{
+//			"name"			"vsh_body_trail"
+//			"attachment_type"			"follow_attachment"
+//			"attachment_point"			"vsh_trail"
+//		}
+//	}
+//}

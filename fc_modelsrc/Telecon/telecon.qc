@@ -17,18 +17,19 @@ $contents "solid"
 $illumposition -0.514 -1.347 38.444
 
 $cdmaterials "models\player\telecon\"
+$CDMaterials "..\..\effects\"
 $cdmaterials ""
 
 $texturegroup "skinfamilies"
 {
 	{ "telecon_body"        "telecon_limbs"        "telecon_handsfeet"        }
 	{ "telecon_body_blue"   "telecon_limbs_blue"   "telecon_handsfeet_blue"   }
-	{ "telecon_body"        "telecon_limbs"        "telecon_handsfeet"        }
-	{ "telecon_body"        "telecon_limbs"        "telecon_handsfeet"        }
+	{ "..\..\effects\invulnfx_red" "..\..\effects\invulnfx_red" "..\..\effects\invulnfx_red" }
+	{ "..\..\effects\invulnfx_blue" "..\..\effects\invulnfx_blue" "..\..\effects\invulnfx_blue" }
 	{ "telecon_body_green"  "telecon_limbs_green"  "telecon_handsfeet_green"  }
 	{ "telecon_body_yellow" "telecon_limbs_yellow" "telecon_handsfeet_yellow" }
-	{ "telecon_body"        "telecon_limbs"        "telecon_handsfeet"        }
-	{ "telecon_body"        "telecon_limbs"        "telecon_handsfeet"        }
+	{ "..\..\effects\invulnfx_green" "..\..\effects\invulnfx_green" "..\..\effects\invulnfx_green" }
+	{ "..\..\effects\invulnfx_yellow" "..\..\effects\invulnfx_yellow" "..\..\effects\invulnfx_yellow" }
 	{ "telecon_body_purple" "telecon_limbs_purple" "telecon_handsfeet_purple" }
 	{ "telecon_body_pink"   "telecon_limbs_pink"   "telecon_handsfeet_pink"   }
 }
@@ -36,6 +37,35 @@ $texturegroup "skinfamilies"
 $attachment "head" "bip_head" 0 -7.78 0.9 rotate 74.7 -90 0
 $attachment "flag" "bip_spine_2" 0.09 1.4 7.04 rotate 0.95 -6.92 -1.52
 $attachment "partyhat" "bip_head" 0.00 -10.00 -1.63 rotate 80 -90 -0
+
+$Attachment "eyes" "bip_head" 0 -2.69 -3.29 rotate 83.45 -90 0
+$Attachment "righteye" "bip_head" -6.5 -7 -12.29 rotate 83.45 -90 0
+$Attachment "lefteye" "bip_head" 6.5 -7 -12.29 rotate 83.45 -90 0
+$Attachment "foot_L" "bip_foot_L" 0 0 0 rotate 0 0 0
+$Attachment "foot_R" "bip_foot_R" 0 0 0 rotate 0 0 0
+$Attachment "back_upper" "bip_spine_3" 0 0 0 rotate 0 0 0
+$Attachment "back_lower" "bip_spine_0" 0 0 0 rotate 0 0 0
+$Attachment "hand_L" "bip_hand_L" 0 0 0 rotate 0 0 0
+$Attachment "hand_R" "bip_hand_R" 0 0 0 rotate 0 0 0
+$Attachment "doublejumpfx" "bip_pelvis" 0 40 15 rotate 0 0 0
+//$Attachment "eyeglow_L" "bip_head" 1.34 -2.74 -4.67 rotate 64.21 -13.74 74.8
+//$Attachment "eyeglow_R" "bip_head" -1.34 -2.74 -4.67 rotate 64.21 -166.26 -74.8
+$Attachment "eyeglow_R" "bip_head" -6.5 -7 -14.29 rotate 83.45 -90 0
+$Attachment "eyeglow_L" "bip_head" 6.5 -7 -14.29 rotate 83.45 -90 0
+$Attachment "weapon_bone_L" "weapon_bone_L" 0 0 0 rotate 0 0 0
+$Attachment "effect_hand_L" "effect_hand_L" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone" "weapon_bone" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_2" "weapon_bone_2" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_3" "weapon_bone_3" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_4" "weapon_bone_4" 0 0 0 rotate 0 0 0
+$Attachment "effect_hand_R" "effect_hand_R" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone" "prop_bone" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_1" "prop_bone_1" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_2" "prop_bone_2" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_3" "prop_bone_3" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_4" "prop_bone_4" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_5" "prop_bone_5" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_6" "prop_bone_6" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
@@ -90,6 +120,10 @@ $SkipBoneInBBox
       $definebone "bip_hand_R" "bip_lowerArm_R" 6.946007 -0.000004 0.000174 -89.998036 -89.862457 0.000000 0.000000 0.000000 0.000000 0.000000 0.000003 0.000005
       $definebone "weapon_bone" "bip_hand_R" 1.947453 3.992588 0.897587 -2.533848 -13.340863 -71.666007 0.000000 0.000000 0.000002 -0.000000 0.000001 -0.000006
       $definebone "weapon_bone_1" "weapon_bone" -0.000019 0.000011 0.829191 0.001432 178.724497 -89.999355 0.000000 0.000000 0.000000 -0.000001 0.000000 -0.000006
+	  $DefineBone "weapon_bone_2" "weapon_bone" 0 0 2.268631 -0.000007 0 0.000003 0 0 0 0 0 0
+	  $DefineBone "weapon_bone_3" "weapon_bone" 0.000001 0 3.869488 -0.000007 0 0.000003 0 0 0 0 0 0
+	  $DefineBone "weapon_bone_4" "weapon_bone" 0.000002 0 5.895084 -0.000007 0 0.000003 0 0 0 0 0 0
+	  $DefineBone "weapon_bone_L" "bip_hand_L" -3.069536 -5.37534 -1.247971 -2.533163 -13.339452 108.332845 0 0 0 0 0 0
       $definebone "bip_foot_L" "bip_knee_L" 14.478012 -0.000051 -0.000167 4.511300 83.489290 -63.474103 0.000000 0.000000 0.000000 0.000003 0.000000 0.000007
       $definebone "bip_index_0_L" "bip_hand_L" -0.643585 -4.926273 0.529889 75.595817 65.238717 83.608463 0.000000 0.000000 0.000000 0.000003 0.000003 -0.000002
       $definebone "bip_index_1_L" "bip_index_0_L" -0.000000 -1.317518 0.000005 0.000003 0.000179 31.039133 0.000000 0.000000 0.000000 0.000005 0.000001 -0.000009
@@ -128,6 +162,20 @@ $SkipBoneInBBox
       $definebone "bip_antenna_1" "bip_antenna" -0.000002 2.983276 0.000000 -0.000000 -0.000000 0.000000 -0.000001 -0.000008 0.000000 -0.000000 -0.000000 0.000000
       $definebone "bip_antenna_2" "bip_antenna_1" -0.000001 4.041634 0.000000 -0.000000 -0.000000 0.000000 0.000000 -0.000008 0.000000 -0.000000 -0.000000 0.000000
       $definebone "bip_toe_L" "bip_foot_L" -0.000004 -4.113694 -0.000026 0.000061 0.000116 -43.644380 0.000000 0.000000 -0.000000 0.000002 0.000003 0.000000
+	  
+	  $DefineBone "prop_bone" "bip_pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+	  $DefineBone "prop_bone_1" "bip_pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+	  $DefineBone "prop_bone_2" "bip_pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+	  $DefineBone "prop_bone_3" "bip_pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+	  $DefineBone "prop_bone_4" "bip_pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+	  $DefineBone "prop_bone_5" "bip_pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+	  $DefineBone "prop_bone_6" "bip_pelvis" 0 0 0 0 0 0 0 0 0 0 0 0	  
+	 
+	  $DefineBone "effect_hand_L" "bip_hand_L" -1.926699 -4.406288 -0.830529 -12.343391 176.82312 5.838813 0 0 0 0 0 0
+	  $DefineBone "effect_hand_R" "bip_hand_R" 1.92668 4.406311 0.830531 12.343835 -3.176895 -5.838642 0 0 0 0 0 0
+	  
+	  $DefineBone "medal_bone" "bip_spine_2" 0 -3.114922 -14 0 0 180 0 0 0 0 0 0
+	  $DefineBone "mvm" "bip_pelvis" 0 0 7 0 -180 0 0 0 0 0 0 0
 	  
 $jigglebone "bip_antenna" {
 	is_flexible {
@@ -208,6 +256,24 @@ $bonemerge "weapon_bone_1"
 $bonemerge "bip_antenna_1"
 $bonemerge "bip_antenna_2"
 
+$BoneMerge "weapon_bone_2"
+$BoneMerge "weapon_bone_3"
+$BoneMerge "weapon_bone_4"
+$BoneMerge "weapon_bone_L"
+$BoneMerge "medal_bone"
+$BoneMerge "mvm"
+
+$BoneMerge "prop_bone"
+$BoneMerge "prop_bone_1"
+$BoneMerge "prop_bone_2"
+$BoneMerge "prop_bone_3"
+$BoneMerge "prop_bone_4"
+$BoneMerge "prop_bone_5"
+$BoneMerge "prop_bone_6"
+
+$bonemerge "effect_hand_L"
+$bonemerge "effect_hand_R"
+
 $proceduralbones "telecon.vrd"
 
 
@@ -250,6 +316,7 @@ $sequence "ragdoll" {
 
 //$IncludeModel "player/scout_user_animations.mdl"
 $IncludeModel "player/scout_animations_scaled.mdl"
+$IncludeModel "player/engineer_animations_telecon.mdl"
 //$IncludeModel "player/scout_animations.mdl"
 //$IncludeModel "workshop/player/animations/scout_workshop_animations.mdl"
 

@@ -117,6 +117,7 @@ $texturegroup "skinfamilies"
 	{ "jerry_yellow_invun"  "antlionhigh_sheet4_invun" }
 }
 
+$attachment "head" "Antlion.Head_Bone" 0 0 0 rotate 0 0 -50
 $attachment "leftfront" "Antlion.LegR3_Bone" 46 0 0 rotate 0 0 0
 $attachment "rightfront" "Antlion.LegL3_Bone" 46 0 0 rotate 0 0 0
 $attachment "leftrear" "Antlion.LegMidL3_Bone" 30 0 0 rotate 0 0 0
@@ -128,6 +129,20 @@ $Attachment "weapon_bone" "weapon_bone" 0 0 0 rotate 0 0 0
 $Attachment "weapon_bone_2" "weapon_bone_2" 0 0 0 rotate 0 0 0
 $Attachment "weapon_bone_3" "weapon_bone_3" 0 0 0 rotate 0 0 0
 $Attachment "weapon_bone_4" "weapon_bone_4" 0 0 0 rotate 0 0 0
+
+$Attachment "effect_hand_L" "effect_hand_L" 0 0 0 rotate 0 0 0
+$Attachment "effect_hand_R" "effect_hand_R" 0 0 0 rotate 0 0 0
+
+$attachment "foot_L" "Antlion.LegMidL3_Bone" 30.00 -1.00 -3.00 rotate -0 0 -0
+$attachment "foot_R" "Antlion.LegMidR3_Bone" 30.00 1.00 -3.00 rotate 0 -0 0
+
+$Attachment "prop_bone" "prop_bone" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_1" "prop_bone_1" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_2" "prop_bone_2" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_3" "prop_bone_3" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_4" "prop_bone_4" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_5" "prop_bone_5" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_6" "prop_bone_6" 0 0 0 rotate 0 0 0
 
 $cbox 0 0 0 0 0 0
 
@@ -207,6 +222,22 @@ $DefineBone "weapon_bone_2" "weapon_bone" 0 0 2.268631 -0.000007 0 0.000003 0 0 
 $DefineBone "weapon_bone_3" "weapon_bone" 0.000001 0 3.869488 -0.000007 0 0.000003 0 0 0 0 0 0
 $DefineBone "weapon_bone_4" "weapon_bone" 0.000002 0 5.895084 -0.000007 0 0.000003 0 0 0 0 0 0
 $DefineBone "weapon_bone_L" "Antlion.Head_Bone" -15 1.5 0 0 -90 90 0 0 0 0 0 0
+$DefineBone "effect_hand_L" "Antlion.Head_Bone" -15 1.5 0 0 -90 90 0 0 0 0 0 0
+$DefineBone "effect_hand_R" "Antlion.Head_Bone" -15 1.5 0 0 -90 90 0 0 0 0 0 0
+
+$DefineBone "prop_bone" "Antlion.Body_Bone" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_1" "Antlion.Body_Bone" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_2" "Antlion.Body_Bone" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_3" "Antlion.Body_Bone" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_4" "Antlion.Body_Bone" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_5" "Antlion.Body_Bone" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_6" "Antlion.Body_Bone" 0 0 0 0 0 0 0 0 0 0 0 0
+
+//$DefineBone "mvm" "Antlion.Back_Bone" 4 2 -6 160 0 0 0 0 0 0 0 0
+//$DefineBone "medal_bone" "Antlion.Back_Bone" -1 8 3 270 -90 -25 0 0 0 0 0 0
+
+$DefineBone "mvm" "Antlion.Back_Bone" 26.00 -6.00 -0.00 -270 109 180 0 0 0 0 0 0
+$DefineBone "medal_bone" "Antlion.Back_Bone" 16.00 -8.00 -0.00 -270 109 180 0 0 0 0 0 0
 
 $BoneMerge "weapon_bone"
 $BoneMerge "weapon_bone_1"
@@ -215,6 +246,19 @@ $BoneMerge "weapon_bone_3"
 $BoneMerge "weapon_bone_4"
 $BoneMerge "weapon_bone_L"
 
+$bonemerge "effect_hand_L"
+$bonemerge "effect_hand_R"
+
+$BoneMerge "prop_bone"
+$BoneMerge "prop_bone_1"
+$BoneMerge "prop_bone_2"
+$BoneMerge "prop_bone_3"
+$BoneMerge "prop_bone_4"
+$BoneMerge "prop_bone_5"
+$BoneMerge "prop_bone_6"
+
+$BoneMerge "mvm"
+$BoneMerge "medal_bone"
 
 // The 32 below is a guess until further is known about the format.
 //$animblocksize 32

@@ -223,17 +223,18 @@ $eyeposition 0 0 70
 $cdmaterials "models\player\john\rebel\"
 $cdmaterials "models\player\john\face\"
 $cdmaterials "models\player\john\vmodel\"
+$CDMaterials "..\..\..\effects\"
 
 $texturegroup "skinfamilies"
 {
-	{ "rebel_sheet"            "mike_facemap"                 "eyeball_l"             "eyeball_r"  }
-	{ "rebel_sheet"          "mike_facemap"                 "eyeball_l"             "eyeball_r"  }
-	{ "rebel_sheet"     "mike_facemap_invun"           "eyeball_l_invun"       "eyeball_r_invun"  }
-	{ "rebel_sheet"    "mike_facemap_blue_invun"      "eyeball_l_invun"       "eyeball_r_invun"  }
-	{ "rebel_sheet"         "mike_facemap"                 "eyeball_l"             "eyeball_r"  }
-	{ "rebel_sheet"        "mike_facemap"                 "eyeball_l"             "eyeball_r"  }
-	{ "rebel_sheet"   "mike_facemap_green_invun"     "eyeball_l_invun"       "eyeball_r_invun"  }
-	{ "rebel_sheet"  "mike_facemap_yellow_invun"    "eyeball_l_invun"       "eyeball_r_invun"  }
+	{ "rebel_sheet"            "mike_facemap"                 "eyeball_l"             "eyeball_r"             "hands_w"             "hands_glove"  }
+	{ "rebel_sheet_blue"          "mike_facemap"                 "eyeball_l"             "eyeball_r"  }
+	{ "..\..\..\effects\invulnfx_red"     "mike_facemap_invun"           "eyeball_l_invun"       "eyeball_r_invun"             "..\..\..\effects\invulnfx_red"             "..\..\..\effects\invulnfx_red"  }
+	{ "..\..\..\effects\invulnfx_blue"    "mike_facemap_blue_invun"      "eyeball_l_invun"       "eyeball_r_invun"             "..\..\..\effects\invulnfx_blue"             "..\..\..\effects\invulnfx_blue"  }
+	{ "rebel_sheet_green"         "mike_facemap"                 "eyeball_l"             "eyeball_r"             "hands_w"             "hands_glove"  }
+	{ "rebel_sheet_yellow"        "mike_facemap"                 "eyeball_l"             "eyeball_r"             "hands_w"             "hands_glove"  }
+	{ "..\..\..\effects\invulnfx_green"   "mike_facemap_green_invun"     "eyeball_l_invun"       "eyeball_r_invun"             "..\..\..\effects\invulnfx_green"             "..\..\..\effects\invulnfx_green"  }
+	{ "..\..\..\effects\invulnfx_yellow"  "mike_facemap_yellow_invun"    "eyeball_l_invun"       "eyeball_r_invun"             "..\..\..\effects\invulnfx_yellow"             "..\..\..\effects\invulnfx_yellow"  }
 }
 
 $attachment "eyes" "ValveBiped.Bip01_Head1" 3.2 -3.5 0.12 rotate 0 -80.1 -90
@@ -248,6 +249,26 @@ $attachment "partyhat" "ValveBiped.Bip01_Head1" 7.40 0.00 0.00 rotate 0 -85 -90
 $attachment "flag" "ValveBiped.Bip01_Spine2" 3.00 -6.99 -0.00 rotate -90 80 0
 $attachment "eyeglow_L" "ValveBiped.Bip01_Head1" 3.30 -4.50 -1.20 rotate 0 -80 -90
 $attachment "eyeglow_R" "ValveBiped.Bip01_Head1" 3.45 -4.50 1.50 rotate 0 -80 -90
+
+$Attachment "weapon_bone" "weapon_bone" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_1" "weapon_bone_1" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_2" "weapon_bone_2" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_3" "weapon_bone_3" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_4" "weapon_bone_4" 0 0 0 rotate 0 0 0
+$Attachment "effect_hand_R" "effect_hand_R" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_L" "weapon_bone_L" 0 0 0 rotate 0 0 0
+$Attachment "effect_hand_L" "effect_hand_L" 0 0 0 rotate 0 0 0
+
+$attachment "foot_L" "ValveBiped.Bip01_L_Foot" 0.00 -0.00 -0.00 rotate -0 0 -0
+$attachment "foot_R" "ValveBiped.Bip01_R_Foot" 0.00 0.00 0.00 rotate 0 -0 0
+
+$Attachment "prop_bone" "prop_bone" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_1" "prop_bone_1" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_2" "prop_bone_2" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_3" "prop_bone_3" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_4" "prop_bone_4" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_5" "prop_bone_5" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_6" "prop_bone_6" 0 0 0 rotate 0 0 0
 
 $bbox -13 -13 0 13 13 72
 
@@ -349,6 +370,54 @@ $definebone "ValveBiped.Bip01_R_Finger0" "ValveBiped.Bip01_R_Hand" 0.806017 -0.3
 $definebone "ValveBiped.Bip01_R_Finger01" "ValveBiped.Bip01_R_Finger0" 1.789783 0.000001 -0.000004 -0.361028 13.095241 0.000002 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_R_Finger02" "ValveBiped.Bip01_R_Finger01" 1.207001 0 0.000004 -0.551078 20.792921 -0.000003 0 0 0 0 0 0
 
+$definebone "effect_hand_L" "ValveBiped.Bip01_L_Hand" 2 -1.5 0 -180 90 -170 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "effect_hand_R" "ValveBiped.Bip01_R_Hand" 2 -1.5 0 -180 90 -190 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone" "ValveBiped.Bip01_R_Hand" 3 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_1" "ValveBiped.Bip01_R_Hand" 4 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_2" "ValveBiped.Bip01_R_Hand" 5 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_3" "ValveBiped.Bip01_R_Hand" 6 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_4" "ValveBiped.Bip01_R_Hand" 7 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_5" "ValveBiped.Bip01_R_Hand" 8 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_6" "ValveBiped.Bip01_R_Hand" 9 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_7" "ValveBiped.Bip01_R_Hand" 10 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_L" "ValveBiped.Bip01_L_Hand" 3 -2 0 0 90 90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+
+$DefineBone "prop_bone" "ValveBiped.Bip01_Pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_1" "ValveBiped.Bip01_Pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_2" "ValveBiped.Bip01_Pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_3" "ValveBiped.Bip01_Pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_4" "ValveBiped.Bip01_Pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_5" "ValveBiped.Bip01_Pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_6" "ValveBiped.Bip01_Pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+
+$DefineBone "mvm" "ValveBiped.Bip01_Pelvis" 6 0 -6 140 0 0 0 0 0 0 0 0
+$DefineBone "medal_bone" "ValveBiped.Bip01_Spine4" -1 10 3 270 -90 -25 0 0 0 0 0 0
+
+$BoneMerge "weapon_bone"
+
+$bonemerge "weapon_bone_1"
+$bonemerge "weapon_bone_2"
+$bonemerge "weapon_bone_3"
+$bonemerge "weapon_bone_4"
+$bonemerge "weapon_bone_5"
+$bonemerge "weapon_bone_6"
+$bonemerge "weapon_bone_7"
+$bonemerge "weapon_bone_L"
+
+$bonemerge "effect_hand_L"
+$bonemerge "effect_hand_R"
+
+$BoneMerge "prop_bone"
+$BoneMerge "prop_bone_1"
+$BoneMerge "prop_bone_2"
+$BoneMerge "prop_bone_3"
+$BoneMerge "prop_bone_4"
+$BoneMerge "prop_bone_5"
+$BoneMerge "prop_bone_6"
+
+$BoneMerge "mvm"
+$BoneMerge "medal_bone"
+
 $bonemerge "ValveBiped.Bip01_Pelvis"
 $bonemerge "ValveBiped.Bip01_Spine"
 $bonemerge "ValveBiped.Bip01_Spine1"
@@ -359,6 +428,7 @@ $bonemerge "ValveBiped.Bip01_R_UpperArm"
 $bonemerge "ValveBiped.Bip01_R_Forearm"
 $bonemerge "ValveBiped.Bip01_R_Hand"
 $bonemerge "ValveBiped.Anim_Attachment_RH"
+$bonemerge "ValveBiped.Anim_Attachment_LH"
 
 
 $ikchain "rhand" "ValveBiped.Bip01_R_Hand" knee 0.707 0.707 0

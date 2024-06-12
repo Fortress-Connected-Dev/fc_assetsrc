@@ -63,6 +63,26 @@ $attachment "flag" "ValveBiped.Bip01_Spine2" 3.00 -10.00 0.00 rotate -90 80 0
 $attachment "eyeglow_L" "ValveBiped.Bip01_Head1" 6.00 -5.25 -2.50 rotate -0 -80 -90
 $attachment "eyeglow_R" "ValveBiped.Bip01_Head1" 6.00 -5.25 2.50 rotate -0 -80 -90
 
+$Attachment "weapon_bone" "weapon_bone" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_1" "weapon_bone_1" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_2" "weapon_bone_2" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_3" "weapon_bone_3" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_4" "weapon_bone_4" 0 0 0 rotate 0 0 0
+$Attachment "effect_hand_R" "effect_hand_R" 0 0 0 rotate 0 0 0
+$Attachment "weapon_bone_L" "weapon_bone_L" 0 0 0 rotate 0 0 0
+$Attachment "effect_hand_L" "effect_hand_L" 0 0 0 rotate 0 0 0
+
+$attachment "foot_L" "ValveBiped.Bip01_L_Foot" 0.00 -0.00 -0.00 rotate -0 0 -0
+$attachment "foot_R" "ValveBiped.Bip01_R_Foot" 0.00 0.00 0.00 rotate 0 -0 0
+
+$Attachment "prop_bone" "prop_bone" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_1" "prop_bone_1" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_2" "prop_bone_2" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_3" "prop_bone_3" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_4" "prop_bone_4" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_5" "prop_bone_5" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_6" "prop_bone_6" 0 0 0 rotate 0 0 0
+
 $cbox 0 0 0 0 0 0
 
 $bbox -8.193 -27.055 -4.534 9.648 27.066 73.268
@@ -146,6 +166,57 @@ $definebone "ValveBiped.Bip01_L_Thigh" "ValveBiped.Bip01_Pelvis" 3.890452 0.0000
 $definebone "ValveBiped.Bip01_L_Calf" "ValveBiped.Bip01_L_Thigh" 17.848169 0.00014 0.000001 0 1.961177 0.000115 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_L_Foot" "ValveBiped.Bip01_L_Calf" 16.525267 -0.000349 0.000001 -10.645903 -60.712732 -7.204196 0 0 0 0 0 0
 $definebone "ValveBiped.Bip01_L_Toe0" "ValveBiped.Bip01_L_Foot" 6.879448 -0.000079 0 -0.169024 -33.483278 -0.418315 0 0 0 0 0 0
+
+$definebone "effect_hand_L" "ValveBiped.Bip01_L_Hand" 2 -1.5 0 -180 90 -170 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "effect_hand_R" "ValveBiped.Bip01_R_Hand" 2 -1.5 0 -180 90 -190 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone" "ValveBiped.Bip01_R_Hand" 3 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_1" "ValveBiped.Bip01_R_Hand" 4 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_2" "ValveBiped.Bip01_R_Hand" 5 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_3" "ValveBiped.Bip01_R_Hand" 6 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_4" "ValveBiped.Bip01_R_Hand" 7 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_5" "ValveBiped.Bip01_R_Hand" 8 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_6" "ValveBiped.Bip01_R_Hand" 9 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_7" "ValveBiped.Bip01_R_Hand" 10 -2 0 0 -90 -90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+$definebone "weapon_bone_L" "ValveBiped.Bip01_L_Hand" 3 -2 0 0 90 90 -0.000000 -0.000000 0.000001 -0.000004 -0.000001 0.000002
+
+$DefineBone "prop_bone" "ValveBiped.Bip01_Pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_1" "ValveBiped.Bip01_Pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_2" "ValveBiped.Bip01_Pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_3" "ValveBiped.Bip01_Pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_4" "ValveBiped.Bip01_Pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_5" "ValveBiped.Bip01_Pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+$DefineBone "prop_bone_6" "ValveBiped.Bip01_Pelvis" 0 0 0 0 0 0 0 0 0 0 0 0
+
+$DefineBone "mvm" "ValveBiped.Bip01_Pelvis" 4 4 -6 160 0 0 0 0 0 0 0 0
+$DefineBone "medal_bone" "ValveBiped.Bip01_Spine4" 2 8 0 270 -90 -25 0 0 0 0 0 0
+
+$BoneMerge "weapon_bone"
+
+$bonemerge "weapon_bone_1"
+$bonemerge "weapon_bone_2"
+$bonemerge "weapon_bone_3"
+$bonemerge "weapon_bone_4"
+$bonemerge "weapon_bone_5"
+$bonemerge "weapon_bone_6"
+$bonemerge "weapon_bone_7"
+$bonemerge "weapon_bone_L"
+
+$bonemerge "effect_hand_L"
+$bonemerge "effect_hand_R"
+
+$BoneMerge "prop_bone"
+$BoneMerge "prop_bone_1"
+$BoneMerge "prop_bone_2"
+$BoneMerge "prop_bone_3"
+$BoneMerge "prop_bone_4"
+$BoneMerge "prop_bone_5"
+$BoneMerge "prop_bone_6"
+
+$BoneMerge "mvm"
+$BoneMerge "medal_bone"
+
+$bonemerge "ValveBiped.Anim_Attachment_RH"
+$bonemerge "ValveBiped.Anim_Attachment_LH"
 
 
 $ikchain "rhand" "ValveBiped.Bip01_R_Hand" knee 0.707 0.707 0
