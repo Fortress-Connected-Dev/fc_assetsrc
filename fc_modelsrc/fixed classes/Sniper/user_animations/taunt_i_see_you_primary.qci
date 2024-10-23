@@ -1,0 +1,12 @@
+$sequence layer_taunt_i_see_you_primary "taunt_i_see_you_primary.dmx" fps 30.000000 hidden
+$sequence taunt_i_see_you_primary "taunt_i_see_you_primary.dmx" fps 30.000000 noanimation {
+	numframes 98
+	blendlayer layer_taunt_i_see_you_primary 0 8 83 97
+
+	ikrule lhand release
+	event AE_WPN_HIDE 0
+
+	event AE_WPN_UNHIDE 97
+	
+
+}

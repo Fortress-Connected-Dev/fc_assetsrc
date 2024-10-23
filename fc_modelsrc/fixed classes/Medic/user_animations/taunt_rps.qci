@@ -1,0 +1,79 @@
+$pushd "../animations/dmx"
+
+//Taunts Hi Five
+//-------------------------------------------------
+$sequence taunt_rps_start "taunt_rps_start.dmx" fps 30 {
+	numframes 120
+   event AE_WPN_HIDE 0
+}
+$sequence layer_taunt_rps_rock "taunt_rps_rock.dmx" fps 30 hidden
+$sequence taunt_rps_rock "taunt_rps_rock.dmx" noanimation numframes 104 {
+	blendlayer layer_taunt_rps_rock 0 3 102 104
+	event AE_WPN_HIDE 0
+	event AE_WPN_UNHIDE 103
+	
+}
+$sequence layer_taunt_rps_paper "taunt_rps_paper.dmx" fps 30 hidden
+$sequence taunt_rps_paper "taunt_rps_paper.dmx" noanimation numframes 104 {
+	blendlayer layer_taunt_rps_paper 0 3 102 104
+	event AE_WPN_HIDE 0
+	event AE_WPN_UNHIDE 103
+}
+
+$sequence layer_taunt_rps_scissors "taunt_rps_scissors.dmx" fps 30 hidden
+$sequence taunt_rps_scissors "taunt_rps_scissors.dmx" noanimation numframes 104 {
+	blendlayer layer_taunt_rps_scissors 0 3 102 104
+	event AE_WPN_HIDE 0
+	event AE_WPN_UNHIDE 103
+}
+
+$sequence layer_taunt_rps_rock_win "taunt_rps_rock_win.dmx" fps 30 hidden
+$sequence taunt_rps_rock_win "taunt_rps_rock_win.dmx" noanimation numframes 210 {
+	blendlayer layer_taunt_rps_rock_win 0 3 203 210
+	event AE_WPN_HIDE 0
+	event AE_WPN_UNHIDE 207
+
+}	
+
+$sequence layer_taunt_rps_paper_win "taunt_rps_paper_win.dmx" fps 30 hidden
+$sequence taunt_rps_paper_win "taunt_rps_paper_win.dmx" noanimation numframes 210 {
+	blendlayer layer_taunt_rps_paper_win 0 3 203 210
+	event AE_WPN_HIDE 0
+	event AE_WPN_UNHIDE 207
+
+}	
+
+$sequence layer_taunt_rps_scissors_win "taunt_rps_scissors_win.dmx" fps 30 hidden
+$sequence taunt_rps_scissors_win "taunt_rps_scissors_win.dmx" noanimation numframes 210 {
+	blendlayer layer_taunt_rps_scissors_win 0 3 203 210
+	event AE_WPN_HIDE 0
+	event AE_WPN_UNHIDE 207
+
+}	
+	
+$sequence layer_taunt_rps_rock_lose "taunt_rps_rock_lose.dmx" fps 30 hidden
+$sequence taunt_rps_rock_lose "taunt_rps_rock_lose.dmx" noanimation numframes 203 {
+	blendlayer layer_taunt_rps_rock_lose 0 3 196 203
+	event AE_WPN_HIDE 0
+	event AE_WPN_UNHIDE 199
+		
+}
+
+$sequence layer_taunt_rps_paper_lose "taunt_rps_paper_lose.dmx" fps 30 hidden
+$sequence taunt_rps_paper_lose "taunt_rps_paper_lose.dmx" noanimation numframes 203 {
+	blendlayer layer_taunt_rps_paper_lose 0 3 196 203
+	event AE_WPN_HIDE 0
+	event AE_WPN_UNHIDE 199
+		
+}
+
+$sequence layer_taunt_rps_scissors_lose "taunt_rps_scissors_lose.dmx" fps 30 hidden
+$sequence taunt_rps_scissors_lose "taunt_rps_scissors_lose.dmx" noanimation numframes 203 {
+	blendlayer layer_taunt_rps_scissors_lose 0 3 196 203
+	event AE_WPN_HIDE 0
+	event AE_WPN_UNHIDE 199
+		
+}
+
+
+$popd

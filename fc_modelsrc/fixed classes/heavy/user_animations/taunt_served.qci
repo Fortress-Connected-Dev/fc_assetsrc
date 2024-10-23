@@ -1,0 +1,9 @@
+$pushd "../animations/dmx"
+
+$sequence layer_taunt_served "taunt_served.dmx" fps 24.000000 hidden
+$sequence taunt_served "taunt_served.dmx" fps 24.000000 noanimation {
+	numframes 103
+	blendlayer layer_taunt_served 0 4 98 102
+//	event AE_WPN_HIDE 0
+//	event AE_WPN_UNHIDE 102
+}

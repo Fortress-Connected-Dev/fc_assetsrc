@@ -1,0 +1,1015 @@
+//================================================================================================
+// IDLES
+//================================================================================================
+$sequence stand_PRIMARY "primary_idle.dmx" loop alignto a_reference addlayer PRIMARY_aimmatrix_idle activity ACT_MP_STAND_PRIMARY 1
+$sequence stand_SECONDARY "secondary_idle.dmx" loop alignto a_reference addlayer SECONDARY_aimmatrix_idle activity ACT_MP_STAND_SECONDARY 1
+$sequence stand_MELEE "melee_idle.dmx" loop alignto a_reference addlayer MELEE_aimmatrix_idle activity ACT_MP_STAND_MELEE 1
+$sequence stand_MELEE_ALLCLASS "melee_allclass_idle.dmx" loop alignto a_reference addlayer MELEE_ALLCLASS_aimmatrix_idle activity ACT_MP_STAND_MELEE_ALLCLASS 1 addlayer r_armposes addlayer r_handposes
+$sequence stand_LOSER "loser_idle.dmx" loop alignto a_reference activity ACT_MP_STAND_LOSERSTATE 1
+$sequence stand_ITEM1 "item1_idle.dmx" loop alignto a_reference addlayer ITEM1_aimmatrix_idle activity ACT_MP_STAND_ITEM1 1
+
+$sequence crouch_PRIMARY "primary_crouch_idle.dmx" loop alignto a_reference addlayer PRIMARY_aimmatrix_crouch_idle  activity ACT_MP_CROUCH_PRIMARY 1
+$sequence crouch_SECONDARY "secondary_crouch_idle.dmx" loop alignto a_reference addlayer SECONDARY_aimmatrix_crouch_idle  activity ACT_MP_CROUCH_SECONDARY 1
+$sequence crouch_MELEE "melee_crouch_idle.dmx" loop alignto a_reference addlayer MELEE_aimmatrix_crouch_idle  activity ACT_MP_CROUCH_MELEE 1
+$sequence crouch_MELEE_ALLCLASS "melee_allclass_crouch_idle.dmx" loop alignto a_reference addlayer MELEE_ALLCLASS_aimmatrix_crouch_idle  activity ACT_MP_CROUCH_MELEE_ALLCLASS 1 addlayer r_armposes addlayer r_handposes
+$sequence crouch_LOSER "loser_crouch_idle.dmx" loop alignto a_reference activity ACT_MP_CROUCH_LOSERSTATE 1
+$sequence crouch_ITEM1 "item1_crouch_idle.dmx" loop alignto a_reference addlayer ITEM1_aimmatrix_crouch_idle  activity ACT_MP_CROUCH_ITEM1 1
+
+//================================================================================================
+// JUMPS
+//================================================================================================
+$sequence jumpstart_PRIMARY "primary_jump.dmx" frames 0 24 alignto a_reference Z activity ACT_MP_JUMP_START_PRIMARY 1
+$sequence jumpfloat_PRIMARY {
+	"primary_jump.dmx"
+	frames 24 40
+	loop
+	fps 30
+	align a_reference X Y Z 0 0
+	activity ACT_MP_JUMP_FLOAT_PRIMARY 1
+}
+$sequence jumpland_PRIMARY {
+	"primary_jump_land.dmx"
+	subtract jumpland_PRIMARY 20
+	delta
+	alignto a_reference
+	iklock rfoot 1 0 iklock lfoot 1 0
+	activity ACT_MP_JUMP_LAND_PRIMARY 1
+}
+
+$sequence jumpstart_SECONDARY "secondary_jump.dmx" frames 0 20 alignto a_reference Z activity ACT_MP_JUMP_START_SECONDARY 1
+$sequence jumpfloat_SECONDARY {
+	"secondary_jump.dmx"
+	frames 20 50
+	loop
+	fps 30
+	align a_reference X Y Z 0 0
+	activity ACT_MP_JUMP_FLOAT_SECONDARY 1
+}
+$sequence jumpland_SECONDARY {
+	"secondary_jump_land.dmx"
+	subtract jumpland_SECONDARY 20
+	delta
+	alignto a_reference
+	iklock rfoot 1 0 iklock lfoot 1 0
+	activity ACT_MP_JUMP_LAND_SECONDARY 1
+}
+
+$sequence jumpstart_MELEE "melee_jump.dmx" frames 0 24 alignto a_reference Z activity ACT_MP_JUMP_START_MELEE 1
+$sequence jumpfloat_MELEE "melee_jump.dmx" frames 24 40 loop fps 30 alignto a_reference Z activity ACT_MP_JUMP_FLOAT_MELEE 1
+$sequence jumpland_MELEE {
+	"melee_jump_land.dmx"
+	subtract stand_MELEE 0
+	delta
+	iklock rfoot 1 0 iklock lfoot 1 0
+	activity ACT_MP_JUMP_LAND_MELEE 1
+}
+
+$sequence jumpstart_MELEE_ALLCLASS "melee_allclass_jump.dmx" frames 0 24 alignto a_reference Z activity ACT_MP_JUMP_START_MELEE_ALLCLASS 1 addlayer r_armposes addlayer r_handposes
+$sequence jumpfloat_MELEE_ALLCLASS "melee_allclass_jump.dmx" frames 24 40 loop fps 30 alignto a_reference Z activity ACT_MP_JUMP_FLOAT_MELEE_ALLCLASS 1 addlayer r_armposes addlayer r_handposes
+$sequence jumpland_MELEE_ALLCLASS {
+	"melee_allclass_jump_land.dmx"
+	subtract stand_MELEE_ALLCLASS 0
+	delta
+	iklock rfoot 1 0 iklock lfoot 1 0
+	addlayer r_armposes addlayer r_handposes
+	activity ACT_MP_JUMP_LAND_MELEE_ALLCLASS 1
+}
+
+$sequence a_jumpstart_LOSER "loser_jump.dmx" frames 0 24 alignto a_reference Z activity ACT_MP_JUMP_START_LOSERSTATE 1 LX LY
+$sequence a_jumpfloat_LOSER "loser_jump.dmx" frames 25 45	loop  fps 30 alignto a_reference activity ACT_MP_JUMP_FLOAT_LOSERSTATE 1 LX LY
+$sequence jumplandPose_LOSER "loser_jump.dmx" frames 25 25 numframes 30 loop
+$sequence jumpland_LOSER {
+	"loser_jump_land.dmx"
+	subtract jumpland_LOSER 0
+	delta
+	iklock rfoot 1 0 iklock lfoot 1 0
+	activity ACT_MP_JUMP_LAND_LOSERSTATE 1
+}
+
+$sequence jumpstart_ITEM1 "item1_jump.dmx" frames 0 24 alignto a_reference Z activity ACT_MP_JUMP_START_ITEM1 1
+$sequence jumpfloat_ITEM1 {
+	"item1_jump.dmx"
+	frames 25 45
+	loop
+	fps 30
+	align a_reference X Y Z 0 0
+	activity ACT_MP_JUMP_FLOAT_ITEM1 1
+}
+$sequence jumpland_ITEM1 {
+	"item1_jump_land.dmx"
+	subtract jumpland_ITEM1 20
+	delta
+	alignto a_reference
+	iklock rfoot 1 0 iklock lfoot 1 0
+	activity ACT_MP_JUMP_LAND_ITEM1 1
+}
+
+//================================================================================================
+// SWIMS
+//================================================================================================
+$MPAimLayer PRIMARY_aimmatrix_swim_deployed "primary_aimmatrix_swim.dmx"
+$animation a_swimDeployedCenter_PRIMARY "primary_deployed_swimCenter.dmx" {
+	loop
+	alignto a_reference
+}
+$animation a_swimDeployedS_PRIMARY "primary_deployed_swimS.dmx" {
+	LX LY
+	rotateto -180
+	startloop 16
+	alignto a_reference
+}
+$animation a_swimDeployedSE_PRIMARY "primary_deployed_swimSE.dmx" {
+	LX LY
+	rotateto -135
+	startloop 18
+	alignto a_reference
+}
+$animation a_swimDeployedE_PRIMARY "primary_deployed_swimE.dmx" {
+	LX LY
+	rotateto -90
+	startloop 18
+	alignto a_reference
+}
+$animation a_swimDeployedNE_PRIMARY "primary_deployed_swimNE.dmx" {
+	LX LY
+	rotateto -45
+	startloop 7
+	alignto a_reference
+}
+$animation a_SwimDeployedN_PRIMARY "primary_deployed_swimN.dmx" {
+	LX LY
+	rotateto 0
+	startloop 8
+	alignto a_reference
+}
+$animation a_swimDeployedNW_PRIMARY "primary_deployed_swimNW.dmx" {
+	LX LY
+	rotateto 45
+	startloop 7
+	alignto a_reference
+}
+$animation a_swimDeployedW_PRIMARY "primary_deployed_swimW.dmx" {
+	LX LY
+	rotateto 90
+	startloop 7
+	alignto a_reference
+}
+$animation a_swimDeployedSW_PRIMARY "primary_deployed_swimSW.dmx" {
+	LX LY
+	rotateto 135
+	startloop 18
+	alignto a_reference
+}
+$sequence PRIMARY_swim_deployed_movement {
+	a_swimDeployedsw_PRIMARY	a_swimDeployedS_PRIMARY		a_swimDeployedSE_PRIMARY
+	a_swimDeployedW_PRIMARY		a_swimDeployedCenter_PRIMARY	a_swimDeployedE_PRIMARY
+	a_swimDeployedNW_PRIMARY	a_swimDeployedN_PRIMARY		a_swimDeployedNE_PRIMARY
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer PRIMARY_aimmatrix_swim_deployed
+	activity ACT_MP_SWIM_DEPLOYED_PRIMARY 1
+}
+
+$MPAimLayer PRIMARY_aimmatrix_swim "primary_aimmatrix_swim.dmx"
+$MPSwimWithWeapon PRIMARY 0 0 0 0 0 0 0 0 "primary_swimCenter.dmx" PRIMARY_aimmatrix_swim ACT_MP_SWIM_PRIMARY
+
+$MPAimLayer	SECONDARY_aimmatrix_swim "secondary_aimmatrix_swim.dmx"
+$MPSwimWithWeapon SECONDARY 0 0 0 0 0 0 0 0 "secondary_swimCenter.dmx" SECONDARY_aimmatrix_swim ACT_MP_SWIM_SECONDARY
+
+$MPAimLayer	MELEE_aimmatrix_swim "secondary_aimmatrix_swim.dmx"
+$MPSwimWithWeapon MELEE 0 0 0 0 0 0 0 0 "melee_swimCenter.dmx" MELEE_aimmatrix_swim ACT_MP_SWIM_MELEE
+
+$MPAimLayer	MELEE_ALLCLASS_aimmatrix_swim "secondary_aimmatrix_swim.dmx"
+$MPSwimWithWeapon MELEE_ALLCLASS 0 0 0 0 0 0 0 0 "melee_allclass_swimCenter.dmx" MELEE_ALLCLASS_aimmatrix_swim ACT_MP_SWIM_MELEE_ALLCLASS addlayer r_armposes addlayer r_handposes
+
+$MPAimLayer	ITEM1_aimmatrix_swim "secondary_aimmatrix_swim.dmx"
+$MPSwimWithWeapon ITEM1 0 0 0 0 0 0 0 0 "item1_swimCenter.dmx" ITEM1_aimmatrix_swim ACT_MP_SWIM_ITEM1
+
+//swim loser state
+$animation a_swimCenter_LOSER "loser_swimCenter.dmx" loop
+$sequence s_swimAlign_LOSER a_swimCenter_LOSER
+$animation a_swimS_LOSER  "loser_swimS.dmx"    startloop 0 rotateto -180 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$animation a_swimSE_LOSER "loser_swimSE.dmx"   startloop 0 rotateto -135 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$animation a_swimE_LOSER  "loser_swimE.dmx"    startloop 0 rotateto  -90 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$animation a_swimNE_LOSER "loser_swimNE.dmx"   startloop 0 rotateto  -45 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$animation a_swimN_LOSER  "loser_swimN.dmx"    startloop 0 rotateto    0 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$animation a_swimNW_LOSER "loser_swimNW.dmx"   startloop 0 rotateto   45 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$animation a_swimW_LOSER  "loser_swimW.dmx"    startloop 0 rotateto   90 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$animation a_swimSW_LOSER "loser_swimSW.dmx"   startloop 0 rotateto  135 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$sequence swim_LOSER {
+	a_swimSW_LOSER	a_swimS_LOSER 		a_swimSE_LOSER
+	a_swimW_LOSER	a_swimCenter_LOSER 	a_swimE_LOSER
+	a_swimNW_LOSER 	a_swimN_LOSER 		a_swimNE_LOSER
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	activity ACT_MP_SWIM_LOSERSTATE 1
+}
+
+//================================================================================================
+// RUN PRIMARY
+//================================================================================================
+$animation a_runCenter_PRIMARY "primary_runCenter.dmx" {
+	numframes 17
+	loop
+	alignto a_reference
+}
+$animation a_runS_PRIMARY "primary_runs.dmx" {
+	LX LY
+	rotateto -180
+	startloop 10
+	alignto a_reference
+}
+$animation a_runSE_PRIMARY "primary_runse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 11
+	alignto a_reference
+}
+$animation a_runE_PRIMARY "primary_rune.dmx" {
+	LX LY
+	rotateto -90
+	startloop 4
+	alignto a_reference
+}
+$animation a_runNE_PRIMARY "primary_runne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 3
+	alignto a_reference
+}
+$animation a_runN_PRIMARY "primary_runn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 3
+	alignto a_reference
+}
+$animation a_runNW_PRIMARY "primary_runnw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 3
+	alignto a_reference
+}
+$animation a_runW_PRIMARY "primary_runw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 3
+	alignto a_reference
+}
+$animation a_runSW_PRIMARY "primary_runsw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 3
+	alignto a_reference
+}
+$sequence run_PRIMARY {
+	a_runsw_PRIMARY	a_runS_PRIMARY		a_runSE_PRIMARY
+	a_runW_PRIMARY	a_runCenter_PRIMARY	a_runE_PRIMARY
+	a_runNW_PRIMARY	a_runN_PRIMARY		a_runNE_PRIMARY
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	{ event 7001 13 "left" }
+	{ event 7001 5 "right" }
+	addlayer PRIMARY_aimmatrix_run
+	activity ACT_MP_RUN_PRIMARY 1
+}
+
+//================================================================================================
+// DEPLOYED PRIMARY
+//================================================================================================
+$sequence crouch_deployed_PRIMARY "primary_deployed_crouch_idle.dmx" {
+	loop
+	alignto a_reference
+	addlayer PRIMARY_aimmatrix_deployed_crouch
+	activity ACT_MP_CROUCH_DEPLOYED_IDLE 1
+}
+$sequence stand_deployed_PRIMARY "primary_idle_deployed.dmx" {
+	loop
+	alignto a_reference
+	addlayer PRIMARY_aimmatrix_deployed
+	activity ACT_MP_DEPLOYED_IDLE 1
+}
+$animation a_deployedCenter_PRIMARY "primary_deployedCenter.dmx" {
+	numframes 24
+	loop
+	alignto a_reference
+}
+$animation a_deployedS_PRIMARY "primary_deployedS.dmx" {
+	LX LY
+	rotateto -180
+	startloop 16
+	alignto a_reference
+}
+$animation a_deployedSE_PRIMARY "primary_deployedSE.dmx" {
+	LX LY
+	rotateto -135
+	startloop 18
+	alignto a_reference
+}
+$animation a_deployedE_PRIMARY "primary_deployedE.dmx" {
+	LX LY
+	rotateto -90
+	startloop 18
+	alignto a_reference
+}
+$animation a_deployedNE_PRIMARY "primary_deployedNE.dmx" {
+	LX LY
+	rotateto -45
+	startloop 7
+	alignto a_reference
+}
+$animation a_deployedN_PRIMARY "primary_deployedN.dmx" {
+	LX LY
+	rotateto 0
+	startloop 8
+	alignto a_reference
+}
+$animation a_deployedNW_PRIMARY "primary_deployedNW.dmx" {
+	LX LY
+	rotateto 45
+	startloop 7
+	alignto a_reference
+}
+$animation a_deployedW_PRIMARY "primary_deployedW.dmx" {
+	LX LY
+	rotateto 90
+	startloop 7
+	alignto a_reference
+}
+$animation a_deployedSW_PRIMARY "primary_deployedSW.dmx" {
+	LX LY
+	rotateto 135
+	startloop 18
+	alignto a_reference
+}
+$sequence PRIMARY_deployed_movement {
+	a_deployedSW_PRIMARY	a_deployedS_PRIMARY		a_deployedSE_PRIMARY
+	a_deployedW_PRIMARY	a_deployedCenter_PRIMARY	a_deployedE_PRIMARY
+	a_deployedNW_PRIMARY	a_deployedN_PRIMARY		a_deployedNE_PRIMARY
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	{ event 7001 17 "left" }
+	{ event 7001 5 "right" }
+	addlayer PRIMARY_aimmatrix_deployed
+	activity ACT_MP_DEPLOYED_PRIMARY 1
+}
+
+//================================================================================================
+// Crouch walk PRIMARY
+//================================================================================================
+$animation a_crouch_walkCenter_PRIMARY "primary_crouch_walkCenter.dmx" {
+	loop
+	alignto a_reference
+	ikrule lhand touch "weapon_bone"
+}
+$animation a_crouch_walkS_PRIMARY "primary_crouch_walks.dmx" {
+	LX LY
+	rotateto -180
+	startloop 8
+	alignto a_reference
+	ikrule lhand touch "weapon_bone"
+}
+$animation a_crouch_walkSE_PRIMARY "primary_crouch_walkse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 7
+	alignto a_reference
+	ikrule lhand touch "weapon_bone"
+}
+$animation a_crouch_walkE_PRIMARY "primary_crouch_walke.dmx" {
+	LX LY
+	rotateto -90
+	startloop 23
+	alignto a_reference
+	ikrule lhand touch "weapon_bone"
+}
+$animation a_crouch_walkNE_PRIMARY "primary_crouch_walkne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 22
+	alignto a_reference
+	ikrule lhand touch "weapon_bone"
+}
+$animation a_crouch_walkN_PRIMARY "primary_crouch_walkn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 23
+	alignto a_reference
+	ikrule lhand touch "weapon_bone"
+}
+$animation a_crouch_walkNW_PRIMARY "primary_crouch_walknw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 24
+	alignto a_reference
+	ikrule lhand touch "weapon_bone"
+}
+$animation a_crouch_walkW_PRIMARY "primary_crouch_walkw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 23
+	alignto a_reference
+	ikrule lhand touch "weapon_bone"
+}
+$animation a_crouch_walkSW_PRIMARY "primary_crouch_walksw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 8
+	alignto a_reference
+	ikrule lhand touch "weapon_bone"
+}
+
+$MPAimLayer PRIMARY_aimMatrix_crouch_walkN	primary_aimMatrix_crouch_walk
+$MPAimLayer PRIMARY_aimMatrix_crouch_walkS primary_aimMatrix_crouch_walkS
+
+$sequence crouch_walk_PRIMARY {
+	a_crouch_walkSW_PRIMARY	a_crouch_walkS_PRIMARY		a_crouch_walkSE_PRIMARY
+	a_crouch_walkW_PRIMARY	a_crouch_walkCenter_PRIMARY	a_crouch_walkE_PRIMARY
+	a_crouch_walkNW_PRIMARY	a_crouch_walkN_PRIMARY		a_crouch_walkNE_PRIMARY
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	{ event 7001 7 "left" }
+	{ event 7001 23 "right" }
+	blendlayer PRIMARY_aimMatrix_crouch_walkN -0.8 -0.2 1.0 2.0  spline poseparameter move_x
+	blendlayer PRIMARY_aimMatrix_crouch_walkS -2.0 -1.0 -0.8 -0.2 spline poseparameter move_x
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	activity ACT_MP_CROUCHWALK_PRIMARY 1
+}
+
+//================================================================================================
+// RUN SECONDARY
+//================================================================================================
+$animation a_runCenter_SECONDARY "secondary_runCenter.dmx" {
+	loop
+	alignto a_reference
+}
+$animation a_runS_SECONDARY "secondary_runs.dmx" {
+	LX LY
+	rotateto -180
+	startloop 5
+	alignto a_reference
+}
+$animation a_runSE_SECONDARY "secondary_runse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 5
+	alignto a_reference
+}
+$animation a_runE_SECONDARY "secondary_rune.dmx" {
+	LX LY
+	rotateto -90
+	startloop 2
+	alignto a_reference
+}
+$animation a_runNE_SECONDARY "secondary_runne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 11
+	alignto a_reference
+}
+$animation a_runN_SECONDARY "secondary_runn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 11
+	alignto a_reference
+}
+$animation a_runNW_SECONDARY "secondary_runnw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 11
+	alignto a_reference
+}
+$animation a_runW_SECONDARY "secondary_runw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 2
+	alignto a_reference
+}
+$animation a_runSW_SECONDARY "secondary_runsw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 5
+	alignto a_reference
+}
+$sequence run_SECONDARY {
+	a_runSW_SECONDARY	a_runS_SECONDARY		a_runSE_SECONDARY
+	a_runW_SECONDARY	a_runCenter_SECONDARY	a_runE_SECONDARY
+	a_runNW_SECONDARY	a_runN_SECONDARY		a_runNE_SECONDARY
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	{ event 7001 15 "left" }
+	{ event 7001 7 "right" }
+	addlayer SECONDARY_aimmatrix_idle
+	activity ACT_MP_RUN_SECONDARY 1
+}
+
+//================================================================================================
+// Crouch walk SECONDARY
+//================================================================================================
+$animation a_crouch_walkCenter_SECONDARY "secondary_crouch_walkCenter.dmx" {
+	loop
+	alignto a_reference
+}
+$animation a_crouch_walkS_SECONDARY "secondary_crouch_walks.dmx" {
+	LX LY
+	rotateto -180
+	startloop 8
+	alignto a_reference
+}
+$animation a_crouch_walkSE_SECONDARY "secondary_crouch_walkse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 7
+	alignto a_reference
+}
+$animation a_crouch_walkE_SECONDARY "secondary_crouch_walke.dmx" {
+	LX LY
+	rotateto -90
+	startloop 8
+	alignto a_reference
+}
+$animation a_crouch_walkNE_SECONDARY "secondary_crouch_walkne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 22
+	alignto a_reference
+}
+$animation a_crouch_walkN_SECONDARY "secondary_crouch_walkn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 23
+	alignto a_reference
+}
+$animation a_crouch_walkNW_SECONDARY "secondary_crouch_walknw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 24
+	alignto a_reference
+}
+$animation a_crouch_walkW_SECONDARY "secondary_crouch_walkw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 24
+	alignto a_reference
+}
+$animation a_crouch_walkSW_SECONDARY "secondary_crouch_walksw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 9
+	alignto a_reference
+}
+$sequence crouch_walk_SECONDARY {
+	a_crouch_walksw_SECONDARY	a_crouch_walkS_SECONDARY		a_crouch_walkSE_SECONDARY
+	a_crouch_walkW_SECONDARY	a_crouch_walkCenter_SECONDARY		a_crouch_walkE_SECONDARY
+	a_crouch_walkNW_SECONDARY	a_crouch_walkN_SECONDARY		a_crouch_walkNE_SECONDARY
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	{ event 7001 7 "left" }
+	{ event 7001 22 "right" }
+	addlayer SECONDARY_aimmatrix_crouch_idle
+	activity ACT_MP_CROUCHWALK_SECONDARY 1
+}
+
+//================================================================================================
+// RUN MELEE
+//================================================================================================
+$animation a_runCenter_MELEE "melee_runCenter.dmx" {
+	loop
+	alignto a_reference
+}
+$animation a_runS_MELEE "melee_runs.dmx" {
+	LX LY
+	rotateto -180
+	startloop 5
+	alignto a_reference
+}
+$animation a_runSE_MELEE "melee_runse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 5
+	alignto a_reference
+}
+$animation a_runE_MELEE "melee_rune.dmx" {
+	LX LY
+	rotateto -90
+	startloop 10
+	alignto a_reference
+}
+$animation a_runNE_MELEE "melee_runne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 11
+	alignto a_reference
+}
+$animation a_runN_MELEE "melee_runn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 11
+	alignto a_reference
+}
+$animation a_runNW_MELEE "melee_runnw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 10
+	alignto a_reference
+}
+$animation a_runW_MELEE "melee_runw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 11
+	alignto a_reference
+}
+$animation a_runSW_MELEE "melee_runsw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 5
+	alignto a_reference
+}
+$sequence run_MELEE {
+	a_runSW_MELEE	a_runS_MELEE		a_runSE_MELEE
+	a_runW_MELEE	a_runCenter_MELEE	a_runE_MELEE
+	a_runNW_MELEE	a_runN_MELEE		a_runNE_MELEE
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	{ event 7001 14 "left" }
+	{ event 7001 6 "right" }
+	addlayer MELEE_aimmatrix_run
+	activity ACT_MP_RUN_MELEE 1
+}
+
+//================================================================================================
+// CROUCH WALK MELEE
+//================================================================================================
+$animation a_crouch_walkCenter_MELEE "melee_crouch_walkCenter.dmx" {
+	loop
+	alignto a_reference
+}
+$animation a_crouch_walkS_MELEE "melee_crouch_walks.dmx" {
+	LX LY
+	rotateto -180
+	startloop 8
+	alignto a_reference
+}
+$animation a_crouch_walkSE_MELEE "melee_crouch_walkse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 6
+	alignto a_reference
+}
+$animation a_crouch_walkE_MELEE "melee_crouch_walke.dmx" {
+	LX LY
+	rotateto -90
+	startloop 7
+	alignto a_reference
+}
+$animation a_crouch_walkNE_MELEE "melee_crouch_walkne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 24
+	alignto a_reference
+}
+$animation a_crouch_walkN_MELEE "melee_crouch_walkn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 23
+	alignto a_reference
+}
+$animation a_crouch_walkNW_MELEE "melee_crouch_walknw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 21
+	alignto a_reference
+}
+$animation a_crouch_walkW_MELEE "melee_crouch_walkw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 25
+	alignto a_reference
+}
+$animation a_crouch_walkSW_MELEE "melee_crouch_walksw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 10
+	alignto a_reference
+}
+
+$sequence crouch_walk_MELEE {
+	a_crouch_walkSW_MELEE	a_crouch_walkS_MELEE		a_crouch_walkSE_MELEE
+	a_crouch_walkW_MELEE	a_crouch_walkCenter_MELEE	a_crouch_walkE_MELEE
+	a_crouch_walkNW_MELEE	a_crouch_walkN_MELEE		a_crouch_walkNE_MELEE
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	{ event 7001 7 "left" }
+	{ event 7001 22 "right" }
+	addlayer MELEE_aimmatrix_crouch_idle
+	activity ACT_MP_CROUCHWALK_MELEE 1
+}
+
+//================================================================================================
+// RUN MELEE ALLCLASS
+//================================================================================================
+$animation a_runCenter_MELEE_ALLCLASS "melee_allclass_runCenter.dmx" {
+	numframes 17
+	loop
+	alignto a_reference
+}
+$animation a_runS_MELEE_ALLCLASS "melee_allclass_runs.dmx" {
+	LX LY
+	rotateto -180
+	startloop 5
+	alignto a_reference
+}
+$animation a_runSE_MELEE_ALLCLASS "melee_allclass_runse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 5
+	alignto a_reference
+}
+$animation a_runE_MELEE_ALLCLASS "melee_allclass_rune.dmx" {
+	LX LY
+	rotateto -90
+	startloop 10
+	alignto a_reference
+}
+$animation a_runNE_MELEE_ALLCLASS "melee_allclass_runne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 11
+	alignto a_reference
+}
+$animation a_runN_MELEE_ALLCLASS "melee_allclass_runn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 11
+	alignto a_reference
+}
+$animation a_runNW_MELEE_ALLCLASS "melee_allclass_runnw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 10
+	alignto a_reference
+}
+$animation a_runW_MELEE_ALLCLASS "melee_allclass_runw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 11
+	alignto a_reference
+}
+$animation a_runSW_MELEE_ALLCLASS "melee_allclass_runsw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 5
+	alignto a_reference
+}
+$sequence run_MELEE_ALLCLASS {
+	a_runSW_MELEE_ALLCLASS	a_runS_MELEE_ALLCLASS		a_runSE_MELEE_ALLCLASS
+	a_runW_MELEE_ALLCLASS	a_runCenter_MELEE_ALLCLASS	a_runE_MELEE_ALLCLASS
+	a_runNW_MELEE_ALLCLASS	a_runN_MELEE_ALLCLASS		a_runNE_MELEE_ALLCLASS
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	{ event 7001 14 "left" }
+	{ event 7001 6 "right" }
+	addlayer MELEE_ALLCLASS_aimmatrix_run
+	addlayer r_armposes addlayer r_handposes
+	activity ACT_MP_RUN_MELEE_ALLCLASS 1
+}
+
+//================================================================================================
+// CROUCH WALK MELEE_ALLCLASS
+//================================================================================================
+$animation a_crouch_walkCenter_MELEE_ALLCLASS "melee_allclass_crouch_walkCenter.dmx" {
+	loop
+	alignto a_reference
+}
+$animation a_crouch_walkS_MELEE_ALLCLASS "melee_allclass_crouch_walks.dmx" {
+	LX LY
+	rotateto -180
+	startloop 8
+	alignto a_reference
+}
+$animation a_crouch_walkSE_MELEE_ALLCLASS "melee_allclass_crouch_walkse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 6
+	alignto a_reference
+}
+$animation a_crouch_walkE_MELEE_ALLCLASS "melee_allclass_crouch_walke.dmx" {
+	LX LY
+	rotateto -90
+	startloop 7
+	alignto a_reference
+}
+$animation a_crouch_walkNE_MELEE_ALLCLASS "melee_allclass_crouch_walkne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 24
+	alignto a_reference
+}
+$animation a_crouch_walkN_MELEE_ALLCLASS "melee_allclass_crouch_walkn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 23
+	alignto a_reference
+}
+$animation a_crouch_walkNW_MELEE_ALLCLASS "melee_allclass_crouch_walknw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 21
+	alignto a_reference
+}
+$animation a_crouch_walkW_MELEE_ALLCLASS "melee_allclass_crouch_walkw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 25
+	alignto a_reference
+}
+$animation a_crouch_walkSW_MELEE_ALLCLASS "melee_allclass_crouch_walksw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 10
+	alignto a_reference
+}
+
+$sequence crouch_walk_MELEE_ALLCLASS {
+	a_crouch_walkSW_MELEE_ALLCLASS	a_crouch_walkS_MELEE_ALLCLASS		a_crouch_walkSE_MELEE_ALLCLASS
+	a_crouch_walkW_MELEE_ALLCLASS	a_crouch_walkCenter_MELEE_ALLCLASS	a_crouch_walkE_MELEE_ALLCLASS
+	a_crouch_walkNW_MELEE_ALLCLASS	a_crouch_walkN_MELEE_ALLCLASS		a_crouch_walkNE_MELEE_ALLCLASS
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	{ event 7001 7 "left" }
+	{ event 7001 22 "right" }
+	addlayer MELEE_ALLCLASS_aimmatrix_crouch_idle
+	addlayer r_armposes addlayer r_handposes
+	activity ACT_MP_CROUCHWALK_MELEE_ALLCLASS 1
+}
+
+//================================================================================================
+// RUN LOSER
+//================================================================================================
+$animation a_runCenter_LOSER "loser_runCenter.dmx" {
+	numframes 17
+	loop
+	alignto a_reference
+}
+$animation a_runS_LOSER "loser_runs.dmx" {
+	LX LY
+	rotateto -180
+	startloop 5
+	alignto a_reference
+}
+$animation a_runSE_LOSER "loser_runse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 5
+	alignto a_reference
+}
+$animation a_runE_LOSER "loser_rune.dmx" {
+	LX LY
+	rotateto -90
+	startloop 11
+	alignto a_reference
+}
+$animation a_runNE_LOSER "loser_runne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 10
+	alignto a_reference
+}
+$animation a_runN_LOSER "loser_runn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 10
+	alignto a_reference
+}
+$animation a_runNW_LOSER "loser_runnw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 10
+	alignto a_reference
+}
+$animation a_runW_LOSER "loser_runw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 10
+	alignto a_reference
+}
+$animation a_runSW_LOSER "loser_runsw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 5
+	alignto a_reference
+}
+$sequence run_LOSER {
+	a_runSW_LOSER	a_runS_LOSER		a_runSE_LOSER
+	a_runW_LOSER	a_runCenter_LOSER	a_runE_LOSER
+	a_runNW_LOSER	a_runN_LOSER		a_runNE_LOSER
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	activity ACT_MP_RUN_LOSERSTATE 1
+}
+
+//================================================================================================
+// RUN ITEM1
+//================================================================================================
+$animation a_runCenter_ITEM1 "item1_runCenter.dmx" {
+	loop
+	alignto a_reference
+}
+$animation a_runS_ITEM1 "item1_runs.dmx" {
+	LX LY
+	rotateto -180
+	startloop 5
+	alignto a_reference
+}
+$animation a_runSE_ITEM1 "item1_runse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 5
+	alignto a_reference
+}
+$animation a_runE_ITEM1 "item1_rune.dmx" {
+	LX LY
+	rotateto -90
+	startloop 10
+	alignto a_reference
+}
+$animation a_runNE_ITEM1 "item1_runne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 11
+	alignto a_reference
+}
+$animation a_runN_ITEM1 "item1_runn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 11
+	alignto a_reference
+}
+$animation a_runNW_ITEM1 "item1_runnw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 10
+	alignto a_reference
+}
+$animation a_runW_ITEM1 "item1_runw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 11
+	alignto a_reference
+}
+$animation a_runSW_ITEM1 "item1_runsw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 5
+	alignto a_reference
+}
+$sequence run_ITEM1 {
+	a_runSW_ITEM1	a_runS_ITEM1		a_runSE_ITEM1
+	a_runW_ITEM1	a_runCenter_ITEM1	a_runE_ITEM1
+	a_runNW_ITEM1	a_runN_ITEM1		a_runNE_ITEM1
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	{ event 7001 14 "left" }
+	{ event 7001 6 "right" }
+	addlayer ITEM1_aimmatrix_run
+	activity ACT_MP_RUN_ITEM1 1
+}
+
+$MPCrouchWalkWithWeapon crouch_walk_ITEM1 0 0 0 0 0 0 0 0 "item1_crouch_walkN.dmx" "item1_crouch_walkCenter.dmx" ITEM1_aimmatrix_crouch_idle ACT_MP_CROUCHWALK_ITEM1
+
+//================================================================================================
+// AIRWALKS (getting knocked around by explosions, etc)
+//================================================================================================
+$sequence airwalk_PRIMARY "primary_airwalk.dmx" fps 30 loop align a_reference x y z 0 0 {
+	addlayer PRIMARY_aimmatrix_run
+	activity ACT_MP_AIRWALK_PRIMARY 1
+}
+$MPAimLayer_leftHandIK SECONDARY_aimmatrix_airwalk "secondary_aimmatrix_airwalk.dmx" "weapon_bone_1"
+$sequence airwalk_SECONDARY "secondary_airwalk.dmx" fps 30 loop {
+	addlayer SECONDARY_aimmatrix_airwalk
+	activity ACT_MP_AIRWALK_SECONDARY 1
+}
+
+$sequence airwalk_MELEE "melee_airwalk.dmx" fps 30 loop align a_reference x y z 0 0 {
+	addlayer MELEE_aimmatrix_idle
+	activity ACT_MP_AIRWALK_MELEE 1
+}
+
+$sequence airwalk_MELEE_ALLCLASS "melee_allclass_airwalk.dmx" fps 30 loop align a_reference x y z 0 0 {
+	addlayer MELEE_ALLCLASS_aimmatrix_idle
+	addlayer r_armposes addlayer r_handposes
+	activity ACT_MP_AIRWALK_MELEE_ALLCLASS 1
+}
+
+$sequence airwalk_LOSER "loser_airwalk.dmx" fps 30 loop {
+	activity ACT_MP_AIRWALK_LOSERSTATE 1
+}
+
+$sequence airwalk_ITEM1 "item1_airwalk.dmx" fps 30 loop align a_reference x y z 0 0 {
+	addlayer ITEM1_aimmatrix_idle
+	activity ACT_MP_AIRWALK_ITEM1 1
+}
+
+//================================================================================================
+// GRAPPLE ANIMS
+//================================================================================================
+
+$sequence a_grapple_pull_start 	"grapple_jump.dmx" frames 0 26 alignto a_reference Z activity ACT_GRAPPLE_PULL_START 1 LX LY
+$sequence a_grapple_pull_idle 	"grapple_jump.dmx" frames 26 46 loop  fps 30 alignto a_reference Z activity ACT_GRAPPLE_PULL_IDLE 1 LX LY
+
+//$sequence a_grapple_wall_idle 	"grapple_wall_pose.dmx" loop  fps 30 alignto a_reference Z activity ACT_GRAPPLE_WALL_IDLE 1 LX LY
+
+
+$sequence layer_grapple_SHOOT 	"grapple_pose.dmx" frames 1 18 hidden
+$sequence a_grapple_SHOOT "grapple_pose.dmx" frames 1 18 {
+	subtract layer_grapple_SHOOT 0
+	delta
+	iklock rfoot 1 0 iklock lfoot 1 0	
+	activity ACT_GRAPPLE_FIRE_START 1
+}

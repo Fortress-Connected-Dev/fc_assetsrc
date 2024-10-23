@@ -1,0 +1,11 @@
+
+$sequence layer_taunt_big_gorilla "taunt_big_gorilla.dmx" fps 24 hidden {
+	localhierarchy "weapon_bone" "bip_toe_L" range 21 23 125 127 
+}
+
+$sequence taunt_big_gorilla "taunt_big_gorilla.dmx" fps 24.000000 noanimation {
+	numframes 158
+	blendlayer layer_taunt_big_gorilla 0 4 153 157
+}
+
+

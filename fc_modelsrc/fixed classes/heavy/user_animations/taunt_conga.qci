@@ -1,0 +1,21 @@
+// HEAVY
+
+
+$pushd "../animations/dmx"
+
+
+// ===========================================
+// Walking conga
+// ===========================================
+$sequence taunt_conga "heavy_conga.dmx" fps 30.03 {
+
+	numframes 346
+	event AE_WPN_HIDE 0
+	event AE_TAUNT_ENABLE_MOVE 0
+
+}
+
+$popd
+
+
+

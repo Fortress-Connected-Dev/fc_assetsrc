@@ -1,0 +1,50 @@
+//-----------------------------------------------------------------------------------
+// Pose 0 is default saxxy animation - any new animations should be added to the end
+// of the list, not inserted in the middle.
+//-----------------------------------------------------------------------------------
+$animation saxxy_pose			"melee_allclass_idle.dmx" frames 0 0 weightlist RWepGrip
+$animation bread_bagged_pose		"bread_bagged.dmx" frames 0 0 weightlist RWepGrip
+$animation bread_baguette_pose		"bread_baguette.dmx" frames 0 0 weightlist RWepGrip
+$animation bread_burnt_pose		"bread_burnt.dmx" frames 0 0 weightlist RWepGrip
+$animation bread_cinnamon_pose		"bread_cinnamon.dmx" frames 0 0 weightlist RWepGrip
+$animation bread_cornbread_pose		"bread_cornbread.dmx" frames 0 0 weightlist RWepGrip
+$animation bread_crumpet_pose		"bread_crumpet.dmx" frames 0 0 weightlist RWepGrip
+$animation bread_pretzel_pose		"bread_pretzel.dmx" frames 0 0 weightlist RWepGrip
+$animation bread_ration_pose		"bread_ration.dmx" frames 0 0 weightlist RWepGrip
+$animation bread_robo_pose		"bread_robo.dmx" frames 0 0 weightlist RWepGrip
+$animation bread_russianblack_pose	"bread_russianblack.dmx" frames 0 0 weightlist RWepGrip
+$animation bread_shortbread_pose	"bread_shortbread.dmx" frames 0 0 weightlist RWepGrip
+$animation bread_monster_pose		"bread_monster.dmx" frames 0 0 weightlist RWepGrip
+$animation grapple_hand_pose	   	"grapple_pose.dmx" frames 0 0 weightlist RWepGrip
+
+$sequence r_handposes {
+	saxxy_pose				//  0
+	bread_bagged_pose			//  1
+	bread_baguette_pose			//  2
+	bread_burnt_pose			//  3
+	bread_cinnamon_pose			//  4
+	bread_cornbread_pose			//  5
+	bread_crumpet_pose			//  6
+	bread_pretzel_pose			//  7
+	bread_ration_pose			//  8
+	bread_robo_pose				//  9
+	bread_russianblack_pose			// 10
+	bread_shortbread_pose			// 11
+	spell_hand_pose				// 12
+	bread_monster				// 13
+	grapple_hand_pose			// 14
+	blendwidth 15 blend r_hand_grip 0 14
+	hidden
+}
+
+
+$animation MELEE_allclass_idle_arm 		"melee_allclass_idle.dmx" frames 0 0 weightlist spell_RightArmBlend
+$animation grapple_arm_pose	   		"grapple_pose.dmx" frames 0 0 weightlist spell_RightArmBlend
+
+$sequence r_armposes {
+	MELEE_allclass_idle_arm
+	SPELL_arm_pose
+	grapple_arm_pose
+	blendwidth 3 blend r_arm 0 2
+	hidden
+}

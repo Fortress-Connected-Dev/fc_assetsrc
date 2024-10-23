@@ -1,0 +1,26 @@
+// Macro: MPThrow
+//
+// Usage: MPThrow name filename activity weightlist
+//	- name: sequence name (needs to be unique)
+//	- filename: name of the exported .dmx animation file
+//	- activity: the name of the activity
+//	- weightlist: the name of the weightlist to use
+//
+// Example: $MPThrow throw_bread "throw_fire.dmx" ACT_MP_THROW Melee_FullHipsTorso
+//
+$definemacro MPThrow name filename activity weightlist \\
+$animation a_$name$ $filename$ frames 0 0 \\
+$sequence armslayer_$name$ $filename$ { \\
+ weightlist Melee_Armsblend  \\
+ hidden \\
+} \\
+\\
+$sequence $name$ $filename$ subtract a_$name$ 0 { \\
+ weightlist $weightlist$ \\
+ delta \\
+ addlayer armslayer_$name$ \\
+ blendlayer r_handposes 0 0 7 10 spline \\
+ iklock rfoot 1 0 iklock lfoot 1 0 \\
+ ikrule lhand release \\
+ activity $activity$ 1 \\
+}

@@ -1,0 +1,38 @@
+// MEDIC
+
+
+$pushd "../animations/dmx"
+
+//////////////////////////////////  FLIPS ////////////////////////////////////////////////////////
+// OFFER a flip and cycle
+$sequence taunt_flip_start "medic_flip_cycle.dmx" fps 30 {
+	numframes 147
+	event AE_WPN_HIDE 0
+}
+
+// GIVE a flip 
+$sequence layer_taunt_flip_success_initiator "medic_flip_give_flip.dmx" fps 30 hidden
+$sequence taunt_flip_success_initiator "medic_flip_give_flip.dmx" noanimation {
+	numframes 129
+	blendlayer layer_taunt_flip_success_initiator .. .. 120 129
+	event AE_WPN_HIDE 1
+	event AE_WPN_UNHIDE 120
+}	
+
+
+// DO a flip
+$sequence layer_taunt_flip_success_receiver "medic_flip_flip.dmx" fps 30 hidden
+$sequence taunt_flip_success_receiver "medic_flip_flip.dmx" noanimation {
+	numframes 160
+	blendlayer layer_taunt_flip_success_receiver .. .. 150 160
+	event AE_WPN_HIDE 1
+	event AE_WPN_UNHIDE 150
+	
+	event AE_CL_CREATE_PARTICLE_EFFECT 39 "taunt_flip_trail follow_attachment back_lower"
+  event AE_CL_CREATE_PARTICLE_EFFECT 58 "taunt_flip_land follow_attachment foot_R"
+
+
+}
+
+$popd
+///////////////////////////////////////////////////////////////////////////////////////////////////

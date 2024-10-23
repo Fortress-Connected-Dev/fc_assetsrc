@@ -1,0 +1,8 @@
+$sequence layer_taunt_headbutt_start "taunt_headbutt_start.dmx" fps 30.000000 hidden
+$sequence taunt_headbutt_start "taunt_headbutt_start.dmx" fps 30.000000 noanimation {
+	numframes 217
+	blendlayer layer_taunt_headbutt_start 0 -1 217 216
+	ikrule lhand release
+	event AE_WPN_HIDE 0
+	event AE_WPN_UNHIDE 216
+}

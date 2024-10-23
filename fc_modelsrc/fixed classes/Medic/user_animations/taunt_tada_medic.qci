@@ -1,0 +1,18 @@
+$pushd "../animations/dmx"                                          
+                                                                    
+//-------------------------------------------------                 
+//Taunts Ta Da                                                      
+//-------------------------------------------------                 
+                                                                    
+ //Ta da or showme animations                                       
+$sequence layer_taunt_tada "taunt_tada.dmx" fps 30 hidden           
+$sequence taunt_tada "taunt_tada.dmx" noanimation {                 
+	numframes 303    
+		event AE_CL_CREATE_PARTICLE_EFFECT 64 "tada_default follow_attachment effect_hand_R"  
+		event AE_CL_CREATE_PARTICLE_EFFECT 68 "tada_glow follow_attachment effect_hand_R"                                                   
+	blendlayer layer_taunt_tada 0 5 .. ..                           
+	event AE_WPN_HIDE 1                                               
+	event AE_WPN_UNHIDE 302                                           
+}                                                                   
+                                                                    
+$popd                  

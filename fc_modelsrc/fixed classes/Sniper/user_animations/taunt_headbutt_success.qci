@@ -1,0 +1,9 @@
+$sequence layer_taunt_headbutt_success "taunt_headbutt_success.dmx" fps 30.000000 hidden
+$sequence taunt_headbutt_success "taunt_headbutt_success.dmx" fps 30.000000 noanimation {
+	numframes 146
+	blendlayer layer_taunt_headbutt_success 0 -1 135 145
+	event AE_WPN_HIDE 0
+	event AE_CL_CREATE_PARTICLE_EFFECT 56 "taunt_headbutt_impact follow_attachment head"
+	event AE_WPN_UNHIDE 145
+	ikrule lhand release
+}

@@ -1,0 +1,160 @@
+$pushd "animations/dmx"
+
+//--------------------------------------------------------
+// PASSTIME
+//--------------------------------------------------------
+$MPWeaponAims PASSTIME
+
+//--------------------------------------------------------
+// passtime throw layers
+//--------------------------------------------------------
+$sequence layer_PASSTIME_throw_begin "passtime_throw_all.dmx" weightlist Melee_Armsblend {
+	frames 1 5
+	hidden
+}
+
+$sequence layer_PASSTIME_throw_middle "passtime_throw_all.dmx" weightlist Melee_Armsblend {
+	frames 6 65
+	hidden
+}
+
+$sequence layer_PASSTIME_throw_end "passtime_throw_all.dmx" weightlist Melee_Armsblend {
+	frames 66 81
+	hidden
+}
+
+$sequence layer_PASSTIME_throw_cancel "passtime_throw_cancel.dmx" weightlist Melee_Armsblend {
+	frames 1 10
+	hidden
+}
+
+$animation a_passtime_throw_startpose "passtime_throw_all.dmx" frames 0 0
+
+$animation a_passtime_throw_endpose "passtime_throw_all.dmx" frames 66 66
+
+//------------------------------------
+// passtime throw
+//------------------------------------
+$sequence PASSTIME_throw_begin {
+	"passtime_throw_all.dmx"
+	frames 1 5
+	snap
+	subtract a_passtime_throw_startpose 0
+	delta
+	ikrule lhand release
+	ikrule rhand release
+ 	blendlayer layer_PASSTIME_throw_begin 0 3 5 5
+ 	activity ACT_MP_PASSTIME_THROW_BEGIN 1
+}
+
+$sequence PASSTIME_throw_middle {
+	"passtime_throw_all.dmx"
+	frames 6 65
+	snap
+	subtract a_passtime_throw_startpose 0
+	delta
+	ikrule lhand release
+	ikrule rhand release
+	addlayer layer_PASSTIME_throw_middle
+ 	activity ACT_MP_PASSTIME_THROW_MIDDLE 1
+}
+
+$sequence PASSTIME_throw_end {
+	"passtime_throw_all.dmx"
+	frames 66 81
+	snap
+	subtract a_passtime_throw_startpose 0
+	delta
+	ikrule lhand release
+	ikrule rhand release
+	blendlayer layer_PASSTIME_throw_end 0 0 7 15
+ 	activity ACT_MP_PASSTIME_THROW_END 1
+}
+
+$sequence PASSTIME_throw_cancel {
+	"passtime_throw_cancel.dmx"
+	frames 1 5
+	snap
+	subtract a_passtime_throw_startpose 0
+	delta
+	ikrule lhand release
+	ikrule rhand release
+	blendlayer layer_PASSTIME_throw_cancel 0 1 3 5
+ 	activity ACT_MP_PASSTIME_THROW_CANCEL 1
+}
+
+$sequence stand_PASSTIME "passtime_idle.dmx" loop alignto a_reference addlayer PASSTIME_aimmatrix_idle activity ACT_MP_STAND_PASSTIME 1
+
+//================================================================================================
+// RUN PASSTIME
+//================================================================================================
+$animation a_runCenter_PASSTIME "passtime_runCenter.dmx" {
+	numframes 19
+	loop
+	alignto a_reference
+}
+$animation a_runS_PASSTIME "passtime_runs.dmx" {
+	LX LY
+	rotateto -180
+	startloop 11
+	alignto a_reference
+}
+$animation a_runSE_PASSTIME "passtime_runse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 11
+	alignto a_reference
+}
+$animation a_runE_PASSTIME "passtime_rune.dmx" {
+	LX LY
+	rotateto -90
+	startloop 2
+	alignto a_reference
+}
+$animation a_runNE_PASSTIME "passtime_runne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 2
+	alignto a_reference
+}
+$animation a_runN_PASSTIME "passtime_runn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 2
+	alignto a_reference
+}
+$animation a_runNW_PASSTIME "passtime_runnw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 2
+	alignto a_reference
+}
+$animation a_runW_PASSTIME "passtime_runw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 3
+	alignto a_reference
+}
+$animation a_runSW_PASSTIME "passtime_runsw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 11
+	alignto a_reference
+}
+$sequence run_PASSTIME {
+	a_runSW_PASSTIME	a_runS_PASSTIME		a_runSE_PASSTIME
+	a_runW_PASSTIME	a_runCenter_PASSTIME	a_runE_PASSTIME
+	a_runNW_PASSTIME	a_runN_PASSTIME		a_runNE_PASSTIME
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer PASSTIME_aimmatrix_run
+	{ event 7001 1 "left" }
+	{ event 7001 10 "right" }
+	activity ACT_MP_RUN_PASSTIME 1
+}
+
+$MPCrouchWalkWithWeapon crouch_walk_PASSTIME 0 0 0 0 0 0 0 0 "melee_crouch_walkN.dmx" "melee_crouch_walkCenter.dmx" PASSTIME_aimmatrix_crouch_idle ACT_MP_CROUCHWALK_PASSTIME
+
+$popd
+
+
+

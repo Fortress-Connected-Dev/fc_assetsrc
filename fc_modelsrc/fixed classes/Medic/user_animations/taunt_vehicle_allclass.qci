@@ -1,0 +1,224 @@
+$pushd "../animations/dmx" 
+
+
+
+
+$weightlist kart_cheer {
+	"bip_pelvis" 0.0
+	"bip_spine_1" 0.3
+	"bip_spine_2" 0.6
+	"bip_spine_3" 0.9
+	"bip_neck" 1.0
+	"bip_head" 1.0
+	"bip_collar_L" 1.0 
+	"bip_collar_R" 0.0 
+	"bip_upperArm_L" 1.0 
+	"bip_thumb_0_L" 0.0
+	"bip_index_0_L" 0.0
+	"bip_middle_0_L" 0.0
+	"bip_ring_0_L" 0.0
+	"bip_pinky_0_L" 0.0
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+//-------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+//TURNS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+//-------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+$animation a_vehicle_allclass_neutral    	"taunt_vehicle_allclass.dmx" frame 125 125 
+$animation a_vehicle_allclass_center   		"taunt_vehicle_allclass.dmx" frame 125 125 subtract a_vehicle_allclass_neutral 0 
+
+$animation a_vehicle_allclass_right  	 	"taunt_vehicle_allclass.dmx" frame 275 275 subtract a_vehicle_allclass_neutral 0 
+$animation a_vehicle_allclass_right_bd  	"taunt_vehicle_allclass.dmx" frame 271 271 subtract a_vehicle_allclass_neutral 0
+
+$animation a_vehicle_allclass_left       	"taunt_vehicle_allclass.dmx" frame 245 245 subtract a_vehicle_allclass_neutral 0 
+$animation a_vehicle_allclass_left_bd       	"taunt_vehicle_allclass.dmx" frame 247 247 subtract a_vehicle_allclass_neutral 0 
+
+$sequence a_steer_allclass_matrix {  
+
+	a_vehicle_allclass_right a_vehicle_allclass_right_bd a_vehicle_allclass_center a_vehicle_allclass_left_bd a_vehicle_allclass_left 
+	blendwidth 5 blend move_y -1 1
+	delta 
+	hidden 
+    } 
+
+//-------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+//NORTH SOUTH LEANS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+//-------------------------------------------------    
+
+
+$animation a_vehicle_allclass_lean_neutral    		"taunt_vehicle_allclass_idle.dmx" frame 55 55
+$animation a_vehicle_allclass_lean_center   		"taunt_vehicle_allclass_idle.dmx" frame 55 55 subtract a_vehicle_allclass_lean_neutral 0 
+$animation a_vehicle_lean_forward      			"taunt_vehicle_allclass_idle.dmx" frame 56 56 subtract a_vehicle_allclass_lean_neutral 0
+$animation a_vehicle_lean_backward     		"taunt_vehicle_allclass_idle.dmx" frame 57 57 subtract a_vehicle_allclass_lean_neutral 0
+
+$sequence a_vehicle_NS_leans {  
+
+	a_vehicle_lean_forward	a_vehicle_allclass_lean_center a_vehicle_lean_backward 
+	blend move_x -1 1
+	delta 
+	hidden 
+    } 
+
+
+
+//-------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+//HALLOWEEN KART ACTIVITIES                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+//-------------------------------------------------  
+	
+$animation a_kart_reference "taunt_vehicle_allclass.dmx" frames 40 87 lx ly
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+$sequence kart_idle 	"taunt_vehicle_allclass_idle.dmx" fps 30 frames 0 55 loop {
+                	ikrule rhand touch prop_bone_6
+                	ikrule lhand touch prop_bone_6
+			addlayer a_steer_allclass_matrix
+			addlayer a_vehicle_NS_leans
+			activity ACT_KART_IDLE 1
+			
+			
+	}
+
+$sequence kart_dash 	"taunt_vehicle_allclass.dmx" fps 30 frames 375 400 {
+                	ikrule rhand touch prop_bone_6
+                	ikrule lhand touch prop_bone_6
+			addlayer a_steer_allclass_matrix
+			addlayer a_vehicle_NS_leans
+			activity ACT_KART_ACTION_DASH 1
+			
+ 	}
+
+$sequence kart_impact 	"taunt_vehicle_allclass.dmx" frames 560 585 {	
+			subtract kart_impact 0
+			delta
+			activity ACT_KART_IMPACT 1
+			
+}
+
+$sequence kart_impact_big	"taunt_vehicle_allclass_big_bump.dmx" {	
+				snap
+				subtract kart_impact_big 0
+				delta
+				activity ACT_KART_IMPACT_BIG 1
+}
+
+$sequence a_kart_jump_start "taunt_vehicle_allclass.dmx" frames 470 534 {
+                	ikrule rhand touch prop_bone_6
+                	ikrule lhand touch prop_bone_6
+			addlayer a_steer_allclass_matrix
+			addlayer a_vehicle_NS_leans
+			activity ACT_KART_JUMP_START 1
+                        z alignto a_kart_reference			      
+                        LX LY
+			
+}
+ 
+$sequence a_kart_jump_float "taunt_vehicle_allclass.dmx" frames 495 534 loop fps 30 {
+			alignto a_kart_reference Z 
+			addlayer a_steer_allclass_matrix 
+			activity ACT_KART_JUMP_FLOAT 1 
+			LX LY 
+			align a_kart_jump_start X Y Z 0 0
+
+}
+$sequence jumpland_KART "taunt_vehicle_allclass.dmx" frames 560 585 {	
+	subtract jumpland_KART 0
+	delta
+	activity ACT_KART_JUMP_LAND 1
+	
+}
+
+///////////////////////////////////////////////////////////
+
+$sequence layer_kart_cheer "gesture_primary_cheer.dmx" {
+	weightlist kart_cheer
+}
+
+$sequence kart_cheer "gesture_primary_cheer.dmx" noanimation numframes 37 {
+	blendlayer layer_kart_cheer 0 8 30 36
+	activity ACT_KART_POSITIVE 1
+}
+
+//------------------------------------------------- 
+//-------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+//ANIMATION FOR IN GAME TAUNT                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+//------------------------------------------------- 
+//------------------------------------------------- 
+
+//-------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+//TAUNT TURNS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+//-------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+
+$animation a_vehicle_taunt_allclass_neutral    		"taunt_vehicle_allclass_steer_matrix.dmx" frame 115 115 
+$animation a_vehicle_taunt_allclass_center   		"taunt_vehicle_allclass_steer_matrix.dmx" frame 115 115 subtract a_vehicle_taunt_allclass_neutral 0 
+$animation a_vehicle_taunt_allclass_right  		"taunt_vehicle_allclass_steer_matrix.dmx" frame 120 120 subtract a_vehicle_taunt_allclass_neutral 0 
+$animation a_vehicle_taunt_allclass_left       		"taunt_vehicle_allclass_steer_matrix.dmx" frame 111 111 subtract a_vehicle_taunt_allclass_neutral 0
+
+
+//-------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+//TURNS                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+//-------------------------------------------------    
+
+
+$sequence a_steer_taunt_allclass_matrix {  
+
+	a_vehicle_taunt_allclass_left a_vehicle_taunt_allclass_center a_vehicle_taunt_allclass_right 
+	blendwidth 3 blend move_y -1 1
+	delta 
+	hidden 
+    } 
+
+
+//-------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+//Start                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+//-------------------------------------------------  	
+
+
+$sequence layer_taunt_vehicle_allclass_spawn "taunt_vehicle_allclass_start.dmx" hidden fps 30 frames 0 40 hidden {
+		event AE_TAUNT_DISABLE_MOVE 0
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+$sequence taunt_vehicle_allclass_start_layer "taunt_vehicle_allclass_slowdrive_idle.dmx" fps 30 frames 15 110 hidden {
+		event AE_TAUNT_DISABLE_MOVE 0
+                ikrule rhand touch prop_bone_6
+                ikrule lhand touch prop_bone_6
+		addlayer a_steer_taunt_allclass_matrix
+		blendlayer layer_taunt_vehicle_allclass_spawn  0 0 30 40
+	}
+$sequence taunt_vehicle_allclass_start "taunt_vehicle_allclass_slowdrive_idle.dmx" fps 30 frames 15 110 noanimation numframes 95 {
+		blendlayer taunt_vehicle_allclass_start_layer  0 5 95 95
+		event AE_TAUNT_ENABLE_MOVE 0
+		event AE_WPN_HIDE 0
+		event AE_WPN_UNHIDE 8
+	}
+
+//-------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+//Honk                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+//-------------------------------------------------  
+
+
+$sequence layer_taunt_vehicle_allclass_honk "taunt_vehicle_allclass_honk.dmx" fps 30 frames 0 50 {
+ 	}
+
+$sequence taunt_vehicle_allclass_honk "taunt_vehicle_allclass_honk.dmx" fps 30 frames 0 110 {
+                ikrule rhand touch prop_bone_6
+                ikrule lhand touch prop_bone_6
+		addlayer a_steer_taunt_allclass_matrix
+		blendlayer layer_taunt_vehicle_allclass_honk 0 5 45 50
+	} 
+
+//-------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+//End                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+//-------------------------------------------------  
+
+
+$sequence layer_taunt_vehicle_allclass_end "taunt_vehicle_allclass_end.dmx" fps 30.000000 frames 0 19 hidden { 
+	}
+
+$sequence taunt_vehicle_allclass_end "taunt_vehicle_allclass_end.dmx" fps 30 frames 0 19 noanimation numframes 20 {
+		blendlayer layer_taunt_vehicle_allclass_end 0 0 15 20
+		event AE_TAUNT_DISABLE_MOVE 0
+		event AE_WPN_HIDE 0
+   	}
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+$popd                           

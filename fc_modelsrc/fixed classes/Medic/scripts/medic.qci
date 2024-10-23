@@ -1,0 +1,306 @@
+// defining the upaxis is needed for maya exports
+$upaxis Y
+
+$eyeposition 0 78.915 0
+
+$attachment "eyes"     "bip_head"  0         78.958721  3.83643  absolute
+$attachment "righteye" "bip_head" -0.984379  78.958721  3.83643  absolute
+$attachment "lefteye"  "bip_head"  0.984379  78.958721  3.83643  absolute
+$attachment "back_lower"  "bip_spine_0"  0  0  0   
+$attachment "foot_L"  "bip_foot_L"  0  0  0   
+$attachment "foot_R"  "bip_foot_R"  0  0  0
+$Attachment "head" "bip_head" -0.1 -7.81 -1.26 rotate 88.3 89.9 179.8
+$Attachment "eyeglow_L" "bip_head" 1.08 -1.77 -6.14 rotate 64.81 6.74 97.44
+$Attachment "eyeglow_R" "bip_head" -1.08 -1.77 -6.14 rotate 64.81 173.26 -97.44
+$Attachment "effect_hand_L" "effect_hand_L" 0 0 0 rotate 0 0 0
+$Attachment "effect_hand_R" "effect_hand_R" 0 0 0 rotate 0 0 0
+$Attachment "flag" "bip_spine_2" 1.02 3.24 7.93 rotate 1.53 -4.33 -4.18
+$Attachment "prop_bone" "prop_bone" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_1" "prop_bone_1" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_2" "prop_bone_2" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_3" "prop_bone_3" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_4" "prop_bone_4" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_5" "prop_bone_5" 0 0 0 rotate 0 0 0
+$Attachment "prop_bone_6" "prop_bone_6" 0 0 0 rotate 0 0 0   
+
+//this attachment for partyhat in birthday mode
+$attachment "partyhat" "bip_head" -0.10 -6.71 -1.26 rotate 88 90 180
+
+$model "medic" $dmxFile$ {
+
+	eyeball righteye "bip_head" -1.04  78.958721  3.83643  "eyeball_r" 1.2   3  "pupil_r" 0.5
+	eyeball lefteye  "bip_head"  1.04  78.958721  3.83643  "eyeball_l" 1.2  -3  "pupil_l" 0.5
+
+    // remove this once you have actual eyelids that the eyeballs can drive, or they'll by default be 
+    // overwriting your first flex
+	localvar %dummy_eyelid_flex 
+
+	flexcontroller eyes range -45 45 eyes_updown
+	flexcontroller eyes range -45 45 eyes_rightleft
+}
+
+// Make the reference sequence from the dmxFile variable.
+$sequence ref $dmxFile$
+
+$surfaceprop "flesh"
+
+$bodygroup "medic_backpack"
+{
+	studio "../parts/dmx/backpack_bodygroup.dmx"
+	blank
+}
+
+$bodygroup "glasses"
+{
+	studio "../parts/dmx/glasses_bodygroup.dmx"
+	blank
+}
+
+$bonemerge "weapon_bone"
+$bonemerge "weapon_bone_1"
+$bonemerge "joint_hose01"
+$bonemerge "joint_hose02"
+$bonemerge "joint_hose03"
+$bonemerge "joint_hose04"
+$bonemerge "joint_hose05"
+$bonemerge "joint_lever"
+$bonemerge "bip_head"
+$bonemerge "medal_bone"
+$bonemerge "prp_backpack"
+$bonemerge "mvm"
+$bonemerge "prop_bone"
+$bonemerge "prop_bone_1"
+$bonemerge "prop_bone_2"
+$bonemerge "prop_bone_3"
+$bonemerge "prop_bone_4"
+$bonemerge "prop_bone_5"
+$bonemerge "prop_bone_6"
+
+//include the definebones
+$include "../medic_definebones.qci"
+
+// include the file that sets up the ikchains
+$include "../../TF_animation_rules/ruleshierarchy.qci"
+$ikchain medicHose "joint_hose05"
+
+// include the user animations.mdl
+$includemodel "player/medic_user_animations.mdl"
+
+// include the animations.mdl
+$includemodel "player/medic_animations.mdl"
+
+// include the workshop animations.mdl
+$includemodel "workshop/player/animations/medic_workshop_animations.mdl"
+
+// include the ragdoll
+$include "medic_ragdoll.qci"
+
+// include the hitboxes
+$include "medic_hitbox.qci"
+
+// declare the order of sequences to try to prevent breaking demo files when the animation .qcs are reorganized
+$include "medic_declaresequence.qci"
+
+$lod 11 
+{
+	replacemodel $dmxFile$ $lod_01$
+	replacemodel "../parts/dmx/backpack_bodygroup.dmx" "../parts/dmx/backpack_lod_01.dmx"
+	replacemodel "../parts/dmx/glasses_bodygroup.dmx" "../parts/dmx/glasses_lod_01.dmx"
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_thumb_0_L"
+	bonetreecollapse "bip_index_0_L"
+	bonetreecollapse "bip_middle_0_L"
+	bonetreecollapse "bip_ring_0_L"
+	bonetreecollapse "bip_pinky_0_L"
+	bonetreecollapse "bip_thumb_0_R"
+	bonetreecollapse "bip_index_0_R"
+	bonetreecollapse "bip_middle_0_R"
+	bonetreecollapse "bip_ring_0_R"
+	bonetreecollapse "bip_pinky_0_R"
+} 
+
+$lod 22 
+{
+	nofacial
+	replacemodel $dmxFile$ $lod_02$
+	replacemodel "../parts/dmx/backpack_bodygroup.dmx" "../parts/dmx/backpack_lod_02.dmx"
+	replacemodel "../parts/dmx/glasses_bodygroup.dmx" "../parts/dmx/glasses_lod_02.dmx"
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_hand_L"
+	bonetreecollapse "bip_hand_R"
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+//	bonetreecollapse "prp_coat_front_0_L"
+//	bonetreecollapse "prp_coat_back_0_L"
+//	bonetreecollapse "prp_coat_back_0_M"
+//	bonetreecollapse "prp_coat_back_0_R"
+//	bonetreecollapse "prp_coat_front_0_R"
+}
+
+$lod 33 
+{
+	nofacial
+	replacemodel $dmxFile$ $lod_03$
+	replacemodel "../parts/dmx/backpack_bodygroup.dmx" "../parts/dmx/backpack_lod_03.dmx"
+	replacemodel "../parts/dmx/glasses_bodygroup.dmx" "../parts/dmx/glasses_lod_03.dmx"
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_lowerarm_L"
+	bonetreecollapse "bip_lowerarm_R"
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+	replacebone "bip_collar_L" "bip_spine_3"
+	replacebone "bip_collar_R" "bip_spine_3"
+	replacebone "bip_spine_1" "bip_spine_2"
+	replacebone "bip_spine_0" "bip_pelvis"
+//	bonetreecollapse "prp_coat_front_0_L"
+//	bonetreecollapse "prp_coat_back_0_L"
+//	bonetreecollapse "prp_coat_back_0_M"
+//	bonetreecollapse "prp_coat_back_0_R"
+//	bonetreecollapse "prp_coat_front_0_R"
+//	replacebone "prp_coat_front_0_L" "bip_pelvis"
+//	replacebone "prp_coat_back_0_L" "bip_pelvis"
+//	replacebone "prp_coat_back_0_M" "bip_pelvis"
+//	replacebone "prp_coat_back_0_R" "bip_pelvis"
+//	replacebone "prp_coat_front_0_R" "bip_pelvis"
+}
+
+$lod 44 
+{
+	nofacial
+	replacemodel $dmxFile$ $lod_04$
+	replacemodel "../parts/dmx/backpack_bodygroup.dmx" "../parts/dmx/backpack_lod_04.dmx"
+	replacemodel "../parts/dmx/glasses_bodygroup.dmx" "../parts/dmx/glasses_lod_04.dmx"
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_lowerarm_L"
+	bonetreecollapse "bip_lowerarm_R"
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+	replacebone "bip_collar_L" "bip_spine_3"
+	replacebone "bip_collar_R" "bip_spine_3"
+	replacebone "bip_spine_1" "bip_spine_2"
+	replacebone "bip_spine_0" "bip_pelvis"
+//	bonetreecollapse "prp_coat_front_0_L"
+//	bonetreecollapse "prp_coat_back_0_L"
+//	bonetreecollapse "prp_coat_back_0_M"
+//	bonetreecollapse "prp_coat_back_0_R"
+//	bonetreecollapse "prp_coat_front_0_R"
+//	replacebone "prp_coat_front_0_L" "bip_pelvis"
+//	replacebone "prp_coat_back_0_L" "bip_pelvis"
+//	replacebone "prp_coat_back_0_M" "bip_pelvis"
+//	replacebone "prp_coat_back_0_R" "bip_pelvis"
+//	replacebone "prp_coat_front_0_R" "bip_pelvis"
+}
+
+$lod 55 
+{
+	nofacial
+	replacemodel $dmxFile$ $lod_05$
+	replacemodel "../parts/dmx/backpack_bodygroup.dmx" "../parts/dmx/backpack_lod_05.dmx"
+	replacemodel "../parts/dmx/glasses_bodygroup.dmx" "../parts/dmx/glasses_lod_04.dmx"
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_lowerarm_L"
+	bonetreecollapse "bip_lowerarm_R"
+	bonetreecollapse "bip_foot_L"
+	bonetreecollapse "bip_foot_R"
+	replacebone "bip_collar_L" "bip_spine_3"
+	replacebone "bip_collar_R" "bip_spine_3"
+	replacebone "bip_spine_1" "bip_spine_2"
+	replacebone "bip_spine_0" "bip_pelvis"
+//	bonetreecollapse "prp_coat_front_0_L"
+//	bonetreecollapse "prp_coat_back_0_L"
+//	bonetreecollapse "prp_coat_back_0_M"
+//	bonetreecollapse "prp_coat_back_0_R"
+//	bonetreecollapse "prp_coat_front_0_R"
+//	replacebone "prp_coat_front_0_L" "bip_pelvis"
+//	replacebone "prp_coat_back_0_L" "bip_pelvis"
+//	replacebone "prp_coat_back_0_M" "bip_pelvis"
+//	replacebone "prp_coat_back_0_R" "bip_pelvis"
+//	replacebone "prp_coat_front_0_R" "bip_pelvis"
+}
+
+$shadowlod
+{
+	nofacial
+	replacemodel $dmxFile$ $lod_03$
+	replacemodel "../parts/dmx/backpack_bodygroup.dmx" "../parts/dmx/backpack_lod_03.dmx"
+	replacemodel "../parts/dmx/glasses_bodygroup.dmx" "../parts/dmx/glasses_lod_03.dmx"
+	bonetreecollapse "bip_head"
+	bonetreecollapse "bip_lowerarm_L"
+	bonetreecollapse "bip_lowerarm_R"
+	bonetreecollapse "bip_knee_L"
+	bonetreecollapse "bip_knee_R"
+	replacebone "bip_collar_L" "bip_spine_3"
+	replacebone "bip_collar_R" "bip_spine_3"
+	replacebone "bip_spine_1" "bip_spine_2"
+	replacebone "bip_spine_0" "bip_pelvis"
+	bonetreecollapse "prp_coat_front_0_L"
+	bonetreecollapse "prp_coat_back_0_L"
+	bonetreecollapse "prp_coat_back_0_M"
+	bonetreecollapse "prp_coat_back_0_R"
+	bonetreecollapse "prp_coat_front_0_R"
+	replacebone "prp_coat_front_0_L" "bip_pelvis"
+	replacebone "prp_coat_back_0_L" "bip_pelvis"
+	replacebone "prp_coat_back_0_M" "bip_pelvis"
+	replacebone "prp_coat_back_0_R" "bip_pelvis"
+	replacebone "prp_coat_front_0_R" "bip_pelvis"
+}
+
+// Gibs.
+$collisiontext {
+	"break"
+	{
+		"model" "player\gibs\medicgib007"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\medicgib001"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\medicgib005"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\medicgib006"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\random_organ"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\medicgib002"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\medicgib003"
+		"health" "0"
+		"fadetime" "10"
+	}
+	"break"
+	{
+		"model" "player\gibs\medicgib004"
+		"health" "0"
+		"fadetime" "10"
+	}
+
+
+	"break"
+	{
+		"model" "player\gibs\medicgib008"
+		"health" "0"
+		"fadetime" "10"
+	}
+}

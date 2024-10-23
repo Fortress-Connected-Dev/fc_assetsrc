@@ -1,0 +1,25 @@
+
+$pushd "../animations/dmx"
+
+//-------------------------------------------------
+//Taunts DO Si Do
+//-------------------------------------------------
+
+ //This is the dance portion of the do si do animation
+$sequence layer_taunt_dosido_dance "taunt_dosido_dance.dmx" fps 30 hidden 
+$sequence taunt_dosido_dance "taunt_dosido_dance.dmx" noanimation {
+	numframes 250
+	blendlayer layer_taunt_dosido_dance .. .. 243 249
+	event AE_WPN_HIDE 1
+	event AE_WPN_UNHIDE 242
+}
+ 
+ //This is the start and the loop portion of the do si do animation.  Start is frame 1-32 and loop is frames 33-92
+$sequence layer_taunt_dosido_intro "taunt_dosido_intro.dmx" fps 30 hidden 
+$sequence taunt_dosido_intro "taunt_dosido_intro.dmx" noanimation {
+	numframes 93
+	blendlayer layer_taunt_dosido_intro 0 5 .. ..
+	event AE_WPN_HIDE 0
+	event AE_WPN_UNHIDE 92
+} 
+$popd

@@ -1,0 +1,3 @@
+$sequence user_ref "../parts/dmx/heavy_reference_low.dmx" {
+	numframes 1
+}

@@ -1,0 +1,11 @@
+
+$pushd "../animations/dmx"
+
+// The MakeTaunt macro takes the sequence name, filename, loop start, loop end, frames per second, and number of frames as input arguments.
+$MakeTaunt taunt_saxophone "taunt_saxophone.dmx" 4 320 30 328 {
+    event AE_WPN_HIDE 0
+    event AE_WPN_UNHIDE 5
+    event AE_WPN_HIDE 300
+
+}
+$popd

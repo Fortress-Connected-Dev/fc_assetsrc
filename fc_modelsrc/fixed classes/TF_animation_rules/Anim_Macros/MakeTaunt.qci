@@ -1,0 +1,16 @@
+$definemacro MakeTaunt tauntname filename LoopStart LoopEnd LoopFPS LastFrame \\
+$sequence $tauntname$interior $filename$ frame $LoopStart$ $LoopEnd$ fps $LoopFPS$ hidden \\
+$sequence $tauntname$in $filename$ frame $LoopStart$ $LoopStart$ fps $LoopFPS$ hidden \\
+$sequence $tauntname$out $filename$ frame $LoopEnd$ $LoopEnd$ fps $LoopFPS$ hidden \\
+$sequence $tauntname$inblend $filename$ frame 0 $LoopStart$ splinedelta delta hidden \\
+$sequence $tauntname$outblend $filename$ frame $LoopEnd$ $LastFrame$ splinedelta delta hidden \\
+\\
+$sequence $tauntname$ { \\
+  $filename$ noanimation numframes $LastFrame$ \\
+  blendlayer $tauntname$in 0 $LoopStart$ $LoopStart$ $LoopStart$ spline \\
+  blendlayer $tauntname$interior $LoopStart$ $LoopStart$ $LoopEnd$ $LoopEnd$ spline \\
+  blendlayer $tauntname$out $LoopEnd$ $LoopEnd$ $LoopEnd$ $LastFrame$ spline \\
+  blendlayer $tauntname$inblend 0 0 $LoopStart$ $LoopStart$ \\
+  blendlayer $tauntname$outblend $LoopEnd$ $LoopEnd$ $LastFrame$ $LastFrame$ \\
+} \\
+$continue $tauntname$

@@ -1,0 +1,21 @@
+// medic
+
+
+$pushd "../animations/dmx"
+
+
+// ===========================================
+// traveling russian
+// ===========================================
+
+$sequence taunt_russian "taunt_russian.dmx"  {
+	numframes 509
+  event AE_WPN_HIDE 0
+  event AE_TAUNT_ENABLE_MOVE 0
+  event AE_WPN_UNHIDE 508
+}
+
+$popd
+
+
+

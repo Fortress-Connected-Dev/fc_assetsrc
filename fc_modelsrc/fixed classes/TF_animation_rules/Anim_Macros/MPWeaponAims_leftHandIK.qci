@@ -1,0 +1,10 @@
+//-----------------------------------------------------------------------------------
+// Weapon Aim Layer
+//	seqname - unique identifier for the weapon (TF - PRIMARY, SECONDARY, MELEE, GRENADE, etc.)
+//	filename - prefix for the animation files
+//	bonename - the bone that is targeted by the ik rule
+//-----------------------------------------------------------------------------------
+$definemacro MPWeaponAims_leftHandIK seqname filename bonename \\
+$MPAimLayer_leftHandIK $seqname$_aimmatrix_idle        $filename$_aimmatrix_idle.dmx        $bonename$ \\
+$MPAimLayer_leftHandIK $seqname$_aimmatrix_run         $filename$_aimmatrix_run.dmx         $bonename$ \\
+$MPAimLayer_leftHandIK $seqname$_aimmatrix_crouch_idle $filename$_aimmatrix_crouch_idle.dmx $bonename$ \\

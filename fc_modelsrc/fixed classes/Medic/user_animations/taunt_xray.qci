@@ -1,0 +1,10 @@
+$sequence layer_taunt_xray "taunt_xray.dmx" fps 30.000000 hidden
+$sequence taunt_xray "taunt_xray.dmx" fps 30.000000 noanimation {
+	numframes 185
+	ikrule lhand release
+	blendlayer layer_taunt_xray 0 10 168 184
+	event AE_WPN_HIDE 0
+	event AE_WPN_UNHIDE 23
+	event AE_WPN_HIDE 166
+
+}

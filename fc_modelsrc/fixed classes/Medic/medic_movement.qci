@@ -1,0 +1,771 @@
+//================================================================================================
+// IDLES
+//================================================================================================
+$sequence layer_idleNoise "primary_idle.dmx" loop subtract layer_idleNoise 0 delta iklock rfoot 1 0 iklock lfoot 1 0 realtime weightlist upperBodyNoFingers hidden
+
+$sequence stand_PRIMARY "primary_idle.dmx" loop alignto a_reference	addlayer PRIMARY_aimmatrix_idle	activity ACT_MP_STAND_PRIMARY 1
+$sequence stand_SECONDARY "secondary_idle.dmx" frames 0 0 numframes 48 loop	alignto a_reference	addlayer SECONDARY_aimmatrix_idle addlayer layer_idleNoise activity ACT_MP_STAND_SECONDARY 1
+$sequence stand_MELEE "melee_idle.dmx" frames 0 0 numframes 48 loop alignto a_reference addlayer MELEE_aimmatrix_idle addlayer layer_idleNoise activity ACT_MP_STAND_MELEE 1
+$sequence stand_MELEE_ALLCLASS "melee_allclass_idle.dmx" frames 0 0 numframes 48 loop alignto a_reference addlayer MELEE_ALLCLASS_aimmatrix_idle addlayer layer_idleNoise activity ACT_MP_STAND_MELEE_ALLCLASS 1 addlayer r_armposes addlayer r_handposes
+$sequence stand_LOSER "loser_idle.dmx" loop alignto a_reference activity ACT_MP_STAND_LOSERSTATE 1
+
+$sequence crouch_PRIMARY "primary_crouch_idle.dmx" loop addlayer PRIMARY_aimmatrix_crouch_idle addlayer layer_idleNoise activity ACT_MP_CROUCH_PRIMARY 1
+$sequence crouch_SECONDARY "secondary_crouch_idle.dmx" loop addlayer SECONDARY_aimmatrix_crouch_idle addlayer layer_idleNoise activity ACT_MP_CROUCH_SECONDARY 1
+$sequence crouch_MELEE "melee_crouch_idle.dmx" loop addlayer MELEE_aimmatrix_idle addlayer layer_idleNoise activity ACT_MP_CROUCH_MELEE 1
+$sequence crouch_MELEE_ALLCLASS "melee_allclass_crouch_idle.dmx" loop addlayer MELEE_ALLCLASS_aimmatrix_idle addlayer layer_idleNoise activity ACT_MP_CROUCH_MELEE_ALLCLASS 1 addlayer r_armposes addlayer r_handposes
+$sequence crouch_LOSER "loser_crouch_idle.dmx" loop alignto a_reference activity ACT_MP_CROUCH_LOSERSTATE 1
+
+//================================================================================================
+// SWIMS
+//================================================================================================
+$MPSwimWithWeapon PRIMARY 0 0 0 0 0 0 0 0 "primary_swimCenter.dmx" PRIMARY_aimmatrix_idle ACT_MP_SWIM_PRIMARY
+$MPSwimWithWeapon SECONDARY 0 0 0 0 0 0 0 0 "secondary_swimCenter.dmx" SECONDARY_aimmatrix_idle ACT_MP_SWIM_SECONDARY
+$MPSwimWithWeapon MELEE 0 0 0 0 0 0 0 0 "melee_swimCenter.dmx" MELEE_aimmatrix_idle ACT_MP_SWIM_MELEE
+$MPSwimWithWeapon MELEE_ALLCLASS 0 0 0 0 0 0 0 0 "melee_allclass_swimCenter.dmx" MELEE_ALLCLASS_aimmatrix_idle ACT_MP_SWIM_MELEE_ALLCLASS
+
+$animation a_swimCenter_LOSER "loser_swimCenter.dmx" loop
+$sequence s_swimAlign_LOSER a_swimCenter_LOSER
+$animation a_swimS_LOSER  "loser_swimS.dmx"  startloop 0 rotateto -180 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$animation a_swimSE_LOSER "loser_swimSE.dmx" startloop 0 rotateto -135 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$animation a_swimE_LOSER  "loser_swimE.dmx"  startloop 0 rotateto  -90 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$animation a_swimNE_LOSER "loser_swimNE.dmx" startloop 0 rotateto  -45 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$animation a_swimN_LOSER  "loser_swimN.dmx"  startloop 0 rotateto    0 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$animation a_swimNW_LOSER "loser_swimNW.dmx" startloop 0 rotateto   45 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$animation a_swimW_LOSER  "loser_swimW.dmx"  startloop 0 rotateto   90 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$animation a_swimSW_LOSER "loser_swimSW.dmx" startloop 0 rotateto  135 align s_swimAlign_LOSER X Y Z 0 0 LX LY loop
+$sequence swim_LOSER {
+	a_swimSW_LOSER	a_swimS_LOSER 		a_swimSE_LOSER
+	a_swimW_LOSER	a_swimCenter_LOSER 	a_swimE_LOSER
+	a_swimNW_LOSER 	a_swimN_LOSER 		a_swimNE_LOSER
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	activity ACT_MP_SWIM_LOSERSTATE 1
+}
+
+
+//================================================================================================
+// RUN PRIMARY
+//================================================================================================
+$animation a_runCenter_PRIMARY "primary_runCenter.dmx" {
+	numframes 19
+	loop
+	alignto a_reference
+}
+$animation a_runS_PRIMARY "primary_runs.dmx" {
+	LX LY
+	rotateto -180
+	startloop 11
+	alignto a_reference
+}
+$animation a_runSE_PRIMARY "primary_runse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 11
+	alignto a_reference
+}
+$animation a_runE_PRIMARY "primary_rune.dmx" {
+	LX LY
+	rotateto -90
+	startloop 2
+	alignto a_reference
+}
+$animation a_runNE_PRIMARY "primary_runne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 2
+	alignto a_reference
+}
+$animation a_runN_PRIMARY "primary_runn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 2
+	alignto a_reference
+}
+$animation a_runNW_PRIMARY "primary_runnw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 2
+	alignto a_reference
+}
+$animation a_runW_PRIMARY "primary_runw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 3
+	alignto a_reference
+}
+$animation a_runSW_PRIMARY "primary_runsw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 11
+	alignto a_reference
+}
+$sequence run_PRIMARY {
+	a_runsw_PRIMARY	a_runS_PRIMARY		a_runSE_PRIMARY
+	a_runW_PRIMARY	a_runCenter_PRIMARY	a_runE_PRIMARY
+	a_runNW_PRIMARY	a_runN_PRIMARY		a_runNE_PRIMARY
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer PRIMARY_aimmatrix_idle
+	{ event 7001 1 "left" }
+	{ event 7001 10 "right" }
+	activity ACT_MP_RUN_PRIMARY 1
+}
+
+//================================================================================================
+// crouch walk PRIMARY
+//================================================================================================
+$animation a_crouch_walkCenter_PRIMARY "primary_crouch_idle.dmx" {
+	frames 0 30
+	loop
+	alignto a_reference
+}
+$animation a_crouch_walkS_PRIMARY "primary_crouch_walks.dmx" {
+	LX LY
+	rotateto -180
+	startloop 0
+	alignto a_reference
+}
+$animation a_crouch_walkSE_PRIMARY "primary_crouch_walkse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 0
+	alignto a_reference
+}
+$animation a_crouch_walkE_PRIMARY "primary_crouch_walke.dmx" {
+	LX LY
+	rotateto -90
+	startloop 0
+	alignto a_reference
+}
+$animation a_crouch_walkNE_PRIMARY "primary_crouch_walkne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 0
+	alignto a_reference
+}
+$animation a_crouch_walkN_PRIMARY "primary_crouch_walkn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 0
+	alignto a_reference
+}
+$animation a_crouch_walkNW_PRIMARY "primary_crouch_walknw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 0
+	alignto a_reference
+}
+$animation a_crouch_walkW_PRIMARY "primary_crouch_walkw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 0
+	alignto a_reference
+}
+$animation a_crouch_walkSW_PRIMARY "primary_crouch_walksw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 0
+	alignto a_reference
+}
+$sequence crouch_walk_PRIMARY {
+	a_crouch_walkSW_PRIMARY	a_crouch_walkS_PRIMARY		a_crouch_walkSE_PRIMARY
+	a_crouch_walkW_PRIMARY	a_crouch_walkCenter_PRIMARY	a_crouch_walkE_PRIMARY
+	a_crouch_walkNW_PRIMARY	a_crouch_walkN_PRIMARY		a_crouch_walkNE_PRIMARY
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer PRIMARY_aimmatrix_idle
+	activity ACT_MP_CROUCHWALK_PRIMARY 1
+}
+
+//================================================================================================
+// RUN SECONDARY
+//================================================================================================
+$animation a_runCenter_SECONDARY "secondary_idle.dmx" {
+	numframes 19
+	loop
+	alignto a_reference
+}
+$animation a_runS_SECONDARY "secondary_runs.dmx" {
+	LX LY
+	rotateto -180
+	startloop 11
+	alignto a_reference
+}
+$animation a_runSE_SECONDARY "secondary_runse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 11
+	alignto a_reference
+}
+$animation a_runE_SECONDARY "secondary_rune.dmx" {
+	LX LY
+	rotateto -90
+	startloop 2
+	alignto a_reference
+}
+$animation a_runNE_SECONDARY "secondary_runne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 2
+	alignto a_reference
+}
+$animation a_runN_SECONDARY "secondary_runn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 2
+	alignto a_reference
+}
+$animation a_runNW_SECONDARY "secondary_runnw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 2
+	alignto a_reference
+}
+$animation a_runW_SECONDARY "secondary_runw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 3
+	alignto a_reference
+}
+$animation a_runSW_SECONDARY "secondary_runsw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 11
+	alignto a_reference
+}
+$sequence run_SECONDARY {
+	a_runSW_SECONDARY	a_runS_SECONDARY		a_runSE_SECONDARY
+	a_runW_SECONDARY	a_runCenter_SECONDARY	a_runE_SECONDARY
+	a_runNW_SECONDARY	a_runN_SECONDARY		a_runNE_SECONDARY
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer SECONDARY_aimmatrix_run
+	{ event 7001 1 "left" }
+	{ event 7001 10 "right" }
+	activity ACT_MP_RUN_SECONDARY 1
+}
+
+$MPCrouchWalkWithWeaponNoIK crouch_walk_SECONDARY 0 0 0 0 0 0 0 0 "secondary_crouch_walkN.dmx" "secondary_crouch_idle.dmx" SECONDARY_aimmatrix_crouch_walk ACT_MP_CROUCHWALK_SECONDARY
+
+//================================================================================================
+// RUN MELEE
+//================================================================================================
+$animation a_runCenter_MELEE "melee_idle.dmx" {
+	numframes 19
+	loop
+	alignto a_reference
+}
+$animation a_runS_MELEE "melee_runs.dmx" {
+	LX LY
+	rotateto -180
+	startloop 11
+	alignto a_reference
+}
+$animation a_runSE_MELEE "melee_runse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 11
+	alignto a_reference
+}
+$animation a_runE_MELEE "melee_rune.dmx" {
+	LX LY
+	rotateto -90
+	startloop 2
+	alignto a_reference
+}
+$animation a_runNE_MELEE "melee_runne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 2
+	alignto a_reference
+}
+$animation a_runN_MELEE "melee_runn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 2
+	alignto a_reference
+}
+$animation a_runNW_MELEE "melee_runnw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 2
+	alignto a_reference
+}
+$animation a_runW_MELEE "melee_runw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 3
+	alignto a_reference
+}
+$animation a_runSW_MELEE "melee_runsw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 11
+	alignto a_reference
+}
+$sequence run_MELEE {
+	a_runSW_MELEE	a_runS_MELEE		a_runSE_MELEE
+	a_runW_MELEE	a_runCenter_MELEE	a_runE_MELEE
+	a_runNW_MELEE	a_runN_MELEE		a_runNE_MELEE
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer MELEE_aimmatrix_idle
+	{ event 7001 1 "left" }
+	{ event 7001 10 "right" }
+	activity ACT_MP_RUN_MELEE 1
+}
+
+$MPCrouchWalkWithWeapon crouch_walk_MELEE 0 0 0 0 0 0 0 0 "melee_crouch_walkN.dmx" "melee_crouch_idle.dmx" MELEE_aimmatrix_idle ACT_MP_CROUCHWALK_MELEE
+
+//================================================================================================
+// RUN MELEE ALLCLASS
+//================================================================================================
+$animation a_runCenter_MELEE_ALLCLASS "melee_allclass_idle.dmx" {
+	numframes 19
+	loop
+	alignto a_reference
+}
+$animation a_runS_MELEE_ALLCLASS "melee_allclass_runs.dmx" {
+	LX LY
+	rotateto -180
+	startloop 11
+	alignto a_reference
+}
+$animation a_runSE_MELEE_ALLCLASS "melee_allclass_runse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 11
+	alignto a_reference
+}
+$animation a_runE_MELEE_ALLCLASS "melee_allclass_rune.dmx" {
+	LX LY
+	rotateto -90
+	startloop 2
+	alignto a_reference
+}
+$animation a_runNE_MELEE_ALLCLASS "melee_allclass_runne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 2
+	alignto a_reference
+}
+$animation a_runN_MELEE_ALLCLASS "melee_allclass_runn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 2
+	alignto a_reference
+}
+$animation a_runNW_MELEE_ALLCLASS "melee_allclass_runnw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 2
+	alignto a_reference
+}
+$animation a_runW_MELEE_ALLCLASS "melee_allclass_runw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 3
+	alignto a_reference
+}
+$animation a_runSW_MELEE_ALLCLASS "melee_allclass_runsw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 11
+	alignto a_reference
+}
+$sequence run_MELEE_ALLCLASS {
+	a_runSW_MELEE_ALLCLASS	a_runS_MELEE_ALLCLASS		a_runSE_MELEE_ALLCLASS
+	a_runW_MELEE_ALLCLASS	a_runCenter_MELEE_ALLCLASS	a_runE_MELEE_ALLCLASS
+	a_runNW_MELEE_ALLCLASS	a_runN_MELEE_ALLCLASS		a_runNE_MELEE_ALLCLASS
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer MELEE_ALLCLASS_aimmatrix_idle
+	{ event 7001 1 "left" }
+	{ event 7001 10 "right" }
+	addlayer r_armposes addlayer r_handposes
+	activity ACT_MP_RUN_MELEE_ALLCLASS 1
+}
+
+$MPCrouchWalkWithWeapon crouch_walk_MELEE_ALLCLASS 0 0 0 0 0 0 0 0 "melee_allclass_crouch_walkN.dmx" "melee_allclass_crouch_idle.dmx" MELEE_ALLCLASS_aimmatrix_idle ACT_MP_CROUCHWALK_MELEE_ALLCLASS
+
+//================================================================================================
+// RUN LOSER
+//================================================================================================
+$animation a_runCenter_LOSER "loser_runCenter.dmx" {
+	loop
+	alignto a_reference
+}
+$animation a_runS_LOSER "loser_runs.dmx" {
+	LX LY
+	rotateto -180
+	startloop 15
+	alignto a_reference
+}
+$animation a_runSE_LOSER "loser_runse.dmx" {
+	LX LY
+	rotateto -135
+	startloop 15
+	alignto a_reference
+}
+$animation a_runE_LOSER "loser_rune.dmx" {
+	LX LY
+	rotateto -90
+	startloop 2
+	alignto a_reference
+}
+$animation a_runNE_LOSER "loser_runne.dmx" {
+	LX LY
+	rotateto -45
+	startloop 2
+	alignto a_reference
+}
+$animation a_runN_LOSER "loser_runn.dmx" {
+	LX LY
+	rotateto 0
+	startloop 2
+	alignto a_reference
+}
+$animation a_runNW_LOSER "loser_runnw.dmx" {
+	LX LY
+	rotateto 45
+	startloop 2
+	alignto a_reference
+}
+$animation a_runW_LOSER "loser_runw.dmx" {
+	LX LY
+	rotateto 90
+	startloop 2
+	alignto a_reference
+}
+$animation a_runSW_LOSER "loser_runsw.dmx" {
+	LX LY
+	rotateto 135
+	startloop 15
+	alignto a_reference
+}
+$sequence run_LOSER {
+	a_runSW_LOSER	a_runS_LOSER		a_runSE_LOSER
+	a_runW_LOSER	a_runCenter_LOSER	a_runE_LOSER
+	a_runNW_LOSER	a_runN_LOSER		a_runNE_LOSER
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	{ event 7001 1 "left" }
+	{ event 7001 10 "right" }
+	activity ACT_MP_RUN_LOSERSTATE 1
+}
+
+//================================================================================================
+// JUMP PRIMARY
+//================================================================================================
+$animation a_jumpstart_PRIMARY    "primary_jump_start.dmx" frames 0 22 z alignto a_reference ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_N_PRIMARY  "primary_jumpN.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_NE_PRIMARY "primary_jumpNE.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_NW_PRIMARY "primary_jumpNW.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_E_PRIMARY  "primary_jumpE.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_SE_PRIMARY "primary_jumpSE.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_W_PRIMARY  "primary_jumpW.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_SW_PRIMARY "primary_jumpSW.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_S_PRIMARY  "primary_jumpS.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$sequence jump_start_PRIMARY {
+	a_jumpstart_SW_PRIMARY	a_jumpstart_S_PRIMARY	a_jumpstart_SE_PRIMARY
+	a_jumpstart_W_PRIMARY	a_jumpstart_PRIMARY		a_jumpstart_E_PRIMARY
+	a_jumpstart_NW_PRIMARY	a_jumpstart_N_PRIMARY	a_jumpstart_NE_PRIMARY
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	activity ACT_MP_JUMP_START_PRIMARY 1
+}
+
+$sequence layer_PRIMARY_jump_floatNoise "primary_jump_idleNoise.dmx" subtract layer_PRIMARY_jump_floatNoise 0 delta realtime
+
+//to do: make these anims properly in maya so they're not 1 frame long.  need the velocity for motion extract, just want to use a 1f pose though
+$animation a_jumpfloat_PRIMARY    "primary_jump_start.dmx" frames 22 22 numframes 2  loop  fps 30 align a_jumpstart_PRIMARY X Y Z 0 0
+$animation a_jumpfloat_N_PRIMARY  "primary_jumpN.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_N_PRIMARY X Y Z 0 0
+$animation a_jumpfloat_NE_PRIMARY "primary_jumpNE.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_NE_PRIMARY X Y Z 0 0
+$animation a_jumpfloat_NW_PRIMARY "primary_jumpNW.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_NW_PRIMARY X Y Z 0 0
+$animation a_jumpfloat_E_PRIMARY  "primary_jumpE.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_E_PRIMARY X Y Z 0 0
+$animation a_jumpfloat_SE_PRIMARY "primary_jumpSE.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_SE_PRIMARY X Y Z 0 0
+$animation a_jumpfloat_W_PRIMARY  "primary_jumpW.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_W_PRIMARY X Y Z 0 0
+$animation a_jumpfloat_SW_PRIMARY "primary_jumpSW.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_SW_PRIMARY X Y Z 0 0
+$animation a_jumpfloat_S_PRIMARY  "primary_jumpS.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_S_PRIMARY X Y Z 0 0
+$sequence jump_float_PRIMARY {
+	a_jumpfloat_SW_PRIMARY	a_jumpfloat_S_PRIMARY	a_jumpfloat_SE_PRIMARY
+	a_jumpfloat_W_PRIMARY	a_jumpfloat_PRIMARY		a_jumpfloat_E_PRIMARY
+	a_jumpfloat_NW_PRIMARY	a_jumpfloat_N_PRIMARY	a_jumpfloat_NE_PRIMARY
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer PRIMARY_aimmatrix_idle
+	addlayer layer_PRIMARY_jump_floatNoise
+	activity ACT_MP_JUMP_FLOAT_PRIMARY 1
+}
+
+$sequence jumpland_PRIMARY {
+	"primary_jump_land.dmx"
+	subtract jumpland_PRIMARY 0
+	delta
+	iklock rfoot 1 0 iklock lfoot 1 0
+	activity ACT_MP_JUMP_LAND_PRIMARY 1
+}
+
+//================================================================================================
+// JUMP SECONDARY
+//================================================================================================
+$animation a_jumpstart_SECONDARY    "secondary_jump_start.dmx" frames 0 22 z alignto a_reference ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_N_SECONDARY  "secondary_jumpN.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_NE_SECONDARY "secondary_jumpNE.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_NW_SECONDARY "secondary_jumpNW.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_E_SECONDARY  "secondary_jumpE.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_SE_SECONDARY "secondary_jumpSE.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_W_SECONDARY  "secondary_jumpW.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_SW_SECONDARY "secondary_jumpSW.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_S_SECONDARY  "secondary_jumpS.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$sequence jump_start_SECONDARY {
+	a_jumpstart_SW_SECONDARY	a_jumpstart_S_SECONDARY		a_jumpstart_SE_SECONDARY
+	a_jumpstart_W_SECONDARY		a_jumpstart_SECONDARY		a_jumpstart_E_SECONDARY
+	a_jumpstart_NW_SECONDARY	a_jumpstart_N_SECONDARY		a_jumpstart_NE_SECONDARY
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	activity ACT_MP_JUMP_START_SECONDARY 1
+}
+
+//to do: make these anims properly in maya so they're not 1 frame long.  need the velocity for motion extract, just want to use a 1f pose though
+$animation a_jumpfloat_SECONDARY    "secondary_jump_start.dmx" frames 22 22 numframes 2  loop  fps 30 align a_jumpstart_SECONDARY X Y Z 0 0
+$animation a_jumpfloat_N_SECONDARY  "secondary_jumpN.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_N_SECONDARY X Y Z 0 0
+$animation a_jumpfloat_NE_SECONDARY "secondary_jumpNE.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_NE_SECONDARY X Y Z 0 0
+$animation a_jumpfloat_NW_SECONDARY "secondary_jumpNW.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_NW_SECONDARY X Y Z 0 0
+$animation a_jumpfloat_E_SECONDARY  "secondary_jumpE.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_E_SECONDARY X Y Z 0 0
+$animation a_jumpfloat_SE_SECONDARY "secondary_jumpSE.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_SE_SECONDARY X Y Z 0 0
+$animation a_jumpfloat_W_SECONDARY  "secondary_jumpW.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_W_SECONDARY X Y Z 0 0
+$animation a_jumpfloat_SW_SECONDARY "secondary_jumpSW.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_SW_SECONDARY X Y Z 0 0
+$animation a_jumpfloat_S_SECONDARY  "secondary_jumpS.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_S_SECONDARY X Y Z 0 0
+$sequence jump_float_SECONDARY {
+	a_jumpfloat_SW_SECONDARY	a_jumpfloat_S_SECONDARY		a_jumpfloat_SE_SECONDARY
+	a_jumpfloat_W_SECONDARY		a_jumpfloat_SECONDARY		a_jumpfloat_E_SECONDARY
+	a_jumpfloat_NW_SECONDARY	a_jumpfloat_N_SECONDARY		a_jumpfloat_NE_SECONDARY
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer SECONDARY_aimmatrix_idle
+	addlayer layer_PRIMARY_jump_floatNoise
+	activity ACT_MP_JUMP_FLOAT_SECONDARY 1
+}
+
+$sequence jumpland_SECONDARY {
+	"secondary_jump_land.dmx"
+	subtract jumpland_secondary 0
+	delta
+	iklock rfoot 1 0 iklock lfoot 1 0
+	activity ACT_MP_JUMP_LAND_SECONDARY 1
+}
+
+//================================================================================================
+// JUMP MELEE
+//================================================================================================
+$sequence jump_MELEE "melee_jump.dmx" alignto a_reference addlayer MELEE_aimmatrix_idle activity ACT_MP_JUMP_MELEE 1
+
+$animation a_jumpstart_MELEE    "melee_jump_start.dmx" frames 0 22 z alignto a_reference ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_N_MELEE  "melee_jumpN.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_NE_MELEE "melee_jumpNE.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_NW_MELEE "melee_jumpNW.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_E_MELEE  "melee_jumpE.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_SE_MELEE "melee_jumpSE.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_W_MELEE  "melee_jumpW.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_SW_MELEE "melee_jumpSW.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_S_MELEE  "melee_jumpS.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$sequence jump_start_MELEE {
+	a_jumpstart_SW_MELEE	a_jumpstart_S_MELEE		a_jumpstart_SE_MELEE
+	a_jumpstart_W_MELEE		a_jumpstart_MELEE	a_jumpstart_E_MELEE
+	a_jumpstart_NW_MELEE	a_jumpstart_N_MELEE		a_jumpstart_NE_MELEE
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	activity ACT_MP_JUMP_START_MELEE 1
+}
+
+//to do: make these anims properly in maya so they're not 1 frame long.  need the velocity for motion extract, just want to use a 1f pose though
+$animation a_jumpfloat_MELEE    "melee_jump_start.dmx" frames 22 22 numframes 2  loop  fps 30 align a_jumpstart_MELEE X Y Z 0 0
+$animation a_jumpfloat_N_MELEE  "melee_jumpN.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_N_MELEE X Y Z 0 0
+$animation a_jumpfloat_NE_MELEE "melee_jumpNE.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_NE_MELEE X Y Z 0 0
+$animation a_jumpfloat_NW_MELEE "melee_jumpNW.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_NW_MELEE X Y Z 0 0
+$animation a_jumpfloat_E_MELEE  "melee_jumpE.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_E_MELEE X Y Z 0 0
+$animation a_jumpfloat_SE_MELEE "melee_jumpSE.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_SE_MELEE X Y Z 0 0
+$animation a_jumpfloat_W_MELEE  "melee_jumpW.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_W_MELEE X Y Z 0 0
+$animation a_jumpfloat_SW_MELEE "melee_jumpSW.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_SW_MELEE X Y Z 0 0
+$animation a_jumpfloat_S_MELEE  "melee_jumpS.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_S_MELEE X Y Z 0 0
+$sequence jump_float_MELEE {
+	a_jumpfloat_SW_MELEE	a_jumpfloat_S_MELEE		a_jumpfloat_SE_MELEE
+	a_jumpfloat_W_MELEE		a_jumpfloat_MELEE	a_jumpfloat_E_MELEE
+	a_jumpfloat_NW_MELEE	a_jumpfloat_N_MELEE		a_jumpfloat_NE_MELEE
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer MELEE_aimmatrix_idle
+	addlayer layer_PRIMARY_jump_floatNoise
+	activity ACT_MP_JUMP_FLOAT_MELEE 1
+}
+
+$sequence jumpland_MELEE {
+	"melee_jump_land.dmx"
+	subtract jumpland_MELEE 0
+	delta
+	iklock rfoot 1 0 iklock lfoot 1 0
+	activity ACT_MP_JUMP_LAND_MELEE 1
+}
+
+//================================================================================================
+// JUMP MELEE_ALLCLASS
+//================================================================================================
+$animation a_jumpstart_MELEE_ALLCLASS    "melee_allclass_jump_start.dmx" frames 0 22 z alignto a_reference ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_N_MELEE_ALLCLASS  "melee_allclass_jumpN.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_NE_MELEE_ALLCLASS "melee_allclass_jumpNE.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_NW_MELEE_ALLCLASS "melee_allclass_jumpNW.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_E_MELEE_ALLCLASS  "melee_allclass_jumpE.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_SE_MELEE_ALLCLASS "melee_allclass_jumpSE.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_W_MELEE_ALLCLASS  "melee_allclass_jumpW.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_SW_MELEE_ALLCLASS "melee_allclass_jumpSW.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_S_MELEE_ALLCLASS  "melee_allclass_jumpS.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$sequence jump_start_MELEE_ALLCLASS {
+	a_jumpstart_SW_MELEE_ALLCLASS	a_jumpstart_S_MELEE_ALLCLASS		a_jumpstart_SE_MELEE_ALLCLASS
+	a_jumpstart_W_MELEE_ALLCLASS		a_jumpstart_MELEE_ALLCLASS	a_jumpstart_E_MELEE_ALLCLASS
+	a_jumpstart_NW_MELEE_ALLCLASS	a_jumpstart_N_MELEE_ALLCLASS		a_jumpstart_NE_MELEE_ALLCLASS
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer r_armposes addlayer r_handposes
+	activity ACT_MP_JUMP_START_MELEE_ALLCLASS 1
+}
+
+//to do: make these anims properly in maya so they're not 1 frame long.  need the velocity for motion extract, just want to use a 1f pose though
+$animation a_jumpfloat_MELEE_ALLCLASS    "melee_allclass_jump_start.dmx" frames 22 22 numframes 2  loop  fps 30 align a_jumpstart_MELEE X Y Z 0 0
+$animation a_jumpfloat_N_MELEE_ALLCLASS  "melee_allclass_jumpN.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_N_MELEE X Y Z 0 0
+$animation a_jumpfloat_NE_MELEE_ALLCLASS "melee_allclass_jumpNE.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_NE_MELEE X Y Z 0 0
+$animation a_jumpfloat_NW_MELEE_ALLCLASS "melee_allclass_jumpNW.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_NW_MELEE X Y Z 0 0
+$animation a_jumpfloat_E_MELEE_ALLCLASS  "melee_allclass_jumpE.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_E_MELEE X Y Z 0 0
+$animation a_jumpfloat_SE_MELEE_ALLCLASS "melee_allclass_jumpSE.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_SE_MELEE X Y Z 0 0
+$animation a_jumpfloat_W_MELEE_ALLCLASS  "melee_allclass_jumpW.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_W_MELEE X Y Z 0 0
+$animation a_jumpfloat_SW_MELEE_ALLCLASS "melee_allclass_jumpSW.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_SW_MELEE X Y Z 0 0
+$animation a_jumpfloat_S_MELEE_ALLCLASS  "melee_allclass_jumpS.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_S_MELEE X Y Z 0 0
+$sequence jump_float_MELEE_ALLCLASS {
+	a_jumpfloat_SW_MELEE_ALLCLASS	a_jumpfloat_S_MELEE_ALLCLASS		a_jumpfloat_SE_MELEE_ALLCLASS
+	a_jumpfloat_W_MELEE_ALLCLASS		a_jumpfloat_MELEE_ALLCLASS	a_jumpfloat_E_MELEE_ALLCLASS
+	a_jumpfloat_NW_MELEE_ALLCLASS	a_jumpfloat_N_MELEE_ALLCLASS		a_jumpfloat_NE_MELEE_ALLCLASS
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer MELEE_ALLCLASS_aimmatrix_idle
+	addlayer layer_PRIMARY_jump_floatNoise
+	addlayer r_armposes addlayer r_handposes
+	activity ACT_MP_JUMP_FLOAT_MELEE_ALLCLASS 1
+}
+
+$sequence jumpland_MELEE_ALLCLASS {
+	"melee_allclass_jump_land.dmx"
+	subtract jumpland_MELEE_ALLCLASS 0
+	delta
+	iklock rfoot 1 0 iklock lfoot 1 0
+	addlayer r_armposes addlayer r_handposes
+	activity ACT_MP_JUMP_LAND_MELEE_ALLCLASS 1
+}
+
+//================================================================================================
+// JUMP LOSER
+//================================================================================================
+$animation a_jumpstart_LOSER    "loser_jump_start.dmx" frames 0 22 z alignto a_reference ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_N_LOSER  "loser_jumpN.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_NE_LOSER "loser_jumpNE.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_NW_LOSER "loser_jumpNW.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_E_LOSER  "loser_jumpE.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_SE_LOSER "loser_jumpSE.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_W_LOSER  "loser_jumpW.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_SW_LOSER "loser_jumpSW.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$animation a_jumpstart_S_LOSER  "loser_jumpS.dmx" frames 0 22 z alignto a_reference LX LY ikrule lfoot release ikrule rfoot release
+$sequence jump_start_LOSER {
+	a_jumpstart_SW_LOSER	a_jumpstart_S_LOSER		a_jumpstart_SE_LOSER
+	a_jumpstart_W_LOSER		a_jumpstart_LOSER	a_jumpstart_E_LOSER
+	a_jumpstart_NW_LOSER	a_jumpstart_N_LOSER		a_jumpstart_NE_LOSER
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	activity ACT_MP_JUMP_START_LOSERSTATE 1
+}
+
+//to do: make these anims properly in maya so they're not 1 frame long.  need the velocity for motion extract, just want to use a 1f pose though
+$animation a_jumpfloat_LOSER    "loser_jump_start.dmx" frames 22 22 numframes 2  loop  fps 30 align a_jumpstart_LOSER X Y Z 0 0
+$animation a_jumpfloat_N_LOSER  "loser_jumpN.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_N_LOSER X Y Z 0 0
+$animation a_jumpfloat_NE_LOSER "loser_jumpNE.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_NE_LOSER X Y Z 0 0
+$animation a_jumpfloat_NW_LOSER "loser_jumpNW.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_NW_LOSER X Y Z 0 0
+$animation a_jumpfloat_E_LOSER  "loser_jumpE.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_E_LOSER X Y Z 0 0
+$animation a_jumpfloat_SE_LOSER "loser_jumpSE.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_SE_LOSER X Y Z 0 0
+$animation a_jumpfloat_W_LOSER  "loser_jumpW.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_W_LOSER X Y Z 0 0
+$animation a_jumpfloat_SW_LOSER "loser_jumpSW.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_SW_LOSER X Y Z 0 0
+$animation a_jumpfloat_S_LOSER  "loser_jumpS.dmx" frames 22 23  loop  fps 30 LX LY align a_jumpstart_S_LOSER X Y Z 0 0
+$sequence jump_float_LOSER {
+	a_jumpfloat_SW_LOSER	a_jumpfloat_S_LOSER		a_jumpfloat_SE_LOSER
+	a_jumpfloat_W_LOSER		a_jumpfloat_LOSER		a_jumpfloat_E_LOSER
+	a_jumpfloat_NW_LOSER	a_jumpfloat_N_LOSER		a_jumpfloat_NE_LOSER
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer layer_PRIMARY_jump_floatNoise
+	activity ACT_MP_JUMP_FLOAT_LOSERSTATE 1
+}
+
+$sequence jumpland_LOSER {
+	"loser_jump_land.dmx"
+	subtract jumpland_LOSER 0
+	delta
+	iklock rfoot 1 0 iklock lfoot 1 0
+	activity ACT_MP_JUMP_LAND_LOSERSTATE 1
+}
+
+//================================================================================================
+// AIRWALK PRIMARY
+//================================================================================================
+$sequence layer_airwalkXtraNoise "primary_airwalk.dmx" {
+	subtract layer_airwalkXtraNoise 0
+	delta
+	loop
+	realtime
+	weightlist AirwalkNoiseBlend2
+}
+
+//trying out duping the jump float as airwalks.  the other anim i didnt like so much
+$sequence airwalk_PRIMARY {
+	a_jumpfloat_SW_PRIMARY	a_jumpfloat_S_PRIMARY		a_jumpfloat_SE_PRIMARY
+	a_jumpfloat_W_PRIMARY		a_jumpfloat_PRIMARY	a_jumpfloat_E_PRIMARY
+	a_jumpfloat_NW_PRIMARY	a_jumpfloat_N_PRIMARY		a_jumpfloat_NE_PRIMARY
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer PRIMARY_aimmatrix_idle
+	addlayer layer_airwalkXtraNoise
+	activity ACT_MP_AIRWALK_PRIMARY 1
+}
+$sequence airwalk_SECONDARY {
+	a_jumpfloat_SW_SECONDARY	a_jumpfloat_S_SECONDARY		a_jumpfloat_SE_SECONDARY
+	a_jumpfloat_W_SECONDARY		a_jumpfloat_SECONDARY	a_jumpfloat_E_SECONDARY
+	a_jumpfloat_NW_SECONDARY	a_jumpfloat_N_SECONDARY		a_jumpfloat_NE_SECONDARY
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer SECONDARY_aimmatrix_idle
+	addlayer layer_airwalkXtraNoise
+	activity ACT_MP_AIRWALK_SECONDARY 1
+}
+$sequence airwalk_MELEE {
+	a_jumpfloat_SW_MELEE	a_jumpfloat_S_MELEE		a_jumpfloat_SE_MELEE
+	a_jumpfloat_W_MELEE		a_jumpfloat_MELEE	a_jumpfloat_E_MELEE
+	a_jumpfloat_NW_MELEE	a_jumpfloat_N_MELEE		a_jumpfloat_NE_MELEE
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer MELEE_aimmatrix_idle
+	addlayer layer_airwalkXtraNoise
+	activity ACT_MP_AIRWALK_MELEE 1
+}
+$sequence airwalk_MELEE_ALLCLASS {
+	a_jumpfloat_SW_MELEE_ALLCLASS	a_jumpfloat_S_MELEE_ALLCLASS		a_jumpfloat_SE_MELEE_ALLCLASS
+	a_jumpfloat_W_MELEE_ALLCLASS		a_jumpfloat_MELEE_ALLCLASS	a_jumpfloat_E_MELEE_ALLCLASS
+	a_jumpfloat_NW_MELEE_ALLCLASS	a_jumpfloat_N_MELEE_ALLCLASS		a_jumpfloat_NE_MELEE_ALLCLASS
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer MELEE_ALLCLASS_aimmatrix_idle
+	addlayer layer_airwalkXtraNoise
+	addlayer r_armposes addlayer r_handposes
+	activity ACT_MP_AIRWALK_MELEE_ALLCLASS 1
+}
+
+$sequence airwalk_LOSER {
+	a_jumpfloat_SW_LOSER	a_jumpfloat_S_LOSER		a_jumpfloat_SE_LOSER
+	a_jumpfloat_W_LOSER		a_jumpfloat_LOSER	a_jumpfloat_E_LOSER
+	a_jumpfloat_NW_LOSER	a_jumpfloat_N_LOSER		a_jumpfloat_NE_LOSER
+	blendwidth 3 blend move_y -1 1 blend move_x -1 1
+	addlayer layer_airwalkXtraNoise
+	activity ACT_MP_AIRWALK_LOSERSTATE 1
+}
+
+//================================================================================================
+// GRAPPLE ANIMS
+//================================================================================================
+
+$sequence a_grapple_pull_start 	"grapple_jump.dmx" frames 0 26 alignto a_reference Z activity ACT_GRAPPLE_PULL_START 1 LX LY
+$sequence a_grapple_pull_idle 	"grapple_jump.dmx" frames 26 86 loop  fps 30 alignto a_reference Z activity ACT_GRAPPLE_PULL_IDLE 1 LX LY
+
+//$sequence a_grapple_wall_idle 	"grapple_wall_pose.dmx" loop  fps 30 alignto a_reference Z activity ACT_GRAPPLE_WALL_IDLE 1 LX LY
+
+
+$sequence layer_grapple_SHOOT 	"grapple_pose.dmx" frames 1 15 hidden
+$sequence a_grapple_SHOOT "grapple_pose.dmx" frames 1 15 {
+	subtract layer_grapple_SHOOT 0
+	delta
+	iklock rfoot 1 0 iklock lfoot 1 0	
+	activity ACT_GRAPPLE_FIRE_START 1
+}

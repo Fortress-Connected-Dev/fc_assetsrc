@@ -1,0 +1,108 @@
+$pushd "animations/dmx"
+
+$sequence layer_taunt01 "taunt01.dmx" fps 30 hidden
+$sequence taunt01 "taunt01.dmx" noanimation numframes 121 {
+	blendlayer layer_taunt01 0 6 110 120
+	event AE_CL_PLAYSOUND 40 "Taunt.MedicGloveStretch"
+	event AE_CL_PLAYSOUND 89 "Taunt.MedicGloveSnap"
+	event AE_WPN_HIDE 1
+	event AE_WPN_UNHIDE 120
+}
+
+$sequence layer_taunt02 "taunt02.dmx" fps 30 hidden
+$sequence taunt02 "taunt02.dmx" noanimation numframes 76 {
+	blendlayer layer_taunt02 0 6 70 76
+	event AE_WPN_HIDE 1
+	event AE_WPN_UNHIDE 75
+}
+
+$sequence layer_taunt03 "taunt03_violin.dmx" fps 30 hidden alignto Stand_MELEE
+$sequence taunt03 "taunt03_violin.dmx" noanimation numframes 121 {
+	blendlayer layer_taunt03 0 6 112 120
+	event AE_WPN_PLAYWPNSOUND 22 "TAUNT"
+}
+
+$sequence layer_taunt06 "taunt06_selfmedication.dmx" fps 30 hidden
+$sequence taunt06 "taunt06_selfmedication.dmx" noanimation numframes 121 {
+	blendlayer layer_taunt06 0 6 112 120
+}
+$sequence taunt07 "taunt06_halloween.dmx" fps 30 {
+	//blend the aimlayer.  Have it start 100% and blend out, then blend back in to 100% near the end
+	blendlayer melee_aimmatrix_idle 0 0 0 5
+	blendlayer melee_aimmatrix_idle 72 75 75 75 spline
+	event AE_WPN_HIDE 1
+	event AE_WPN_UNHIDE 74
+}
+
+$sequence layer_taunt08 "taunt08.dmx" fps 30 hidden
+$sequence taunt08 "taunt08.dmx" noanimation numframes 121 {
+	blendlayer layer_taunt08 0 5 116 121
+}
+
+$sequence layer_taunt_replay "medic_taunt_replay.dmx" fps 30 hidden
+$sequence taunt_replay "medic_taunt_replay.dmx" noanimation {
+	numframes 101
+	blendlayer layer_taunt_replay 0 5 95 100
+	ikrule lhand release range 0 5 95 100
+	event AE_WPN_HIDE 1
+	event AE_WPN_UNHIDE 99
+}
+
+$sequence layer_taunt_laugh "taunt_laugh.dmx" fps 30 hidden
+$sequence taunt_laugh "taunt_laugh.dmx" noanimation numframes 146 {
+	blendlayer layer_taunt_laugh 0 5 140 146
+	event AE_WPN_HIDE 1
+	event AE_WPN_UNHIDE 145
+
+}
+
+$sequence layer_taunt09 "taunt09.dmx" fps 30 hidden
+$sequence taunt09 "taunt09.dmx" noanimation numframes 151 {
+	blendlayer layer_taunt09 0 5 145 150
+
+}
+	
+// The MakeTaunt macro takes the sequence name, filename, loop start, loop end, frames per second, and number of frames as input arguments.
+$MakeTaunt taunt_brutallegend "taunt_brutallegend.dmx" 4 120 30 130 {
+    event AE_WPN_HIDE 0
+    event AE_WPN_UNHIDE 5
+    event AE_WPN_HIDE 119
+}   
+
+//-------------------------------------------------
+//Taunts Hi Five
+//-------------------------------------------------
+$sequence taunt_highFiveSuccess "taunt_highFiveSuccess.dmx" fps 30 {
+	numframes 121
+	event AE_WPN_HIDE 1
+	event AE_WPN_UNHIDE 120
+}
+
+$sequence taunt_highFiveSuccessFull "taunt_highFiveSuccessFull.dmx" fps 30 {
+	numframes 121
+	event AE_WPN_HIDE 1
+	event AE_WPN_UNHIDE 120
+}
+
+$sequence taunt_highFiveStart "taunt_highFiveStart.dmx" fps 30 {
+  numframes 87
+	event AE_WPN_HIDE 0
+	event AE_WPN_UNHIDE 86
+}
+
+$popd
+
+$pushd "user_animations"
+
+// Frame rate of the conga is 30.03 to match the looping music as much as possible
+$include "user_animations/taunt_conga.qci"
+$include "user_animations/taunt_dosido_medic.qci"
+$include "user_animations/taunt_flip.qci"
+$include "user_animations/taunt_rps.qci"
+$include "user_animations/taunt_headbutt_start.qci"
+$include "user_animations/taunt_headbutt_success.qci"
+$include "user_animations/taunt_xray.qci"
+$include "user_animations/taunt_vehicle_allclass.qci"
+//$include "user_animations/taunt_loot.qci"
+$include "user_animations/taunt_russian.qci"
+$popd

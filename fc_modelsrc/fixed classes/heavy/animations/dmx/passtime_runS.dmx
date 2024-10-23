@@ -1,0 +1,5849 @@
+ <!-- dmx encoding keyvalues2 1 format model 1 -->
+"DmElement"
+{
+	"name" "string" "root"
+	"exportTags" "DmElement"
+	{
+		"name" "string" "exportTags"
+		"app" "string" "sfm"
+		"appVersion" "string" "0.9.8.4"
+		"editor" "string" "CDmxAnimToV1DmxAnim"
+		"session" "string" "c:/dev/hl2_dev/art_source/models/player/heavy/passtime/src/passtime_runcenter.dmx"
+		"dstScene" "string" "C:/dev/hl2_dev/art_source/models/player/heavy/animations/dmx/passtime_runS.dmx"
+		"map" "string" "stage.bsp"
+		"clip" "string" "shot1"
+		"mdl" "string" "models/player/hwm/heavy.mdl"
+		"type" "string" "animation"
+		"frameCount" "int" "12"
+		"frameRate" "string" "24fps"
+		"frameRange" "string" "0-11x1"
+		"timeRange" "string" "0-0.5"
+		"upaxis" "string" "Y"
+		"vproject" "string" "C:\\Program Files (x86)\\Steam\\steamapps\\common\\SourceFilmmaker\\game\\usermod"
+		"date" "string" "2014/06/26"
+		"time" "string" "00:35:42"
+		"user" "string" "jlewis"
+		"machine" "string" "SCOTTPILGRIM"
+	}
+	"skeleton" "DmeModel"
+	{
+		"name" "string" "heavy1"
+		"upAxis" "string" "Y"
+		"modelname" "string" "models/player/hwm/heavy.mdl"
+		"transform" "DmeTransform"
+		{
+			"id" "elementid" "e9476193-b27c-4509-9b72-e4c80f5c9599"
+			"name" "string" "unnamed"
+			"position" "vector3" "0 0 0"
+			"orientation" "quaternion" "0 0 0 1"
+		}
+		"children" "element_array"
+		[
+			"DmeJoint"
+			{
+				"name" "string" "bip_pelvis"
+				"transform" "DmeTransform"
+				{
+					"id" "elementid" "058ad2c6-f4b9-437e-b722-6338f5a54831"
+					"name" "string" "bip_pelvis"
+					"position" "vector3" "-60.608337 0.248501 37.62553"
+					"orientation" "quaternion" "0.699332 0.462151 -0.262785 -0.477802"
+				}
+				"children" "element_array"
+				[
+					"DmeJoint"
+					{
+						"name" "string" "bip_spine_0"
+						"transform" "DmeTransform"
+						{
+							"id" "elementid" "8433cf85-29e7-47fe-8cda-59a3dc88deb5"
+							"name" "string" "bip_spine_0"
+							"position" "vector3" "1.138137 -5.957403 0.009863"
+							"orientation" "quaternion" "0.108286 0.002177 0.092333 0.98982"
+						}
+						"children" "element_array"
+						[
+							"DmeJoint"
+							{
+								"name" "string" "bip_spine_1"
+								"transform" "DmeTransform"
+								{
+									"id" "elementid" "b6d95a19-d78d-4bb2-bba5-88f5114b5c39"
+									"name" "string" "bip_spine_1"
+									"position" "vector3" "0 -7.446174 0"
+									"orientation" "quaternion" "0.102137 0.004373 -0.031475 0.994263"
+								}
+								"children" "element_array"
+								[
+									"DmeJoint"
+									{
+										"name" "string" "bip_spine_2"
+										"transform" "DmeTransform"
+										{
+											"id" "elementid" "ef1db1d6-b7d1-4a34-ad4c-c4b7a3779aae"
+											"name" "string" "bip_spine_2"
+											"position" "vector3" "0 -8.166982 0"
+											"orientation" "quaternion" "0.154001 -0.005851 -0.078771 0.984908"
+										}
+										"children" "element_array"
+										[
+											"DmeJoint"
+											{
+												"name" "string" "bip_spine_3"
+												"transform" "DmeTransform"
+												{
+													"id" "elementid" "bb4adefa-60d8-4b45-9d9e-8bb37162876f"
+													"name" "string" "bip_spine_3"
+													"position" "vector3" "0 -7.059042 0"
+													"orientation" "quaternion" "0.213726 0 0 0.976894"
+												}
+												"children" "element_array"
+												[
+													"DmeJoint"
+													{
+														"name" "string" "bip_collar_R"
+														"transform" "DmeTransform"
+														{
+															"id" "elementid" "6b876ee6-fae7-422d-a9ec-74f036fbbec0"
+															"name" "string" "bip_collar_R"
+															"position" "vector3" "-2.131756 -5.805653 -7.194977"
+															"orientation" "quaternion" "0.018376 0.156947 0.912897 0.376364"
+														}
+														"children" "element_array"
+														[
+															"DmeJoint"
+															{
+																"name" "string" "bip_upperArm_R"
+																"transform" "DmeTransform"
+																{
+																	"id" "elementid" "b267a80f-a134-440b-b7d3-4137771e4658"
+																	"name" "string" "bip_upperArm_R"
+																	"position" "vector3" "-0.000031 14.061855 0.000006"
+																	"orientation" "quaternion" "0.497409 0.779025 -0.360453 0.125612"
+																}
+																"children" "element_array"
+																[
+																	"DmeJoint"
+																	{
+																		"name" "string" "bip_lowerArm_R"
+																		"transform" "DmeTransform"
+																		{
+																			"id" "elementid" "caa647fa-1fa5-47c2-ad80-eb69992d634a"
+																			"name" "string" "bip_lowerArm_R"
+																			"position" "vector3" "17.670937 0.000008 0.000011"
+																			"orientation" "quaternion" "-0.003176 0.186038 -0.784357 0.591747"
+																		}
+																		"children" "element_array"
+																		[
+																			"DmeJoint"
+																			{
+																				"name" "string" "bip_hand_R"
+																				"transform" "DmeTransform"
+																				{
+																					"id" "elementid" "127e4510-ec30-4dac-b1e1-dfb45b33bb52"
+																					"name" "string" "bip_hand_R"
+																					"position" "vector3" "15.175549 0 -0.000018"
+																					"orientation" "quaternion" "-0.199091 -0.171605 -0.259051 0.929412"
+																				}
+																				"children" "element_array"
+																				[
+																					"DmeJoint"
+																					{
+																						"name" "string" "bip_thumb_0_R"
+																						"transform" "DmeTransform"
+																						{
+																							"id" "elementid" "de40367c-efd4-4579-bc70-7c2ea6675901"
+																							"name" "string" "bip_thumb_0_R"
+																							"position" "vector3" "2.444164 1.97459 -3.838885"
+																							"orientation" "quaternion" "-0.613711 0.235152 -0.133335 0.741811"
+																						}
+																						"children" "element_array"
+																						[
+																							"DmeJoint"
+																							{
+																								"name" "string" "bip_thumb_1_R"
+																								"transform" "DmeTransform"
+																								{
+																									"id" "elementid" "6a53b46a-b22e-46ca-b0c6-fc6015c0d2fe"
+																									"name" "string" "bip_thumb_1_R"
+																									"position" "vector3" "0.00059 4.365457 0.000408"
+																									"orientation" "quaternion" "0.406644 0.240463 0.130993 0.871584"
+																								}
+																								"children" "element_array"
+																								[
+																									"DmeJoint"
+																									{
+																										"name" "string" "bip_thumb_2_R"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "0765138f-f490-4e4e-8dd1-d3c52004206c"
+																											"name" "string" "bip_thumb_2_R"
+																											"position" "vector3" "0.000798 1.793815 -0.000239"
+																											"orientation" "quaternion" "0.285847 0 0 0.958275"
+																										}
+																									},
+																									"DmeDag"
+																									{
+																										"name" "string" "hlp_tmb_1_anterior_R"
+																										"transform" "DmeTransform"
+																										{
+																											"name" "string" "hlp_tmb_1_anterior_R"
+																											"position" "vector3" "0.000065 2.048843 0.970675"
+																											"orientation" "quaternion" "-0.153307 0 0 0.988179"
+																										}
+																									},
+																									"DmeDag"
+																									{
+																										"name" "string" "hlp_tmb_1_posterior_R"
+																										"transform" "DmeTransform"
+																										{
+																											"name" "string" "hlp_tmb_1_posterior_R"
+																											"position" "vector3" "0.000053 1.558727 -1.484011"
+																											"orientation" "quaternion" "-0.153307 0 0 0.988179"
+																										}
+																									}
+																								]
+																							}
+																						]
+																					},
+																					"DmeJoint"
+																					{
+																						"name" "string" "bip_index_0_R"
+																						"transform" "DmeTransform"
+																						{
+																							"id" "elementid" "9f87d012-61da-4fa5-91a5-981294ea27b6"
+																							"name" "string" "bip_index_0_R"
+																							"position" "vector3" "0.7531 6.860062 -4.601349"
+																							"orientation" "quaternion" "0.044985 0.657688 -0.382286 0.647519"
+																						}
+																						"children" "element_array"
+																						[
+																							"DmeJoint"
+																							{
+																								"name" "string" "bip_index_1_R"
+																								"transform" "DmeTransform"
+																								{
+																									"id" "elementid" "88fdda0b-2dd5-4577-b552-032c062d6fbf"
+																									"name" "string" "bip_index_1_R"
+																									"position" "vector3" "-0.000029 3.607401 0.000029"
+																									"orientation" "quaternion" "0.190662 0 0 0.981656"
+																								}
+																								"children" "element_array"
+																								[
+																									"DmeJoint"
+																									{
+																										"name" "string" "bip_index_2_R"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "a5ffe74a-d830-4695-b037-82c800e29867"
+																											"name" "string" "bip_index_2_R"
+																											"position" "vector3" "0.000502 2.264063 -0.00046"
+																											"orientation" "quaternion" "0.207572 0 0 0.97822"
+																										}
+																									},
+																									"DmeDag"
+																									{
+																										"name" "string" "hlp_idx_2_posterior_R"
+																										"transform" "DmeTransform"
+																										{
+																											"name" "string" "hlp_idx_2_posterior_R"
+																											"position" "vector3" "-0.011812 2.132294 -1.109957"
+																											"orientation" "quaternion" "0 0 0 1"
+																										}
+																									}
+																								]
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_idx_1_anterior_R"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_idx_1_anterior_R"
+																									"position" "vector3" "-0.03289 2.870665 1.037254"
+																									"orientation" "quaternion" "0.249839 0 0 0.968287"
+																								}
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_idx_1_posterior_R"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_idx_1_posterior_R"
+																									"position" "vector3" "-0.026701 4.341164 -1.164221"
+																									"orientation" "quaternion" "0.251562 0 0 0.967841"
+																								}
+																							}
+																						]
+																					},
+																					"DmeJoint"
+																					{
+																						"name" "string" "bip_middle_0_R"
+																						"transform" "DmeTransform"
+																						{
+																							"id" "elementid" "8ab30df4-1660-4f82-bc34-e9faed758bcc"
+																							"name" "string" "bip_middle_0_R"
+																							"position" "vector3" "0.714214 6.78351 -1.947716"
+																							"orientation" "quaternion" "0.253769 0.782603 -0.238253 0.516111"
+																						}
+																						"children" "element_array"
+																						[
+																							"DmeJoint"
+																							{
+																								"name" "string" "bip_middle_1_R"
+																								"transform" "DmeTransform"
+																								{
+																									"id" "elementid" "c071b802-84b6-44fa-b6b7-4685c08c9790"
+																									"name" "string" "bip_middle_1_R"
+																									"position" "vector3" "-0.000115 4.736286 0.002973"
+																									"orientation" "quaternion" "0.234532 0 0 0.972108"
+																								}
+																								"children" "element_array"
+																								[
+																									"DmeJoint"
+																									{
+																										"name" "string" "bip_middle_2_R"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "eaab7808-e356-4d10-9322-af06ce947248"
+																											"name" "string" "bip_middle_2_R"
+																											"position" "vector3" "-0.000003 2.758447 0.000021"
+																											"orientation" "quaternion" "0.146177 0 0 0.989259"
+																										}
+																									},
+																									"DmeDag"
+																									{
+																										"name" "string" "hlp_mid_2_posterior_R"
+																										"transform" "DmeTransform"
+																										{
+																											"name" "string" "hlp_mid_2_posterior_R"
+																											"position" "vector3" "0.059488 2.655235 -1.075161"
+																											"orientation" "quaternion" "0.004467 0 0 0.99999"
+																										}
+																									}
+																								]
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_mid_1_anterior_R"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_mid_1_anterior_R"
+																									"position" "vector3" "-0.026163 3.975235 1.417992"
+																									"orientation" "quaternion" "0.199829 0.018186 0.002109 0.97966"
+																								}
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_mid_1_posterior_R"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_mid_1_posterior_R"
+																									"position" "vector3" "0.050186 5.188076 -1.091145"
+																									"orientation" "quaternion" "0.210701 0 0 0.97755"
+																								}
+																							}
+																						]
+																					},
+																					"DmeJoint"
+																					{
+																						"name" "string" "bip_ring_0_R"
+																						"transform" "DmeTransform"
+																						{
+																							"id" "elementid" "7547fef5-e423-4e19-ad2d-aa38c62fd429"
+																							"name" "string" "bip_ring_0_R"
+																							"position" "vector3" "1.681066 6.576642 0.639781"
+																							"orientation" "quaternion" "0.331823 0.762251 -0.216764 0.511743"
+																						}
+																						"children" "element_array"
+																						[
+																							"DmeJoint"
+																							{
+																								"name" "string" "bip_ring_1_R"
+																								"transform" "DmeTransform"
+																								{
+																									"id" "elementid" "85ac2823-ab86-4541-b1d3-6cba7d83f217"
+																									"name" "string" "bip_ring_1_R"
+																									"position" "vector3" "0.00004 3.788066 -0.000269"
+																									"orientation" "quaternion" "0.169194 0 0 0.985583"
+																								}
+																								"children" "element_array"
+																								[
+																									"DmeJoint"
+																									{
+																										"name" "string" "bip_ring_2_R"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "c657b68a-655a-4f3a-9cb3-7e27015828f7"
+																											"name" "string" "bip_ring_2_R"
+																											"position" "vector3" "0.000013 2.398408 0.000014"
+																											"orientation" "quaternion" "0.148158 0 0 0.988964"
+																										}
+																									},
+																									"DmeDag"
+																									{
+																										"name" "string" "hlp_rng_2_posterior_R"
+																										"transform" "DmeTransform"
+																										{
+																											"name" "string" "hlp_rng_2_posterior_R"
+																											"position" "vector3" "-0.043247 2.362663 -1.065258"
+																											"orientation" "quaternion" "0.066865 0 0 0.997762"
+																										}
+																									}
+																								]
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_rng_1_anterior_R"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_rng_1_anterior_R"
+																									"position" "vector3" "0.087884 3.412235 1.148952"
+																									"orientation" "quaternion" "0.089525 -0.009764 -0.003866 0.995929"
+																								}
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_rng_1_posterior_R"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_rng_1_posterior_R"
+																									"position" "vector3" "-0.002855 4.13555 -1.106131"
+																									"orientation" "quaternion" "0.153624 0 0 0.988129"
+																								}
+																							}
+																						]
+																					},
+																					"DmeJoint"
+																					{
+																						"name" "string" "bip_pinky_0_R"
+																						"transform" "DmeTransform"
+																						{
+																							"id" "elementid" "f1543741-a881-420a-86da-f6082e792195"
+																							"name" "string" "bip_pinky_0_R"
+																							"position" "vector3" "2.639746 6.552764 2.64162"
+																							"orientation" "quaternion" "0.500749 0.772702 -0.166074 0.35299"
+																						}
+																						"children" "element_array"
+																						[
+																							"DmeJoint"
+																							{
+																								"name" "string" "bip_pinky_1_R"
+																								"transform" "DmeTransform"
+																								{
+																									"id" "elementid" "c83e3600-54fc-4190-a7f0-e5b0a00a28cf"
+																									"name" "string" "bip_pinky_1_R"
+																									"position" "vector3" "-0.000115 3.020862 -0.002682"
+																									"orientation" "quaternion" "0.080713 0 0 0.996737"
+																								}
+																								"children" "element_array"
+																								[
+																									"DmeJoint"
+																									{
+																										"name" "string" "bip_pinky_2_R"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "bee6aee3-d969-4bdd-a652-351385ac1102"
+																											"name" "string" "bip_pinky_2_R"
+																											"position" "vector3" "-0.000097 1.879322 -0.000269"
+																											"orientation" "quaternion" "0.222103 0 0 0.975023"
+																										}
+																									},
+																									"DmeDag"
+																									{
+																										"name" "string" "hlp_pnk_2_posterior_R"
+																										"transform" "DmeTransform"
+																										{
+																											"name" "string" "hlp_pnk_2_posterior_R"
+																											"position" "vector3" "-0.036155 1.897377 -0.856948"
+																											"orientation" "quaternion" "0.086714 0 0 0.996233"
+																										}
+																									}
+																								]
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_pnk_1_anterior_R"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_pnk_1_anterior_R"
+																									"position" "vector3" "-0.073145 2.695187 1.141883"
+																									"orientation" "quaternion" "0.119416 0.018071 0.003795 0.992673"
+																								}
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_pnk_1_posterior_R"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_pnk_1_posterior_R"
+																									"position" "vector3" "-0.034781 3.223797 -0.909951"
+																									"orientation" "quaternion" "0.142424 0 0 0.989806"
+																								}
+																							}
+																						]
+																					},
+																					"DmeJoint"
+																					{
+																						"name" "string" "weapon_bone"
+																						"transform" "DmeTransform"
+																						{
+																							"id" "elementid" "d162bea4-f648-455d-b971-13514103efcb"
+																							"name" "string" "weapon_bone"
+																							"position" "vector3" "9.576627 3.637331 -4.263577"
+																							"orientation" "quaternion" "0 0 0 1"
+																						}
+																					},
+																					"DmeJoint"
+																					{
+																						"name" "string" "weapon_bone_1"
+																						"transform" "DmeTransform"
+																						{
+																							"id" "elementid" "5504eee0-2991-4a4c-a7cc-fbc0e6fe6a0a"
+																							"name" "string" "weapon_bone_1"
+																							"position" "vector3" "4.498496 8.357073 -2.019428"
+																							"orientation" "quaternion" "-0.707107 0 0 0.707107"
+																						}
+																					}
+																				]
+																			},
+																			"DmeDag"
+																			{
+																				"name" "string" "hlp_forearm_R"
+																				"transform" "DmeTransform"
+																				{
+																					"name" "string" "hlp_forearm_R"
+																					"position" "vector3" "7.587769 0 0"
+																					"orientation" "quaternion" "-0.515382 -0.51538 -0.484131 0.484131"
+																				}
+																			}
+																		]
+																	}
+																]
+															},
+															"DmeJoint"
+															{
+																"name" "string" "prp_bullet_shoulder"
+																"transform" "DmeTransform"
+																{
+																	"id" "elementid" "931a8c00-2663-4e58-89eb-abc5343fda91"
+																	"name" "string" "prp_bullet_shoulder"
+																	"position" "vector3" "-6.06275 10.213034 1.757128"
+																	"orientation" "quaternion" "0.763499 -0.599176 0.148756 0.189552"
+																}
+															}
+														]
+													},
+													"DmeJoint"
+													{
+														"name" "string" "bip_neck"
+														"transform" "DmeTransform"
+														{
+															"id" "elementid" "94dfb5b7-1fd7-40b6-8429-54c9f4b5fe49"
+															"name" "string" "bip_neck"
+															"position" "vector3" "0 -7.667637 0"
+															"orientation" "quaternion" "0.149761 -0.017984 0.117863 0.981507"
+														}
+														"children" "element_array"
+														[
+															"DmeJoint"
+															{
+																"name" "string" "bip_head"
+																"transform" "DmeTransform"
+																{
+																	"id" "elementid" "55d9f48e-f6e6-4afc-851e-7c36e115056d"
+																	"name" "string" "bip_head"
+																	"position" "vector3" "0 -3.880657 0"
+																	"orientation" "quaternion" "-0.489896 -0.103825 0.062504 0.863317"
+																}
+															}
+														]
+													},
+													"DmeJoint"
+													{
+														"name" "string" "bip_collar_L"
+														"transform" "DmeTransform"
+														{
+															"id" "elementid" "4c1ff09e-2419-46e2-a374-170fe5fe9a5a"
+															"name" "string" "bip_collar_L"
+															"position" "vector3" "2.125913 -5.799465 -7.19825"
+															"orientation" "quaternion" "-0.714393 0.436233 -0.144897 0.527587"
+														}
+														"children" "element_array"
+														[
+															"DmeJoint"
+															{
+																"name" "string" "bip_upperArm_L"
+																"transform" "DmeTransform"
+																{
+																	"id" "elementid" "0fc9c0f1-1736-42ea-b551-42f17d8c190f"
+																	"name" "string" "bip_upperArm_L"
+																	"position" "vector3" "0.000008 -14.061882 0.000004"
+																	"orientation" "quaternion" "-0.63098 -0.031908 -0.182311 0.753399"
+																}
+																"children" "element_array"
+																[
+																	"DmeJoint"
+																	{
+																		"name" "string" "bip_lowerArm_L"
+																		"transform" "DmeTransform"
+																		{
+																			"id" "elementid" "498fa271-b342-467e-b093-f85dce749168"
+																			"name" "string" "bip_lowerArm_L"
+																			"position" "vector3" "17.670921 0.000004 -0.000012"
+																			"orientation" "quaternion" "-0.43137 -0.416351 0.671356 0.435721"
+																		}
+																		"children" "element_array"
+																		[
+																			"DmeJoint"
+																			{
+																				"name" "string" "bip_hand_L"
+																				"transform" "DmeTransform"
+																				{
+																					"id" "elementid" "dedd1a68-0b13-4d83-81ce-0681aa18daeb"
+																					"name" "string" "bip_hand_L"
+																					"position" "vector3" "15.175495 -0.000002 0"
+																					"orientation" "quaternion" "0.06599 0.362846 0.813975 0.448813"
+																				}
+																				"children" "element_array"
+																				[
+																					"DmeJoint"
+																					{
+																						"name" "string" "bip_index_0_L"
+																						"transform" "DmeTransform"
+																						{
+																							"id" "elementid" "8e7de2ae-c54e-461f-9efc-a4dff0688b5a"
+																							"name" "string" "bip_index_0_L"
+																							"position" "vector3" "-0.748655 -6.862911 4.598826"
+																							"orientation" "quaternion" "0.056201 0.728986 -0.329866 0.597167"
+																						}
+																						"children" "element_array"
+																						[
+																							"DmeJoint"
+																							{
+																								"name" "string" "bip_index_1_L"
+																								"transform" "DmeTransform"
+																								{
+																									"id" "elementid" "dbf533c4-7c0d-4f7f-8b4f-49d04ea14b7b"
+																									"name" "string" "bip_index_1_L"
+																									"position" "vector3" "0.002686 -3.600991 0.002059"
+																									"orientation" "quaternion" "0.315217 0 0 0.94902"
+																								}
+																								"children" "element_array"
+																								[
+																									"DmeJoint"
+																									{
+																										"name" "string" "bip_index_2_L"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "080405e8-9bd8-4668-8804-abc34064617f"
+																											"name" "string" "bip_index_2_L"
+																											"position" "vector3" "0.002911 -2.2617 0.002011"
+																											"orientation" "quaternion" "0.142492 0 0 0.989796"
+																										}
+																									},
+																									"DmeDag"
+																									{
+																										"name" "string" "hlp_idx_2_posterior_L"
+																										"transform" "DmeTransform"
+																										{
+																											"name" "string" "hlp_idx_2_posterior_L"
+																											"position" "vector3" "0.011816 -2.132355 1.110025"
+																											"orientation" "quaternion" "0 0 0 1"
+																										}
+																									}
+																								]
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_idx_1_anterior_L"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_idx_1_anterior_L"
+																									"position" "vector3" "0.03289 -2.870628 -1.037186"
+																									"orientation" "quaternion" "0.249839 0 0 0.968287"
+																								}
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_idx_1_posterior_L"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_idx_1_posterior_L"
+																									"position" "vector3" "0.026705 -4.341181 1.164253"
+																									"orientation" "quaternion" "0.251563 0 0 0.967841"
+																								}
+																							}
+																						]
+																					},
+																					"DmeJoint"
+																					{
+																						"name" "string" "bip_middle_0_L"
+																						"transform" "DmeTransform"
+																						{
+																							"id" "elementid" "9f13a9cb-b731-43ab-bc4c-072cf1f42cf3"
+																							"name" "string" "bip_middle_0_L"
+																							"position" "vector3" "-0.710984 -6.78537 1.945071"
+																							"orientation" "quaternion" "0.257814 0.779908 -0.270945 0.501861"
+																						}
+																						"children" "element_array"
+																						[
+																							"DmeJoint"
+																							{
+																								"name" "string" "bip_middle_1_L"
+																								"transform" "DmeTransform"
+																								{
+																									"id" "elementid" "4d61da05-4b99-49f4-b892-4bf226a911ad"
+																									"name" "string" "bip_middle_1_L"
+																									"position" "vector3" "0.002686 -4.729845 0.002073"
+																									"orientation" "quaternion" "0.259807 0 0 0.965661"
+																								}
+																								"children" "element_array"
+																								[
+																									"DmeJoint"
+																									{
+																										"name" "string" "bip_middle_2_L"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "f54a0388-e983-4acb-9533-fa08930932df"
+																											"name" "string" "bip_middle_2_L"
+																											"position" "vector3" "0.002167 -2.757674 0.00126"
+																											"orientation" "quaternion" "0.014526 0 0 0.999894"
+																										}
+																									},
+																									"DmeDag"
+																									{
+																										"name" "string" "hlp_mid_2_posterior_L"
+																										"transform" "DmeTransform"
+																										{
+																											"name" "string" "hlp_mid_2_posterior_L"
+																											"position" "vector3" "-0.059483 -2.65522 1.075124"
+																											"orientation" "quaternion" "0.004467 0 0 0.99999"
+																										}
+																									}
+																								]
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_mid_1_anterior_L"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_mid_1_anterior_L"
+																									"position" "vector3" "0.026163 -3.975273 -1.417929"
+																									"orientation" "quaternion" "0.199829 0.018186 0.002109 0.97966"
+																								}
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_mid_1_posterior_L"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_mid_1_posterior_L"
+																									"position" "vector3" "-0.05019 -5.188133 1.091202"
+																									"orientation" "quaternion" "0.210701 0 0 0.97755"
+																								}
+																							}
+																						]
+																					},
+																					"DmeJoint"
+																					{
+																						"name" "string" "bip_ring_0_L"
+																						"transform" "DmeTransform"
+																						{
+																							"id" "elementid" "9cb5c2fe-6f11-4dbe-9bd4-9ada9578cdc1"
+																							"name" "string" "bip_ring_0_L"
+																							"position" "vector3" "-1.679296 -6.578423 -0.641583"
+																							"orientation" "quaternion" "0.323645 0.743581 -0.318677 0.490699"
+																						}
+																						"children" "element_array"
+																						[
+																							"DmeJoint"
+																							{
+																								"name" "string" "bip_ring_1_L"
+																								"transform" "DmeTransform"
+																								{
+																									"id" "elementid" "7b9e9c5e-f477-4ded-9802-925df084f917"
+																									"name" "string" "bip_ring_1_L"
+																									"position" "vector3" "0.002686 -3.780722 0.00204"
+																									"orientation" "quaternion" "0.153483 0 0 0.988151"
+																								}
+																								"children" "element_array"
+																								[
+																									"DmeJoint"
+																									{
+																										"name" "string" "bip_ring_2_L"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "907c35a6-f80a-4f36-a4a5-d78e87b866dd"
+																											"name" "string" "bip_ring_2_L"
+																											"position" "vector3" "0.002167 -2.39793 0.001388"
+																											"orientation" "quaternion" "0.115307 0 0 0.99333"
+																										}
+																									},
+																									"DmeDag"
+																									{
+																										"name" "string" "hlp_rng_2_posterior_L"
+																										"transform" "DmeTransform"
+																										{
+																											"name" "string" "hlp_rng_2_posterior_L"
+																											"position" "vector3" "0.043238 -2.362705 1.065353"
+																											"orientation" "quaternion" "0.066865 0 0 0.997762"
+																										}
+																									}
+																								]
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_rng_1_anterior_L"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_rng_1_anterior_L"
+																									"position" "vector3" "-0.087892 -3.412266 -1.148876"
+																									"orientation" "quaternion" "0.089525 -0.009764 -0.003866 0.995929"
+																								}
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_rng_1_posterior_L"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_rng_1_posterior_L"
+																									"position" "vector3" "0.00285 -4.135532 1.106194"
+																									"orientation" "quaternion" "0.153624 0 0 0.988129"
+																								}
+																							}
+																						]
+																					},
+																					"DmeJoint"
+																					{
+																						"name" "string" "bip_pinky_0_L"
+																						"transform" "DmeTransform"
+																						{
+																							"id" "elementid" "a064b6d8-4116-4e76-a019-ac275b7dfb30"
+																							"name" "string" "bip_pinky_0_L"
+																							"position" "vector3" "-2.637686 -6.55592 -2.644326"
+																							"orientation" "quaternion" "0.45971 0.78174 -0.235256 0.349577"
+																						}
+																						"children" "element_array"
+																						[
+																							"DmeJoint"
+																							{
+																								"name" "string" "bip_pinky_1_L"
+																								"transform" "DmeTransform"
+																								{
+																									"id" "elementid" "6a61074f-0841-4032-aba4-6c474475793d"
+																									"name" "string" "bip_pinky_1_L"
+																									"position" "vector3" "0.002686 -3.014551 0.002018"
+																									"orientation" "quaternion" "0.124827 0 0 0.992179"
+																								}
+																								"children" "element_array"
+																								[
+																									"DmeJoint"
+																									{
+																										"name" "string" "bip_pinky_2_L"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "fd2664ca-d692-4d5c-bb77-b7a310be7765"
+																											"name" "string" "bip_pinky_2_L"
+																											"position" "vector3" "0.002167 -1.877847 0.001418"
+																											"orientation" "quaternion" "0.147492 0 0 0.989063"
+																										}
+																									},
+																									"DmeDag"
+																									{
+																										"name" "string" "hlp_pnk_2_posterior_L"
+																										"transform" "DmeTransform"
+																										{
+																											"name" "string" "hlp_pnk_2_posterior_L"
+																											"position" "vector3" "0.036149 -1.897423 0.856967"
+																											"orientation" "quaternion" "0.086714 0 0 0.996233"
+																										}
+																									}
+																								]
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_pnk_1_anterior_L"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_pnk_1_anterior_L"
+																									"position" "vector3" "0.073138 -2.69524 -1.141889"
+																									"orientation" "quaternion" "0.119416 0.018072 0.003795 0.992673"
+																								}
+																							},
+																							"DmeDag"
+																							{
+																								"name" "string" "hlp_pnk_1_posterior_L"
+																								"transform" "DmeTransform"
+																								{
+																									"name" "string" "hlp_pnk_1_posterior_L"
+																									"position" "vector3" "0.034789 -3.223793 0.909901"
+																									"orientation" "quaternion" "0.142424 0 0 0.989806"
+																								}
+																							}
+																						]
+																					},
+																					"DmeJoint"
+																					{
+																						"name" "string" "weapon_bone_L"
+																						"transform" "DmeTransform"
+																						{
+																							"id" "elementid" "bfbc5698-2fb5-4340-869e-78f9ad3f9549"
+																							"name" "string" "weapon_bone_L"
+																							"position" "vector3" "-4.96614 -6.026175 2.172701"
+																							"orientation" "quaternion" "0 0 0 1"
+																						}
+																					},
+																					"DmeJoint"
+																					{
+																						"name" "string" "bip_thumb_0_L"
+																						"transform" "DmeTransform"
+																						{
+																							"id" "elementid" "78412951-24c1-4087-9c0e-d6a061b0e8dc"
+																							"name" "string" "bip_thumb_0_L"
+																							"position" "vector3" "-2.44009 -1.97416 3.836564"
+																							"orientation" "quaternion" "-0.545206 0.353463 -0.187538 0.736644"
+																						}
+																						"children" "element_array"
+																						[
+																							"DmeJoint"
+																							{
+																								"name" "string" "bip_thumb_1_L"
+																								"transform" "DmeTransform"
+																								{
+																									"id" "elementid" "cdb02ae9-b9cb-4b8f-ab6b-2907969c0f0d"
+																									"name" "string" "bip_thumb_1_L"
+																									"position" "vector3" "0.000905 -4.364605 -0.000395"
+																									"orientation" "quaternion" "0.252247 0.200197 0.053426 0.945219"
+																								}
+																								"children" "element_array"
+																								[
+																									"DmeJoint"
+																									{
+																										"name" "string" "bip_thumb_2_L"
+																										"transform" "DmeTransform"
+																										{
+																											"id" "elementid" "68d361ce-e0d1-474d-89d1-06b9305152fd"
+																											"name" "string" "bip_thumb_2_L"
+																											"position" "vector3" "0.001293 -1.793399 -0.000809"
+																											"orientation" "quaternion" "0.273393 0 0 0.961902"
+																										}
+																									},
+																									"DmeDag"
+																									{
+																										"name" "string" "hlp_tmb_1_anterior_L"
+																										"transform" "DmeTransform"
+																										{
+																											"name" "string" "hlp_tmb_1_anterior_L"
+																											"position" "vector3" "0 -2.048824 -0.970665"
+																											"orientation" "quaternion" "-0.153307 0 0 0.988179"
+																										}
+																									},
+																									"DmeDag"
+																									{
+																										"name" "string" "hlp_tmb_1_posterior_L"
+																										"transform" "DmeTransform"
+																										{
+																											"name" "string" "hlp_tmb_1_posterior_L"
+																											"position" "vector3" "0 -1.558704 1.484015"
+																											"orientation" "quaternion" "-0.153307 0 0 0.988179"
+																										}
+																									}
+																								]
+																							}
+																						]
+																					}
+																				]
+																			},
+																			"DmeDag"
+																			{
+																				"name" "string" "hlp_forearm_L"
+																				"transform" "DmeTransform"
+																				{
+																					"name" "string" "hlp_forearm_L"
+																					"position" "vector3" "7.587749 0.000004 0"
+																					"orientation" "quaternion" "0.017916 -0.017916 0.70688 0.70688"
+																				}
+																			}
+																		]
+																	}
+																]
+															}
+														]
+													}
+												]
+											},
+											"DmeJoint"
+											{
+												"name" "string" "prp_bullet_backUpper"
+												"transform" "DmeTransform"
+												{
+													"id" "elementid" "555642f8-7dc6-4fa3-ac75-aacc0402e96f"
+													"name" "string" "prp_bullet_backUpper"
+													"position" "vector3" "-6.938559 -4.515038 6.652712"
+													"orientation" "quaternion" "0.998385 0 0 -0.056804"
+												}
+											}
+										]
+									},
+									"DmeJoint"
+									{
+										"name" "string" "prp_bullet_backLower"
+										"transform" "DmeTransform"
+										{
+											"id" "elementid" "270de841-ea4a-4863-a4e6-68d8babfeece"
+											"name" "string" "prp_bullet_backLower"
+											"position" "vector3" "4.021574 -2.633625 6.116449"
+											"orientation" "quaternion" "0.992194 0 0 -0.124704"
+										}
+									},
+									"DmeJoint"
+									{
+										"name" "string" "prp_bullet_chestUpper"
+										"transform" "DmeTransform"
+										{
+											"id" "elementid" "a9ec186c-6c5f-480d-b063-ddb0ae0ab1c8"
+											"name" "string" "prp_bullet_chestUpper"
+											"position" "vector3" "-4.963227 -6.042184 -15.050104"
+											"orientation" "quaternion" "0.975909 -0.081167 -0.041193 -0.198285"
+										}
+									}
+								]
+							},
+							"DmeJoint"
+							{
+								"name" "string" "prp_bullet_side"
+								"transform" "DmeTransform"
+								{
+									"id" "elementid" "af6c7535-ab92-45e4-8b7f-53b958dc0175"
+									"name" "string" "prp_bullet_side"
+									"position" "vector3" "13.196264 -2.004977 -4.371916"
+									"orientation" "quaternion" "0.994646 0 0 -0.103337"
+								}
+							},
+							"DmeJoint"
+							{
+								"name" "string" "prp_bullet_chestLower"
+								"transform" "DmeTransform"
+								{
+									"id" "elementid" "a2dbd954-98a8-476d-ac11-45e77f36cb42"
+									"name" "string" "prp_bullet_chestLower"
+									"position" "vector3" "4.120837 -1.191039 -16.724663"
+									"orientation" "quaternion" "0.994646 0 0 -0.103337"
+								}
+							}
+						]
+					},
+					"DmeJoint"
+					{
+						"name" "string" "bip_hip_R"
+						"transform" "DmeTransform"
+						{
+							"id" "elementid" "7e2d5301-c60d-4da7-8562-e29cb6d5472a"
+							"name" "string" "bip_hip_R"
+							"position" "vector3" "-6.057429 6.073158 -2.201429"
+							"orientation" "quaternion" "0.385605 0.332581 0.706597 0.491346"
+						}
+						"children" "element_array"
+						[
+							"DmeJoint"
+							{
+								"name" "string" "bip_knee_R"
+								"transform" "DmeTransform"
+								{
+									"id" "elementid" "4c8db691-1ccd-450a-9eb8-02c7e4d658bd"
+									"name" "string" "bip_knee_R"
+									"position" "vector3" "13.377916 0 0"
+									"orientation" "quaternion" "0 0 0.733135 0.680084"
+								}
+								"children" "element_array"
+								[
+									"DmeJoint"
+									{
+										"name" "string" "bip_foot_R"
+										"transform" "DmeTransform"
+										{
+											"id" "elementid" "b4b95d3f-ac3b-4350-9193-796a6d772717"
+											"name" "string" "bip_foot_R"
+											"position" "vector3" "16.792397 0 0.000001"
+											"orientation" "quaternion" "0.43476 0.282137 0.752195 -0.406922"
+										}
+										"children" "element_array"
+										[
+											"DmeJoint"
+											{
+												"name" "string" "bip_toe_R"
+												"transform" "DmeTransform"
+												{
+													"id" "elementid" "3410e494-84c9-4bd7-949d-2e590a9a1e7c"
+													"name" "string" "bip_toe_R"
+													"position" "vector3" "-0.000044 7.9412 -0.000006"
+													"orientation" "quaternion" "-0.129483 -0.000003 0 0.991582"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					"DmeJoint"
+					{
+						"name" "string" "bip_hip_L"
+						"transform" "DmeTransform"
+						{
+							"id" "elementid" "a0f065c3-f5a6-46a3-b6d4-c6441d90dc2c"
+							"name" "string" "bip_hip_L"
+							"position" "vector3" "6.057429 6.073148 -2.201429"
+							"orientation" "quaternion" "0.766953 0.557286 -0.198282 -0.248797"
+						}
+						"children" "element_array"
+						[
+							"DmeJoint"
+							{
+								"name" "string" "bip_knee_L"
+								"transform" "DmeTransform"
+								{
+									"id" "elementid" "6e569fff-8a18-4d35-9f8e-48441df0fd9b"
+									"name" "string" "bip_knee_L"
+									"position" "vector3" "13.377918 0 0"
+									"orientation" "quaternion" "-0.678267 0.199884 -0.199884 0.678267"
+								}
+								"children" "element_array"
+								[
+									"DmeJoint"
+									{
+										"name" "string" "bip_foot_L"
+										"transform" "DmeTransform"
+										{
+											"id" "elementid" "500d8460-fc5d-4cf9-9df9-fa55bb367f54"
+											"name" "string" "bip_foot_L"
+											"position" "vector3" "16.792404 0 0"
+											"orientation" "quaternion" "-0.398732 -0.435371 0.613631 0.524331"
+										}
+										"children" "element_array"
+										[
+											"DmeJoint"
+											{
+												"name" "string" "bip_toe_L"
+												"transform" "DmeTransform"
+												{
+													"id" "elementid" "39497f43-25bb-4527-b6ba-869ba41d0b9e"
+													"name" "string" "bip_toe_L"
+													"position" "vector3" "0 -7.941187 0"
+													"orientation" "quaternion" "-0.444381 0 0 0.895838"
+												}
+											}
+										]
+									}
+								]
+							}
+						]
+					},
+					"DmeJoint"
+					{
+						"name" "string" "prp_pack"
+						"transform" "DmeTransform"
+						{
+							"id" "elementid" "02a14907-186b-4561-b556-030a7366e88d"
+							"name" "string" "prp_pack"
+							"position" "vector3" "10.052435 2.009869 -4.948871"
+							"orientation" "quaternion" "0.969876 -0.094717 -0.208476 -0.083108"
+						}
+					}
+				]
+			},
+			"DmeJoint"
+			{
+				"name" "string" "viewTarget"
+				"transform" "DmeTransform"
+				{
+					"id" "elementid" "eabc679c-8da2-4b4b-aa03-dcc7c5be9190"
+					"name" "string" "viewTarget"
+					"position" "vector3" "32 0 64"
+					"orientation" "quaternion" "0 0 0 1"
+				}
+			}
+		]
+	}
+	"animationList" "DmeAnimationList"
+	{
+		"name" "string" "heavy1"
+		"shotTimeFrame" "DmeTimeFrame"
+		{
+			"name" "string" "shotTimeFrame"
+			"startTime" "int" "0"
+			"durationTime" "int" "4583"
+			"offseTime" "int" "0"
+			"scale" "float" "1"
+		}
+		"animations" "element_array"
+		[
+			"DmeChannelsClip"
+			{
+				"name" "string" "heavy1"
+				"timeFrame" "DmeTimeFrame"
+				{
+					"name" "string" "timeFrame"
+					"startTime" "int" "0"
+					"durationTime" "int" "4583"
+					"offseTime" "int" "0"
+					"scale" "float" "1"
+				}
+				"frameRate" "int" "24"
+				"channels" "element_array"
+				[
+					"DmeChannel"
+					{
+						"name" "string" "unnamed_p"
+						"toElement" "element" "e9476193-b27c-4509-9b72-e4c80f5c9599"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0 0 0",
+										"0 0 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "unnamed_o"
+						"toElement" "element" "e9476193-b27c-4509-9b72-e4c80f5c9599"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0 1",
+										"0 0 0 1"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_pelvis_p"
+						"toElement" "element" "058ad2c6-f4b9-437e-b722-6338f5a54831"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.011524 37.92366 -3.096505",
+										"0.629448 36.332813 -12.697163",
+										"1.039142 34.286736 -22.263287",
+										"1.237707 34.06461 -31.852436",
+										"1.157796 35.189301 -41.453026",
+										"0.789492 36.650078 -51.007698",
+										"0.248503 37.625526 -60.608337",
+										"-0.377134 37.043587 -70.191658",
+										"-0.942541 34.818523 -79.763527",
+										"-1.286315 33.870667 -89.358337",
+										"-1.319208 34.712257 -98.941704",
+										"-1.038905 36.151627 -108.519272"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_pelvis_o"
+						"toElement" "element" "058ad2c6-f4b9-437e-b722-6338f5a54831"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.972063 -0.035232 0.16655 0.161598",
+										"0.971389 -0.05629 0.173294 0.152328",
+										"0.967939 -0.088169 0.187135 0.14248",
+										"0.964685 -0.085337 0.202616 0.145078",
+										"0.961021 -0.050195 0.215655 0.165564",
+										"0.955251 -0.027966 0.223631 0.191579",
+										"0.951035 -0.011082 0.226099 0.210448",
+										"0.951442 -0.009766 0.22552 0.209294",
+										"0.956219 -0.01903 0.221367 0.190473",
+										"0.962388 -0.03767 0.211452 0.166367",
+										"0.966279 -0.070214 0.198345 0.148442",
+										"0.969602 -0.067618 0.183027 0.147654"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_spine_0_p"
+						"toElement" "element" "8433cf85-29e7-47fe-8cda-59a3dc88deb5"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0 -6.065608 0",
+										"-0.215859 -6.060605 0.000456",
+										"-0.49312 -6.045083 0.001871",
+										"-0.293198 -6.056464 0.000833",
+										"0.341766 -6.055935 0.000882",
+										"0.810142 -6.009424 0.005121",
+										"1.138137 -5.957403 0.009863",
+										"1.14222 -5.956947 0.009904",
+										"0.891177 -5.999781 0.006",
+										"0.458043 -6.043739 0.001993",
+										"-0.139356 -6.060941 0.000425",
+										"-0.267055 -6.059612 0.000547"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_spine_0_o"
+						"toElement" "element" "8433cf85-29e7-47fe-8cda-59a3dc88deb5"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.07404 -0.010158 0.053538 0.995765",
+										"0.071237 -0.004325 0.020144 0.997247",
+										"0.068081 0.001089 -0.017435 0.997527",
+										"0.070701 0.003015 -0.013078 0.997407",
+										"0.081624 0.002141 0.029761 0.996216",
+										"0.094356 0.002028 0.06552 0.993378",
+										"0.108286 0.002177 0.092333 0.98982",
+										"0.105629 0.001788 0.093228 0.990024",
+										"0.092359 0.001693 0.07561 0.99285",
+										"0.080693 0.002442 0.046989 0.995628",
+										"0.07179 0.001638 0.009417 0.997374",
+										"0.066711 -0.001461 0.012252 0.997696"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_spine_1_p"
+						"toElement" "element" "b6d95a19-d78d-4bb2-bba5-88f5114b5c39"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0 -7.446174 0",
+										"0 -7.446175 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_spine_1_o"
+						"toElement" "element" "b6d95a19-d78d-4bb2-bba5-88f5114b5c39"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.099472 0.069977 -0.016545 0.992439",
+										"0.087621 0.060191 -0.019765 0.994137",
+										"0.077685 0.049952 -0.022866 0.995463",
+										"0.081421 0.036806 -0.024724 0.995693",
+										"0.098615 0.021067 -0.025046 0.994587",
+										"0.106224 0.009194 -0.026574 0.993945",
+										"0.102137 0.004373 -0.031475 0.994263",
+										"0.090781 0.007195 -0.032576 0.995312",
+										"0.074662 0.018676 -0.025901 0.996698",
+										"0.0709 0.030687 -0.020627 0.996798",
+										"0.088239 0.041396 -0.01319 0.995151",
+										"0.105367 0.052388 -0.006882 0.993029"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_spine_2_p"
+						"toElement" "element" "ef1db1d6-b7d1-4a34-ad4c-c4b7a3779aae"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0 -8.166982 0",
+										"0 -8.166982 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_spine_2_o"
+						"toElement" "element" "ef1db1d6-b7d1-4a34-ad4c-c4b7a3779aae"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.142529 0.045737 -0.078696 0.985596",
+										"0.143072 0.041985 -0.079779 0.985598",
+										"0.144975 0.033293 -0.080668 0.985579",
+										"0.151371 0.021524 -0.078339 0.985133",
+										"0.162422 0.008935 -0.070945 0.984127",
+										"0.164951 -0.000916 -0.069065 0.98388",
+										"0.154001 -0.005851 -0.078771 0.984908",
+										"0.14416 -0.003892 -0.080784 0.986244",
+										"0.137119 0.004563 -0.072492 0.987888",
+										"0.136272 0.014369 -0.066117 0.988358",
+										"0.138418 0.024382 -0.065544 0.987902",
+										"0.140082 0.034296 -0.066267 0.987325"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_spine_3_p"
+						"toElement" "element" "bb4adefa-60d8-4b45-9d9e-8bb37162876f"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0 -7.059042 0",
+										"0 -7.059042 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_spine_3_o"
+						"toElement" "element" "bb4adefa-60d8-4b45-9d9e-8bb37162876f"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2917",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.213726 0 0 0.976894",
+										"0.213726 0 0 0.976894",
+										"0.213726 0 0 0.976894",
+										"0.213726 0 0 0.976894",
+										"0.213726 0 0 0.976894",
+										"0.213726 0 0 0.976894",
+										"0.213726 0 0 0.976894",
+										"0.213726 0 0 0.976894"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_collar_R_p"
+						"toElement" "element" "6b876ee6-fae7-422d-a9ec-74f036fbbec0"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-2.131758 -5.805637 -7.194981",
+										"-2.131756 -5.805656 -7.194981",
+										"-2.131755 -5.805649 -7.194981",
+										"-2.131757 -5.805642 -7.19498",
+										"-2.131757 -5.805656 -7.194973",
+										"-2.131757 -5.80564 -7.19498",
+										"-2.131756 -5.805653 -7.194977",
+										"-2.131757 -5.805645 -7.194979",
+										"-2.131758 -5.805653 -7.194981",
+										"-2.131756 -5.805647 -7.194977",
+										"-2.131755 -5.805648 -7.194981",
+										"-2.131757 -5.805643 -7.194983"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_collar_R_o"
+						"toElement" "element" "6b876ee6-fae7-422d-a9ec-74f036fbbec0"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"1667",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.018376 0.156947 0.912897 0.376364",
+										"0.018376 0.156947 0.912897 0.376364",
+										"0.018376 0.156947 0.912897 0.376364",
+										"0.018376 0.156947 0.912897 0.376364"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_upperArm_R_p"
+						"toElement" "element" "b267a80f-a134-440b-b7d3-4137771e4658"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-0.000038 14.061863 0.000012",
+										"-0.000034 14.061863 0.000007",
+										"-0.000034 14.061866 0.000007",
+										"-0.000031 14.061872 0.000004",
+										"-0.000034 14.061864 0.000008",
+										"-0.000037 14.061861 0.000011",
+										"-0.000034 14.061855 0.000006",
+										"-0.000035 14.061863 0.000011",
+										"-0.000034 14.061871 0.000006",
+										"-0.000032 14.061865 0.000005",
+										"-0.000036 14.061863 0.000009",
+										"-0.000036 14.061867 0.000008"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_upperArm_R_o"
+						"toElement" "element" "b267a80f-a134-440b-b7d3-4137771e4658"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.383841 0.755637 -0.102225 0.520796",
+										"-0.38384 0.755637 -0.102225 0.520797",
+										"-0.38384 0.755637 -0.102225 0.520797",
+										"-0.38384 0.755637 -0.102226 0.520797",
+										"-0.383841 0.755637 -0.102226 0.520796",
+										"-0.383841 0.755637 -0.102225 0.520796",
+										"-0.383841 0.755637 -0.102225 0.520796",
+										"-0.38384 0.755637 -0.102226 0.520797",
+										"-0.38384 0.755637 -0.102226 0.520797",
+										"-0.38384 0.755637 -0.102225 0.520797",
+										"-0.38384 0.755637 -0.102226 0.520797"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_lowerArm_R_p"
+						"toElement" "element" "caa647fa-1fa5-47c2-ad80-eb69992d634a"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-0.000028 17.670933 0",
+										"-0.000028 17.670933 0.000003",
+										"-0.00003 17.670933 -0.000003",
+										"-0.000043 17.670935 -0.000008",
+										"-0.000028 17.670937 0.000005",
+										"-0.000027 17.670933 0.000002",
+										"-0.000024 17.670937 0.000013",
+										"-0.000025 17.670931 0.000002",
+										"-0.000032 17.670933 0",
+										"-0.000027 17.670931 -0.000005",
+										"-0.000027 17.670938 -0.000008",
+										"-0.000035 17.670935 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_lowerArm_R_o"
+						"toElement" "element" "caa647fa-1fa5-47c2-ad80-eb69992d634a"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.784357 -0.003176 0.186039 0.591746",
+										"-0.784358 -0.003176 0.186039 0.591745",
+										"-0.784357 -0.003176 0.186039 0.591746",
+										"-0.784358 -0.003176 0.186039 0.591745",
+										"-0.784358 -0.003176 0.186039 0.591745",
+										"-0.784357 -0.003176 0.186039 0.591746",
+										"-0.784357 -0.003176 0.186039 0.591746",
+										"-0.784358 -0.003176 0.186039 0.591745",
+										"-0.784358 -0.003176 0.186039 0.591745",
+										"-0.784357 -0.003176 0.186039 0.591746",
+										"-0.784357 -0.003176 0.186039 0.591746"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_hand_R_p"
+						"toElement" "element" "127e4510-ec30-4dac-b1e1-dfb45b33bb52"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.000003 15.175532 0.000011",
+										"0.000011 15.175528 0.000017",
+										"0.000012 15.175527 0.000018",
+										"0.000026 15.175527 0.00002",
+										"0.000012 15.17553 0.000018",
+										"0.000004 15.175535 0.000011",
+										"0.000008 15.175548 0.000011",
+										"0.000008 15.175539 0.000013",
+										"0.00002 15.175532 0.000011",
+										"0.000015 15.175528 0.00002",
+										"0.000012 15.175529 0.000018",
+										"0.000021 15.175536 0.000007"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_hand_R_o"
+						"toElement" "element" "127e4510-ec30-4dac-b1e1-dfb45b33bb52"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.321437 0.408883 0.348922 0.779581",
+										"0.321437 0.408883 0.348922 0.779581",
+										"0.321437 0.408882 0.348922 0.779581",
+										"0.321438 0.408882 0.348922 0.779581",
+										"0.321437 0.408883 0.348922 0.779581",
+										"0.321438 0.408883 0.348923 0.77958",
+										"0.321437 0.408882 0.348922 0.779581",
+										"0.321438 0.408882 0.348922 0.779581",
+										"0.321438 0.408882 0.348922 0.779581",
+										"0.321438 0.408883 0.348923 0.77958",
+										"0.321437 0.408882 0.348922 0.779581"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_thumb_0_R_p"
+						"toElement" "element" "de40367c-efd4-4579-bc70-7c2ea6675901"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"2.444164 1.97459 -3.838885",
+										"2.444164 1.97459 -3.838885"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_thumb_0_R_o"
+						"toElement" "element" "de40367c-efd4-4579-bc70-7c2ea6675901"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.613711 0.235152 -0.133335 0.741811",
+										"-0.613711 0.235152 -0.133335 0.741811",
+										"-0.613711 0.235152 -0.133335 0.741811",
+										"-0.613711 0.235152 -0.133335 0.741811",
+										"-0.613711 0.235152 -0.133335 0.741811",
+										"-0.613711 0.235152 -0.133335 0.741811",
+										"-0.613711 0.235152 -0.133335 0.741811",
+										"-0.613711 0.235152 -0.133335 0.741811",
+										"-0.613711 0.235152 -0.133335 0.741811",
+										"-0.613711 0.235152 -0.133335 0.741811",
+										"-0.613711 0.235152 -0.133335 0.741811",
+										"-0.613711 0.235152 -0.133335 0.741811"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_thumb_1_R_p"
+						"toElement" "element" "6a53b46a-b22e-46ca-b0c6-fc6015c0d2fe"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.00059 4.365457 0.000408",
+										"0.00059 4.365457 0.000408"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_thumb_1_R_o"
+						"toElement" "element" "6a53b46a-b22e-46ca-b0c6-fc6015c0d2fe"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.406644 0.240463 0.130993 0.871584",
+										"0.406644 0.240463 0.130993 0.871584",
+										"0.406644 0.240463 0.130993 0.871584",
+										"0.406644 0.240463 0.130993 0.871584",
+										"0.406644 0.240463 0.130993 0.871584",
+										"0.406644 0.240463 0.130993 0.871584",
+										"0.406644 0.240463 0.130993 0.871584",
+										"0.406644 0.240463 0.130993 0.871584",
+										"0.406644 0.240463 0.130993 0.871584",
+										"0.406644 0.240463 0.130993 0.871584",
+										"0.406644 0.240463 0.130993 0.871584",
+										"0.406644 0.240463 0.130993 0.871584"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_thumb_2_R_p"
+						"toElement" "element" "0765138f-f490-4e4e-8dd1-d3c52004206c"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.000798 1.793815 -0.000239",
+										"0.000798 1.793815 -0.000239"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_thumb_2_R_o"
+						"toElement" "element" "0765138f-f490-4e4e-8dd1-d3c52004206c"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"833",
+										"1667",
+										"2500",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.285847 0 0 0.958275",
+										"0.285847 0 0 0.958275",
+										"0.285847 0 0 0.958275",
+										"0.285847 0 0 0.958275",
+										"0.285847 0 0 0.958275"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_index_0_R_p"
+						"toElement" "element" "9f87d012-61da-4fa5-91a5-981294ea27b6"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.7531 6.860062 -4.601349",
+										"0.7531 6.860062 -4.601349"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_index_0_R_o"
+						"toElement" "element" "9f87d012-61da-4fa5-91a5-981294ea27b6"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.044985 0.657688 -0.382286 0.647519",
+										"0.044985 0.657688 -0.382286 0.647519",
+										"0.044985 0.657688 -0.382286 0.647519",
+										"0.044985 0.657688 -0.382286 0.647519",
+										"0.044985 0.657688 -0.382286 0.647519",
+										"0.044985 0.657688 -0.382286 0.647519",
+										"0.044985 0.657688 -0.382286 0.647519",
+										"0.044985 0.657688 -0.382286 0.647519",
+										"0.044985 0.657688 -0.382286 0.647519",
+										"0.044985 0.657688 -0.382286 0.647519",
+										"0.044985 0.657688 -0.382286 0.647519",
+										"0.044985 0.657688 -0.382286 0.647519"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_index_1_R_p"
+						"toElement" "element" "88fdda0b-2dd5-4577-b552-032c062d6fbf"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-0.000029 3.607401 0.000029",
+										"-0.000029 3.607401 0.000029"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_index_1_R_o"
+						"toElement" "element" "88fdda0b-2dd5-4577-b552-032c062d6fbf"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.190662 0 0 0.981656",
+										"0.190662 0 0 0.981656",
+										"0.190662 0 0 0.981656",
+										"0.190662 0 0 0.981656",
+										"0.190662 0 0 0.981656",
+										"0.190662 0 0 0.981656",
+										"0.190662 0 0 0.981656",
+										"0.190662 0 0 0.981656",
+										"0.190662 0 0 0.981656",
+										"0.190662 0 0 0.981656",
+										"0.190662 0 0 0.981656"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_index_2_R_p"
+						"toElement" "element" "a5ffe74a-d830-4695-b037-82c800e29867"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.000502 2.264063 -0.00046",
+										"0.000502 2.264063 -0.00046"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_index_2_R_o"
+						"toElement" "element" "a5ffe74a-d830-4695-b037-82c800e29867"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"833",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.207572 0 0 0.97822",
+										"0.207572 0 0 0.97822",
+										"0.207572 0 0 0.97822"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_middle_0_R_p"
+						"toElement" "element" "8ab30df4-1660-4f82-bc34-e9faed758bcc"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.714214 6.78351 -1.947716",
+										"0.714214 6.78351 -1.947716"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_middle_0_R_o"
+						"toElement" "element" "8ab30df4-1660-4f82-bc34-e9faed758bcc"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.253769 0.782603 -0.238253 0.516111",
+										"0.253769 0.782603 -0.238253 0.516111",
+										"0.253769 0.782603 -0.238253 0.516111",
+										"0.253769 0.782603 -0.238253 0.516111",
+										"0.253769 0.782603 -0.238253 0.516111",
+										"0.253769 0.782603 -0.238253 0.516111",
+										"0.253769 0.782603 -0.238253 0.516111",
+										"0.253769 0.782603 -0.238253 0.516111",
+										"0.253769 0.782603 -0.238253 0.516111",
+										"0.253769 0.782603 -0.238253 0.516111",
+										"0.253769 0.782603 -0.238253 0.516111",
+										"0.253769 0.782603 -0.238253 0.516111"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_middle_1_R_p"
+						"toElement" "element" "c071b802-84b6-44fa-b6b7-4685c08c9790"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-0.000115 4.736286 0.002973",
+										"-0.000115 4.736286 0.002973"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_middle_1_R_o"
+						"toElement" "element" "c071b802-84b6-44fa-b6b7-4685c08c9790"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"833",
+										"2083",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.234532 0 0 0.972108",
+										"0.234532 0 0 0.972108",
+										"0.234532 0 0 0.972108",
+										"0.234532 0 0 0.972108"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_middle_2_R_p"
+						"toElement" "element" "eaab7808-e356-4d10-9322-af06ce947248"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-0.000003 2.758447 0.000021",
+										"-0.000003 2.758447 0.000021"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_middle_2_R_o"
+						"toElement" "element" "eaab7808-e356-4d10-9322-af06ce947248"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"1667",
+										"2083",
+										"2500",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.146177 0 0 0.989259",
+										"0.146177 0 0 0.989259",
+										"0.146177 0 0 0.989258",
+										"0.146177 0 0 0.989259",
+										"0.146177 0 0 0.989259"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_ring_0_R_p"
+						"toElement" "element" "7547fef5-e423-4e19-ad2d-aa38c62fd429"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"1.681066 6.576642 0.639781",
+										"1.681066 6.576642 0.639781"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_ring_0_R_o"
+						"toElement" "element" "7547fef5-e423-4e19-ad2d-aa38c62fd429"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.331823 0.762251 -0.216764 0.511743",
+										"0.331823 0.762251 -0.216764 0.511743",
+										"0.331823 0.762251 -0.216764 0.511743",
+										"0.331823 0.762251 -0.216764 0.511743",
+										"0.331823 0.762251 -0.216764 0.511743",
+										"0.331823 0.762251 -0.216764 0.511743",
+										"0.331823 0.762251 -0.216764 0.511743",
+										"0.331823 0.762251 -0.216764 0.511743",
+										"0.331823 0.762251 -0.216764 0.511743",
+										"0.331823 0.762251 -0.216764 0.511743",
+										"0.331823 0.762251 -0.216764 0.511743",
+										"0.331823 0.762251 -0.216764 0.511743"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_ring_1_R_p"
+						"toElement" "element" "85ac2823-ab86-4541-b1d3-6cba7d83f217"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.00004 3.788066 -0.000269",
+										"0.00004 3.788066 -0.000269"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_ring_1_R_o"
+						"toElement" "element" "85ac2823-ab86-4541-b1d3-6cba7d83f217"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3750",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.169194 0 0 0.985583",
+										"0.169194 0 0 0.985583",
+										"0.169194 0 0 0.985583",
+										"0.169194 0 0 0.985583",
+										"0.169194 0 0 0.985583",
+										"0.169194 0 0 0.985583",
+										"0.169194 0 0 0.985583",
+										"0.169194 0 0 0.985583",
+										"0.169194 0 0 0.985583"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_ring_2_R_p"
+						"toElement" "element" "c657b68a-655a-4f3a-9cb3-7e27015828f7"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.000013 2.398408 0.000014",
+										"0.000013 2.398408 0.000014"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_ring_2_R_o"
+						"toElement" "element" "c657b68a-655a-4f3a-9cb3-7e27015828f7"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1667",
+										"2500",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.148158 0 0 0.988964",
+										"0.148158 0 0 0.988964",
+										"0.148158 0 0 0.988964",
+										"0.148158 0 0 0.988964",
+										"0.148158 0 0 0.988964",
+										"0.148158 0 0 0.988964",
+										"0.148158 0 0 0.988964",
+										"0.148158 0 0 0.988964",
+										"0.148158 0 0 0.988964"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_pinky_0_R_p"
+						"toElement" "element" "f1543741-a881-420a-86da-f6082e792195"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"2.639746 6.552764 2.64162",
+										"2.639746 6.552764 2.64162"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_pinky_0_R_o"
+						"toElement" "element" "f1543741-a881-420a-86da-f6082e792195"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.500749 0.772702 -0.166074 0.35299",
+										"0.500749 0.772702 -0.166074 0.35299",
+										"0.500749 0.772702 -0.166074 0.35299",
+										"0.500749 0.772702 -0.166074 0.35299",
+										"0.500749 0.772702 -0.166074 0.35299",
+										"0.500749 0.772702 -0.166074 0.35299",
+										"0.500749 0.772702 -0.166074 0.35299",
+										"0.500749 0.772702 -0.166074 0.35299",
+										"0.500749 0.772702 -0.166074 0.35299",
+										"0.500749 0.772702 -0.166074 0.35299",
+										"0.500749 0.772702 -0.166074 0.35299",
+										"0.500749 0.772702 -0.166074 0.35299"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_pinky_1_R_p"
+						"toElement" "element" "c83e3600-54fc-4190-a7f0-e5b0a00a28cf"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-0.000115 3.020862 -0.002682",
+										"-0.000115 3.020862 -0.002682"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_pinky_1_R_o"
+						"toElement" "element" "c83e3600-54fc-4190-a7f0-e5b0a00a28cf"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"2083",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.080713 0 0 0.996737",
+										"0.080713 0 0 0.996737",
+										"0.080713 0 0 0.996737"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_pinky_2_R_p"
+						"toElement" "element" "bee6aee3-d969-4bdd-a652-351385ac1102"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-0.000097 1.879322 -0.000269",
+										"-0.000097 1.879322 -0.000269"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_pinky_2_R_o"
+						"toElement" "element" "bee6aee3-d969-4bdd-a652-351385ac1102"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"1667",
+										"2500",
+										"2917",
+										"3750",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.222103 0 0 0.975023",
+										"0.222103 0 0 0.975023",
+										"0.222103 0 0 0.975023",
+										"0.222103 0 0 0.975023",
+										"0.222103 0 0 0.975023",
+										"0.222103 0 0 0.975023"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "weapon_bone_p"
+						"toElement" "element" "d162bea4-f648-455d-b971-13514103efcb"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"9.576627 3.637331 -4.263577",
+										"9.576627 3.637331 -4.263577"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "weapon_bone_o"
+						"toElement" "element" "d162bea4-f648-455d-b971-13514103efcb"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0 1",
+										"0 0 0 1"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "weapon_bone_1_p"
+						"toElement" "element" "5504eee0-2991-4a4c-a7cc-fbc0e6fe6a0a"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"4.498496 8.357073 -2.019428",
+										"4.498496 8.357073 -2.019428"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "weapon_bone_1_o"
+						"toElement" "element" "5504eee0-2991-4a4c-a7cc-fbc0e6fe6a0a"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.707107 0 0 0.707107",
+										"-0.707107 0 0 0.707107"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "prp_bullet_shoulder_p"
+						"toElement" "element" "931a8c00-2663-4e58-89eb-abc5343fda91"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-6.06275 10.213034 1.757128",
+										"-6.06275 10.213034 1.757128"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "prp_bullet_shoulder_o"
+						"toElement" "element" "931a8c00-2663-4e58-89eb-abc5343fda91"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.763499 -0.599176 0.148756 0.189552",
+										"0.763499 -0.599176 0.148756 0.189552",
+										"0.763499 -0.599176 0.148756 0.189552",
+										"0.763499 -0.599176 0.148756 0.189552",
+										"0.763499 -0.599176 0.148756 0.189552",
+										"0.763499 -0.599176 0.148756 0.189552",
+										"0.763499 -0.599176 0.148756 0.189552",
+										"0.763499 -0.599176 0.148756 0.189552",
+										"0.763499 -0.599176 0.148756 0.189552",
+										"0.763499 -0.599176 0.148756 0.189552",
+										"0.763499 -0.599176 0.148756 0.189552"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_neck_p"
+						"toElement" "element" "94dfb5b7-1fd7-40b6-8429-54c9f4b5fe49"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0 -7.667637 0",
+										"0 -7.667637 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_neck_o"
+						"toElement" "element" "94dfb5b7-1fd7-40b6-8429-54c9f4b5fe49"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.149761 -0.017984 0.117863 0.981507",
+										"0.149761 -0.017984 0.117863 0.981507",
+										"0.149761 -0.017984 0.117863 0.981507",
+										"0.149761 -0.017984 0.117863 0.981507",
+										"0.149761 -0.017984 0.117863 0.981507",
+										"0.149761 -0.017984 0.117863 0.981507",
+										"0.149761 -0.017984 0.117863 0.981507",
+										"0.149761 -0.017984 0.117863 0.981507",
+										"0.149761 -0.017984 0.117863 0.981507",
+										"0.149761 -0.017984 0.117863 0.981507"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_head_p"
+						"toElement" "element" "55d9f48e-f6e6-4afc-851e-7c36e115056d"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0 -3.880657 0",
+										"0 -3.880657 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_head_o"
+						"toElement" "element" "55d9f48e-f6e6-4afc-851e-7c36e115056d"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.485471 -0.151075 0.054592 0.859369",
+										"-0.476881 -0.137889 0.06422 0.865706",
+										"-0.468494 -0.129437 0.070524 0.871083",
+										"-0.477084 -0.121008 0.070985 0.867588",
+										"-0.501686 -0.110996 0.065282 0.855412",
+										"-0.505434 -0.106675 0.058186 0.854266",
+										"-0.489896 -0.103825 0.062504 0.863317",
+										"-0.470057 -0.108986 0.060639 0.87378",
+										"-0.455165 -0.126638 0.049824 0.879946",
+										"-0.459469 -0.136441 0.046056 0.876442",
+										"-0.479251 -0.14125 0.044501 0.865093",
+										"-0.493321 -0.147228 0.041299 0.856302"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_collar_L_p"
+						"toElement" "element" "4c1ff09e-2419-46e2-a374-170fe5fe9a5a"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"2.125914 -5.799454 -7.198246",
+										"2.125916 -5.799469 -7.198253",
+										"2.125916 -5.799465 -7.198246",
+										"2.125914 -5.799458 -7.198244",
+										"2.125914 -5.799469 -7.198242",
+										"2.125914 -5.799456 -7.198246",
+										"2.125913 -5.799465 -7.19825",
+										"2.125914 -5.799458 -7.198246",
+										"2.125913 -5.799459 -7.198241",
+										"2.125913 -5.799462 -7.198242",
+										"2.125913 -5.799461 -7.198243",
+										"2.125913 -5.799458 -7.198246"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_collar_L_o"
+						"toElement" "element" "4c1ff09e-2419-46e2-a374-170fe5fe9a5a"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.714393 0.436233 -0.144897 0.527587",
+										"-0.714393 0.436233 -0.144897 0.527587",
+										"-0.714393 0.436234 -0.144897 0.527586",
+										"-0.714393 0.436233 -0.144897 0.527587",
+										"-0.714393 0.436234 -0.144897 0.527586",
+										"-0.714393 0.436233 -0.144897 0.527587",
+										"-0.714393 0.436233 -0.144897 0.527587",
+										"-0.714393 0.436233 -0.144897 0.527587",
+										"-0.714393 0.436233 -0.144897 0.527587",
+										"-0.714393 0.436234 -0.144897 0.527586",
+										"-0.714393 0.436233 -0.144897 0.527586",
+										"-0.714393 0.436233 -0.144897 0.527586"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_upperArm_L_p"
+						"toElement" "element" "0fc9c0f1-1736-42ea-b551-42f17d8c190f"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.000009 -14.061878 0",
+										"0.000006 -14.061874 0",
+										"0 -14.061876 0.000004",
+										"-0.000004 -14.061878 -0.000002",
+										"-0.000006 -14.061875 0.000004",
+										"0.000009 -14.061879 0",
+										"0.000009 -14.061882 0.000004",
+										"0.000006 -14.061877 0.000003",
+										"-0.000002 -14.061874 0.000007",
+										"0 -14.061873 0.000003",
+										"0.000004 -14.061876 0",
+										"0.000003 -14.061878 0.000002"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_upperArm_L_o"
+						"toElement" "element" "0fc9c0f1-1736-42ea-b551-42f17d8c190f"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.616987 0.767391 -0.0459 0.168319",
+										"-0.616987 0.767391 -0.0459 0.168319",
+										"-0.616988 0.76739 -0.0459 0.168319",
+										"-0.616988 0.76739 -0.0459 0.168319",
+										"-0.616988 0.76739 -0.0459 0.168319",
+										"-0.616987 0.767391 -0.0459 0.168319",
+										"-0.616988 0.767391 -0.0459 0.168319",
+										"-0.616987 0.767391 -0.0459 0.168319",
+										"-0.616988 0.76739 -0.0459 0.168319",
+										"-0.616988 0.76739 -0.0459 0.168319",
+										"-0.616988 0.767391 -0.0459 0.168318",
+										"-0.616987 0.767391 -0.0459 0.168319"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_lowerArm_L_p"
+						"toElement" "element" "498fa271-b342-467e-b093-f85dce749168"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.000011 -17.670931 -0.000004",
+										"0.000007 -17.670927 0",
+										"0.000001 -17.670921 0.000002",
+										"0.000003 -17.670923 0.000003",
+										"0.000011 -17.670929 -0.000003",
+										"0.000011 -17.670923 0.000004",
+										"0.000008 -17.670929 0.000005",
+										"0 -17.670918 0.000004",
+										"0 -17.670918 0.000004",
+										"0.000006 -17.670925 0.000007",
+										"0.000005 -17.670923 0.000005"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_lowerArm_L_o"
+						"toElement" "element" "498fa271-b342-467e-b093-f85dce749168"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.769124 -0.003077 0.180315 0.613127",
+										"-0.769124 -0.003077 0.180316 0.613127",
+										"-0.769124 -0.003077 0.180316 0.613127",
+										"-0.769125 -0.003077 0.180315 0.613127",
+										"-0.769125 -0.003078 0.180316 0.613126",
+										"-0.769124 -0.003077 0.180315 0.613127",
+										"-0.769125 -0.003077 0.180316 0.613126",
+										"-0.769124 -0.003077 0.180316 0.613127",
+										"-0.769125 -0.003078 0.180316 0.613126",
+										"-0.769124 -0.003077 0.180315 0.613127",
+										"-0.769124 -0.003077 0.180315 0.613128",
+										"-0.769124 -0.003077 0.180315 0.613127"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_hand_L_p"
+						"toElement" "element" "dedd1a68-0b13-4d83-81ce-0681aa18daeb"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-0.000003 -15.17549 0.000007",
+										"-0.000003 -15.175488 0.000007",
+										"-0.000003 -15.175492 -0.000004",
+										"0 -15.175498 -0.000008",
+										"0 -15.175502 -0.000008",
+										"-0.000003 -15.17549 0.000006",
+										"-0.000002 -15.175494 0",
+										"0 -15.175489 -0.000002",
+										"-0.000005 -15.175502 -0.000008",
+										"0 -15.175498 -0.000006",
+										"-0.000002 -15.175495 -0.000003",
+										"-0.000003 -15.175492 -0.000004"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_hand_L_o"
+						"toElement" "element" "dedd1a68-0b13-4d83-81ce-0681aa18daeb"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.303232 0.209909 0.258208 0.892926",
+										"0.303232 0.209909 0.258208 0.892926",
+										"0.303232 0.209909 0.258208 0.892926",
+										"0.303231 0.209909 0.258208 0.892927",
+										"0.303233 0.209909 0.258208 0.892926",
+										"0.303232 0.209909 0.258208 0.892926",
+										"0.303233 0.209909 0.258208 0.892926",
+										"0.303232 0.20991 0.258207 0.892926",
+										"0.303232 0.209909 0.258208 0.892926",
+										"0.303232 0.209909 0.258208 0.892926",
+										"0.303232 0.209909 0.258208 0.892926",
+										"0.303232 0.20991 0.258207 0.892926"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_index_0_L_p"
+						"toElement" "element" "8e7de2ae-c54e-461f-9efc-a4dff0688b5a"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-0.748655 -6.862911 4.598826",
+										"-0.748655 -6.862911 4.598826"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_index_0_L_o"
+						"toElement" "element" "8e7de2ae-c54e-461f-9efc-a4dff0688b5a"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"1250",
+										"2500",
+										"3750",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.056201 0.728986 -0.329866 0.597167",
+										"0.056201 0.728986 -0.329866 0.597167",
+										"0.056201 0.728986 -0.329866 0.597167",
+										"0.056201 0.728986 -0.329866 0.597167",
+										"0.056201 0.728986 -0.329866 0.597167"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_index_1_L_p"
+						"toElement" "element" "dbf533c4-7c0d-4f7f-8b4f-49d04ea14b7b"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.002686 -3.600991 0.002059",
+										"0.002686 -3.600991 0.002059"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_index_1_L_o"
+						"toElement" "element" "dbf533c4-7c0d-4f7f-8b4f-49d04ea14b7b"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"3750",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.315217 0 0 0.94902",
+										"0.315217 0 0 0.94902",
+										"0.315217 0 0 0.94902"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_index_2_L_p"
+						"toElement" "element" "080405e8-9bd8-4668-8804-abc34064617f"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.002911 -2.2617 0.002011",
+										"0.002911 -2.2617 0.002011"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_index_2_L_o"
+						"toElement" "element" "080405e8-9bd8-4668-8804-abc34064617f"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"1667",
+										"2083",
+										"2917",
+										"3333",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.142492 0 0 0.989796",
+										"0.142492 0 0 0.989796",
+										"0.142492 0 0 0.989796",
+										"0.142492 0 0 0.989796",
+										"0.142492 0 0 0.989796",
+										"0.142492 0 0 0.989796"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_middle_0_L_p"
+						"toElement" "element" "9f13a9cb-b731-43ab-bc4c-072cf1f42cf3"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-0.710984 -6.78537 1.945071",
+										"-0.710984 -6.78537 1.945071"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_middle_0_L_o"
+						"toElement" "element" "9f13a9cb-b731-43ab-bc4c-072cf1f42cf3"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.257814 0.779908 -0.270945 0.501861",
+										"0.257814 0.779908 -0.270945 0.501861",
+										"0.257814 0.779908 -0.270945 0.501861",
+										"0.257814 0.779908 -0.270945 0.501861",
+										"0.257814 0.779908 -0.270945 0.501861",
+										"0.257814 0.779908 -0.270945 0.501861",
+										"0.257814 0.779908 -0.270945 0.501861",
+										"0.257814 0.779908 -0.270945 0.501861",
+										"0.257814 0.779908 -0.270945 0.501861",
+										"0.257814 0.779908 -0.270945 0.501861",
+										"0.257814 0.779908 -0.270945 0.501861",
+										"0.257814 0.779908 -0.270945 0.501861"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_middle_1_L_p"
+						"toElement" "element" "4d61da05-4b99-49f4-b892-4bf226a911ad"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.002686 -4.729845 0.002073",
+										"0.002686 -4.729845 0.002073"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_middle_1_L_o"
+						"toElement" "element" "4d61da05-4b99-49f4-b892-4bf226a911ad"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"1250",
+										"1667",
+										"2083",
+										"2917",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.259807 0 0 0.965661",
+										"0.259807 0 0 0.965661",
+										"0.259807 0 0 0.965661",
+										"0.259807 0 0 0.965661",
+										"0.259807 0 0 0.965661",
+										"0.259807 0 0 0.965661",
+										"0.259807 0 0 0.965661",
+										"0.259807 0 0 0.965661",
+										"0.259807 0 0 0.965661"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_middle_2_L_p"
+						"toElement" "element" "f54a0388-e983-4acb-9533-fa08930932df"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.002167 -2.757674 0.00126",
+										"0.002167 -2.757674 0.00126"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_middle_2_L_o"
+						"toElement" "element" "f54a0388-e983-4acb-9533-fa08930932df"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.014526 0 0 0.999894",
+										"0.014526 0 0 0.999894"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_ring_0_L_p"
+						"toElement" "element" "9cb5c2fe-6f11-4dbe-9bd4-9ada9578cdc1"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-1.679296 -6.578423 -0.641583",
+										"-1.679296 -6.578423 -0.641583"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_ring_0_L_o"
+						"toElement" "element" "9cb5c2fe-6f11-4dbe-9bd4-9ada9578cdc1"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"1250",
+										"1667",
+										"2500",
+										"2917",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.323645 0.743581 -0.318677 0.490699",
+										"0.323645 0.743581 -0.318677 0.490699",
+										"0.323645 0.743581 -0.318677 0.490699",
+										"0.323645 0.743581 -0.318677 0.490699",
+										"0.323645 0.743581 -0.318677 0.490699",
+										"0.323645 0.743581 -0.318677 0.490699",
+										"0.323645 0.743581 -0.318677 0.490699"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_ring_1_L_p"
+						"toElement" "element" "7b9e9c5e-f477-4ded-9802-925df084f917"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.002686 -3.780722 0.00204",
+										"0.002686 -3.780722 0.00204"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_ring_1_L_o"
+						"toElement" "element" "7b9e9c5e-f477-4ded-9802-925df084f917"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"3333",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.153483 0 0 0.988151",
+										"0.153483 0 0 0.988151",
+										"0.153483 0 0 0.988151",
+										"0.153483 0 0 0.988151",
+										"0.153483 0 0 0.988151",
+										"0.153483 0 0 0.988151"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_ring_2_L_p"
+						"toElement" "element" "907c35a6-f80a-4f36-a4a5-d78e87b866dd"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.002167 -2.39793 0.001388",
+										"0.002167 -2.39793 0.001388"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_ring_2_L_o"
+						"toElement" "element" "907c35a6-f80a-4f36-a4a5-d78e87b866dd"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"833",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.115307 0 0 0.99333",
+										"0.115307 0 0 0.99333",
+										"0.115307 0 0 0.99333"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_pinky_0_L_p"
+						"toElement" "element" "a064b6d8-4116-4e76-a019-ac275b7dfb30"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-2.637686 -6.55592 -2.644326",
+										"-2.637686 -6.55592 -2.644326",
+										"-2.637686 -6.555921 -2.644326",
+										"-2.637686 -6.55592 -2.644326"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_pinky_0_L_o"
+						"toElement" "element" "a064b6d8-4116-4e76-a019-ac275b7dfb30"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"833",
+										"1667",
+										"2083",
+										"2917",
+										"3333",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.45971 0.78174 -0.235256 0.349577",
+										"0.45971 0.78174 -0.235256 0.349577",
+										"0.45971 0.78174 -0.235256 0.349577",
+										"0.45971 0.78174 -0.235256 0.349577",
+										"0.45971 0.78174 -0.235256 0.349577",
+										"0.45971 0.78174 -0.235256 0.349577",
+										"0.45971 0.78174 -0.235256 0.349577",
+										"0.45971 0.78174 -0.235256 0.349577"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_pinky_1_L_p"
+						"toElement" "element" "6a61074f-0841-4032-aba4-6c474475793d"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.002686 -3.014551 0.002018",
+										"0.002686 -3.014551 0.002018"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_pinky_1_L_o"
+						"toElement" "element" "6a61074f-0841-4032-aba4-6c474475793d"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"1250",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.124827 0 0 0.992179",
+										"0.124827 0 0 0.992179",
+										"0.124827 0 0 0.992178"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_pinky_2_L_p"
+						"toElement" "element" "fd2664ca-d692-4d5c-bb77-b7a310be7765"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.002167 -1.877847 0.001418",
+										"0.002167 -1.877847 0.001418"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_pinky_2_L_o"
+						"toElement" "element" "fd2664ca-d692-4d5c-bb77-b7a310be7765"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"1667",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.147492 0 0 0.989063",
+										"0.147492 0 0 0.989063",
+										"0.147492 0 0 0.989063",
+										"0.147492 0 0 0.989063"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "weapon_bone_L_p"
+						"toElement" "element" "bfbc5698-2fb5-4340-869e-78f9ad3f9549"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-4.96614 -6.026175 2.172701",
+										"-4.96614 -6.026175 2.172701"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "weapon_bone_L_o"
+						"toElement" "element" "bfbc5698-2fb5-4340-869e-78f9ad3f9549"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0 0 0 1",
+										"0 0 0 1"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_thumb_0_L_p"
+						"toElement" "element" "78412951-24c1-4087-9c0e-d6a061b0e8dc"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-2.44009 -1.97416 3.836564",
+										"-2.44009 -1.97416 3.836564"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_thumb_0_L_o"
+						"toElement" "element" "78412951-24c1-4087-9c0e-d6a061b0e8dc"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.545206 0.353463 -0.187538 0.736644",
+										"-0.545206 0.353463 -0.187538 0.736644",
+										"-0.545206 0.353463 -0.187538 0.736644",
+										"-0.545206 0.353463 -0.187538 0.736644",
+										"-0.545206 0.353463 -0.187538 0.736644",
+										"-0.545206 0.353463 -0.187538 0.736644",
+										"-0.545206 0.353463 -0.187538 0.736644",
+										"-0.545206 0.353463 -0.187538 0.736644",
+										"-0.545206 0.353463 -0.187538 0.736644",
+										"-0.545206 0.353463 -0.187538 0.736644",
+										"-0.545206 0.353463 -0.187538 0.736644",
+										"-0.545206 0.353463 -0.187538 0.736644"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_thumb_1_L_p"
+						"toElement" "element" "cdb02ae9-b9cb-4b8f-ab6b-2907969c0f0d"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.000905 -4.364605 -0.000395",
+										"0.000905 -4.364605 -0.000395"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_thumb_1_L_o"
+						"toElement" "element" "cdb02ae9-b9cb-4b8f-ab6b-2907969c0f0d"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.252247 0.200197 0.053426 0.945219",
+										"0.252247 0.200197 0.053426 0.945219"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_thumb_2_L_p"
+						"toElement" "element" "68d361ce-e0d1-474d-89d1-06b9305152fd"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0.001293 -1.793399 -0.000809",
+										"0.001293 -1.793399 -0.000809"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_thumb_2_L_o"
+						"toElement" "element" "68d361ce-e0d1-474d-89d1-06b9305152fd"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.273393 0 0 0.961902",
+										"0.273393 0 0 0.961902"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "prp_bullet_backUpper_p"
+						"toElement" "element" "555642f8-7dc6-4fa3-ac75-aacc0402e96f"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-6.938558 -4.515038 6.652712",
+										"-6.938559 -4.515038 6.652712",
+										"-6.938558 -4.515038 6.652711",
+										"-6.938558 -4.515038 6.652712"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "prp_bullet_backUpper_o"
+						"toElement" "element" "555642f8-7dc6-4fa3-ac75-aacc0402e96f"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.998385 0 0 -0.056804",
+										"0.998385 0 0 -0.056804"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "prp_bullet_backLower_p"
+						"toElement" "element" "270de841-ea4a-4863-a4e6-68d8babfeece"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"4.021574 -2.633625 6.116449",
+										"4.021574 -2.633625 6.116449"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "prp_bullet_backLower_o"
+						"toElement" "element" "270de841-ea4a-4863-a4e6-68d8babfeece"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.992194 0 0 -0.124704",
+										"0.992194 0 0 -0.124704",
+										"0.992194 0 0 -0.124704"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "prp_bullet_chestUpper_p"
+						"toElement" "element" "a9ec186c-6c5f-480d-b063-ddb0ae0ab1c8"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"833",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-4.963227 -6.042184 -15.050104",
+										"-4.963227 -6.042184 -15.050105",
+										"-4.963227 -6.042184 -15.050104"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "prp_bullet_chestUpper_o"
+						"toElement" "element" "a9ec186c-6c5f-480d-b063-ddb0ae0ab1c8"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1667",
+										"2083",
+										"2917",
+										"3333",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.975909 -0.081167 -0.041193 -0.198285",
+										"0.975909 -0.081167 -0.041193 -0.198285",
+										"0.975909 -0.081167 -0.041193 -0.198285",
+										"0.975909 -0.081167 -0.041193 -0.198285",
+										"0.975909 -0.081167 -0.041193 -0.198285",
+										"0.975909 -0.081167 -0.041193 -0.198285",
+										"0.975909 -0.081167 -0.041193 -0.198285",
+										"0.975909 -0.081167 -0.041193 -0.198285",
+										"0.975909 -0.081167 -0.041193 -0.198285"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "prp_bullet_side_p"
+						"toElement" "element" "af6c7535-ab92-45e4-8b7f-53b958dc0175"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"13.196264 -2.004977 -4.371916",
+										"13.196264 -2.004977 -4.371916"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "prp_bullet_side_o"
+						"toElement" "element" "af6c7535-ab92-45e4-8b7f-53b958dc0175"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.994646 0 0 -0.103337",
+										"0.994646 0 0 -0.103337"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "prp_bullet_chestLower_p"
+						"toElement" "element" "a2dbd954-98a8-476d-ac11-45e77f36cb42"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"4.120837 -1.191039 -16.724663",
+										"4.120837 -1.191039 -16.724663"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "prp_bullet_chestLower_o"
+						"toElement" "element" "a2dbd954-98a8-476d-ac11-45e77f36cb42"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.994646 0 0 -0.103337",
+										"0.994646 0 0 -0.103337"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_hip_R_p"
+						"toElement" "element" "7e2d5301-c60d-4da7-8562-e29cb6d5472a"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-6.05743 6.073157 -2.201429",
+										"-6.05743 6.073157 -2.201429"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_hip_R_o"
+						"toElement" "element" "7e2d5301-c60d-4da7-8562-e29cb6d5472a"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.114781 0.200752 -0.101575 0.967578",
+										"-0.298877 0.221943 -0.101649 0.922541",
+										"-0.472391 0.181431 -0.104657 0.85614",
+										"-0.519623 0.072705 -0.096516 0.845807",
+										"-0.411821 -0.0786 -0.060519 0.90585",
+										"-0.160296 -0.182952 -0.007819 0.969934",
+										"0.134138 -0.239879 0.081113 0.958064",
+										"0.326758 -0.223397 0.116766 0.910872",
+										"0.368983 -0.184079 0.087988 0.906766",
+										"0.267099 -0.143795 0.021061 0.952648",
+										"0.094355 -0.080862 -0.061425 0.990346",
+										"-0.073191 0.009688 -0.076827 0.994307"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_knee_R_p"
+						"toElement" "element" "4c8db691-1ccd-450a-9eb8-02c7e4d658bd"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-0.000004 13.377916 -0.000002",
+										"-0.000004 13.377916 -0.000002"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_knee_R_o"
+						"toElement" "element" "4c8db691-1ccd-450a-9eb8-02c7e4d658bd"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.198459 0 0 0.980109",
+										"0.430347 0 0 0.902664",
+										"0.709993 0 0 0.704208",
+										"0.835815 0 0 0.549011",
+										"0.865271 0 0 0.501305",
+										"0.827406 0 0 0.561605",
+										"0.733134 0 0 0.680084",
+										"0.593588 0 0 0.804769",
+										"0.514104 0 0 0.857728",
+										"0.466749 0 0 0.88439",
+										"0.470984 0 0 0.882142",
+										"0.477965 0 0 0.878379"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_foot_R_p"
+						"toElement" "element" "b4b95d3f-ac3b-4350-9193-796a6d772717"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0 16.792395 0.000001",
+										"0 16.792395 0.000001"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_foot_R_o"
+						"toElement" "element" "b4b95d3f-ac3b-4350-9193-796a6d772717"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.615241 -0.150586 0.078804 0.7698",
+										"-0.636677 -0.148429 0.089584 0.75139",
+										"-0.704991 -0.075436 0.08283 0.700312",
+										"-0.595498 0.002902 0.017504 0.803161",
+										"-0.419336 0.015256 -0.077718 0.90437",
+										"-0.293884 0.091913 -0.067658 0.949003",
+										"-0.248948 0.22111 -0.096325 0.938007",
+										"-0.320661 0.246437 -0.095554 0.909568",
+										"-0.572148 0.193809 -0.071165 0.793738",
+										"-0.732916 0.172286 -0.055355 0.655811",
+										"-0.76116 0.150425 0.00703 0.63084",
+										"-0.69729 0.082601 0.057251 0.709708"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_toe_R_p"
+						"toElement" "element" "3410e494-84c9-4bd7-949d-2e590a9a1e7c"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"-0.000044 7.9412 -0.000006",
+										"-0.000044 7.9412 -0.000006"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_toe_R_o"
+						"toElement" "element" "3410e494-84c9-4bd7-949d-2e590a9a1e7c"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.410059 0 0 0.912059",
+										"-0.404513 0 0 0.914532",
+										"-0.36684 0 0 0.930284",
+										"-0.3848 0 0 0.923",
+										"-0.381123 -0.000002 0 0.924524",
+										"-0.261835 -0.000003 0 0.965113",
+										"-0.129483 -0.000003 0 0.991582",
+										"-0.118556 -0.000003 0 0.992947",
+										"-0.197096 -0.000002 0 0.980384",
+										"-0.306586 0 -0.000002 0.951843",
+										"-0.329086 0 0 0.9443",
+										"-0.275195 0 0 0.961388"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_hip_L_p"
+						"toElement" "element" "a0f065c3-f5a6-46a3-b6d4-c6441d90dc2c"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"6.057429 6.073146 -2.20143",
+										"6.057429 6.073147 -2.20143"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_hip_L_o"
+						"toElement" "element" "a0f065c3-f5a6-46a3-b6d4-c6441d90dc2c"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.967429 -0.183327 0.113819 -0.132357",
+										"0.910145 -0.159893 0.179695 -0.337314",
+										"0.875176 -0.167221 0.240961 -0.384762",
+										"0.917591 -0.149224 0.270841 -0.249807",
+										"0.943183 -0.142233 0.293006 -0.065756",
+										"0.922434 -0.159411 0.348263 0.049155",
+										"0.885659 -0.130091 0.43858 0.079576",
+										"0.834664 -0.166349 0.476716 0.220013",
+										"0.765903 -0.250436 0.405837 0.431244",
+										"0.748275 -0.298572 0.24504 0.539347",
+										"0.766062 -0.327203 0.085196 0.546652",
+										"0.839319 -0.294632 0.036708 0.455399"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_knee_L_p"
+						"toElement" "element" "6e569fff-8a18-4d35-9f8e-48441df0fd9b"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0 -13.377917 0",
+										"0 -13.377917 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_knee_L_o"
+						"toElement" "element" "6e569fff-8a18-4d35-9f8e-48441df0fd9b"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.699003 0 0 0.715119",
+										"0.473341 0 0 0.880879",
+										"0.365262 0 0 0.930905",
+										"0.415662 0 0 0.909519",
+										"0.495226 0 0 0.868764",
+										"0.448307 0 0 0.89388",
+										"0.282679 0 0 0.959215",
+										"0.377928 0 0 0.925835",
+										"0.607804 0 0 0.794087",
+										"0.764653 0 0 0.644442",
+										"0.845616 0 0 0.533792",
+										"0.907531 0 0 0.419985"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_foot_L_p"
+						"toElement" "element" "500d8460-fc5d-4cf9-9df9-fa55bb367f54"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0 -16.792402 0",
+										"0 -16.792402 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_foot_L_o"
+						"toElement" "element" "500d8460-fc5d-4cf9-9df9-fa55bb367f54"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.199211 0.114134 -0.020894 0.973063",
+										"-0.335809 0.116937 -0.079899 0.931222",
+										"-0.590647 0.127879 -0.138947 0.784523",
+										"-0.74934 0.171783 -0.101748 0.63137",
+										"-0.767746 0.159919 -0.028667 0.619815",
+										"-0.655856 0.092536 0.020355 0.748916",
+										"-0.5898 -0.025908 0.063145 0.80466",
+										"-0.631302 -0.102283 0.076438 0.764953",
+										"-0.604767 -0.075958 0.068558 0.789802",
+										"-0.554027 0.013451 -0.025138 0.832011",
+										"-0.37586 0.004227 -0.161985 0.912399",
+										"-0.36441 -0.075585 -0.129561 0.919079"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_toe_L_p"
+						"toElement" "element" "39497f43-25bb-4527-b6ba-869ba41d0b9e"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0 -7.941187 0",
+										"0 -7.941187 0"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "bip_toe_L_o"
+						"toElement" "element" "39497f43-25bb-4527-b6ba-869ba41d0b9e"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"3750",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"-0.359448 -0.000002 0 0.933165",
+										"-0.310508 0 0 0.950571",
+										"-0.331181 0 0 0.943567",
+										"-0.367119 0 0 0.930174",
+										"-0.28645 0 0 0.958095",
+										"-0.299573 0 0 0.954073",
+										"-0.444381 0 0 0.895838",
+										"-0.473037 0 0 0.881042",
+										"-0.368864 0 0 0.929483",
+										"-0.237975 0 0 0.971271",
+										"-0.281363 0 0 0.959601",
+										"-0.307979 0.000004 0.000004 0.951393"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "prp_pack_p"
+						"toElement" "element" "02a14907-186b-4561-b556-030a7366e88d"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"2083",
+										"2500",
+										"2917",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"10.052434 2.009869 -4.948871",
+										"10.052433 2.009869 -4.948871",
+										"10.052434 2.009869 -4.948872",
+										"10.052434 2.009869 -4.948871",
+										"10.052435 2.009869 -4.948871",
+										"10.052434 2.009869 -4.948871",
+										"10.052434 2.009869 -4.948871"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "prp_pack_o"
+						"toElement" "element" "02a14907-186b-4561-b556-030a7366e88d"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"833",
+										"1250",
+										"1667",
+										"2083",
+										"2500",
+										"2917",
+										"3333",
+										"4167",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.969876 -0.094717 -0.208476 -0.083108",
+										"0.969876 -0.094717 -0.208476 -0.083108",
+										"0.969876 -0.094717 -0.208476 -0.083108",
+										"0.969876 -0.094717 -0.208476 -0.083108",
+										"0.969876 -0.094717 -0.208476 -0.083108",
+										"0.969876 -0.094717 -0.208476 -0.083108",
+										"0.969876 -0.094717 -0.208476 -0.083108",
+										"0.969876 -0.094717 -0.208476 -0.083108",
+										"0.969876 -0.094717 -0.208476 -0.083108",
+										"0.969876 -0.094717 -0.208476 -0.083108"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "viewTarget_p"
+						"toElement" "element" "eabc679c-8da2-4b4b-aa03-dcc7c5be9190"
+						"toAttribute" "string" "position"
+						"mode" "int" "3"
+						"log" "DmeVector3Log"
+						{
+							"name" "string" "vector3 log"
+							"layers" "element_array"
+							[
+								"DmeVector3LogLayer"
+								{
+									"name" "string" "vector3 log"
+									"times" "int_array"
+									[
+										"0",
+										"417",
+										"833",
+										"1667",
+										"2083",
+										"2917",
+										"3333",
+										"4167",
+										"4583"
+									]
+									"values" "vector3_array"
+									[
+										"0 64 31.999998",
+										"0 64 31.999998",
+										"0 64 31.999998",
+										"0 64 31.999998",
+										"0 64 31.999998",
+										"0 64 31.999998",
+										"0 64 31.999998",
+										"0 64 31.999998",
+										"0 64 31.999998"
+									]
+								}
+							]
+						}
+					},
+					"DmeChannel"
+					{
+						"name" "string" "viewTarget_o"
+						"toElement" "element" "eabc679c-8da2-4b4b-aa03-dcc7c5be9190"
+						"toAttribute" "string" "orientation"
+						"mode" "int" "3"
+						"log" "DmeQuaternionLog"
+						{
+							"name" "string" "quaternion log"
+							"layers" "element_array"
+							[
+								"DmeQuaternionLogLayer"
+								{
+									"name" "string" "quaternion log"
+									"times" "int_array"
+									[
+										"0",
+										"4583"
+									]
+									"values" "quaternion_array"
+									[
+										"0.5 0.5 0.5 -0.5",
+										"0.5 0.5 0.5 -0.5"
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+}

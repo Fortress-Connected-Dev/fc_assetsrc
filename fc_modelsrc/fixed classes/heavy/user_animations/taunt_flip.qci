@@ -1,0 +1,39 @@
+// HEAVY
+
+
+$pushd "../animations/dmx"
+
+//////////////////////////////////  FLIPS ////////////////////////////////////////////////////////
+// OFFER a flip and cycle
+$sequence taunt_flip_start "heavy_flip_cycle.dmx" fps 30 {
+	numframes 214
+	event AE_WPN_HIDE 0
+}
+
+// GIVE a flip 
+$sequence layer_taunt_flip_success_initiator "heavy_flip_give_flip.dmx" fps 30 hidden
+$sequence taunt_flip_success_initiator "heavy_flip_give_flip.dmx" noanimation {
+	numframes 139
+	blendlayer layer_taunt_flip_success_initiator .. .. 130 139
+	event AE_WPN_HIDE 1
+  event AE_WPN_UNHIDE 130
+}
+
+
+
+// DO a flip
+$sequence layer_taunt_flip_success_receiver "heavy_flip_flip.dmx" fps 30 hidden
+$sequence taunt_flip_success_receiver "heavy_flip_flip.dmx" noanimation {
+	numframes 196
+	blendlayer layer_taunt_flip_success_receiver .. .. 183 196
+	event AE_WPN_HIDE 1
+	event AE_WPN_UNHIDE 180
+	
+  event AE_CL_CREATE_PARTICLE_EFFECT 40 "taunt_flip_trail follow_attachment back_lower"
+  event AE_CL_CREATE_PARTICLE_EFFECT 56 "taunt_heavy_flip_land follow_attachment head"
+	
+	
+}
+
+$popd
+///////////////////////////////////////////////////////////////////////////////////////////////////

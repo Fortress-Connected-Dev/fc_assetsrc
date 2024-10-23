@@ -1,0 +1,37 @@
+// DEMO
+
+
+$pushd "../animations/dmx"
+
+//////////////////////////////////  FLIPS ////////////////////////////////////////////////////////
+//OFFER a flip and cycle
+$sequence taunt_flip_start "sniper_flip_cycle.dmx" fps 30 {
+	numframes 214
+	event AE_WPN_HIDE 0
+}
+
+// GIVE a flip 
+$sequence layer_taunt_flip_success_initiator "sniper_flip_give_flip.dmx" fps 30 hidden
+$sequence taunt_flip_success_initiator "sniper_flip_give_flip.dmx" noanimation {
+	numframes 172
+	blendlayer layer_taunt_flip_success_initiator .. .. 160 172
+	event AE_WPN_HIDE 1
+	event AE_WPN_UNHIDE 160
+}	
+
+
+// DO a flip
+$sequence layer_taunt_flip_success_receiver "sniper_flip_flip.dmx" fps 30 hidden
+$sequence taunt_flip_success_receiver "sniper_flip_flip.dmx" noanimation {
+	numframes 120
+	blendlayer layer_taunt_flip_success_receiver .. .. 110 120
+	event AE_WPN_HIDE 1
+	event AE_WPN_UNHIDE 110
+	
+  event AE_CL_CREATE_PARTICLE_EFFECT 41 "taunt_flip_trail follow_attachment back_lower"
+  event AE_CL_CREATE_PARTICLE_EFFECT 59 "taunt_flip_land follow_attachment foot_R"
+
+}
+
+$popd
+///////////////////////////////////////////////////////////////////////////////////////////////////
