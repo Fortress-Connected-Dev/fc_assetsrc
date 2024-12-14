@@ -6495,7 +6495,8 @@ $sequence "crouch_walk_default" {
 	activity "ACT_MP_CROUCHWALK_MELEE" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
+	{ event 7001 5 "right" }
+	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -6518,8 +6519,8 @@ $sequence "run_default" {
 	activity "ACT_MP_RUN_MELEE" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
-
+	{ event 7001 5 "right" }
+	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -6709,8 +6710,8 @@ $sequence "run_melee" {
 	activity "ACT_HL2MP_RUN_MELEE" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
-
+	{ event 7001 5 "right" }
+	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -6757,7 +6758,8 @@ $sequence "crouch_walk_melee" {
 	activity "ACT_HL2MP_WALK_CROUCH_MELEE" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
+	{ event 7001 5 "right" }
+	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -6882,8 +6884,8 @@ $sequence "run_gravgun" {
 	activity "ACT_MP_RUN_SECONDARY" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
-
+	{ event 7001 5 "right" }
+	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "gmod_breath_layer"
@@ -6907,7 +6909,8 @@ $sequence "crouch_walk_gravgun" {
 	activity "ACT_MP_CROUCHWALK_SECONDARY" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
+	{ event 7001 5 "right" }
+	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "gmod_breath_layer"
@@ -7109,8 +7112,8 @@ $sequence "run_smg1" {
 	activity "ACT_HL2MP_RUN_SMG1" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
-
+	{ event 7001 5 "right" }
+	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -7134,7 +7137,8 @@ $sequence "crouch_walk_smg1" {
 	activity "ACT_HL2MP_WALK_CROUCH_SMG1" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
+	{ event 7001 5 "right" }
+	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -7403,8 +7407,8 @@ $sequence "run_shotgun" {
 	activity "ACT_MP_RUN_PRIMARY" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
-
+	{ event 7001 5 "right" }
+	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -7428,7 +7432,8 @@ $sequence "crouch_walk_shotgun" {
 	activity "ACT_MP_CROUCHWALK_PRIMARY" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
+	{ event 7001 5 "right" }
+	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -7724,8 +7729,8 @@ $sequence "run_ar2" {
 	activity "ACT_HL2MP_RUN_AR2" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
-
+	{ event 7001 5 "right" }
+	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -7749,7 +7754,8 @@ $sequence "crouch_walk_ar2" {
 	activity "ACT_HL2MP_WALK_CROUCH_AR2" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
+	{ event 7001 5 "right" }
+	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -7919,8 +7925,8 @@ $sequence "run_357" {
 	activity "ACT_HL2MP_RUN_357" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
-
+	{ event 7001 5 "right" }
+	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -7944,7 +7950,8 @@ $sequence "crouch_walk_357" {
 	activity "ACT_HL2MP_WALK_CROUCH_357" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
+	{ event 7001 5 "right" }
+	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -8114,8 +8121,8 @@ $sequence "run_RPG" {
 	activity "ACT_HL2MP_RUN_RPG" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
-
+	{ event 7001 5 "right" }
+	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -8139,7 +8146,8 @@ $sequence "crouch_walk_RPG" {
 	activity "ACT_HL2MP_WALK_CROUCH_RPG" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
+	{ event 7001 5 "right" }
+	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -8289,8 +8297,8 @@ $sequence "run_PISTOL" {
 	activity "ACT_HL2MP_RUN_PISTOL" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
-
+	{ event 7001 5 "right" }
+	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -8314,7 +8322,8 @@ $sequence "crouch_walk_PISTOL" {
 	activity "ACT_HL2MP_WALK_CROUCH_PISTOL" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
+	{ event 7001 5 "right" }
+	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -8484,8 +8493,8 @@ $sequence "run_crossbow" {
 	activity "ACT_HL2MP_RUN_CROSSBOW" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
-
+	{ event 7001 5 "right" }
+	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -8509,7 +8518,8 @@ $sequence "crouch_walk_crossbow" {
 	activity "ACT_HL2MP_WALK_CROUCH_CROSSBOW" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
+	{ event 7001 5 "right" }
+	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -8658,8 +8668,8 @@ $sequence "run_knife" {
 	activity "ACT_HL2MP_RUN_KNIFE" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
-
+	{ event 7001 5 "right" }
+	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -8683,7 +8693,8 @@ $sequence "crouch_walk_knife" {
 	activity "ACT_HL2MP_WALK_CROUCH_KNIFE" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
+	{ event 7001 5 "right" }
+	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -8816,8 +8827,8 @@ $sequence "run_2hand" {
 	activity "ACT_HL2MP_RUN_2HAND" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
-
+	{ event 7001 5 "right" }
+	{ event 7001 14 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
@@ -8841,7 +8852,8 @@ $sequence "crouch_walk_2hand" {
 	activity "ACT_HL2MP_WALK_CROUCH_2HAND" 1
 	blend "move_y" -1 1
 	blend "move_x" -1 1
-
+	{ event 7001 5 "right" }
+	{ event 7001 20 "left" }
 	fadein 0.4
 	fadeout 0.3
 	addlayer "head_rot_z"
