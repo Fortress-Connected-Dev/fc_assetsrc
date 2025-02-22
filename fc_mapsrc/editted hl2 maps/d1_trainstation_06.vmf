@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "3846"
+	"mapversion" "3848"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -263,7 +263,7 @@ bgimages_plus
 world
 {
 	"id" "0"
-	"mapversion" "3846"
+	"mapversion" "3848"
 	"classname" "worldspawn"
 	"defaultteam" "0"
 	"detailmaterial" "detail/detailsprites"
@@ -160297,25 +160297,6 @@ entity
 }
 entity
 {
-	"id" "643451"
-	"classname" "env_entity_maker"
-	"angles" "0 0 0"
-	"EntityTemplate" "template_crowbar"
-	"parentname" "barney"
-	"PostSpawnDirection" "0 0 0"
-	"PostSpawnDirectionVariance" "0.15"
-	"targetname" "spawner_crowbar"
-	"origin" "-9616.43 -3545.92 600"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[6500 -5768]"
-	}
-}
-entity
-{
 	"id" "643453"
 	"classname" "point_template"
 	"spawnflags" "0"
@@ -191024,6 +191005,44 @@ entity
 		"logicalpos" "[0 0]"
 	}
 }
+entity
+{
+	"id" "787384"
+	"classname" "fc_weapon_progress"
+	"actionslot" "0"
+	"effects" "0"
+	"physcannon_progress" "0"
+	"portalgun_progress" "0"
+	"progression_paused" "0"
+	"wpnprogress" "1"
+	"origin" "-9673 -3540 664.685"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "643451"
+	"classname" "env_entity_maker"
+	"angles" "0 0 0"
+	"EntityTemplate" "template_crowbar"
+	"parentname" "barney"
+	"PostSpawnDirection" "0 0 0"
+	"PostSpawnDirectionVariance" "0.15"
+	"targetname" "spawner_crowbar"
+	"origin" "-9616.43 -3545.92 600"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[6500 -5768]"
+	}
+}
 cameras
 {
 	"activecamera" "29"
@@ -191174,8 +191193,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-9897.79 -3876.29 432.717]"
-		"look" "[-9846.54 -4059.87 420.723]"
+		"position" "[-9694.84 -3500.68 620.397]"
+		"look" "[-9516.42 -3534.72 561.377]"
 	}
 	camera
 	{

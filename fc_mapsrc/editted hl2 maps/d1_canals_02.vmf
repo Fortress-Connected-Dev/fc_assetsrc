@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8869"
-	"mapversion" "4169"
+	"mapversion" "4170"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "0"
-	"mapversion" "4169"
+	"mapversion" "4170"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -169318,6 +169318,27 @@ entity
 		"logicalpos" "[0 7000]"
 	}
 }
+entity
+{
+	"id" "2519890"
+	"classname" "fc_weapon_progress"
+	"actionslot" "0"
+	"effects" "0"
+	"physcannon_progress" "0"
+	"portalgun_progress" "0"
+	"progression_paused" "0"
+	"targetname" "weapon_progression"
+	"wpnprogress" "3"
+	"origin" "2905.57 -2234.56 -632"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "Secondary and melee only."
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "3"
@@ -169338,8 +169359,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[-20.1401 -1878.67 51.8143]"
-		"look" "[7.19492 -2234.05 76.7367]"
+		"position" "[2918.99 -2256.97 -540.417]"
+		"look" "[2932.25 -2130.78 -874.43]"
 	}
 }
 cordons
